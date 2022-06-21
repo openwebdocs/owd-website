@@ -17,7 +17,7 @@ h1 {
   font-size: 7vw;
 }
 
-p, a {
+p {
   font-size: 3vw;
 }
 
@@ -33,12 +33,22 @@ nav ul, footer ul {
   align-items: center;
 }
 
-.pull {
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+nav span {
+  display: flex;
   margin-right: auto;
+  align-content: center;
 }
 
 header, main {
   border-bottom: lightgray 1px solid;
+}
+
+main {
   padding-bottom: 2em;
 }
 
@@ -60,4 +70,22 @@ main section {
 
 #socials img {
   max-width: 1.5em;
+}
+
+#logo {
+  max-width: 10em;
+  padding-top: 20px;
+}
+
+.brand-name {
+  padding-top: 10px;
+  line-height: 1;
+}
+
+.pri-btn {
+  background-color: #3BCDAA;
+  color: white;
+  font-weight: bolder;
+  border-radius: 5px;
+  padding: 10px;
 }
