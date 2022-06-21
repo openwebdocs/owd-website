@@ -1,0 +1,63 @@
+h1, ul, footer small {
+  display: flex;
+}
+/*h1, nav ul, footer ul, footer small {*/
+/*  justify-content: center;*/
+/*}*/
+
+body {
+  font-family: Verdana;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Arial Black";
+}
+h1 {
+  /*font-size: clamp(7vw, 4vw, 30rem);*/
+  font-size: 7vw;
+}
+
+p, a {
+  font-size: 3vw;
+}
+
+ul {
+  flex-wrap: wrap;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav ul, footer ul {
+  /*flex-direction: row;*/
+  gap: 2em;
+  align-items: center;
+}
+
+.pull {
+  margin-right: auto;
+}
+
+header, main {
+  border-bottom: lightgray 1px solid;
+  padding-bottom: 2em;
+}
+
+main h1 {
+  max-width: 20ch;
+}
+
+main section {
+  max-width: 100ch;
+}
+
+#sponsors img {
+  max-width: 5em;
+}
+
+#socials ul, #socials small {
+  justify-content: center;
+}
+
+#socials img {
+  max-width: 1.5em;
+}
