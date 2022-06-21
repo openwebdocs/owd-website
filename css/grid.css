@@ -11,14 +11,15 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Arial Black";
+  line-height: 1.2;
 }
 h1 {
-  /*font-size: clamp(7vw, 4vw, 30rem);*/
-  font-size: 7vw;
+  font-size: clamp(3em, 6vw, 10em);
 }
 
 p {
-  font-size: 3vw;
+  font-size: clamp(16px, 1vw, 5em);
+  line-height: 1.7;
 }
 
 ul {
@@ -57,7 +58,7 @@ main h1 {
 }
 
 main section {
-  max-width: 100ch;
+  max-width: 120ch;
 }
 
 #sponsors img {
@@ -88,4 +89,17 @@ main section {
   font-weight: bolder;
   border-radius: 5px;
   padding: 10px;
+}
+
+.sec-btn {
+  background-color: #0400BB;
+  color: white;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+a {
+  color: #0400BB;
+  font-weight: bolder;
+  text-decoration: none;
 }
