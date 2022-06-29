@@ -6,26 +6,43 @@ h1, ul, footer small {
 /*}*/
 
 body {
-  font-family: Verdana;
+  margin: 0;
+  font-family: 'Work Sans';
+  font-weight: 500;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Arial Black";
+  font-family: 'Work Sans';
+  font-weight: 800;
   line-height: 1.2;
 }
+
 h1 {
-  font-size: clamp(3em, 6vw, 10em);
+  /*font-size: 68.0472px;*/
+  line-height: 80px;
+  font-size: clamp(2em, 68px, 10em);
+}
+
+#title {
+  max-width: 23ch;
 }
 
 p {
-  font-size: clamp(16px, 1vw, 5em);
-  line-height: 1.7;
+  /*font-size: clamp(1em, 2vw, 5em);*/
+  /*line-height: 1.7;*/
+  font-size: 24px;
+  line-height: 1.5;
 }
 
 ul {
   flex-wrap: wrap;
   padding: 0;
   list-style-type: none;
+  margin: 0;
+}
+
+nav, main article, footer section {
+  padding: 0 2vw;
 }
 
 nav ul, footer ul {
@@ -45,7 +62,7 @@ nav span {
   align-content: center;
 }
 
-header, main {
+header {
   border-bottom: lightgray 1px solid;
 }
 
@@ -54,11 +71,12 @@ main {
 }
 
 main h1 {
-  max-width: 20ch;
+  /*max-width: 20ch;*/
+  /*min-width: 15ch;*/
 }
 
 main section {
-  max-width: 120ch;
+  max-width: 60ch;
 }
 
 #sponsors img {
@@ -98,8 +116,24 @@ main section {
   padding: 15px;
 }
 
-a {
+p a {
   color: #0400BB;
   font-weight: bolder;
   text-decoration: none;
+}
+
+footer, footer section {
+  padding-top: 2em;
+}
+
+#home-bg {
+  background-image: url("../img/svg-wave-bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-position-x: -30vw;*/
+  background-position-y: 60%;
+  /*width: 1039px;*/
+  /*left: 401px;*/
+;
+
 }
