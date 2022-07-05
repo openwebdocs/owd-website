@@ -44,12 +44,8 @@ ul {
   margin: 0;
 }
 
-nav, main article, footer section, #team {
+nav, main article, footer section, #team, #get-involved {
   padding: 0 2vw;
-}
-
-#team {
-  /*margin: 0 3em;*/
 }
 
 nav ul, footer ul {
@@ -91,7 +87,7 @@ main {
   padding-left: 2em;
 }
 
-#governing-committee, #steering-committee {
+#governing-committee, #steering-committee, #get-involved p {
   max-width: 120ch;
 }
 
@@ -127,6 +123,8 @@ main {
   color: white;
   border-radius: 5px;
   padding: 15px;
+  border: none;
+  font-size: 24px;
 }
 
 p a {
@@ -172,4 +170,16 @@ li p {
 #advisory-members-list {
   display: block;
   list-style: initial;
+}
+
+#get-involved {
+  display: grid;
+}
+
+iframe {
+  border: none;
+}
+
+#donate h1 {
+  justify-content: center;
 }
