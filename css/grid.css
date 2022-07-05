@@ -7,7 +7,7 @@ h1, ul, footer small {
 
 body {
   margin: 0;
-  font-family: 'Work Sans';
+  font-family: sans-serif;
   font-weight: 500;
 }
 
@@ -21,6 +21,10 @@ h1 {
   /*font-size: 68.0472px;*/
   line-height: 80px;
   font-size: clamp(2em, 68px, 10em);
+}
+
+h2 {
+  font-size: clamp(1.5em, 55px, 5em);
 }
 
 #title {
@@ -42,6 +46,10 @@ ul {
 
 nav, main article, footer section, #team {
   padding: 0 2vw;
+}
+
+#team {
+  /*margin: 0 3em;*/
 }
 
 nav ul, footer ul {
@@ -69,17 +77,22 @@ main {
   padding-bottom: 2em;
 }
 
-main h1 {
-  /*max-width: 20ch;*/
-  /*min-width: 15ch;*/
-}
-
 #home-main {
-  max-width: 60ch;
+  font-family: 'Work Sans', sans-serif;
+  max-width: 85ch;
 }
 
 #sponsors img {
   max-width: 5em;
+}
+
+#governing-committee ul img, #steering-committee ul img {
+  max-width: 5em;
+  padding-left: 2em;
+}
+
+#governing-committee, #steering-committee {
+  max-width: 120ch;
 }
 
 #socials ul, #socials small {
@@ -88,6 +101,7 @@ main h1 {
 
 .icon {
   max-width: 1.5em;
+  padding-left: 1em;
 }
 
 #logo {
@@ -132,8 +146,30 @@ footer, footer section {
   background-position-y: 60%;
 }
 
-.writers {
-  display: grid;
-  grid-template-areas: "li li";
+.writers-list {
+  display: flex;
+  flex-wrap: wrap;
   gap: 2em;
+}
+
+li p {
+  max-width: 50ch;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  /*justify-content: center;*/
+}
+
+.sponsor-grid {
+  display: grid;
+  grid-template-areas: "li li li li";
+  row-gap: 2em;
+}
+
+#advisory-members-list {
+  display: block;
+  list-style: initial;
 }
