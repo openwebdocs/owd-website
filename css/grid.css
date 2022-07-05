@@ -27,7 +27,7 @@ h1 {
   max-width: 23ch;
 }
 
-p {
+p, li {
   /*font-size: clamp(1em, 2vw, 5em);*/
   /*line-height: 1.7;*/
   font-size: 24px;
@@ -35,13 +35,12 @@ p {
 }
 
 ul {
-  flex-wrap: wrap;
   padding: 0;
   list-style-type: none;
   margin: 0;
 }
 
-nav, main article, footer section {
+nav, main article, footer section, #team {
   padding: 0 2vw;
 }
 
@@ -75,7 +74,7 @@ main h1 {
   /*min-width: 15ch;*/
 }
 
-main section {
+#home-main {
   max-width: 60ch;
 }
 
@@ -87,7 +86,7 @@ main section {
   justify-content: center;
 }
 
-#socials img {
+.icon {
   max-width: 1.5em;
 }
 
@@ -130,10 +129,11 @@ footer, footer section {
   background-image: url("../img/svg-wave-bg.svg");
   background-size: cover;
   background-repeat: no-repeat;
-  /*background-position-x: -30vw;*/
   background-position-y: 60%;
-  /*width: 1039px;*/
-  /*left: 401px;*/
-;
+}
 
+.writers {
+  display: grid;
+  grid-template-areas: "li li";
+  gap: 2em;
 }
