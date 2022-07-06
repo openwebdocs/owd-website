@@ -45,7 +45,12 @@ ul {
 }
 
 nav, main article, footer section, #team, #get-involved {
-  padding: 0 2vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+main {
+  padding-bottom: 2vw;
 }
 
 nav ul, footer ul {
@@ -69,10 +74,6 @@ header {
   border-bottom: lightgray 1px solid;
 }
 
-main {
-  padding-bottom: 2em;
-}
-
 #home-main {
   font-family: 'Work Sans', sans-serif;
   max-width: 85ch;
@@ -80,11 +81,6 @@ main {
 
 #sponsors img {
   max-width: 5em;
-}
-
-#governing-committee ul img, #steering-committee ul img {
-  max-width: 5em;
-  padding-left: 2em;
 }
 
 #governing-committee, #steering-committee, #get-involved p {
@@ -167,6 +163,10 @@ li p {
   row-gap: 2em;
 }
 
+.sponsor-grid img {
+  max-width: 3em;
+}
+
 #advisory-members-list {
   display: block;
   list-style: initial;
@@ -178,6 +178,10 @@ li p {
 
 iframe {
   border: none;
+}
+
+footer {
+  border-top: lightgray 1px solid;
 }
 
 #donate h1 {
