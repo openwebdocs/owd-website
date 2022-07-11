@@ -180,10 +180,6 @@ li p {
   list-style: initial;
 }
 
-#get-involved {
-  display: grid;
-}
-
 iframe {
   border: none;
 }
@@ -194,4 +190,22 @@ footer {
 
 #donate h1, .sponsor-grid li h4 {
   justify-content: center;
+}
+
+.post {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 120ch;
+}
+
+#blog, #team, #donate, #get-involved {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+}
+
+.post-collection {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50ch, 1fr));
+  column-gap: 2em;
 }
