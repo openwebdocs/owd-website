@@ -5,6 +5,8 @@ date: "2021-01-28"
 tags: ["announcements"]
 ShowToc: false
 ShowBreadCrumbs: false
+excerpt: "First and foremost, thank you for the outpouring of support and well-wishes for Open Web Docs following 
+our launch post on Monday. We’re so excited to get to work with all of you to protect and maintain web platform documentation!"
 ---
 
 First and foremost, thank you for the outpouring of support and well-wishes for Open Web Docs following our launch post on Monday. We’re so excited to get to work with all of you to protect and maintain web platform documentation!

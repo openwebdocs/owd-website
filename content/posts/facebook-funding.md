@@ -5,6 +5,7 @@ date: "2021-05-04"
 tags: ["announcements"]
 ShowToc: false
 ShowBreadCrumbs: false
+excerpt: "Open Web Docs is excited to welcome Facebook as a lead funder, joining Google, Microsoft, and Coil on the Governing Committee. As a leading user of, and contributor to, web-based technologies and browsers, Facebook understands how important quality documentation is to the education and productivity of developers."
 ---
 
 [Open Web Docs](https://opencollective.com/open-web-docs) is excited to welcome Facebook as a lead funder, joining Google, Microsoft, and Coil on the [Governing Committee](https://github.com/openwebdocs/project#governance). As a leading user of, and contributor to, web-based technologies and browsers, Facebook understands how important quality documentation is to the education and productivity of developers. 

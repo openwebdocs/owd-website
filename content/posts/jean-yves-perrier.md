@@ -5,6 +5,7 @@ date: "2021-08-02"
 tags: ["announcements"]
 ShowToc: false
 ShowBreadCrumbs: false
+excerpt: "Open Web Docs is excited to announce that Jean-Yves Perrier has joined the team today as a full-time Sr. Technical Writer."
 ---
 
 Open Web Docs is excited to announce that Jean-Yves Perrier has joined the team today as a full-time Sr. Technical Writer.

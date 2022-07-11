@@ -5,6 +5,8 @@ date: "2022-01-24"
 tags: ["announcements"]
 ShowToc: false
 ShowBreadCrumbs: false
+excerpt: "Open Web Docs is thrilled to announce that Queen Vinyl Da.i’gyu-Kazotetsu has joined the team as a 
+contractor to help maintain compatibility data at the BCD project."
 ---
 
 Open Web Docs is thrilled to announce that [Queen Vinyl Da.i’gyu-Kazotetsu](https://github.com/queengooborg) has joined the team as a contractor to help maintain compatibility data at the [BCD project](https://github.com/mdn/browser-compat-data/).

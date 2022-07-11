@@ -5,6 +5,7 @@ date: "2021-07-27"
 tags: ["announcements"]
 ShowToc: false
 ShowBreadCrumbs: false
+excerpt: "We’re excited to welcome JetBrains to the Open Web Docs Steering Committee!"
 ---
 
 We’re excited to welcome JetBrains to the Open Web Docs Steering Committee!

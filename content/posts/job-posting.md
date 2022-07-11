@@ -5,6 +5,7 @@ date: "2021-04-20"
 tags: ["announcements"]
 ShowToc: false
 ShowBreadCrumbs: false
+excerpt: "Are you passionate about the open web, technical documentation, and growing healthy, sustainable online communities? Join Open Web Docs!"
 ---
 
 Are you passionate about the open web, technical documentation, and growing healthy, sustainable online communities? Join Open Web Docs! We're looking for an experienced technical writer to join Florian, Will, and an amazing community of contributors to help sustain web platform documentation.

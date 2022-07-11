@@ -5,6 +5,8 @@ date: "2021-09-23"
 tags: ["announcements"]
 ShowToc: false
 ShowBreadCrumbs: false
+excerpt: "Open Web Docs (OWD) is excited to support the online Write The Docs Prague conference, coming this October 
+3-5."
 ---
 
 Open Web Docs (OWD) is excited to support the online [Write The Docs Prague conference](https://www.writethedocs.org/conf/prague/2021/), coming this October 3-5. 

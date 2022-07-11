@@ -6,6 +6,7 @@ description: "The OWD project to convert MDN to Markdown"
 tags: ["projects"]
 ShowToc: false
 ShowBreadCrumbs: false
+excerpt: "In 2021, the Open Web Docs team, with help from Mozilla, the W3C, and the wider web docs community, converted the authoring format for MDN Web Docs  - all 11,000 pages of it - from HTML to Markdown."
 ---
 
 In 2021, the Open Web Docs team, with help from Mozilla, the W3C, and the wider web docs community, converted the authoring format for MDN Web Docs  - all 11,000 pages of it - from HTML to Markdown. In this post we'll talk about why we did it, how we did it, and how it turned out.

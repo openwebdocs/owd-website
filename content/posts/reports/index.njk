@@ -1,0 +1,22 @@
+---
+layout: layouts/default.njk
+---
+
+<section id="reports">
+    <h1>Reports</h1>
+    <ul class="post-collection">
+    {%- for report in collections.reports -%}
+      <li>
+        <h3 style="text-decoration:underline;margin:0;">{{ report.data.title }}</h3>
+        <small>{{ report.data.date }}</small>
+        <p>
+            {{ report.data.excerpt }}
+        </p>
+        <p><a href={{ report.url }}>Read More > </a></p>
+        {%- for tag in report.data.tags -%}
+            <p> {{ tag }} </p>
+        {%- endfor -%}
+      </li>
+    {%- endfor -%}
+    </ul>
+</section>

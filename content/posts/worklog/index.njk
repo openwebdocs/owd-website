@@ -1,0 +1,19 @@
+---
+layout: layouts/default.njk
+---
+
+<section id="worklog">
+    <h1>Worklog</h1>
+    <ul class="post-collection">
+    {%- for log in collections.worklog -%}
+      <li>
+        <h3 style="text-decoration:underline;margin:0;">{{ log.data.title }}</h3>
+        <small>{{ log.data.date }}</small>
+        <p>
+            {{ log.data.excerpt }}
+        </p>
+        <p><a href={{ log.url }}>Read More > </a></p>
+      </li>
+    {%- endfor -%}
+    </ul>
+</section>

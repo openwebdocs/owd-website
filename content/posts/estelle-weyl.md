@@ -5,6 +5,8 @@ date: "2021-08-19"
 tags: ["announcements"]
 ShowToc: false
 ShowBreadCrumbs: false
+excerpt: "Open Web Docs is thrilled to announce that Estelle Weyl has joined the team this week as a Sr. Technical 
+Writer and Developer Advocate."
 ---
 
 Open Web Docs is thrilled to announce that [Estelle Weyl](http://twitter.com/estellevw) has joined the team this week as a Sr. Technical Writer and Developer Advocate.

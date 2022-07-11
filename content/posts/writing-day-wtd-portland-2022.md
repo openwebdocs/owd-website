@@ -5,6 +5,8 @@ date: "2022-05-23"
 tags: ["doc sprints"]
 ShowToc: false
 ShowBreadCrumbs: false
+excerpt: "Open Web Docs hosted a session at the Writing Day during the Portland 2022 edition of the Write the Docs 
+conference."
 ---
 
 Open Web Docs hosted a session at the [Writing Day](https://www.writethedocs.org/conf/portland/2022/writing-day/) during the [Portland 2022 edition of the Write the Docs conference](https://www.writethedocs.org/conf/portland/2022/). In this post we'll talk about what we worked on and how it went.
