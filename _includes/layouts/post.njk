@@ -1,0 +1,9 @@
+{% include "../partials/header.njk" %}
+
+    <article class="post">
+        <h1>{{ title }}</h1>
+        <p>{{ author }}</p>
+        {{ content | safe }}
+    </article>
+
+{% include "../partials/footer.njk" %}

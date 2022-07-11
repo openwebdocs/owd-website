@@ -8,6 +8,8 @@ module.exports = function(eleventyConfig) {
   // Copy `css` to `_site/css`
   eleventyConfig.addPassthroughCopy("css");
 
+  eleventyConfig.addPassthroughCopy("content");
+
   eleventyConfig.setTemplateFormats([
     // Templates:
     "html",
@@ -18,6 +20,10 @@ module.exports = function(eleventyConfig) {
     // "png",
     // "svg",
   ]);
+
+  // eleventyConfig.addCollection("postList", (collection) => {
+  //   return collection.getFilteredByTag("post");
+  // });
 
 };
 
