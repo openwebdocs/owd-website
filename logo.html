@@ -1,0 +1,121 @@
+<html>
+	<style>
+		:root {
+			--color1: black;
+			--color2: black;
+			--color3: black;
+			--color4: black;
+			--text: #231f20;
+		}
+		.color1 {
+			fill: var(--color1);
+		}
+		.color2 {
+			fill: var(--color2);
+		}
+		.color3 {
+			fill: var(--color3);
+		}
+		.color4 {
+			fill: var(--color4);
+		}
+	</style>
+	<script>
+		// https://stackoverflow.com/a/32257791
+		// Modified by Gooborg Studios
+		function hex (c) {
+		  var s = "0123456789abcdef";
+		  var i = parseInt (c);
+		  if (i == 0 || isNaN (c))
+		    return "00";
+		  i = Math.round (Math.min (Math.max (0, i), 255));
+		  return s.charAt ((i - i % 16) / 16) + s.charAt (i % 16);
+		}
+		/* Convert an RGB triplet to a hex string */
+		function convertToHex (rgb) {
+		  return '#' + hex(rgb[0]) + hex(rgb[1]) + hex(rgb[2]);
+		}
+		/* Remove '#' in color hex string */
+		function trim (s) { return (s.charAt(0) == '#') ? s.substring(1, 7) : s }
+		/* Convert a hex string to an RGB triplet */
+		function convertToRGB (hex) {
+		  var color = [];
+		  color[0] = parseInt ((trim(hex)).substring (0, 2), 16);
+		  color[1] = parseInt ((trim(hex)).substring (2, 4), 16);
+		  color[2] = parseInt ((trim(hex)).substring (4, 6), 16);
+		  return color;
+		}
+		function generateColor(colorStart,colorEnd,colorCount){
+			// The beginning of your gradient
+			var start = convertToRGB (colorStart);
+			// The end of your gradient
+			var end   = convertToRGB (colorEnd);
+			// The number of colors to compute
+			var len = colorCount - 1;
+			//Alpha blending amount
+			var alpha = 0.0;
+			var saida = [convertToHex(start)];
+
+			for (i = 0; i < len; i++) {
+				var c = [];
+				alpha += (1.0/len);
+
+				c[0] = end[0] * alpha + (1 - alpha) * start[0];
+				c[1] = end[1] * alpha + (1 - alpha) * start[1];
+				c[2] = end[2] * alpha + (1 - alpha) * start[2];
+				saida.push(convertToHex (c));
+
+			}
+
+			return saida;
+		}
+	</script>
+	<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 762.55 177.8">
+		<g id="Layer_1-2">
+			<g>
+				<g>
+					<rect x="44.17" y="48.36" width="74.19" height="96.25" rx="19.54" ry="19.54" class="color1" />
+					<rect y="40.25" width="48.25" height="68.36" rx="19.54" ry="19.54" class="color1" />
+					<rect x="80.86" y="34.66" width="111.76" height="140.36" rx="20.97" ry="20.97" class="color1" />
+					<rect x="146.93" y="0" width="111.76" height="140.36" rx="20.97" ry="20.97" class="color2" />
+					<rect x="224.66" width="111.76" height="140.36" rx="20.97" ry="20.97" class="color3" />
+					<rect x="290.73" y="34.66" width="111.76" height="140.36" rx="20.97" ry="20.97" class="color4" />
+				</g>
+				<path d="M372.15,11.29c0,5.03-4.08,18.18-9.1,18.18s-9.1-13.16-9.1-18.18,4.08-9.1,9.1-9.1,9.1,4.08,9.1,9.1Z" class="text" />
+				<path d="M407.76,11.29c0,5.03-4.08,18.18-9.1,18.18s-9.1-13.16-9.1-18.18,4.08-9.1,9.1-9.1,9.1,4.08,9.1,9.1Z" class="text" />
+				<ellipse cx="348.55" cy="78.05" rx="7.52" ry="7.87" class="text" />
+				<ellipse cx="380.85" cy="78.05" rx="7.52" ry="7.87" class="text" />
+				<text transform="translate(446.11 84.81)" style="font-family:ProtoGroteskWeb-Regular, &apos;Proto Grotesk Web&apos;; font-size:72.78px;">
+					<tspan style="letter-spacing:-.02em;">
+						<tspan x="0" y="0">open</tspan>
+					</tspan>
+					<tspan x="0" y="71.89" style="letter-spacing:-.03em;">w</tspan>
+					<tspan x="57.93" y="71.89" style="letter-spacing:-.02em;">e</tspan>
+					<tspan x="98.98" y="71.89" style="letter-spacing:-.03em;">b </tspan>
+					<tspan x="156.4" y="71.89" style="letter-spacing:-.02em;">do</tspan>
+					<tspan x="242.5" y="71.89" style="letter-spacing:-.03em;">c</tspan>
+					<tspan x="283.19" y="71.89" style="letter-spacing:-.02em;">s</tspan>
+				</text>
+				<path d="M389.87,104.48c-10.59,53.63-55.26,56.02-67.61-6.36l67.61,6.36Z" class="text" />
+			</g>
+		</g>
+	</svg>
+	<div id="controls">
+		<label for="color1">First Color:</label> <input type="color" id="color1" name="color1" value="#ffc72b" /><br />
+		<label for="color2">Last Color:</label> <input type="color" id="color2" name="color2" value="#a759ff" />
+	</div>
+	<script>
+		const root = document.querySelector(':root');
+		const color1 = document.querySelector('#color1');
+		const color2 = document.querySelector('#color2');
+		function colorChange() {
+			const colors = generateColor(color1.value, color2.value, 4);
+			for (let i = 0; i < colors.length; i++) {
+				root.style.setProperty(`--color${i+1}`, colors[i]);
+			}
+		}
+		color1.onchange = colorChange;
+		color2.onchange = colorChange;
+		colorChange();
+	</script>
+</html>

@@ -1,9 +1,6 @@
-h1, ul, footer small {
+h1, footer small {
   display: flex;
 }
-/*h1, nav ul, footer ul, footer small {*/
-/*  justify-content: center;*/
-/*}*/
 
 body {
   margin: 0;
@@ -13,12 +10,10 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Work Sans';
-  font-weight: 800;
-  line-height: 1.2;
+  font-weight: 500;
 }
 
 h1 {
-  /*font-size: 68.0472px;*/
   line-height: 80px;
   font-size: clamp(2em, 68px, 10em);
 }
@@ -27,15 +22,27 @@ h2 {
   font-size: clamp(1.5em, 55px, 5em);
 }
 
+h3 {
+  font-size: clamp(1em, 43px, 2.5em);
+}
+
+h4 {
+  font-size: clamp(.8em, 30px, 2em);
+}
+
 #title {
   max-width: 23ch;
 }
 
-p, li {
+p, li, table, pre {
   /*font-size: clamp(1em, 2vw, 5em);*/
   /*line-height: 1.7;*/
   font-size: 24px;
   line-height: 1.5;
+}
+
+th, td {
+  padding: .5em;
 }
 
 ul {
@@ -109,6 +116,7 @@ header {
 }
 
 .brand-name {
+  font-weight: 600;
   padding-top: 10px;
   line-height: 1;
 }
@@ -167,7 +175,7 @@ li p {
 
 .sponsor-grid {
   display: grid;
-  grid-template-areas: "li li li li";
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   row-gap: 2em;
 }
 
@@ -176,7 +184,6 @@ li p {
 }
 
 #advisory-members-list {
-  display: block;
   list-style: initial;
 }
 
@@ -202,6 +209,7 @@ footer {
   margin-left: auto;
   margin-right: auto;
   max-width: 1500px;
+  padding-bottom: 2em;
 }
 
 .post-collection {

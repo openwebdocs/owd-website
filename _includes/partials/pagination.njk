@@ -1,0 +1,15 @@
+{% if pagination.pageLinks.length > 1 %}
+    <ul class="pagination">
+      {% if pagination.previousPageLink %}
+        <li><a href="{{ pagination.previousPageHref | url }}">Newer Articles</a></li>
+      {% else %}
+        <li>Newer Articles</li>
+      {% endif %}
+
+      {% if pagination.nextPageLink %}
+        <li><a href="{{ pagination.nextPageHref | url }}">Older Articles</a></li>
+      {% else %}
+        <li>Older Articles</li>
+      {% endif %}
+    </ul>
+{% endif %}

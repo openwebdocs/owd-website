@@ -1,13 +1,19 @@
 ---
 layout: layouts/default.njk
+eleventyExcludeFromCollections: true
+pagination:
+  data: collections.post
+  size: 10
+  alias: posts
+  reverse: true
 ---
 
 <section id="blog">
-    <h1>Blog</h1>
+    <h1 style="font-weight:500">Blog</h1>
     <ul class="post-collection">
-    {%- for post in collections.post -%}
+    {%- for post in posts -%}
       <li>
-        <h3 style="text-decoration:underline;margin:0;">{{ post.data.title }}</h3>
+        <h3 style="text-decoration:underline;margin:0;line-height:1.7;font-weight:500;">{{ post.data.title }}</h3>
         <small>{{ post.data.date }}</small>
         <p>
             {{ post.data.excerpt }}
@@ -16,4 +22,6 @@ layout: layouts/default.njk
       </li>
     {%- endfor -%}
     </ul>
+    {% include "../../_includes/partials/pagination.njk" %}
 </section>
+

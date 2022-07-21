@@ -63,7 +63,7 @@ Here we’ve split contributions into the following groups:
 | 295       | 115       | 101       | 1198  |
 
 
-![Chart of PRs merged to mdn/content](/charts/q1-content-prs.png)
+![Chart of PRs merged to mdn/content](../../../charts/q1-content-prs.png)
 
 This shows that OWD is the biggest single organization contributing to mdn/content, as measured by PR volume. It also shows that mdn/content gets a huge volume of contributions from volunteers: 70% of PRs in Q1 were “Other”, which is mostly volunteers.
 
@@ -74,7 +74,7 @@ This shows that OWD is the biggest single organization contributing to mdn/conte
 | 1096      | 510       | 201       | 163   |
 
 
-![Chart of reviews of PRs merged to mdn/content](/charts/q1-content-reviews.png)
+![Chart of reviews of PRs merged to mdn/content](../../../charts/q1-content-reviews.png)
 
 ### mdn/browser-compat-data
 
@@ -95,7 +95,7 @@ Note that for browser-compat-data we have not included W3C, as they are not a ma
 |----------|-----------|----------|-------|
 | 268      | 39        | 71       | 201   |
 
-![Chart of PRs merged to mdn/browser-compat-data](/charts/q1-bcd-prs.png)
+![Chart of PRs merged to mdn/browser-compat-data](../../../charts/q1-bcd-prs.png)
 
 #### Reviews of PRs merged to mdn/browser-compat-data
 
@@ -103,7 +103,7 @@ Note that for browser-compat-data we have not included W3C, as they are not a ma
 |----------|-----------|---------|-------|
 | 304      | 217       | 131     | 36    |
 
-![Chart of reviews of PRs merged to mdn/browser-compat-data](/charts/q1-bcd-reviews.png)
+![Chart of reviews of PRs merged to mdn/browser-compat-data](../../../charts/q1-bcd-reviews.png)
 
 ## Projects
 
