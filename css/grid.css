@@ -51,10 +51,6 @@ ul {
   margin: 0;
 }
 
-nav, footer, main {
-  padding-left: 2vw;
-  padding-right: 2vw;
-}
 
 main:not(#team) {
   max-width: 85ch;
@@ -68,10 +64,18 @@ main {
   justify-items: center;
 }
 
+nav, footer, main {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-bottom: 1em;
+}
+
 nav ul, footer ul {
-  /*flex-direction: row;*/
   gap: 2em;
   align-items: center;
+}
+nav ul {
+  justify-content: center;
 }
 
 nav a {
@@ -111,14 +115,8 @@ header {
 }
 
 #logo {
-  max-width: 10em;
-  padding-top: 20px;
-}
-
-.brand-name {
-  font-weight: 600;
-  padding-top: 10px;
-  line-height: 1;
+  /*width: clamp(100%, 400px, 10em);*/
+  width: 30vw;
 }
 
 .pri-btn {
@@ -139,9 +137,8 @@ header {
   text-decoration: none;
 }
 
-p a {
+a {
   color: #0400BB;
-  font-weight: bolder;
   text-decoration: none;
 }
 
@@ -216,4 +213,17 @@ footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(50ch, 1fr));
   column-gap: 2em;
+}
+
+.center {
+  justify-content: center;
+}
+
+/* MOBILE */
+
+@media (max-width: 412px) {
+  #logo {
+    width: 100vw;
+  }
+
 }
