@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   line-height: 80px;
-  font-size: clamp(2em, 68px, 10em);
+  font-size: 68px;
 }
 
 h2 {
@@ -31,6 +31,7 @@ h4 {
 }
 
 #title {
+  font-weight: bolder;
   max-width: 23ch;
 }
 
@@ -93,20 +94,17 @@ header {
   border-bottom: lightgray 1px solid;
 }
 
-#sponsors img {
+.footer-sponsors-list img {
+  width: 100%;
   max-width: 4em;
 }
 
-#sponsors ul{
-  justify-content: center;
+.footer-sponsors-list h3 {
+  display: flex;
 }
 
 #governing-committee, #steering-committee {
   max-width: 120ch;
-}
-
-#socials ul, #socials small {
-  justify-content: center;
 }
 
 .icon {
@@ -115,7 +113,6 @@ header {
 }
 
 #logo {
-  /*width: clamp(100%, 400px, 10em);*/
   width: 30vw;
 }
 
@@ -140,10 +137,6 @@ header {
 a {
   color: #0400BB;
   text-decoration: none;
-}
-
-footer, footer section {
-  padding-top: 2em;
 }
 
 #home-bg {
@@ -219,6 +212,10 @@ footer {
   justify-content: center;
 }
 
+#socials {
+  padding-top: 2em;
+}
+
 /* MOBILE */
 
 @media (max-width: 412px) {
@@ -226,4 +223,29 @@ footer {
     width: 100vw;
   }
 
+  h1 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+
+  #title {
+    font-weight: bolder
+  }
+
+  .footer-sponsors-list img{
+    max-width: 2.5em;
+  }
+
+  #home-bg {
+    background-image: none;
+  }
+
+  .icon {
+    max-width: 1em;
+    padding-left: 0;
+  }
+
+  footer {
+    background-color: rgb(200,182,249);
+  }
 }
