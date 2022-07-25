@@ -12,11 +12,7 @@ body {
   font-weight: 500;
 }
 .bg-gradient {
-  background: linear-gradient(181deg, #f7f4fe00, rgb(200 182 249));
-}
-
-footer {
-  background: linear-gradient(181deg, rgb(200 182 249), #f7f4fe00);
+  background: linear-gradient(181deg, #f7f4fe00, rgb(200 182 249), #f7f4fe00);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -31,6 +27,8 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   line-height: 80px;
   font-size: 68px;
+  margin-top: 0;
+  padding-top: 1em;
 }
 
 h2 {
@@ -207,12 +205,8 @@ iframe {
   border: none;
 }
 
-footer {
-  border-top: rgb(209,187,253) 1px solid;
-}
-
 .sec-footer {
-  background-color: rgb(209,187,253);
+  border-top: rgb(209,187,253) 1px solid;
 }
 
 #donate h1, .sponsor-grid li h4 {
@@ -225,7 +219,7 @@ footer {
   max-width: 100ch;
 }
 
-#blog, #team, #donate, #get-involved, #reports, #worklog {
+#blog, #team, #donate, #get-involved, #reports, #worklog, #corporate-contributor, #conference-organiser, #individual-contributor {
   margin-left: auto;
   margin-right: auto;
   max-width: 1500px;
@@ -293,7 +287,7 @@ footer {
     padding-left: 0;
   }
 
-  footer {
+  .sec-footer {
     background-color: rgb(200,182,249);
   }
 
