@@ -11,6 +11,13 @@ body {
   font-family: sans-serif;
   font-weight: 500;
 }
+.bg-gradient {
+  background: linear-gradient(181deg, #f7f4fe00, rgb(200 182 249));
+}
+
+footer {
+  background: linear-gradient(181deg, rgb(200 182 249), #f7f4fe00);
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Work Sans';
@@ -156,6 +163,16 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 2em;
+  margin-top: 0;
+}
+
+.writers-list h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#team h1 {
+  margin-bottom: 0.5em;
 }
 
 li p {
@@ -288,12 +305,20 @@ footer {
     max-width: 25ch;
   }
 
-  #blog {
+  #blog, #team {
     margin: 0 1em;
   }
 
-  .post-item-title {
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
     font-size: 35px;
+  }
+
+  #team ul {
+    margin-left: 2em;
   }
 
   .post {
@@ -304,7 +329,7 @@ footer {
 
 /* PORTRAIT TABLETS */
 
-@media (min-width: 800px) and (orientation: portrait) {
+@media (min-width: 800px) and (max-width: 1300px) {
   #logo {
     width: 100vw;
   }
@@ -326,23 +351,34 @@ footer {
     background-color: rgb(200,182,249);
   }
 
-  main {
-    margin: 0 .5em;
+  #blog, #team {
+    margin: 0 2em;
   }
 
-  #blog {
-    margin: 0 2em;
+  #team ul {
+    margin-left: 3em;
   }
 
   .post-collection {
     grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
   }
 
-  .post-item-title {
+  h2 {
     font-size: 40px;
+  }
+
+  h3 {
+    font-size: 35px;
   }
 
   .post {
     margin: 0 2em 1em 2em;
   }
 }
+
+@media (orientation: landscape) {
+  #logo {
+    width: 30vw;
+  }
+}
+
