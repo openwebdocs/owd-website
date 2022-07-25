@@ -185,6 +185,10 @@ li p {
   gap: 2em;
 }
 
+.pagination {
+  justify-content: end;
+}
+
 .sponsor-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
