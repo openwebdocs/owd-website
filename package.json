@@ -1,0 +1,13 @@
+{
+  "name": "Open Web Docs",
+  "version": "1.0.0",
+  "description": "A starter repository for a blog web site using the Eleventy static site generator.",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "bench": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
+    "watch": "npx @11ty/eleventy --watch",
+    "serve": "npx @11ty/eleventy --serve",
+    "start": "npx @11ty/eleventy --serve",
+    "debug": "DEBUG=* npx @11ty/eleventy"
+  }
+}
