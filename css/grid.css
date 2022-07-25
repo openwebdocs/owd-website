@@ -287,10 +287,6 @@ iframe {
     padding-left: 0;
   }
 
-  .sec-footer {
-    background-color: rgb(200,182,249);
-  }
-
   p li {
     font-size: 20px;
   }
@@ -303,7 +299,7 @@ iframe {
     max-width: 25ch;
   }
 
-  #blog, #team {
+  #blog, #team, #donate, #get-involved, #reports, #worklog, #corporate-contributor, #conference-organiser, #individual-contributor {
     margin: 0 1em;
   }
 
@@ -345,11 +341,7 @@ iframe {
     padding-left: 0;
   }
 
-  footer {
-    background-color: rgb(200,182,249);
-  }
-
-  #blog, #team {
+  #blog, #team, #donate, #get-involved, #reports, #worklog, #corporate-contributor, #conference-organiser, #individual-contributor {
     margin: 0 2em;
   }
 
