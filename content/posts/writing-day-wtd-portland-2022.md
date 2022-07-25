@@ -5,7 +5,7 @@ date: "2022-05-23"
 tags: ["doc sprints"]
 ShowToc: false
 ShowBreadCrumbs: false
-excerpt: "Open Web Docs hosted a session at the Writing Day during the Portland 2022 edition of the Write the Docs 
+excerpt: "Open Web Docs hosted a session at the Writing Day during the Portland 2022 edition of the Write the Docs
 conference."
 ---
 
@@ -30,7 +30,7 @@ In preparation for the Writing Day we made a list of 300 pages that mentioned `v
 
 ### Fixing sidebars
 
-On MDN sidebars are added to pages using macros. We made a list of all the pages under https://developer.mozilla.org/en-US/docs/Web/API that were missing a sidebar, and asked attendees to add the correct macro call. This amounted to about 50 pages.
+On MDN sidebars are added to pages using macros. We made a list of all the pages under [Web APIs](https://developer.mozilla.org/en-US/docs/Web/API) that were missing a sidebar, and asked attendees to add the correct macro call. This amounted to about 50 pages.
 
 ## On the day
 
@@ -42,7 +42,7 @@ Many people stayed for the whole day and filed dozens of PRs.
 
 At the end of it:
 - we cleaned `var` from 254 pages in the JavaScript reference, out of 300 pages that were using it
-- we added sidebars to all pages under https://developer.mozilla.org/en-US/docs/Web/API that were missing a sidebar, with the exception of only four, which all need more complex fixes.
+- we added sidebars to all pages under [Web APIs](https://developer.mozilla.org/en-US/docs/Web/API) that were missing a sidebar, with the exception of only four, which all need more complex fixes.
 
 Especially the removal of `var` is a substantial improvement to MDN Web Docs. [Our own documentation advises against the use of `var`](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables#a_note_about_var), so it's very misleading for our JavaScript examples to use it, and the work of our volunteers made a big step towards removing it completely.
 

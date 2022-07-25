@@ -2,6 +2,10 @@ h1, footer small {
   display: flex;
 }
 
+/** {*/
+/*  outline: 1px solid red;*/
+/*}*/
+
 body {
   margin: 0;
   font-family: sans-serif;
@@ -13,13 +17,17 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
 
+.post ul {
+  margin-left: 2em;
+}
+
 h1 {
   line-height: 80px;
   font-size: 68px;
 }
 
 h2 {
-  font-size: clamp(1.5em, 55px, 5em);
+  font-size: 55px;
 }
 
 h3 {
@@ -33,11 +41,11 @@ h4 {
 #title {
   font-weight: bolder;
   max-width: 23ch;
+  margin-top: 0;
+  padding-top: 1em;
 }
 
 p, li, table, pre {
-  /*font-size: clamp(1em, 2vw, 5em);*/
-  /*line-height: 1.7;*/
   font-size: 24px;
   line-height: 1.5;
 }
@@ -49,7 +57,6 @@ th, td {
 ul {
   padding: 0;
   list-style-type: none;
-  margin: 0;
 }
 
 
@@ -91,7 +98,7 @@ nav span {
 }
 
 header {
-  border-bottom: lightgray 1px solid;
+  border-bottom: rgb(209,187,253) 1px solid;
 }
 
 .footer-sponsors-list img {
@@ -130,7 +137,6 @@ header {
   border-radius: 5px;
   padding: 15px;
   border: none;
-  font-size: 24px;
   text-decoration: none;
 }
 
@@ -143,7 +149,7 @@ a {
   background-image: url("../img/svg-wave-bg.svg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: 60%;
+  background-position-y: 70%;
 }
 
 .writers-list {
@@ -160,7 +166,6 @@ li p {
   display: flex;
   flex-wrap: wrap;
   gap: 2em;
-  /*justify-content: center;*/
 }
 
 .sponsor-grid {
@@ -182,7 +187,11 @@ iframe {
 }
 
 footer {
-  border-top: lightgray 1px solid;
+  border-top: rgb(209,187,253) 1px solid;
+}
+
+.sec-footer {
+  background-color: rgb(209,187,253);
 }
 
 #donate h1, .sponsor-grid li h4 {
@@ -192,7 +201,7 @@ footer {
 .post {
   margin-left: auto;
   margin-right: auto;
-  max-width: 120ch;
+  max-width: 100ch;
 }
 
 #blog, #team, #donate, #get-involved, #reports, #worklog {
@@ -202,10 +211,22 @@ footer {
   padding-bottom: 2em;
 }
 
+.post ul {
+  list-style: initial;
+}
+
+.post ul li {
+  margin: 1em 0;
+}
+
 .post-collection {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(50ch, 1fr));
   column-gap: 2em;
+}
+
+.post-item {
+  max-width: 35ch;
 }
 
 .center {
@@ -216,9 +237,15 @@ footer {
   padding-top: 2em;
 }
 
+.post-item-title {
+  text-decoration:underline;
+  margin:0;
+  font-weight:500;
+}
+
 /* MOBILE */
 
-@media (max-width: 412px) {
+@media (max-width: 425px) {
   #logo {
     width: 100vw;
   }
@@ -247,5 +274,75 @@ footer {
 
   footer {
     background-color: rgb(200,182,249);
+  }
+
+  p li {
+    font-size: 20px;
+  }
+
+  main {
+    margin: 0 .5em;
+  }
+
+  .post-item {
+    max-width: 25ch;
+  }
+
+  #blog {
+    margin: 0 1em;
+  }
+
+  .post-item-title {
+    font-size: 35px;
+  }
+
+  .post {
+    max-width: 35ch;
+    margin: 0 1em 1em 1em;
+  }
+}
+
+/* PORTRAIT TABLETS */
+
+@media (min-width: 800px) and (orientation: portrait) {
+  #logo {
+    width: 100vw;
+  }
+
+  .footer-sponsors-list img{
+    max-width: 2.5em;
+  }
+
+  #home-bg {
+    background-image: none;
+  }
+
+  .icon {
+    max-width: 1em;
+    padding-left: 0;
+  }
+
+  footer {
+    background-color: rgb(200,182,249);
+  }
+
+  main {
+    margin: 0 .5em;
+  }
+
+  #blog {
+    margin: 0 2em;
+  }
+
+  .post-collection {
+    grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+  }
+
+  .post-item-title {
+    font-size: 40px;
+  }
+
+  .post {
+    margin: 0 2em 1em 2em;
   }
 }

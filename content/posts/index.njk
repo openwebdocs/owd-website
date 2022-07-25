@@ -9,11 +9,11 @@ pagination:
 ---
 
 <section id="blog">
-    <h1 style="font-weight:500">Blog</h1>
+    <h1>Blog</h1>
     <ul class="post-collection">
     {%- for post in posts -%}
-      <li>
-        <h3 style="text-decoration:underline;margin:0;line-height:1.7;font-weight:500;">{{ post.data.title }}</h3>
+      <li class="post-item">
+        <h2 class="post-item-title" style="">{{ post.data.title }}</h3>
         <small>{{ post.data.date }}</small>
         <p>
             {{ post.data.excerpt }}
