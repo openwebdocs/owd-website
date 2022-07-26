@@ -25,26 +25,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  line-height: 80px;
-  font-size: 68px;
+  line-height: 1.1;
+  font-size: 4em;
   margin-top: 0;
   padding-top: 1em;
 }
 
 h2 {
-  font-size: 55px;
+  font-size: 2em;
 }
 
 h3 {
-  font-size: clamp(1em, 43px, 2.5em);
+  font-size: 1.7em;
 }
 
 h4 {
-  font-size: clamp(.8em, 30px, 2em);
+  font-size: 1.3em;
 }
 
 #title {
   font-weight: bolder;
+  font-size: 5em;
   max-width: 23ch;
   margin-top: 0;
   padding-top: 1em;
@@ -222,7 +223,7 @@ iframe {
 #blog, #team, #donate, #get-involved, #reports, #worklog, #corporate-contributor, #conference-organiser, #individual-contributor {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1500px;
+  max-width: 1300px;
   padding-bottom: 2em;
 }
 
@@ -323,7 +324,7 @@ iframe {
 
 /* PORTRAIT TABLETS */
 
-@media (min-width: 800px) and (max-width: 1300px) {
+@media (min-width: 800px) and (max-width: 1299px) {
   #logo {
     width: 100vw;
   }
