@@ -1,4 +1,5 @@
 const toggleThemeBtn = document.getElementById("toggleTheme");
+const toggleLogo = document.getElementById("logo")
 const currentTheme = localStorage.getItem("theme");
 const sysIsDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
 
@@ -19,9 +20,9 @@ function toggleTheme(currentSysIsDark) {
 
 function getThemeBtnText(theme, currentSysIsDark) {
     if((theme === "dark") || (currentSysIsDark && theme !== "light")){
-        assignThemeBtnTextLight();
+        assignDarkThemeEl();
     } else {
-        assignThemeBtnTextDark();
+        assignLightThemeEl();
     }
 }
 
@@ -29,21 +30,23 @@ function setAndSaveTheme() {
     let theme;
     if (document.body.classList.contains("dark")) {
         theme = "dark";
-        assignThemeBtnTextLight();
+        assignDarkThemeEl();
     } else {
         theme = "light";
-        assignThemeBtnTextDark();
+        assignLightThemeEl();
     }
     localStorage.setItem("theme", theme);
     localStorage.setItem("overRideSysColour", "true")
 }
 
-function assignThemeBtnTextLight() {
+function assignDarkThemeEl() {
     toggleThemeBtn.innerText = "Go Light 🌞"
+    toggleLogo.src = "/img/webdocs_logo_dark.svg"
 }
 
-function assignThemeBtnTextDark() {
+function assignLightThemeEl() {
     toggleThemeBtn.innerText = "Go Dark 🌚"
+    toggleLogo.src = "/img/webdocs_logo_light.svg"
 }
 
 getSavedTheme(currentTheme);
