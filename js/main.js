@@ -1,5 +1,7 @@
 const toggleThemeBtn = document.getElementById("toggleTheme");
 const toggleLogo = document.getElementById("logo")
+const gitHubLogoList = document.getElementsByClassName("gh")
+const metaLogoList = document.getElementsByClassName("meta")
 const currentTheme = localStorage.getItem("theme");
 const sysIsDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
 
@@ -42,11 +44,23 @@ function setAndSaveTheme() {
 function assignDarkThemeEl() {
     toggleThemeBtn.innerText = "Go Light 🌞"
     toggleLogo.src = "/img/webdocs_logo_dark.svg"
+    for(let i in gitHubLogoList){
+        gitHubLogoList[i].src = "/img/github-light.png"
+    }
+    for(let i in metaLogoList){
+        metaLogoList[i].src = "/img/meta-dark.svg"
+    }
 }
 
 function assignLightThemeEl() {
     toggleThemeBtn.innerText = "Go Dark 🌚"
     toggleLogo.src = "/img/webdocs_logo_light.svg"
+    for(let i in gitHubLogoList){
+        gitHubLogoList[i].src = "/img/github-dark.png"
+    }
+    for(let i in metaLogoList){
+        metaLogoList[i].src = "/img/meta-light.svg"
+    }
 }
 
 getSavedTheme(currentTheme);
