@@ -1,32 +1,91 @@
-body {
+@media (prefers-color-scheme: dark) {
+  body.systemDarkPreference {
+    background-color: #090057;
+    color: white;
+  }
+
+  body.systemDarkPreference nav a {
+    color: white;
+  }
+
+
+  body.systemDarkPreference header {
+    border-bottom: rgb(209,187,253) 1px solid;
+  }
+
+  body.systemDarkPreference .pri-btn {
+    background-color: #F39422;
+    color: white;
+  }
+
+  body.systemDarkPreference .sec-btn {
+    background-color: #F39422;
+    color: white;
+  }
+
+  body.systemDarkPreference a {
+    color: #F39422;
+  }
+
+  body.systemDarkPreference .sec-footer {
+    border-top: rgb(209,187,253) 1px solid;
+  }
+
+  body.systemDarkPreference button {
+    color: white;
+  }
+
+  body.systemDarkPreference .bg-gradient {
+    background: none;
+  }
+
+  body.systemDarkPreference #toggleTheme {
+    text-decoration: underline #F39422;
+  }
+}
+
+
+/* DEFAULT DARK MODE */
+body.dark {
   background-color: #090057;
   color: white;
 }
 
-nav a {
+body.dark nav a {
   color: white;
 }
 
 
-header {
+body.dark header {
   border-bottom: rgb(209,187,253) 1px solid;
 }
 
-.pri-btn {
+body.dark .pri-btn {
   background-color: #F39422;
   color: white;
 }
 
-.sec-btn {
+body.dark .sec-btn {
   background-color: #F39422;
   color: white;
 }
 
-a {
+body.dark a {
   color: #F39422;
 }
 
-
-.sec-footer {
+body.dark .sec-footer {
   border-top: rgb(209,187,253) 1px solid;
+}
+
+body.dark button {
+  color: white;
+}
+
+body.dark .bg-gradient {
+  background: none;
+}
+
+body.dark #toggleTheme {
+  text-decoration: underline #F39422;
 }

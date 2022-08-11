@@ -43,6 +43,11 @@ h4 {
   font-size: 1.3em;
 }
 
+#toggleTheme {
+  text-decoration: underline #0400BB;
+  cursor: pointer;
+}
+
 #title {
   font-weight: bolder;
   font-size: 5em;
@@ -51,7 +56,7 @@ h4 {
   padding-top: 1em;
 }
 
-p, li, table, pre {
+p, li, table, pre, button {
   font-size: 24px;
   line-height: 1.5;
 }
