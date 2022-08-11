@@ -46,8 +46,10 @@ function setAndSaveTheme() {
 function assignDarkThemeEl() {
     toggleThemeBtn.innerText = "Go Light 🌞"
     toggleLogo.src = "/img/webdocs_logo_dark.svg"
-    mozLogo.src = "/img/mozilla-light.png"
-    samLogo.src = "/img/samsung-light.png"
+    if(window.location.pathname == "/team/"){
+        mozLogo.src = "/img/mozilla-light.png"
+        samLogo.src = "/img/samsung-light.png"
+    }
     for(let i in gitHubLogoList){
         gitHubLogoList[i].src = "/img/github-light.png"
     }
@@ -59,8 +61,11 @@ function assignDarkThemeEl() {
 function assignLightThemeEl() {
     toggleThemeBtn.innerText = "Go Dark 🌚"
     toggleLogo.src = "/img/webdocs_logo_light.svg"
-    mozLogo.src = "/img/mozilla-dark.png"
-    samLogo.src = "/img/samsung-dark.png"
+    if(window.location.pathname == "/team/"){
+        mozLogo.src = "/img/mozilla-dark.png"
+        samLogo.src = "/img/samsung-dark.png"
+    }
+
     for(let i in gitHubLogoList){
         gitHubLogoList[i].src = "/img/github-dark.png"
     }
