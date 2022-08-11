@@ -3,6 +3,7 @@ const toggleLogo = document.getElementById("logo")
 const gitHubLogoList = document.getElementsByClassName("gh")
 const metaLogoList = document.getElementsByClassName("meta")
 const mozLogo = document.getElementById("moz")
+const samLogo = document.getElementById("sam")
 const currentTheme = localStorage.getItem("theme");
 const sysIsDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
 
@@ -46,6 +47,7 @@ function assignDarkThemeEl() {
     toggleThemeBtn.innerText = "Go Light 🌞"
     toggleLogo.src = "/img/webdocs_logo_dark.svg"
     mozLogo.src = "/img/mozilla-light.png"
+    samLogo.src = "/img/samsung-light.png"
     for(let i in gitHubLogoList){
         gitHubLogoList[i].src = "/img/github-light.png"
     }
@@ -58,6 +60,7 @@ function assignLightThemeEl() {
     toggleThemeBtn.innerText = "Go Dark 🌚"
     toggleLogo.src = "/img/webdocs_logo_light.svg"
     mozLogo.src = "/img/mozilla-dark.png"
+    samLogo.src = "/img/samsung-dark.png"
     for(let i in gitHubLogoList){
         gitHubLogoList[i].src = "/img/github-dark.png"
     }
