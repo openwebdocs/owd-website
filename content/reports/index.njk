@@ -14,9 +14,6 @@ eleventyExcludeFromCollections: true
             {{ report.data.excerpt }}
         </p>
         <p><a href={{ report.url }}>Read More > </a></p>
-        {%- for tag in report.data.tags -%}
-            <p> {{ tag }} </p>
-        {%- endfor -%}
       </li>
     {%- endfor -%}
     </ul>
