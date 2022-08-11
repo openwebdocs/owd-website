@@ -1,0 +1,32 @@
+body {
+  background-color: #090057;
+  color: white;
+}
+
+nav a {
+  color: white;
+}
+
+
+header {
+  border-bottom: rgb(209,187,253) 1px solid;
+}
+
+.pri-btn {
+  background-color: #F39422;
+  color: white;
+}
+
+.sec-btn {
+  background-color: #F39422;
+  color: white;
+}
+
+a {
+  color: #F39422;
+}
+
+
+.sec-footer {
+  border-top: rgb(209,187,253) 1px solid;
+}
