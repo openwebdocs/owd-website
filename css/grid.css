@@ -113,8 +113,8 @@ header {
 }
 
 .footer-sponsors-list img {
-  width: 100%;
   max-width: 4em;
+  min-width: 4em;
 }
 
 .footer-sponsors-list h3 {
