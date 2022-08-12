@@ -1,19 +1,19 @@
 ---
 layout: layouts/default.njk
+title: "Open Web Docs - Reports"
 eleventyExcludeFromCollections: true
 ---
 
 <section id="reports" class="sec-container auto">
     <h1>Reports</h1>
-    <ul class="post-collection">
+    <ul class="grid-container">
     {%- for report in collections.reports -%}
       <li>
-        <h3 style="text-decoration:underline;margin:0;">{{ report.data.title }}</h3>
+        <h3><a href={{ report.url }}>{{ report.data.title }}</a></h3>
         <small>{{ report.data.date }}</small>
         <p>
             {{ report.data.excerpt }}
         </p>
-        <p><a href={{ report.url }}>Read More > </a></p>
       </li>
     {%- endfor -%}
     </ul>

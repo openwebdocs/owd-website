@@ -1,19 +1,19 @@
 ---
 layout: layouts/default.njk
+title: "Open Web Docs - Worklog"
 eleventyExcludeFromCollections: true
 ---
 
 <section id="worklog" class="sec-container auto">
     <h1>Worklog</h1>
-    <ul class="post-collection">
+    <ul class="grid-container">
     {%- for log in collections.worklog -%}
       <li>
-        <h3 style="text-decoration:underline;margin:0;">{{ log.data.title }}</h3>
+        <h3><a href={{ log.url }}>{{ log.data.title }}</a></h3>
         <small>{{ log.data.date }}</small>
         <p>
             {{ log.data.excerpt }}
         </p>
-        <p><a href={{ log.url }}>Read More > </a></p>
       </li>
     {%- endfor -%}
     </ul>

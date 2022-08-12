@@ -1,5 +1,6 @@
 ---
 layout: layouts/default.njk
+title: "Open Web Docs - Blog"
 eleventyExcludeFromCollections: true
 pagination:
   data: collections.post
@@ -13,12 +14,11 @@ pagination:
     <ul class="grid-container">
     {%- for post in posts -%}
       <li class="post-item">
-        <h2 class="post-item-title" style="">{{ post.data.title }}</h3>
+        <h2 class="post-item-title" style=""><a href={{ post.url }}>{{ post.data.title }}</a></h3>
         <small>{{ post.data.date }}</small>
         <p>
             {{ post.data.excerpt }}
         </p>
-        <p><a href={{ post.url }}>Read More > </a></p>
       </li>
     {%- endfor -%}
     </ul>

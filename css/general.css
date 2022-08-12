@@ -59,7 +59,6 @@ p, li, table, pre, button {
 }
 
 .post-item-title {
-  text-decoration: var(--underline);
   margin: var(--zero);
   font-weight: 500;
 }
