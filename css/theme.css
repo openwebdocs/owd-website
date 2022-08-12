@@ -139,5 +139,5 @@ body.dark .btn {
 
 body.dark .btn:hover {
   background-color: var(--white);
-  color: var(--clickable-1)
+  color: var(--clickable-1);
 }
