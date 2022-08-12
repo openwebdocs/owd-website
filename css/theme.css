@@ -72,11 +72,6 @@ header {
     border-bottom: var(--divider);
   }
 
-  body.systemDarkPreference .sec-btn, body.systemDarkPreference .pri-btn  {
-    background-color: var(--clickable-1);
-    color: var(--white);
-}
-
   body.systemDarkPreference a {
     color: var(--clickable-2);
   }
@@ -104,6 +99,11 @@ header {
   body.systemDarkPreference .btn {
     color: var(--white);
   }
+
+  body.systemDarkPreference .btn:hover {
+  background-color: var(--white);
+  color: var(--clickable-1)
+}
 }
 
 
