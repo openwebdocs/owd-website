@@ -8,9 +8,9 @@ pagination:
   reverse: true
 ---
 
-<section id="blog">
+<section id="blog" class="sec-container auto">
     <h1>Blog</h1>
-    <ul class="post-collection">
+    <ul class="grid-collection">
     {%- for post in posts -%}
       <li class="post-item">
         <h2 class="post-item-title" style="">{{ post.data.title }}</h3>

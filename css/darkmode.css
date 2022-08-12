@@ -1,38 +1,46 @@
+/* VARIABLES */
+
+:root {
+  /* BORDERS */
+
+  /* COLORS */
+  --white: #FFFFFF;
+  --dark-bg: #090057;
+  --accent-1: rgb(200 182 249);
+  --accent-2: #f7f4fe00;
+  --clickable-1: #9900a1;
+  --clickable-2: #ff61e5;
+}
+
 @media (prefers-color-scheme: dark) {
   body.systemDarkPreference {
-    background-color: #090057;
-    color: white;
+    background-color: var(--dark-bg);
+    color: var(--white);
   }
 
   body.systemDarkPreference nav a {
-    color: white;
+    color: var(--white);
   }
-
 
   body.systemDarkPreference header {
-    border-bottom: rgb(209,187,253) 1px solid;
+    border-bottom: var(--accent-1) 1px solid;
   }
 
-  body.systemDarkPreference .pri-btn {
-    background-color: #F39422;
-    color: white;
-  }
-
-  body.systemDarkPreference .sec-btn {
-    background-color: #F39422;
-    color: white;
-  }
+  body.systemDarkPreference .sec-btn, body.systemDarkPreference .pri-btn  {
+    background-color: var(--clickable-1);
+    color: var(--white);
+}
 
   body.systemDarkPreference a {
-    color: #F39422;
+    color: var(--clickable-2);
   }
 
   body.systemDarkPreference .sec-footer {
-    border-top: rgb(209,187,253) 1px solid;
+    border-top: var(--accent-1) 1px solid;
   }
 
   body.systemDarkPreference button {
-    color: white;
+    color: var(--white);
   }
 
   body.systemDarkPreference .bg-gradient {
@@ -40,46 +48,41 @@
   }
 
   body.systemDarkPreference #toggleTheme {
-    text-decoration: underline #F39422;
+    text-decoration: underline var(--clickable-2);
   }
 }
 
 
 /* DEFAULT DARK MODE */
 body.dark {
-  background-color: #090057;
-  color: white;
+  background-color: var(--dark-bg);
+  color: var(--white);
 }
 
 body.dark nav a {
-  color: white;
+  color: var(--white);
 }
 
 
 body.dark header {
-  border-bottom: rgb(209,187,253) 1px solid;
+  border-bottom: var(--accent-1) 1px solid;
 }
 
-body.dark .pri-btn {
-  background-color: #F39422;
-  color: white;
-}
-
-body.dark .sec-btn {
-  background-color: #F39422;
-  color: white;
+body.dark .sec-btn, body.dark .pri-btn {
+  background-color: var(--clickable-1);
+  color: var(--white);
 }
 
 body.dark a {
-  color: #F39422;
+  color: var(--clickable-2);
 }
 
 body.dark .sec-footer {
-  border-top: rgb(209,187,253) 1px solid;
+  border-top: var(--accent-1) 1px solid;
 }
 
 body.dark button {
-  color: white;
+  color: var(--white);
 }
 
 body.dark .bg-gradient {
@@ -87,5 +90,5 @@ body.dark .bg-gradient {
 }
 
 body.dark #toggleTheme {
-  text-decoration: underline #F39422;
+  text-decoration: underline var(--clickable-2);
 }
