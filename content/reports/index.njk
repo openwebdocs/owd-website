@@ -9,7 +9,7 @@ eleventyExcludeFromCollections: true
     <ul class="grid-container">
     {%- for report in collections.reports -%}
       <li>
-        <h3><a href={{ report.url }}>{{ report.data.title }}</a></h3>
+        <h2><a href={{ report.url }}>{{ report.data.title }}</a></h2>
         <small>{{ report.data.date }}</small>
         <p>
             {{ report.data.excerpt }}

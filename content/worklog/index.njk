@@ -9,7 +9,7 @@ eleventyExcludeFromCollections: true
     <ul class="grid-container">
     {%- for log in collections.worklog -%}
       <li>
-        <h3><a href={{ log.url }}>{{ log.data.title }}</a></h3>
+        <h2><a href={{ log.url }}>{{ log.data.title }}</a></h2>
         <small>{{ log.data.date }}</small>
         <p>
             {{ log.data.excerpt }}
