@@ -2,15 +2,7 @@
 
 :root {
   /* BORDERS */
-  --divider: var(--accent-1) 1px solid;
   --underline: underline;
-
-  /* COLORS */
-  --white: #FFFFFF;
-  --dark-bg: #090057;
-  --accent-1: rgb(200 182 249);
-  --accent-2: #f7f4fe00;
-  --clickable: #9900a1;
 
   /* SPACING */
   --default-spacing: 2rem;
@@ -30,12 +22,7 @@
   --mid-icon-width: 5rem;
 }
 
-/** {*/
-/*  outline: 1px solid red;*/
-/*}*/
-
 body {
-  /*margin: var(--zero);*/
   font-family: sans-serif;
   font-weight: 500;
 }
@@ -75,24 +62,6 @@ p, li, table, pre, button {
   text-decoration: var(--underline);
   margin: var(--zero);
   font-weight: 500;
-}
-
-a {
-  color: var(--clickable);
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: var(--underline);
-}
-
-.nav-item {
-  color: black;
-  text-decoration: none;
-}
-
-nav-item:hover {
-  text-decoration: var(--underline);
 }
 
 .mid-paragraph {
@@ -159,12 +128,9 @@ nav, footer, #home-main {
   margin-inline: var(--default-spacing);
 }
 
+/* TODO: rename this? */
 .nav-list {
   align-items: center;
-}
-
-header {
-  border-bottom: var(--divider);
 }
 
 .sec-container{
@@ -194,15 +160,6 @@ header {
   padding-left: var(--nested-spacing);
 }
 
-.btn {
-  background-color: var(--clickable);
-  color: var(--white);
-  border-radius: 5px;
-  padding: var(--btn-padding);
-  border: none;
-  text-decoration: none;
-}
-
 #home-bg {
   background-image: url("../img/svg-wave-bg.svg");
   background-size: cover;
@@ -222,17 +179,8 @@ header {
   list-style: initial;
 }
 
-.sec-footer {
-  border-top: var(--divider);
-}
-
 #socials {
   padding-top: var(--default-spacing);
-}
-
-#toggleTheme {
-  text-decoration: var(--underline) var(--clickable);
-  cursor: pointer;
 }
 
 /* MOBILE */
@@ -271,7 +219,7 @@ header {
   }
 }
 
-/* PORTRAIT TABLETS */
+/* TABLETS */
 
 @media (min-width: 800px) and (max-width: 1299px) {
 
