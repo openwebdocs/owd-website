@@ -18,20 +18,18 @@
 
 a {
   color: var(--clickable-1);
-  text-decoration: none;
 }
 
 a:hover {
-  text-decoration: var(--underline);
+  color: var(--black)
 }
 
 .nav-item {
-  color: var(--black);
-  text-decoration: none;
+  color: var(--black)
 }
 
-nav-item:hover {
-  text-decoration: var(--underline);
+.nav-item:hover {
+  color: var(--clickable-1);
 }
 
 .btn {
@@ -40,7 +38,11 @@ nav-item:hover {
   border-radius: 5px;
   padding: var(--btn-padding);
   border: none;
-  text-decoration: none;
+}
+
+.btn:hover {
+  color: var(--clickable-1);
+  background-color: var(--white);
 }
 
 #toggleTheme {
@@ -79,6 +81,18 @@ header {
     color: var(--clickable-2);
   }
 
+   body.systemDarkPreference a:hover {
+    color: var(--white);
+  }
+
+   body.systemDarkPreference .nav-item {
+  color: var(--white)
+}
+
+  body.systemDarkPreference .nav-item:hover {
+    color: var(--clickable-2);
+  }
+
   body.systemDarkPreference .sec-footer {
     border-top: var(--divider);
   }
@@ -103,12 +117,19 @@ body.dark .nav-item {
   color: var(--white);
 }
 
-body.dark .sec-btn, body.dark .pri-btn {
-  background-color: var(--clickable-1);
+body.dark a {
+  color: var(--clickable-2);
+}
+
+body.dark a:hover {
   color: var(--white);
 }
 
-body.dark a {
+body.dark .nav-item {
+  color: var(--white)
+}
+
+body.dark .nav-item:hover {
   color: var(--clickable-2);
 }
 
@@ -116,6 +137,7 @@ body.dark .btn {
   color: var(--white);
 }
 
-body.dark .bg-gradient {
-  background: none;
+body.dark .btn:hover {
+  background-color: var(--white);
+  color: var(--clickable-1)
 }
