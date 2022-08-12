@@ -13,11 +13,11 @@
   --clickable: #9900a1;
 
   /* SPACING */
-  --general-spacing: 2rem;
+  --default-spacing: 2rem;
   --nested-spacing: .5rem;
   --zero: 0;
-  --gap-spacing: var(--general-spacing);
-  --ul-drop: var(--general-spacing);
+  --gap-spacing: var(--default-spacing);
+  --ul-drop: var(--default-spacing);
   --btn-padding: var(--nested-spacing);
   --sm-spacing: var(--nested-spacing);
 
@@ -26,7 +26,7 @@
   --l-paragraph: 75ch;
   --mid-paragraph: 45ch;
   --sm-paragraph: 25ch;
-  --sm-icon-width: var(--general-spacing);
+  --sm-icon-width: var(--default-spacing);
   --mid-icon-width: 5rem;
 }
 
@@ -156,7 +156,7 @@ nav span {
 }
 
 nav, footer, #home-main {
-  margin-inline: var(--general-spacing);
+  margin-inline: var(--default-spacing);
 }
 
 .nav-list {
@@ -169,7 +169,7 @@ header {
 
 .sec-container{
   max-width: 1300px;
-  padding-bottom: var(--general-spacing);
+  padding-bottom: var(--default-spacing);
 }
 
 .grid-container {
@@ -227,7 +227,7 @@ header {
 }
 
 #socials {
-  padding-top: var(--general-spacing);
+  padding-top: var(--default-spacing);
 }
 
 #toggleTheme {
@@ -238,6 +238,14 @@ header {
 /* MOBILE */
 
 @media (max-width: 799px) {
+  #title, h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
   p, li, table, pre, button {
     font-size: 1.2rem;
   }
@@ -258,15 +266,7 @@ header {
     max-width: var(--sm-paragraph);
   }
 
-  #title, h1 {
-    font-size: 3rem;
-  }
-
-  h2 {
-    font-size: 2rem;
-  }
-
-  nav, footer, #home-main, .sec-container, .auto {
+  nav, footer, #home-main, .sec-container, .post {
     margin-inline: var(--sm-spacing);
   }
 }
@@ -279,8 +279,8 @@ header {
     background-image: none;
   }
 
-  nav, footer, #home-main, .sec-container, .auto {
-    margin-inline: var(--general-spacing);
+  nav, footer, #home-main, .sec-container, .post {
+    margin-inline: var(--default-spacing);
   }
 
   .post {
