@@ -131,7 +131,6 @@ nav, footer, #home-main {
   margin-inline: var(--default-spacing);
 }
 
-/* TODO: rename this? */
 .nav-list {
   align-items: center;
 }
