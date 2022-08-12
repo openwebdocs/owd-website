@@ -116,6 +116,10 @@ main:not(#team) {
   max-width: var(--xl-paragraph);
 }
 
+.pull {
+  margin-right: auto;
+}
+
 /* COMPONENTS */
 nav span {
   display: flex;
