@@ -32,6 +32,12 @@ module.exports = function(eleventyConfig) {
 
 };
 
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+
+module.exports = function(eleventyConfig) {
+  eleventyConfig.addPlugin(syntaxHighlight);
+};
+
 // const fs = require("fs");
 //
 // const { DateTime } = require("luxon");

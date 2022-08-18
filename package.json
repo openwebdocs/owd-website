@@ -9,5 +9,9 @@
     "serve": "npx @11ty/eleventy --serve",
     "start": "npx @11ty/eleventy --serve",
     "debug": "DEBUG=* npx @11ty/eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^4.1.0"
   }
 }
