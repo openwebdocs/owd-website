@@ -206,7 +206,7 @@ nav, footer, #home-main {
 }
 
 #socials {
-  padding-top: var(--default-spacing);
+  padding-top: var(--nested-spacing);
 }
 
 /* MOBILE */
