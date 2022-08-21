@@ -1,7 +1,9 @@
 {% extends "layouts/default.njk" %}
 
-<article class="post auto xl-paragraph">
+{% block content %}
+  <article class="post auto xl-paragraph">
     <h1>{{ title }}</h1>
     <p class="byline">{{ date }} - {{ author }}</p>
     {{ content | safe }}
-</article>
+  </article>
+{% endblock %}

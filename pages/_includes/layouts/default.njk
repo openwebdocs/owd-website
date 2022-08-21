@@ -60,7 +60,9 @@
 
     <div class="body {{bodyClass}}">
 
-      {{ content | safe }}
+      {% block content %}
+        {{ content | safe }}
+      {% endblock %}
 
       <footer class="sec-footer">
         <div class="socials">
