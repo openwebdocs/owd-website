@@ -173,6 +173,11 @@ nav,
   align-items: center;
 }
 
+.footer-sponsors-list .nav-list {
+  margin-bottom: 0;
+  padding-bottom: var(--nested-spacing);
+}
+
 .sec-container {
   max-width: 1300px;
   padding-bottom: var(--default-spacing);
@@ -200,7 +205,7 @@ nav,
   padding-left: var(--nested-spacing);
 }
 
-#home-bg {
+.home-bg {
   background-image: url("../img/svg-wave-bg.svg");
   background-size: cover;
   background-repeat: no-repeat;

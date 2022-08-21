@@ -1,9 +1,7 @@
-{% include "../partials/header.njk" %}
+{% extends "layouts/default.njk" %}
 
-    <article class="post auto xl-paragraph">
-        <h1>{{ title }}</h1>
-        <p>{{ author }}</p>
-        {{ content | safe }}
-    </article>
-
-{% include "../partials/footer.njk" %}
+<article class="post auto xl-paragraph">
+    <h1>{{ title }}</h1>
+    <p>{{ author }}</p>
+    {{ content | safe }}
+</article>
