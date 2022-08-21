@@ -30,9 +30,10 @@ body {
 
 /* TRANSITIONS */
 
-a,
-a.btn,
-button {
+body.loaded,
+body.loaded a,
+body.loaded a.btn,
+body.loaded button {
   transition: color 0.2s, background-color 0.2s;
 }
 
@@ -163,7 +164,6 @@ nav span {
 }
 
 nav,
-footer,
 #home-main {
   margin-inline: var(--default-spacing);
   padding-bottom: var(--default-spacing);
@@ -221,8 +221,9 @@ footer,
   list-style: initial;
 }
 
-#socials {
+footer {
   padding-top: var(--nested-spacing);
+  padding-bottom: var(--default-spacing);
 }
 
 /* MOBILE */
@@ -262,7 +263,6 @@ footer,
   }
 
   nav,
-  footer,
   #home-main,
   .sec-container,
   .post {
@@ -274,7 +274,6 @@ footer,
 
 @media (min-width: 800px) and (max-width: 1299px) {
   nav,
-  footer,
   #home-main,
   .sec-container,
   .post {
