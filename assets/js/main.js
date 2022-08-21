@@ -1,10 +1,3 @@
-const toggleThemeBtn = document.getElementById("toggleTheme");
-const toggleLogo = document.getElementById("logo");
-const gitHubLogoList = document.getElementsByClassName("gh");
-const metaLogoList = document.getElementsByClassName("meta");
-const mozLogo = document.getElementById("moz");
-const samLogo = document.getElementById("sam");
-
 function getCurrentTheme() {
   return (
     document.body.dataset.theme ||
@@ -23,41 +16,23 @@ function setTheme() {
 }
 
 function assignEls() {
-  if (getCurrentTheme() === "dark") {
-    assignDarkThemeEl();
-  } else {
-    assignLightThemeEl();
-  }
-}
+  const theme = getCurrentTheme();
 
-function assignDarkThemeEl() {
-  toggleThemeBtn.innerText = "Go Light 🌞";
-  toggleLogo.src = "/img/webdocs_logo_dark.svg";
-  if (window.location.pathname == "/team/") {
-    mozLogo.src = "/img/mozilla-light.png";
-    samLogo.src = "/img/samsung-light.png";
-  }
-  for (let i in gitHubLogoList) {
-    gitHubLogoList[i].src = "/img/github-light.png";
-  }
-  for (let i in metaLogoList) {
-    metaLogoList[i].src = "/img/meta-dark.svg";
-  }
-}
+  document.getElementById("toggleTheme").innerText =
+    theme === "dark" ? "Go Light 🌞" : "Go Dark 🌚";
 
-function assignLightThemeEl() {
-  toggleThemeBtn.innerText = "Go Dark 🌚";
-  toggleLogo.src = "/img/webdocs_logo_light.svg";
-  if (window.location.pathname == "/team/") {
-    mozLogo.src = "/img/mozilla-dark.png";
-    samLogo.src = "/img/samsung-dark.png";
-  }
-
-  for (let i in gitHubLogoList) {
-    gitHubLogoList[i].src = "/img/github-dark.png";
-  }
-  for (let i in metaLogoList) {
-    metaLogoList[i].src = "/img/meta-light.svg";
+  const imgs = document.querySelectorAll("img");
+  for (let img of imgs) {
+    if (theme === "light") {
+      if (img.dataset.lightsrc) {
+        img.dataset.darksrc = img.src;
+        img.src = img.dataset.lightsrc;
+      }
+    } else {
+      if (img.dataset.darksrc) {
+        img.src = img.dataset.darksrc;
+      }
+    }
   }
 }
 
@@ -67,7 +42,7 @@ setTheme();
 window.onload = function () {
   assignEls();
 
-  toggleThemeBtn.addEventListener("click", function () {
+  document.getElementById("toggleTheme").addEventListener("click", function () {
     const isDark = document.body.dataset.theme == "dark";
     document.body.dataset.theme = isDark ? "light" : "dark";
 
