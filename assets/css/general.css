@@ -25,6 +25,26 @@
 body {
   font-family: sans-serif;
   font-weight: 500;
+  margin: 0;
+}
+
+/* TRANSITIONS */
+
+a, a.btn, button {
+  transition: color 0.2s, background-color 0.2s;
+}
+
+#socials  img.icon {
+  transform: scale(1);
+  transition: transform 0.2s;
+}
+
+#socials img.icon:hover, #socials img.icon:focus {
+  transform: scale(1.2);
+}
+
+#socials img.icon:hover:active, #socials img.icon:focus:active {
+  transform: scale(1.1);
 }
 
 /* TYPOGRAPHY */
@@ -56,6 +76,7 @@ p, li, table, pre, button {
 #title {
   font-size: 5rem;
   max-width: 23ch;
+  margin-top: 0;
 }
 
 .post-item-title {
@@ -129,6 +150,7 @@ nav span {
 
 nav, footer, #home-main {
   margin-inline: var(--default-spacing);
+  padding-bottom: var(--default-spacing);
 }
 
 .nav-list {
@@ -166,7 +188,9 @@ nav, footer, #home-main {
   background-image: url("../img/svg-wave-bg.svg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position-x: right;
   background-position-y: 70%;
+  padding-top: 1em;
 }
 
 #logo {
@@ -224,10 +248,6 @@ nav, footer, #home-main {
 /* TABLETS */
 
 @media (min-width: 800px) and (max-width: 1299px) {
-
-  #home-bg {
-    background-image: none;
-  }
 
   nav, footer, #home-main, .sec-container, .post {
     margin-inline: var(--default-spacing);
