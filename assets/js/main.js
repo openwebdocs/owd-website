@@ -18,14 +18,16 @@ function getCurrentTheme() {
 function setTheme() {
   const theme = getCurrentTheme();
 
-  if (theme === "dark") {
+  document.body.dataset.theme = theme;
+  localStorage.setItem("theme", theme);
+}
+
+function assignEls() {
+  if (getCurrentTheme() === "dark") {
     assignDarkThemeEl();
   } else {
     assignLightThemeEl();
   }
-
-  document.body.dataset.theme = theme;
-  localStorage.setItem("theme", theme);
 }
 
 function assignDarkThemeEl() {
@@ -59,17 +61,22 @@ function assignLightThemeEl() {
   }
 }
 
-// Set the data-theme attr and update local storage
+// Set the data-theme attr and update local storage before document loads
 setTheme();
 
-toggleThemeBtn.addEventListener("click", function () {
-  const isDark = document.body.dataset.theme == "dark";
-  document.body.dataset.theme = isDark ? "light" : "dark";
+window.onload = function () {
+  assignEls();
 
-  setTheme();
-});
+  toggleThemeBtn.addEventListener("click", function () {
+    const isDark = document.body.dataset.theme == "dark";
+    document.body.dataset.theme = isDark ? "light" : "dark";
 
-setTimeout(() => {
-  // Prevent flash of dark while switching to light theme variables
-  document.body.classList.add("loaded");
-}, 1);
+    setTheme();
+    assignEls();
+  });
+
+  setTimeout(() => {
+    // Prevent flash of dark while switching to light theme variables
+    document.body.classList.add("loaded");
+  }, 1);
+};
