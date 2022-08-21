@@ -3,17 +3,13 @@ module.exports = function(eleventyConfig) {
   // Output directory: _site
   // input directory: src
 
-  // Copy `img/` to `_site/img`
-  eleventyConfig.addPassthroughCopy("img");
-
-  // Copy `css` to `_site/css`
-  eleventyConfig.addPassthroughCopy("css");
-
-    // Copy `js` to `_site/js`
-  eleventyConfig.addPassthroughCopy("js");
-
-   // Copy `js` to `_site/content`
-  eleventyConfig.addPassthroughCopy("content");
+  // Copy `assets/` to `_site`
+  eleventyConfig.addPassthroughCopy({
+    "assets/img": "img",
+    "assets/css": "css",
+    "assets/js": "js",
+    "assets/favicon.png": "favicon.png"
+  });
 
   eleventyConfig.setTemplateFormats([
     // Templates:
@@ -29,6 +25,12 @@ module.exports = function(eleventyConfig) {
   // eleventyConfig.addCollection("postList", (collection) => {
   //   return collection.getFilteredByTag("post");
   // });
+
+  return {
+    dir: {
+      input: "pages"
+    }
+  }
 
 };
 
