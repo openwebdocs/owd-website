@@ -16,9 +16,9 @@ module.exports = function (eleventyConfig) {
     "njk",
     "md",
     // Static Assets:
-    // "css",
-    // "png",
-    // "svg",
+    "png",
+    "jpg",
+    "svg",
   ]);
 
   // eleventyConfig.addCollection("postList", (collection) => {
