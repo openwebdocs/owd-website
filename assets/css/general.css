@@ -93,6 +93,11 @@ button {
   margin-top: 0;
 }
 
+.byline {
+  font-size: 1.2rem;
+  opacity: .5;
+}
+
 .post-item-title {
   margin: var(--zero);
   font-weight: 500;
