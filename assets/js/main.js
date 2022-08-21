@@ -8,11 +8,8 @@ function getCurrentTheme() {
   );
 }
 
-function setTheme() {
-  const theme = getCurrentTheme();
-
+function setThemeAttr(theme) {
   document.body.dataset.theme = theme;
-  localStorage.setItem("theme", theme);
 }
 
 function assignEls() {
@@ -37,16 +34,18 @@ function assignEls() {
 }
 
 // Set the data-theme attr and update local storage before document loads
-setTheme();
+setThemeAttr(getCurrentTheme());
 
 window.onload = function () {
   assignEls();
 
   document.getElementById("toggleTheme").addEventListener("click", function () {
     const isDark = document.body.dataset.theme == "dark";
-    document.body.dataset.theme = isDark ? "light" : "dark";
+    const newTheme = isDark ? "light" : "dark";
 
-    setTheme();
+    localStorage.setItem("theme", newTheme);
+    setThemeAttr(newTheme);
+
     assignEls();
   });
 
