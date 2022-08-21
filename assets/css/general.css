@@ -6,7 +6,7 @@
 
   /* SPACING */
   --default-spacing: 2rem;
-  --nested-spacing: .5rem;
+  --nested-spacing: 0.5rem;
   --zero: 0;
   --gap-spacing: var(--default-spacing);
   --ul-drop: var(--default-spacing);
@@ -30,26 +30,35 @@ body {
 
 /* TRANSITIONS */
 
-a, a.btn, button {
+a,
+a.btn,
+button {
   transition: color 0.2s, background-color 0.2s;
 }
 
-#socials  img.icon {
+#socials img.icon {
   transform: scale(1);
   transition: transform 0.2s;
 }
 
-#socials img.icon:hover, #socials img.icon:focus {
+#socials img.icon:hover,
+#socials img.icon:focus {
   transform: scale(1.2);
 }
 
-#socials img.icon:hover:active, #socials img.icon:focus:active {
+#socials img.icon:hover:active,
+#socials img.icon:focus:active {
   transform: scale(1.1);
 }
 
 /* TYPOGRAPHY */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Work Sans', 'sans-serif';
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Work Sans", "sans-serif";
 }
 
 h1 {
@@ -68,7 +77,11 @@ h4 {
   font-size: 2rem;
 }
 
-p, li, table, pre, button {
+p,
+li,
+table,
+pre,
+button {
   font-size: 1.5rem;
   line-height: 1.5;
 }
@@ -85,7 +98,7 @@ p, li, table, pre, button {
 }
 
 .mid-paragraph {
-  max-width: var(--mid-paragraph)
+  max-width: var(--mid-paragraph);
 }
 
 .center-text {
@@ -124,7 +137,8 @@ iframe {
   padding: var(--nested-spacing);
 }
 
-th, td {
+th,
+td {
   padding: var(--nested-spacing);
 }
 
@@ -148,7 +162,9 @@ nav span {
   align-content: center;
 }
 
-nav, footer, #home-main {
+nav,
+footer,
+#home-main {
   margin-inline: var(--default-spacing);
   padding-bottom: var(--default-spacing);
 }
@@ -157,7 +173,7 @@ nav, footer, #home-main {
   align-items: center;
 }
 
-.sec-container{
+.sec-container {
   max-width: 1300px;
   padding-bottom: var(--default-spacing);
 }
@@ -212,7 +228,8 @@ nav, footer, #home-main {
 /* MOBILE */
 
 @media (max-width: 799px) {
-  #title, h1 {
+  #title,
+  h1 {
     font-size: 3rem;
   }
 
@@ -220,7 +237,11 @@ nav, footer, #home-main {
     font-size: 2rem;
   }
 
-  p, li, table, pre, button {
+  p,
+  li,
+  table,
+  pre,
+  button {
     font-size: 1.2rem;
   }
 
@@ -232,7 +253,7 @@ nav, footer, #home-main {
     background-image: none;
   }
 
-  .post img{
+  .post img {
     max-width: 25rem;
   }
 
@@ -240,7 +261,11 @@ nav, footer, #home-main {
     max-width: var(--sm-paragraph);
   }
 
-  nav, footer, #home-main, .sec-container, .post {
+  nav,
+  footer,
+  #home-main,
+  .sec-container,
+  .post {
     margin-inline: var(--sm-spacing);
   }
 }
@@ -248,8 +273,11 @@ nav, footer, #home-main {
 /* TABLETS */
 
 @media (min-width: 800px) and (max-width: 1299px) {
-
-  nav, footer, #home-main, .sec-container, .post {
+  nav,
+  footer,
+  #home-main,
+  .sec-container,
+  .post {
     margin-inline: var(--default-spacing);
   }
 

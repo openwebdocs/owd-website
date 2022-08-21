@@ -1,5 +1,4 @@
-
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
   // Output directory: _site
   // input directory: src
 
@@ -8,7 +7,7 @@ module.exports = function(eleventyConfig) {
     "assets/img": "img",
     "assets/css": "css",
     "assets/js": "js",
-    "assets/favicon.png": "favicon.png"
+    "assets/favicon.png": "favicon.png",
   });
 
   eleventyConfig.setTemplateFormats([
@@ -28,10 +27,9 @@ module.exports = function(eleventyConfig) {
 
   return {
     dir: {
-      input: "pages"
-    }
-  }
-
+      input: "pages",
+    },
+  };
 };
 
 // const fs = require("fs");
