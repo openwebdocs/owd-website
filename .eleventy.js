@@ -1,6 +1,8 @@
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+
 module.exports = function (eleventyConfig) {
   // Output directory: _site
-  // input directory: src
+  // input directory: pages
 
   // Copy `assets/` to `_site`
   eleventyConfig.addPassthroughCopy({
@@ -20,6 +22,9 @@ module.exports = function (eleventyConfig) {
     "jpg",
     "svg",
   ]);
+
+  // Add syntax highlighting
+  eleventyConfig.addPlugin(syntaxHighlight);
 
   // eleventyConfig.addCollection("postList", (collection) => {
   //   return collection.getFilteredByTag("post");

@@ -19,7 +19,7 @@ In 2020, MDN replaced the old Wiki with a new platform in which the source for t
 
 For technical writers, HTML is hard to write and hard to review. It's easy to make mistakes like missing closing tags or getting the nesting wrong, and it's hard for reviewers to spot these kinds of mistakes. Also, we had to escape HTML tags in any example code we wrote, which is difficult and error-prone. For example, here's a code sample from the page on [`<dl>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl):
 
-```
+```html
 <pre class="brush: html">&lt;dl&gt;
   &lt;dt&gt;Name&lt;/dt&gt;
   &lt;dd&gt;Godzilla&lt;/dd&gt;
@@ -37,7 +37,7 @@ In practice, this makes writers concentrate so much on the markup that it's hard
 
 Also, authors were faced with the result of 15 years of people pasting rich content into the WYSIWYG editor, resulting in source like this:
 
-```
+```html
 <pre class="brush: js"><span class="kd">const</span> <span class="nx">element</span>
 <span class="o">=</span> <span class="nx">driver</span><span class="p">.</span>
 <span class="nx">findElement</span><span class="p">(</span><span class="nx">By</span>
@@ -106,7 +106,7 @@ From there we were at about 70% converted, and gradually worked through the rest
 
 Looking back from where we are now, we're really happy to be in Markdown. That code sample for `<dl>` we quoted at the start:
 
-```
+```html
 <pre class="brush: html">&lt;dl&gt;
   &lt;dt&gt;Name&lt;/dt&gt;
   &lt;dd&gt;Godzilla&lt;/dd&gt;
@@ -123,7 +123,7 @@ Looking back from where we are now, we're really happy to be in Markdown. That c
 now [looks like this](https://github.com/mdn/content/blob/43e6201e3ce12498ddeb4ec47b68b37c41d66430/files/en-us/web/html/element/dl/index.md?plain=1#L169-L180):
 
 
-````
+````md
 ```html
 <dl>
   <dt>Name</dt>
@@ -140,7 +140,7 @@ now [looks like this](https://github.com/mdn/content/blob/43e6201e3ce12498ddeb4e
 
 The code sample quoted above that used to look like this:
 
-```
+```html
 <pre class="brush: js"><span class="kd">const</span> <span class="nx">element</span>
 <span class="o">=</span> <span class="nx">driver</span><span class="p">.</span>
 <span class="nx">findElement</span><span class="p">(</span><span class="nx">By</span>
@@ -150,7 +150,7 @@ The code sample quoted above that used to look like this:
 
 now [looks like this](https://github.com/mdn/content/blob/43e6201e3ce12498ddeb4ec47b68b37c41d66430/files/en-us/learn/tools_and_testing/cross_browser_testing/your_own_automation_environment/index.md?plain=1#L294-L296):
 
-````
+````md
 ```js
 const element = driver.findElement(By.id('myElementId'));
 ```
