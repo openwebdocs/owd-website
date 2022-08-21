@@ -148,8 +148,12 @@ ul {
   list-style-type: none;
 }
 
-main:not(#team) {
+main:not(#team):not(#donate) {
   max-width: var(--xl-paragraph);
+}
+
+main#donate {
+  margin: auto;
 }
 
 .pull {
