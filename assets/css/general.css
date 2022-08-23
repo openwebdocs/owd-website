@@ -138,11 +138,6 @@ iframe {
   margin-inline: auto;
 }
 
-.post ul {
-  margin-left: var(--ul-drop);
-  list-style: initial;
-}
-
 .post ul li {
   padding: var(--nested-spacing);
 }
@@ -152,7 +147,7 @@ td {
   padding: var(--nested-spacing);
 }
 
-ul {
+ul.flex-container, ul.grid-container {
   padding: var(--zero);
   list-style-type: none;
 }
@@ -246,6 +241,21 @@ footer {
   margin-left: -1em;
 }
 
+.sponsor {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.sponsor .logo {
+  height: 5rem;
+}
+
+.sponsor .name {
+  margin: 0 0 0 1rem;
+  font-size: 2rem;
+}
+
 /* MOBILE */
 
 @media (max-width: 799px) {
@@ -304,3 +314,4 @@ footer {
     max-width: var(--l-paragraph);
   }
 }
+
