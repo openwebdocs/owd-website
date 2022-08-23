@@ -1,13 +1,10 @@
 ---
+author: "Open Web Docs staff"
 title: "Open Web Docs Impact and Transparency Report 2021"
 date: "2022-02-11"
 ShowToc: true
 ShowBreadCrumbs: false
 ---
-
-By Florian Scholz, Will Bamberg, Jean-Yves Perrier, Estelle Weyl, Jory Burson
-
-October 2021, updated January 2022
 
 ## Executive Summary
 
