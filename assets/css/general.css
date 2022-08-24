@@ -117,10 +117,6 @@ button {
 
 /* GENERAL */
 
-.body {
-  padding: 0 1em;
-}
-
 pre {
   overflow-wrap: break-word;
   white-space: pre-wrap;
