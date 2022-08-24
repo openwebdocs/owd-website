@@ -39,7 +39,7 @@ window.onload = () => {
   // Set the selected theme in the theme selection dropdown
   document
     .querySelector(
-      `#toggleTheme ul li[data-value="${localStorage.getItem("theme")}"]`
+      `#toggleTheme ul li[data-value="${localStorage.getItem("theme") || ''}"]`
     )
     .classList.add("selected");
 
