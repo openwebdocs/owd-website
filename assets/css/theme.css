@@ -69,7 +69,7 @@ a:hover {
   color: var(--background);
 }
 
-#toggleTheme ul li:hover {
+#toggleTheme ul li:not(.selected):hover {
   background-color: var(--button-bg-hover);
 }
 

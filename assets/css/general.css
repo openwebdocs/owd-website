@@ -190,15 +190,15 @@ nav,
 }
 
 #toggleTheme ul {
+  position: absolute;
   display: none;
-  padding: 0.5em;
   border-radius: var(--border-radius);
   box-shadow: 0 0 10px black;
+  text-align: right;
 }
 
 #toggleTheme:hover ul,
 #toggleTheme ul:hover {
-  position: absolute;
   display: block;
 }
 
