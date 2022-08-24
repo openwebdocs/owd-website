@@ -52,11 +52,13 @@ a:hover {
   border-radius: 5px;
   padding: var(--btn-padding);
   border: none;
+  text-decoration: none;
 }
 
 .btn:hover {
   color: var(--link);
   background-color: var(--background);
+  text-decoration: revert;
 }
 
 #toggleTheme {
