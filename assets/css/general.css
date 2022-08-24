@@ -172,6 +172,12 @@ nav span {
   align-content: center;
 }
 
+[id="toggleTheme"] {
+  position: absolute;
+  top: var(--nested-spacing);
+  right: var(--default-spacing);
+}
+
 nav,
 #home-main {
   margin-inline: var(--default-spacing);
