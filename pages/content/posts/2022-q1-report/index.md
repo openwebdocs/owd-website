@@ -4,6 +4,7 @@ title: "Open Web Docs 2022 Q1 report"
 date: "2022-04-20"
 ShowToc: true
 ShowBreadCrumbs: false
+excerpt: "An update on our work in the first quarter of 2022."
 ---
 
 This report provides an update on Open Web Docs for the first quarter of 2022. It’s split into the following parts:
