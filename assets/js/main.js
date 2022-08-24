@@ -12,6 +12,15 @@ function setThemeAttr(theme) {
   document.body.dataset.theme = theme;
 }
 
+function prepareImgs() {
+  const imgs = document.querySelectorAll("img");
+  for (let img of imgs) {
+    if (img.dataset.lightsrc) {
+      img.dataset.darksrc = img.src;
+    }
+  }
+}
+
 function assignEls() {
   const theme = getCurrentTheme();
 
@@ -19,7 +28,6 @@ function assignEls() {
   for (let img of imgs) {
     if (theme === "light") {
       if (img.dataset.lightsrc) {
-        img.dataset.darksrc = img.src;
         img.src = img.dataset.lightsrc;
       }
     } else {
@@ -34,12 +42,13 @@ function assignEls() {
 setThemeAttr(getCurrentTheme());
 
 window.onload = () => {
+  prepareImgs();
   assignEls();
 
   // Set the selected theme in the theme selection dropdown
   document
     .querySelector(
-      `#toggleTheme ul li[data-value="${localStorage.getItem("theme") || ''}"]`
+      `#toggleTheme ul li[data-value="${localStorage.getItem("theme") || ""}"]`
     )
     .classList.add("selected");
 
