@@ -117,10 +117,6 @@ button {
 
 /* GENERAL */
 
-.body {
-  padding: 0 1em;
-}
-
 pre {
   overflow-wrap: break-word;
   white-space: pre-wrap;
@@ -169,6 +165,12 @@ nav span {
   display: flex;
   margin-right: auto;
   align-content: center;
+}
+
+[id="toggleTheme"] {
+  position: absolute;
+  top: var(--nested-spacing);
+  right: var(--default-spacing);
 }
 
 nav,
