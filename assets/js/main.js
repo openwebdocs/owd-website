@@ -15,9 +15,6 @@ function setThemeAttr(theme) {
 function assignEls() {
   const theme = getCurrentTheme();
 
-  document.getElementById("toggleTheme").innerText =
-    theme === "dark" ? "Go Light 🌞" : "Go Dark 🌚";
-
   const imgs = document.querySelectorAll("img");
   for (let img of imgs) {
     if (theme === "light") {
@@ -36,17 +33,32 @@ function assignEls() {
 // Set the data-theme attr and update local storage before document loads
 setThemeAttr(getCurrentTheme());
 
-window.onload = function () {
+window.onload = () => {
   assignEls();
 
-  document.getElementById("toggleTheme").addEventListener("click", function () {
-    const isDark = document.body.dataset.theme == "dark";
-    const newTheme = isDark ? "light" : "dark";
+  // Set the selected theme in the theme selection dropdown
+  document
+    .querySelector(
+      `#toggleTheme ul li[data-value="${localStorage.getItem("theme")}"]`
+    )
+    .classList.add("selected");
 
-    localStorage.setItem("theme", newTheme);
-    setThemeAttr(newTheme);
+  // Attach selector logic
+  const themeToggleEls = Array.from(
+    document.getElementById("toggleTheme").children[0].children
+  );
+  themeToggleEls.forEach((el) => {
+    el.addEventListener("click", () => {
+      const newTheme = el.dataset.value;
 
-    assignEls();
+      localStorage.setItem("theme", newTheme);
+      setThemeAttr(newTheme);
+
+      themeToggleEls.forEach((e) => e.classList.remove("selected"));
+      el.classList.add("selected");
+
+      assignEls();
+    });
   });
 
   setTimeout(() => {

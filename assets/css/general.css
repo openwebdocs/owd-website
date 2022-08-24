@@ -3,6 +3,7 @@
 :root {
   /* BORDERS */
   --underline: underline;
+  --border-radius: 5px;
 
   /* SPACING */
   --default-spacing: 2rem;
@@ -33,7 +34,9 @@ body {
 body.loaded,
 body.loaded a,
 body.loaded a.btn,
-body.loaded button {
+body.loaded button,
+#toggleTheme ul,
+#toggleTheme ul li {
   transition: color 0.2s, background-color 0.2s;
 }
 
@@ -87,6 +90,10 @@ button {
   line-height: 1.5;
 }
 
+.btn {
+  border-radius: var(--border-radius);
+}
+
 #title {
   font-size: 5rem;
   max-width: 23ch;
@@ -95,7 +102,7 @@ button {
 
 .byline {
   font-size: 1.2rem;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .post-item-title {
@@ -180,6 +187,25 @@ nav,
 
 .nav-list {
   align-items: center;
+}
+
+#toggleTheme ul {
+  display: none;
+  padding: 0.5em;
+  border-radius: var(--border-radius);
+  box-shadow: 0 0 10px black;
+}
+
+#toggleTheme:hover ul,
+#toggleTheme ul:hover {
+  position: absolute;
+  display: block;
+}
+
+#toggleTheme ul li {
+  padding: 0.25em 0.5em;
+  border-radius: var(--border-radius);
+  cursor: pointer;
 }
 
 .footer-sponsors-list .nav-list {
