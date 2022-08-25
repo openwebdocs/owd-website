@@ -9,7 +9,8 @@ module.exports = function (eleventyConfig) {
     "assets/img": "img",
     "assets/css": "css",
     "assets/js": "js",
-    "assets/favicon.png": "favicon.png",
+    "assets/favicon": "favicon",
+    "assets/manifest.json": "manifest.json",
   });
 
   eleventyConfig.setTemplateFormats([
