@@ -1,10 +1,14 @@
+function queryPrefersColorScheme() {
+  return window.matchMedia("(prefers-color-scheme: light)").matches
+    ? "light"
+    : "dark";
+}
+
 function getCurrentTheme() {
   return (
     document.body.dataset.theme ||
     localStorage.getItem("theme") ||
-    (window.matchMedia("(prefers-color-scheme: light)").matches
-      ? "light"
-      : "dark")
+    queryPrefersColorScheme()
   );
 }
 
@@ -61,7 +65,7 @@ window.onload = () => {
       const newTheme = el.dataset.value;
 
       localStorage.setItem("theme", newTheme);
-      setThemeAttr(newTheme);
+      setThemeAttr(newTheme || queryPrefersColorScheme());
 
       themeToggleEls.forEach((e) => e.classList.remove("selected"));
       el.classList.add("selected");
