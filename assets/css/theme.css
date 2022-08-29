@@ -6,7 +6,6 @@
 
   /* COLORS: CONSTANT */
   --button-fg: white;
-  --button-bg: #9900a1;
   --accent-1: rgb(200 182 249);
   --accent-2: #f7f4fe00;
 
@@ -14,6 +13,8 @@
   --foreground: white;
   --background: #090057;
   --link: #ff61e5;
+  --button-bg: #9900a1;
+  --button-bg-hover: #6b0070;
 }
 
 [data-theme="light"] {
@@ -21,6 +22,8 @@
   --foreground: black;
   --background: white;
   --link: #9900a1;
+  --button-bg: #9900a1;
+  --button-bg-hover: #e000eb;
 }
 
 /* ELEMENTS */
@@ -49,21 +52,27 @@ a:hover {
 .btn {
   background-color: var(--button-bg);
   color: var(--button-fg);
-  border-radius: 5px;
   padding: var(--btn-padding);
   border: none;
   text-decoration: none;
 }
 
 .btn:hover {
-  color: var(--link);
+  background-color: var(--button-bg-hover);
+}
+
+#toggleTheme ul {
   background-color: var(--background);
   text-decoration: revert;
 }
 
-#toggleTheme {
-  text-decoration: var(--underline) var(--link);
-  cursor: pointer;
+#toggleTheme ul .selected {
+  background-color: var(--link);
+  color: var(--background);
+}
+
+#toggleTheme ul li:not(.selected):hover {
+  background-color: var(--button-bg-hover);
 }
 
 header {
