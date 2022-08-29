@@ -54,6 +54,7 @@ a:hover {
   color: var(--button-fg);
   padding: var(--btn-padding);
   border: none;
+  text-decoration: none;
 }
 
 .btn:hover {
@@ -62,6 +63,7 @@ a:hover {
 
 #toggleTheme ul {
   background-color: var(--background);
+  text-decoration: revert;
 }
 
 #toggleTheme ul .selected {

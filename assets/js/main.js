@@ -24,6 +24,9 @@ function prepareImgs() {
 function assignEls() {
   const theme = getCurrentTheme();
 
+  document.getElementById("toggleTheme").innerText =
+    theme === "dark" ? "Go Light 🌞" : "Go Dark 🌚";
+
   const imgs = document.querySelectorAll("img");
   for (let img of imgs) {
     if (theme === "light") {
