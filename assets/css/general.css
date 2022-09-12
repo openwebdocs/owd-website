@@ -108,6 +108,10 @@ button {
 .post-item-title {
   margin: var(--zero);
   font-weight: 500;
+  line-height: 1.4;
+}
+li h2 {
+  font-size: 2.5rem;
 }
 
 .mid-paragraph {
@@ -305,6 +309,9 @@ footer {
 
   h2 {
     font-size: 2rem;
+  }
+  li h2 {
+    font-size: 1.75rem;
   }
 
   p,
