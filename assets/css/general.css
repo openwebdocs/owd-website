@@ -334,10 +334,6 @@ footer {
     max-width: 25rem;
   }
 
-  .post-item {
-    max-width: var(--sm-paragraph);
-  }
-
   nav,
   #home-main,
   .sec-container,
