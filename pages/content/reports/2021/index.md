@@ -180,7 +180,7 @@ Committee](https://github.com/openwebdocs/project/blob/main/steering-committee/m
 of two representatives from each participating organization and the OWD
 staff team. The group holds weekly meetings for which
 [meeting notes are available throughout the
-year](https://github.com/openwebdocs/project/tree/main/steering-committee/meetings/2021).
+year](https://github.com/openwebdocs/project/tree/main/steering-committee/meetings/).
 The OWD Steering Committee operates in the open with
 [vendor neutral prioritization
 criteria](https://github.com/openwebdocs/project/blob/main/steering-committee/prioritization-criteria.md) and
