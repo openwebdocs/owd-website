@@ -299,6 +299,12 @@ footer {
   font-size: 2rem;
 }
 
+.sponsors-link {
+  color: var(--foreground);
+}
+.sponsors-link:hover {
+  color: var(--link);
+}
 /* MOBILE */
 
 @media (max-width: 799px) {
