@@ -18,7 +18,7 @@ Carle, pronounced *kahr-lee*, the OWD mascot, was designed by [Vladimir Grigorie
 
 While Carle is usually smiling, she has five other facial reactions, enabling using slightly modified logos with different moods for different purposes. Her main color is a fantastic purple orchid, #B448FF.
 
-<img width="400" alt="Carle the bookworm with six different facial expressions" src="https://user-images.githubusercontent.com/69888/192943190-9b938307-4084-49e5-86c6-0b270e09f6ad.png">
+<img width="400" alt="Carle the bookworm with six different facial expressions" src="/assets/img/sixworms.png">
 
 Using the new logo, the [OpenCollective OWD site](https://opencollective.com/open-web-docs), and the purple orchid color as a starting point, Lola built OWD a new site in [11ty](https://www.11ty.dev/), creating a site with both light and dark themes. Lola claims not to be a designer. We beg to differ. Her two themes are fantastic. The light theme has a lot of white space, is simple and friendly, and is easy to navigate. The dark theme is too. But, unlike many dark site versions, the colors aren’t inverted. Rather, the dark theme uses several gorgeous shades of purple.
 
