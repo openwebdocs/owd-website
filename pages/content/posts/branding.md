@@ -1,4 +1,12 @@
-# Announcing the launch of our new logo and website
+---
+author: "OWD team"
+title: "Announcing the launch of our new logo and website"
+date: "2022-10-03"
+tags: ["announcements"]
+ShowToc: false
+ShowBreadCrumbs: false
+excerpt: "Introducing a website redesign and a new logo, featuring Carle the bookworm"
+---
 
 Open Web Docs is pleased to announce the launch of a new website, a new logo, and Carle, the new Open Web Docs mascot.
 
