@@ -116,7 +116,6 @@ li h2 {
 
 h2 + small {
   opacity: 50%;
-  font-style: italic;
 }
 
 .mid-paragraph {
