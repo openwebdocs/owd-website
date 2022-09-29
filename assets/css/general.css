@@ -114,6 +114,10 @@ li h2 {
   font-size: 2.5rem;
 }
 
+h2 + small {
+  opacity: 50%;
+}
+
 .mid-paragraph {
   max-width: var(--mid-paragraph);
 }
