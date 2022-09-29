@@ -30,5 +30,5 @@ We will continue to update our site with helpful information, articles, announce
 
 We would like to thank Lola and Vladimir who gave their time, energy, and talents to make this site and our branding what it is.
 
-For any questions, suggestions, feedback, or comments, please send us questions via the [Open Collective contact form](https://opencollective.com/open-web-docs/contact), love on [Twitter](https://twitter.com/OpenWebDocs), website feedback via [github](https://github.com/openwebdocs/owd-website/) or content ideas via our [project proposal form](https://github.com/openwebdocs/project/issues/new?assignees=&labels=not+ready&template=owd-project.yml).
+For any questions, suggestions, feedback, or comments, please send us questions via the [Open Collective contact form](https://opencollective.com/open-web-docs/contact), love on [Twitter](https://twitter.com/OpenWebDocs), website feedback via [GitHub](https://github.com/openwebdocs/owd-website/) or content ideas via our [project proposal form](https://github.com/openwebdocs/project/issues/new?assignees=&labels=not+ready&template=owd-project.yml).
 
