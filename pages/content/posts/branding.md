@@ -1,7 +1,7 @@
 ---
 author: "OWD team"
 title: "Announcing the launch of our new logo and website"
-date: "2022-10-03"
+date: "2022-10-04"
 tags: ["announcements"]
 ShowToc: false
 ShowBreadCrumbs: false
