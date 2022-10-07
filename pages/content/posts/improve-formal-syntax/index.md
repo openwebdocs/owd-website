@@ -8,7 +8,7 @@ ShowBreadCrumbs: false
 excerpt: "How we made MDN's CSS formal syntax more readable and reliable, with the help of some great open source software packages."
 ---
 
-If you've spent much time with the CSS docs on MDN, you've probably seen the ["Formal syntax" section](https://developer.mozilla.org/en-US/docs/Web/CSS/background#formal_syntax) in the CSS property reference pages. When we ask developers what they think of this part of the docs, most of them say something like "I have no idea what this means". This used to be my reaction too, but now I think it can be extremely useful. CSS properties can have very complex syntax, and explaining it in prose can be really hard. Once you've learned a few rules, the formal syntax gives you a very precise description of the syntax in a very concise manner.
+If you've spent much time with the CSS docs on MDN, you've probably seen the ["Formal syntax" section](https://developer.mozilla.org/en-US/docs/Web/CSS/background#formal_syntax) in the CSS property reference pages. When we ask developers what they think of this part of the docs, most of them say something like "I have no idea what this means". This used to be my reaction too, but now I think it can be extremely useful. CSS properties can have complex syntax, and explaining it in prose can be really hard. Once you've learned a few rules, the formal syntax gives you a very precise description of the syntax in a very concise manner.
 
 Until recently, though, there were two big problems with the way MDN represented formal syntax.
 
