@@ -1,22 +1,22 @@
 ---
 author: "Will Bamberg"
-title: "Improving the CSS formal syntax"
-date: "2022-10-06"
+title: "Improving MDN's CSS formal syntax"
+date: "2022-10-11"
 tags: ["projects"]
 ShowToc: false
 ShowBreadCrumbs: false
-excerpt: "How we made the CSS formal syntax more readable and reliable, with the help of some great open source software packages."
+excerpt: "How we made MDN's CSS formal syntax more readable and reliable, with the help of some great open source software packages."
 ---
 
 If you've spent much time with our CSS docs, you've probably seen the "Formal syntax" section in the CSS property reference pages. When we ask developers what they think of this part of the docs, most of them say something like "I have no idea what this means". This used to be my reaction too, but now I think it can be extremely useful. CSS properties can have very complex syntax, and explaining it in prose can be really hard. Once you've learned a few rules, the formal syntax gives you a very precise description of the syntax in a very concise manner.
 
-Until recently, though, there were two big problems with the way we represented formal syntax.
+Until recently, though, there were two big problems with the way MDN represented formal syntax.
 
 The first problem was presentation: the macro that rendered the formal syntax as HTML tended to render it as a wall of text, making it hard to read and scarier than strictly necessary:
 
 ![Screenshot of old formal syntax rendering for the background property, showing it as a wall of text](images/formal-syntax-background-before.png)
 
-The second problem was about data quality. Although the formal syntax should match the syntax in the specifications, we maintained our own copy of the data in a separate repository, [mdn/data](https://github.com/mdn/data). We often weren’t able to keep this up to date with the specification, and as a result, users of MDN would see inaccurate or outdated syntax.
+The second problem was about data quality. Although the formal syntax should match the syntax in the specifications, MDN maintained its own copy of the data in a separate repository, [mdn/data](https://github.com/mdn/data). We often weren’t able to keep this up to date with the specification, and as a result, users of MDN would see inaccurate or outdated syntax.
 
 ## Enter css-tree and @webref/css
 
