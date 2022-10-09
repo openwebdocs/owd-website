@@ -1,6 +1,6 @@
 # Open Web Docs
 
-This is the codebase for [Open Web Docs](https://openwebdocs.com) built upon the [11ty](https://www.11ty.dev/) framework.
+This is the codebase for [Open Web Docs](https://openwebdocs.org) built upon the [11ty](https://www.11ty.dev/) framework.
 
 ## Setup
 
