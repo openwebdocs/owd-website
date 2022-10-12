@@ -1,4 +1,5 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function (eleventyConfig) {
   // Output directory: _site
@@ -26,6 +27,7 @@ module.exports = function (eleventyConfig) {
 
   // Add syntax highlighting
   eleventyConfig.addPlugin(syntaxHighlight);
+  eleventyConfig.addPlugin(pluginRss);
 
   // eleventyConfig.addCollection("postList", (collection) => {
   //   return collection.getFilteredByTag("post");
