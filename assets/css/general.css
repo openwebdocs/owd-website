@@ -90,6 +90,11 @@ button {
   line-height: 1.5;
 }
 
+blockquote {
+  border: 5px solid var(--foreground);
+  padding: var(--default-spacing)
+}
+
 .btn {
   border-radius: var(--border-radius);
 }

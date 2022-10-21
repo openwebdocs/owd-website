@@ -1,6 +1,16 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
+const markdownIt = require("markdown-it");
+const markdownItNamedHeadings = require("markdown-it-named-headings");
+
+const markdownOptions = {
+    html: true,
+    breaks: true,
+    linkify: true
+};
+const markdownRenderer = markdownIt(markdownOptions).use(markdownItNamedHeadings);
+
 module.exports = function (eleventyConfig) {
   // Output directory: _site
   // input directory: pages
@@ -32,6 +42,8 @@ module.exports = function (eleventyConfig) {
   // eleventyConfig.addCollection("postList", (collection) => {
   //   return collection.getFilteredByTag("post");
   // });
+
+  eleventyConfig.setLibrary("md", markdownRenderer);
 
   return {
     dir: {
