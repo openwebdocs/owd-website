@@ -7,15 +7,20 @@ ShowBreadCrumbs: false
 excerpt: "An update on our work in the third quarter of 2022."
 ---
 
-> In 2022 Q3, OWD:
-> - was again the main organization maintaining the [mdn/content](https://github.com/mdn/content) repository:
->   - made 1,945 reviews for PRs merged into mdn/content, 63% of all reviews.
->   - made 284.5 of the PRs made to mdn/content, 11% of the total and twice as many as any other organization.
-> - led projects to:
->   - update thousands of JS code samples in MDN to use modern practices.
->   - integrate markdownlint into the mdn/content repository.
->   - ensure MDN content and examples follow best practices.
-> - launched a website at [https://openwebdocs.org](https://openwebdocs.org) and Carle, the book worm, the new OWD logo.
+<div class="callout">
+
+In 2022 Q3, OWD:
+
+- was again the main organization maintaining the [mdn/content](https://github.com/mdn/content) repository:
+  - made 1,945 reviews for PRs merged into mdn/content, 63% of all reviews.
+  - made 284.5 of the PRs made to mdn/content, 11% of the total and twice as many as any other organization.
+- led projects to:
+  - update thousands of JS code samples in MDN to use modern practices.
+  - integrate markdownlint into the mdn/content repository.
+  - ensure MDN content and examples follow best practices.
+- launched a website at [https://openwebdocs.org](https://openwebdocs.org) and Carle, the book worm, the new OWD logo.
+
+</div>
 
 This report provides an update on Open Web Docs for Q3 2022. It’s split into the following parts:
 
@@ -29,10 +34,10 @@ Just like in 2021, the main focus of Open Web Docs in 2022 has been contributing
 
 This takes the form of contributions to the main content repositories under the [https://github.com/mdn](https://github.com/mdn) GitHub organization:
 
-* [mdn/content](https://github.com/mdn) : the main content repository for MDN Web Docs.
-* [mdn/browser-compat-data](https://github.com/mdn) : the source of browser compatibility data.
-* [mdn/learning-area](https://github.com/mdn) : examples supporting the MDN Learning Area.
-* [mdn/interactive-examples](https://github.com/mdn) : source for MDN’s interactive examples.
+- [mdn/content](https://github.com/mdn) : the main content repository for MDN Web Docs.
+- [mdn/browser-compat-data](https://github.com/mdn) : the source of browser compatibility data.
+- [mdn/learning-area](https://github.com/mdn) : examples supporting the MDN Learning Area.
+- [mdn/interactive-examples](https://github.com/mdn) : source for MDN’s interactive examples.
 
 # Impact
 
@@ -40,9 +45,9 @@ This takes the form of contributions to the main content repositories under the 
 
 MDN is an essential resource for web developers. It:
 
-* [has been cited from Stack Overflow more than 150,000 times in the last 5 years](https://meta.stackoverflow.com/questions/417189/which-sites-are-currently-linked-to-most-often-in-stack-overflow/417190#417190), #2 among all developer documentation sites.
-* was ranked #2 (behind Stack Overflow) in the [State of JS 2021](https://2021.stateofjs.com/en-US/resources/#sites_courses), and [State of CSS 2021](https://2021.stateofcss.com/en-US/resources/#sites_courses) surveys.
-* receives tens of millions of unique visitors every month.
+- [has been cited from Stack Overflow more than 150,000 times in the last 5 years](https://meta.stackoverflow.com/questions/417189/which-sites-are-currently-linked-to-most-often-in-stack-overflow/417190#417190), #2 among all developer documentation sites.
+- was ranked #2 (behind Stack Overflow) in the [State of JS 2021](https://2021.stateofjs.com/en-US/resources/#sites_courses), and [State of CSS 2021](https://2021.stateofcss.com/en-US/resources/#sites_courses) surveys.
+- receives tens of millions of unique visitors every month.
 
 It is therefore essential for the web developer community that MDN continues to be maintained and improved, and the core team continues to be supported in reviewing PRs from the contributor community.
 
@@ -50,20 +55,20 @@ It is therefore essential for the web developer community that MDN continues to 
 
 Open Web Docs is the most significant organization contributing to MDN content maintenance. Of the multiple MDN organization repositories supported by Open Web Docs, the busiest is **mdn/content**, which contains the source for MDN’s pages. This repository is extremely active:
 
-* mdn/content is the 5th most active repository on all of GitHub, as measured by the number of commits/month according to [https://git-pulse.github.io/snapshots/](https://git-pulse.github.io/snapshots/).
-* In Q3 2022, 2,607 PRs were merged into mdn/content from 535 unique contributors.
+- mdn/content is the 5th most active repository on all of GitHub, as measured by the number of commits/month according to [https://git-pulse.github.io/snapshots/](https://git-pulse.github.io/snapshots/).
+- In Q3 2022, 2,607 PRs were merged into mdn/content from 535 unique contributors.
 
 This report will demonstrate OWD’s contribution to the day-to-day maintenance of mdn/content with two metrics:
 
-* **Quarterly PRs merged to the mdn/content repository.**
-* **Quarterly number of reviews performed on each merged PR to the mdn/content repository.**
+- **Quarterly PRs merged to the mdn/content repository.**
+- **Quarterly number of reviews performed on each merged PR to the mdn/content repository.**
 
 Both these metrics contain contributions by OWD team members, other organizations that help maintain the repository, and volunteer contributors. Contribution metrics are divided into the following groups:
 
-* OWD staff
-* W3C staff (this is actually just Mike Smith)
-* Mozilla staff
-* Other (mostly volunteers, but also people paid by other organizations to work on MDN)
+- OWD staff
+- W3C staff (this is actually just Mike Smith)
+- Mozilla staff
+- Other (mostly volunteers, but also people paid by other organizations to work on MDN)
 
 As [@queengooborg](https://github.com/queengooborg) works for both OWD and Mozilla, her contributions have been evenly split between each organization.
 
@@ -113,19 +118,20 @@ During the 2010s, JavaScript evolved substantially as a language. The MDN Web Do
 
 MDN Web Docs' primary audience is web developers. We want to have examples that can be used in most professional projects. Not using ES6+ features in 2022 is problematic as:
 
-* Modern JavaScript is now easier to read and write.
-* Most projects use modern JavaScript or transpilers.
-* Some patterns used in the 2000s are now considered anti-patterns to avoid.
+- Modern JavaScript is now easier to read and write.
+- Most projects use modern JavaScript or transpilers.
+- Some patterns used in the 2000s are now considered anti-patterns to avoid.
 
 **In Q3 2022, we agreed which modern JS features to use on MDN, then applied them to most of our static examples.**
 
 We proceeded in three phases.
 
 1. First, we drove an open discussion to define JS features that are in common use now. The discussion was vivid and civil and was noticed in the JS community. The newsletter “JS Weekly” had a mention about it in one of its episodes, and 19 people participated in the discussion with a total of 81 messages; much more than usual MDN discussions. In that discussion, a consensus was reached about which JS features to use. Examples are, among other things:
-    - using `for…of` or `.forEach` instead of classic `for(;;)` structure,
-    - `let` and `const` instead of `var`
-    - template literals,
-    - arrow functions
+
+   - using `for…of` or `.forEach` instead of classic `for(;;)` structure,
+   - `let` and `const` instead of `var`
+   - template literals,
+   - arrow functions
 
 2. In the second phase, we applied what has been consensus to most static examples of MDN. _We created a community of contributors to help us_. With the help of XYZ contributors and XYZ PRs, we updated most static examples of MDN. We limited ourselves to the most common features, and this changed the way MDN examples are perceived: from old-style coding examples, they are now modern-style examples.
 3. Finally, the third phase consisted of updating MDN's JS coding guidelines. We also worked by consensus between all maintainers of MDN and created a single PR with 298 comments. This allowed us to communicate the new style to most maintainers but also to be able to refer to agreed conventions when divergences occur.
@@ -146,8 +152,8 @@ To simplify editing for writers, we want Markdownlint to autocorrect all what ca
 
 The challenge resides in integrating the linting with the two workflows:
 
-* Editing using the GitHub UI.
-* Editing locally and pushing the result via git.
+- Editing using the GitHub UI.
+- Editing locally and pushing the result via git.
 
 When editing locally, most editors (like VSCode) warn writers when they make an error. When using the online GitHub UI, there is no indication when a contributor doesn't follow the Markdownlint rules unfortunately.
 
@@ -169,18 +175,18 @@ As noted in the [value of MDN](#the-value-of-mdn), MDN is an essential resource 
 
 To this end, several objectives to reach this best practices goal, including (but not limited to).
 
-* Ensuring `<html>` elements are preceded by a doctype.
-* Ensuring `<html>` elements include a lang attribute
-* Including a  charset `<meta>` tag in all full header examples
-* Including the viewport `<meta>` tag in all full header examples
-* Ensure the `<abbr>` element is used correctly, removing the title attribute from the majority of occurrences.
-* Ensuring any included `<b>` and `<i>` elements are solely presentational in nature.
-* Removed browser prefixes from supported CSS properties; updating all examples that included prefixes.
-* Removed unnecessary type attributes, such as `type=”text/css”` and `type=”text/javascript”`.
-* Removed most references to HTML5 and CSS3, as both HTML and CSS are living standards without version numbers
+- Ensuring `<html>` elements are preceded by a doctype.
+- Ensuring `<html>` elements include a lang attribute
+- Including a charset `<meta>` tag in all full header examples
+- Including the viewport `<meta>` tag in all full header examples
+- Ensure the `<abbr>` element is used correctly, removing the title attribute from the majority of occurrences.
+- Ensuring any included `<b>` and `<i>` elements are solely presentational in nature.
+- Removed browser prefixes from supported CSS properties; updating all examples that included prefixes.
+- Removed unnecessary type attributes, such as `type=”text/css”` and `type=”text/javascript”`.
+- Removed most references to HTML5 and CSS3, as both HTML and CSS are living standards without version numbers
 
 Work is ongoing to ensure `<input>` examples that contain more than just the `type` attribute include recommended attributes, such as name and value on checkboxes, radio buttons, and hidden inputs and ensure examples that contain form controls have a label associated with the form control.
 
 At the beginning of the quarter, there were 404 empty alt attributes in markdown code, and over 100 images with either the name of the image as the alt attribute value or missing alt attributes in an HTML `<img>` code block. Open Web Docs crowd sourced fixing over 500 alt attributes. At the end of the quarter, there are less than 125 left.
 
-While working on the best practices goal, a lot of outdated content was discovered and updated. Many instances for  “when supported” and “new to the browser” language were deleted, and the surrounding content updated to remove any ‘experimental’ feel of well supported features.
+While working on the best practices goal, a lot of outdated content was discovered and updated. Many instances for “when supported” and “new to the browser” language were deleted, and the surrounding content updated to remove any ‘experimental’ feel of well supported features.
