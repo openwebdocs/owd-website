@@ -133,20 +133,20 @@ We proceeded in three phases.
    - template literals,
    - arrow functions
 
-2. In the second phase, we applied what has been consensus to most static examples of MDN. _We created a community of contributors to help us_. With the help of XYZ contributors and XYZ PRs, we updated most static examples of MDN. We limited ourselves to the most common features, and this changed the way MDN examples are perceived: from old-style coding examples, they are now modern-style examples.
+2. In the second phase, we applied the consensus to most static examples on MDN. _We created a community of contributors to help us_. With the help of XYZ contributors and XYZ PRs, we updated most static examples on MDN. We limited ourselves to the most common features, and this changed the way MDN examples are perceived: from old-style coding examples, they are now modern-style examples.
 3. Finally, the third phase consisted of updating MDN's JS coding guidelines. We also worked by consensus between all maintainers of MDN and created a single PR with 298 comments. This allowed us to communicate the new style to most maintainers but also to be able to refer to agreed conventions when divergences occur.
 
 MDN is so large that there is still a lot to do after this project. For now, we focused on static examples on MDN pages. MDN also has interactive examples and a corpus of external examples (js-examples, css-examples, dom-examples, …); these examples should also be updated to the new guidelines. We hope to do this in the future. Still, as this is a significant piece of work, we would like to group this with a few other modernization activities that are needed: we would like to lint these examples with ESlint (to detect errors), avoid outdated APIs (like using the Fetch API instead of XHR), as well as fix any accessibility and semantic issues. We think it is a good idea to triage these structural issues, drive discussions about best practices and then apply the changes to all MDN pages.
 
-To sum up, we renovated all static examples of MDN. They use modern JS and can be more easily copied and pasted into real projects. They also teach better practices to developers. Working with the community on this project has been gratifying, and as it helped to finalize the whole project in a quarter when otherwise these mass-changes on thousands of MDN pages can take much longer.
+To sum up, we renovated all static examples on MDN. They now use modern JS and can be more easily copied and pasted into real projects. They also teach better practices to developers. Working with the community on this project has been gratifying, and it helped us finish the whole project in a quarter when otherwise these mass-changes on thousands of MDN pages can take much longer.
 
 ## Linting Markdown
 
-The migration of MDN pages to Markdown improved the quality of MDN pages and its maintainability. In comparison to HTML, Markdown is easier to read on GitHub and leads to simpler diffs when reviewing PRs. It is also a lot more concise and resulting in more homogeneity of the source of MDN documents.
+The migration of MDN pages to Markdown improved the quality of MDN pages and its maintainability. In comparison to HTML, Markdown is easier to read on GitHub and leads to simpler diffs when reviewing PRs. It is also a lot more concise, resulting in more homogeneity of the source of MDN documents.
 
-This homogeneity allows for the building and use of linters that will enforce a better structural and typographic coherence.
+This homogeneity allows us to use linters to enforce a better structural and typographic coherence.
 
-In Q3 2022, we worked with the community to integrate the most common Markdown linter, Markdownlint, into the writing workflow. We were particularly cautious, as it is the first linter we added to the writing process. Tooling should help writers and first time contributors, not annoy them.
+In Q3 2022, we worked with the community to integrate the most common Markdown linter, [markdownlint](https://www.npmjs.com/package/markdownlint), into the writing workflow. We were particularly cautious, as it is the first linter we added to the writing process. Tooling should help writers and first time contributors, not annoy them.
 
 To simplify editing for writers, we want Markdownlint to autocorrect all what can be auto-corrected. That way, writers don't need to know all the details of using Markdown (like empty lines before lists) or of our writing guidelines (like using underscore for italics, and two stars for bold)
 
@@ -155,19 +155,19 @@ The challenge resides in integrating the linting with the two workflows:
 - Editing using the GitHub UI.
 - Editing locally and pushing the result via git.
 
-When editing locally, most editors (like VSCode) warn writers when they make an error. When using the online GitHub UI, there is no indication when a contributor doesn't follow the Markdownlint rules unfortunately.
+When editing locally, most editors (like VSCode) warn writers when they make an error. When using the online GitHub UI, there is unfortunately no indication when a contributor doesn't follow the markdownlint rules.
 
 Our challenge was to find a solution for both ways.
 
 To solve this, we needed three pieces:
 
-1. A Markdownlint bot, running daily, which fixes Markdownlint errors automatically, or notifies about non-auto-fixable errors.
+1. A markdownlint bot, running daily, which fixes markdownlint errors automatically, or notifies about non-auto-fixable errors.
 2. A test in the GitHub CI, flagging the errors in the PR, allowing writers to fix them manually if they want.
-3. Markdownlint integration with Husky so each time a commit is created locally, auto-fixable errors can be fixed without contributors having to do anything.
+3. markdownlint integration with Husky so each time a commit is created locally, auto-fixable errors can be fixed without contributors having to do anything.
 
 We have a few future improvements to perform still: we want to add more rules, like preventing images without alt texts. In order to do so, we need to fix all the existing problems to make sure the current HEAD passes with zero errors, and then update our config files to enable the test.
 
-Overall, Markdownlint integration went smoothly, to the point where the daily Markdownlint bot has very errors to catch. This improves the quality of the source of the docs, and we will be able to add more rules in the future.
+Overall, markdownlint integration went smoothly, to the point where the daily markdownlint bot has very errors to catch. This improves the quality of the source of the docs, and we will be able to add more rules in the future.
 
 ## Best practices: emulate what we teach
 
