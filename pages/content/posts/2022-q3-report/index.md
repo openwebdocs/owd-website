@@ -74,37 +74,23 @@ As [@queengooborg](https://github.com/queengooborg) works for both OWD and Mozil
 
 ### PRs merged to mdn/content
 
-<table>
-  <tr valign="top">
-   <td><strong>PRs merged</strong>
-   </td>
-   <td><code>All merged PRs: 2607</code><br>
-       <code>OWD: 284.5</code><br>
-       <code>W3C: 42</code><br>
-       <code>Mozilla: 136.5</code><br>
-       <code>Other: 2144</code><br>
-       <img src="prs.png" width="750px" alt="Percentage pie chart. OWD: 10.9%, Mozilla: 5.2%, W3C: 1.6%, Other: 82.2%">
-   </td>
-  </tr>
-</table>
+All merged PRs: 2607
+OWD: 284.5
+W3C: 42
+Mozilla: 136.5
+Other: 2144
+![Percentage pie chart. OWD: 10.9%, Mozilla: 5.2%, W3C: 1.6%, Other: 82.2%](prs.png)
 
 This demonstrates how, of organizations contributing to mdn/content as measured by PR volume, OWD is the biggest contributor. It also shows that mdn/content gets a huge volume of contributions from volunteers: 82.2% of PRs in Q2 were “Other”, which is mostly volunteers.
 
 ### Reviews of mdn/content PRs
 
-<table>
-  <tr valign="top">
-   <td><strong>Reviews on merged PRs</strong>
-   </td>
-   <td><code>All merged PRs: 3090</code><br>
-       <code>OWD: 1942</code><br>
-       <code>W3C: 349</code><br>
-       <code>Mozilla: 193</code><br>
-       <code>Other: 603</code><br>
-       <img src="reviews.png" width="750px" alt="Percentage pie chart. OWD: 62.9%, W3C: 11.3%, Mozilla: 6.2%, Other: 19.5%">
-   </td>
-  </tr>
-</table>
+All merged PRs: 3090
+OWD: 1942
+W3C: 349
+Mozilla: 193
+Other: 603
+![Percentage pie chart. OWD: 62.9%, W3C: 11.3%, Mozilla: 6.2%, Other: 19.5%](reviews.png)
 
 The small OWD team provides the largest number of PR reviews to mdn/content, by a significant margin. OWD technical writers performed 63% of all reviews on merged PRs in the quarter.
 
