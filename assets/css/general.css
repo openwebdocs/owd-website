@@ -90,11 +90,6 @@ button {
   line-height: 1.5;
 }
 
-blockquote {
-  border: 5px solid var(--foreground);
-  padding: var(--default-spacing)
-}
-
 .btn {
   border-radius: var(--border-radius);
 }
@@ -313,6 +308,12 @@ footer {
 .sponsors-link:hover {
   color: var(--link);
 }
+
+.callout {
+  background-color: var(--callout-background);
+  padding: var(--default-spacing);
+}
+
 /* MOBILE */
 
 @media (max-width: 799px) {
