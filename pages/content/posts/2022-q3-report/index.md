@@ -98,9 +98,11 @@ The small OWD team provides the largest number of PR reviews to mdn/content, by 
 
 In the third quarter of 2022, OWD completed the projects listed below.
 
-## Modernization of JavaScript docs
+## Modernization code samples on MDN
 
-During the 2010s, JavaScript evolved substantially as a language. The MDN Web Docs JavaScript documentation dates back to ES3. The docs were completely revamped around 2015 (for ES6), however, since then the docs didn’t see a major update throughout. New features were documented and used latest best practices, but docs for older features mostly demonstrate best practices of the time.
+During the 2010s, JavaScript evolved substantially as a language. The MDN Web Docs JavaScript documentation dates back to ES3. The docs were completely revamped around 2015 (for ES6); however, since then, the docs didn’t see a major update throughout. New features were documented and used latest best practices, but docs for older features mostly demonstrated best practices of the time.
+
+MDN Web API code samples were in a similar situation. They were partly updated for ES5 and ES6, however they weren't modernized consistently on all pages, which often lead to a perception of old school and inaccurate code snippets.
 
 MDN Web Docs' primary audience is web developers. We want to have examples that can be used in most professional projects. Not using ES6+ features in 2022 is problematic as:
 
@@ -119,7 +121,7 @@ We proceeded in three phases.
    - template literals,
    - arrow functions
 
-2. In the second phase, we applied the consensus to most static examples on MDN. _We created a community of contributors to help us_. With the help of XYZ contributors and XYZ PRs, we updated most static examples on MDN. We limited ourselves to the most common features, and this changed the way MDN examples are perceived: from old-style coding examples, they are now modern-style examples.
+2. In the second phase, we applied the consensus to most static examples on MDN. _We created a community of contributors to help us_. **With the help of more than 20 contributors and more than 200 PRs, we updated most of the 16332 static examples on 6396 pages on MDN**. We limited ourselves to the most common features. This was enough to change how MDN examples are perceived: from old-style coding examples, they are now modern-style examples.
 3. Finally, the third phase consisted of updating MDN's JS coding guidelines. We also worked by consensus between all maintainers of MDN and created a single PR with 298 comments. This allowed us to communicate the new style to most maintainers but also to be able to refer to agreed conventions when divergences occur.
 
 MDN is so large that there is still a lot to do after this project. For now, we focused on static examples on MDN pages. MDN also has interactive examples and a corpus of external examples (js-examples, css-examples, dom-examples, …); these examples should also be updated to the new guidelines. We hope to do this in the future. Still, as this is a significant piece of work, we would like to group this with a few other modernization activities that are needed: we would like to lint these examples with ESlint (to detect errors), avoid outdated APIs (like using the Fetch API instead of XHR), as well as fix any accessibility and semantic issues. We think it is a good idea to triage these structural issues, drive discussions about best practices and then apply the changes to all MDN pages.
