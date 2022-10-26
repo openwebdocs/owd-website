@@ -11,9 +11,9 @@ excerpt: "An update on our work in the third quarter of 2022."
 
 In 2022 Q3, OWD:
 
-- was again the main organization maintaining the [mdn/content](https://github.com/mdn/content) repository:
+- was the major contributor to the [mdn/content](https://github.com/mdn/content) repository:
   - made 1,945 reviews for PRs merged into mdn/content, 63% of all reviews.
-  - made 284.5 of the PRs made to mdn/content, 11% of the total and twice as many as any other organization.
+  - made 284.5 of the PRs made to mdn/content, 11% of the total and twice as many as any other contributor.
 - led projects to:
   - update thousands of JS code samples in MDN to use modern practices.
   - integrate markdownlint into the mdn/content repository.
@@ -51,7 +51,7 @@ MDN is an essential resource for web developers. It:
 
 It is therefore essential for the web developer community that MDN continues to be maintained and improved, and the core team continues to be supported in reviewing PRs from the contributor community.
 
-## The contribution of Open Web Docs
+## The contributions of Open Web Docs
 
 Open Web Docs is the most significant organization contributing to MDN content maintenance. Of the multiple MDN organization repositories supported by Open Web Docs, the busiest is **mdn/content**, which contains the source for MDN’s pages. This repository is extremely active:
 
@@ -66,7 +66,7 @@ This report will demonstrate OWD’s contribution to the day-to-day maintenance 
 Both these metrics contain contributions by OWD team members, other organizations that help maintain the repository, and volunteer contributors. Contribution metrics are divided into the following groups:
 
 - OWD staff
-- W3C staff (this is actually just Mike Smith)
+- W3C staff (just Mike Smith at the moment)
 - Mozilla staff
 - Other (mostly volunteers, but also people paid by other organizations to work on MDN)
 
