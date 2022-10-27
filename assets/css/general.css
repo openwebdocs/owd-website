@@ -308,6 +308,12 @@ footer {
 .sponsors-link:hover {
   color: var(--link);
 }
+
+.callout {
+  background-color: var(--callout-background);
+  padding: var(--default-spacing);
+}
+
 /* MOBILE */
 
 @media (max-width: 799px) {

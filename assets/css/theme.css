@@ -12,6 +12,7 @@
   /* COLORS: DARK THEME (DEFAULT) */
   --foreground: white;
   --background: #090057;
+  --callout-background: #43279c;
   --link: #ff61e5;
   --button-bg: #9900a1;
   --button-bg-hover: #6b0070;
@@ -21,6 +22,7 @@
   /* COLORS: LIGHT THEME */
   --foreground: black;
   --background: white;
+  --callout-background: #d2bbfd;
   --link: #9900a1;
   --button-bg: #9900a1;
   --button-bg-hover: #e000eb;
