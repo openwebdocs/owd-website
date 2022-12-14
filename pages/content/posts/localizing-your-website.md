@@ -2,7 +2,7 @@
 author: "Vinyl Da.i'gyu-Kazotetsu"
 title: "Why it is important to localize your website"
 date: "2022-12-14"
-tags: ["announcements"]
+tags: ["development"]
 ShowToc: false
 ShowBreadCrumbs: false
 excerpt: "A client of mine had recently asked me why it was so important to localize their web app. They asked me, why spend money on localization when you can do it for free with Google Translate? There is so much to unpack about why that approach and mindset is wrong."
