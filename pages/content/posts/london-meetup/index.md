@@ -1,6 +1,6 @@
 ---
 author: "Florian Scholz"
-title: "Open Web Docs meetup with Mozilla’s MDN Team"
+title: "Open Web Docs meetup with Mozilla’s MDN team"
 date: "2023-02-09"
 tags: ["announcements"]
 ShowToc: false
@@ -12,11 +12,15 @@ This January 18-20, the entire Open Web Docs Technical Writing team and members 
 
 The most important project Open Web Docs contributes to is MDN Web Docs. We work closely with Mozilla, our main sponsors Google, Microsoft, Igalia, JetBrains, Canva, our 150+ individual funders, and the larger web community to maintain and innovate on the best documentation site for web developers and designers around the world.
 
+## Shared roadmap
+
 In Q4 of 2022, Open Web Docs started working very closely with Mozilla on community coordination and keeping the MDN contribution process running efficiently and effectively. To that end, Mozilla and OWD created a [shared and open roadmap](https://github.com/orgs/mdn/projects/26/) for ongoing and planned work. The Open Web Docs team actively collaborates and gives direct input on MDN’s information architecture, compatibility data, content structures, code examples, and other changes coming impacting all sections of the MDN Web Docs site.
 
 With well over 11,000 pages on MDN Web Docs and an ever-evolving Web platform to document, the scope, requirements, and impact of changes for web developers all around the world can be quite a challenge to get right. With all of the expertise from the technical writer and advisory committee teams, we are all coming together on MDN Web Docs to provide web developers with the information they need to create accessible, secure, and performant web pages and applications. It is this mission that drives all of us to collaborate closely, share knowledge, and bring new ideas to the table.
 
 Our shared roadmap will help us to capture significant site changes, from content updates to navigation improvements, and will empower Mozilla, OWD, and our community to implement and execute complex projects together.
+
+## Breakout sessions
 
 Many of the discussions in London were about how to collaborate more closely. We also had a few technical deep dive sessions where we were able to discuss in person some of the current projects we are working on. The minutes for these sessions are [available on our GitHub](https://github.com/openwebdocs/project/blob/main/steering-committee/meetups/london-2023/index.md). The areas of focus are:
 
