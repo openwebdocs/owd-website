@@ -1,7 +1,7 @@
 ---
 author: "Florian Scholz"
 title: "Open Web Docs meetup with Mozilla’s MDN team"
-date: "2023-02-09"
+date: "2023-02-08"
 tags: ["announcements"]
 ShowToc: false
 ShowBreadCrumbs: false
