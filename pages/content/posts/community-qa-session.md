@@ -17,7 +17,7 @@ We also want to hear from you - what would you like to see documented, and how w
 
 [Subscribe to our calendar](https://calendar.google.com/calendar/u/0/r?cid=Y19vbGpyaTVyYmN1dGJmczkyb2ZwYTN1ajVzOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) to receive meeting details directly. We really hope you can make it, but we’ll also record the session so you can watch it later.
 
-We’re planning additional community calls throughout the year. Sign up for our [newsletter](https://mailchi.mp/19c29a396724/announcing-open-web-docs) or follow us on [Twitter](https://twitter.com/OpenWebDocs) to get the latest updates from Florian and team!
+We’re planning additional community calls throughout the year. Sign up for our [newsletter](https://mailchi.mp/19c29a396724/announcing-open-web-docs) or follow us on [Mastodon](https://front-end.social/OpenWebDocs) to get the latest updates from Florian and team!
 
 _Special thanks to the W3C for hosting this Zoom webinar._
 
