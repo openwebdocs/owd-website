@@ -255,10 +255,6 @@ nav,
   padding-left: var(--nested-spacing);
 }
 
-img.meta {
-  min-width: 170px;
-}
-
 .home-bg {
   background-image: url("../img/svg-wave-bg.svg");
   background-size: cover;
