@@ -222,7 +222,167 @@ For 2023, $500,000 has been committed by platinum sponsors Google and Microsoft,
 
 Our individual supporters have helped raise nearly $20k for better web platform documentation since 2021 - we are beyond grateful to:
 
-{pull full list of supporters from OC}
+- Aaron
+- Aaron Gustafson
+- aetos
+- Alex Rosenkranz
+- Anatoly Ostapenko
+- Andreas Kling
+- Andrew Chou
+- Andrew Sutherland
+- Andy Piper
+- Baldwin Chang
+- Ben Galbraith
+- Benjamin Altpeter
+- Benjamin Piouffle
+- Bertram Gao
+- Brendan Ardagh
+- Bruce garrett
+- Canva
+- casaper
+- César Ornelas
+- Chris Hayes
+- Chris Heilmann
+- Chris McGhee
+- Clueless Ruler Music
+- codev
+- Coil
+- Damien Clauzel
+- Daniel Ehrenberg
+- Danny McGee
+- Danny W
+- Daren Chandisingh
+- Dominic Cooney
+- Dominic Cooney
+- Eric Casthart
+- Eric Shepherd
+- Ethan Resnick
+- EthicalAds
+- facebook
+- Facebook Open Source
+- Flaki
+- Fund OSS
+- Garouz
+- Germain Souquet
+- Google Open Source
+- groovecoder
+- Grunet
+- Guest
+- Guest
+- Guest
+- Guest
+- Guest
+- Gyuri Lajos
+- Harry Dent
+- Harry Dent
+- Hiroyuki Ota
+- Igalia SL
+- Ilya Diallo
+- Ilya f
+- Incognito
+- Incognito
+- incognito
+- Itai Noam
+- Jad Joubran
+- Jan P
+- Jaroslav Kubicek
+- Jeff Posnick
+- Jens Oliver Meiert
+- Jeremie Patonnier
+- JetBrains
+- Joel Marcey
+- John Whitlock
+- Jonathan Finch
+- Jory Burson
+- Joseph Kesselring
+- Julien G
+- Julien Vanélian
+- Julius Tarng
+- Junya Kono
+- Justin Ridgewell
+- Jxck
+- Kayce Basques
+- Keith Kurson
+- Kenneth Rohde Christiansen
+- Kiganix
+- Kostas Bariotis
+- Kotaro Morooka
+- kukhyun
+- Kyle Pflug
+- Laurent le Beau-Martin
+- Leo Balter
+- Leonardo Kewitz
+- Lifina
+- lim
+- Logan Henrie
+- Marcus Weiner
+- Mark Reeves
+- Mark Reeves
+- Martijn Arts
+- Masataka Yakura
+- Matt Lindeboom
+- Michael Leggett
+- Michael[tm] Smith
+- Microsoft Edge
+- Milica Mihajlija
+- mimonelu
+- Mitchell Harris
+- Moto Ishizawa
+- Nazar Mokrynskyi
+- neuland - Büro für Informatik
+- Open Collective
+- Open Collective
+- Oskar Oldorf
+- Oussama Romdhane
+- Owen Valentine
+- Patrick Kettner
+- Paul Kinlan
+- Pelle Wessman
+- Pete LePage
+- Peter Antonius
+- Peter deHaan
+- Peter Rushforth
+- Pia Mancini
+- Rad Web Hosting
+- Rick Byers
+- Robert Ma
+- Romulo Cintra
+- Russell Beattie
+- Ryan Prior
+- Sam Chen
+- Samsung Internet
+- Scott Hallock
+- Scott Kennedy
+- Sebastian Zartner
+- Sergio Moraes
+- Sharat M R
+- Shinichi Segawa
+- simochee
+- Stephanie Eckles
+- Stilyan Mihalev
+- Surma
+- Takayuki Shimada
+- takehiroman
+- Thomas Berntsen
+- Thomas Steiner
+- tim richardson
+- Tom Leen
+- Tom Leo
+- Tomasz Kleszczewski
+- tomita
+- Tommy Williams
+- Tsubasa Nomura
+- Tyler Wilcock
+- Type of Web
+- Victor Neo
+- Vincent Ramdhanie
+- Vladimir Ivanenko
+- Xidorn Quan
+- Yasuhiro Яша Asaka
+- Yoichi Fujimoto
+- Yu Matsuzawa (ymtszw)
+- Yuhei Yasuda
+- Yukio Arita
 
 ## Looking forward to 2023
 
