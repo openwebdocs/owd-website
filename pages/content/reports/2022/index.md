@@ -157,7 +157,7 @@ In 2023 we’re aiming to finish this project by updating the guide pages that l
 Interop is a cross-browser initiative to address important web platform interoperability features. Browser vendors all implemented the [Interop 2022](https://hacks.mozilla.org/2022/03/interop-2022/) priorities they agreed upon. The OWD team ensured all the new and updated features were documented. Projects included:
 
 - Worked with MDN to develop new cascade layer documentation, and in the process wrote or rewrote all the !important, specificity, and cascade and inheritance documentation; the most visited CSS pages on MDN.
-- Revamp MDN CSS color documentation to include new CSS Color spaces and CSS color functions (OWD project
+- Revamp MDN CSS color documentation to include new CSS Color spaces and CSS color functions.
 - Several Interop 2022 features were previously documented on their own property, API, and data type pages. Our team worked to ensure interop features, like scroll behavior and the new viewport units were not just listed on their individual pages, but included within examples and reference sections in other pages to alert developers to their existence and encourage their adoption.
 
 MDN has been documenting features for many years. Some features are fully supported in all evergreen browsers thanks to Interop 2022 and other efforts, but the documentation predating full support still mentioned “when supported”, “Internet explorer”, and outdated terms like CSS3 and HTML5. Our team eliminated outdated references, updating documentation for all Interop 2022 focus areas to reflect full support and include updated code examples.
@@ -188,7 +188,7 @@ For the Writing Day OWD prepared a project to remove `var` from code samples in 
 
 Eventually, this project turned into a much larger project to modernize all MDN’s JavaScript code samples across the whole site.
 
-## Shared Investment is Lasting Investment?
+## Shared investment is lasting investment
 
 From end-user applications to developer tools to new APIs, developing for the web platform relies on access to accurate, vendor-neutral information and how-to. Thanks to the generous support of our steering committee participants and funding partners, Open Web Docs has:
 
@@ -204,13 +204,13 @@ From end-user applications to developer tools to new APIs, developing for the we
 - Improved breadth and quality of the information and data on
   - Core reference documentation
   - Browser Compatibility
-  - Hot-topic technologies for next generation application development such as AR/VR, security, and privacy-protecting technologies
+  - Hot-topic technologies for next generation application development, security, and privacy-protecting technologies
 
 These investments have not only helped developers learn and adopt web technologies; they have also helped countless organizations build more modern, secure, and performant products and services.
 
 ## 2022 Budget Recap
 
-OWD is very grateful to its Platinum Members Google and Microsoft, Gold Members Igalia and Meta, and Silver Members Canva and JetBrains for their membership in 2022. Since its inception in January 2021, Open Web Docs has raised $1.8m from nearly 200 individual and organizational supporters. OWDS’s annual operating budget is $800k.
+OWD is very grateful to its Platinum Members Google and Microsoft, Gold Members Igalia and Meta, and Silver Members Canva and JetBrains for their membership in 2022. Since its inception in January 2021, Open Web Docs has raised $1.8m from nearly 200 individual and organizational supporters. OWD’s annual operating budget is $800k.
 
 Payroll is Open Web Docs’ only meaningful expense. OWD employs four full time technical writers and one part time contractor. Employees are paid competitive salaries in their local currency, and receive health care and other regionally compliant benefits. In 2022, OWD spent a total of $777k on payroll, contractors, transaction fees and minor operating expenses. We post all transactions on our Open Collective page.
 
@@ -386,6 +386,6 @@ Our individual supporters have helped raise nearly $20k for better web platform 
 
 ## Looking forward to 2023
 
-In 2023, OWD is excited to continue to work very closely with Mozilla on MDN Web Docs. At the end of 2022, Mozilla and OWD created a [shared and open roadmap](https://github.com/orgs/mdn/projects/26/) for ongoing and planned work. With the help of this tool, the Open Web Docs team will collaborate actively and give direct input even more on MDN’s information architecture, compatibility data, content structures, code examples, and other changes coming impacting all sections of the MDN Web Docs site.
+In 2023, OWD is excited to continue to work very closely with Mozilla on MDN Web Docs. At the end of 2022, Mozilla and OWD created a [shared and open roadmap](https://github.com/orgs/mdn/projects/26/) for ongoing and planned work. The new shared roadmap will foster an even more active collaboration between OWD, Mozilla, and the rest of the MDN Web Docs community. It will also create more opportunities for OWD to provide inputs on crucial topics such as: MDN's information architecture, compatibility data, code example, and other changes coming impacting all sections of the MDN Web Docs site.
 
 Within Open Web Docs’ Steering Committee we will continue to plan and execute projects on a quarterly basis. We’re inviting all of our partners for another year of supporting web platform documentation for the benefit of web developers & designers worldwide. We also aim to strengthen our collaborations with existing initiatives like continuing to support Interop and working with the [W3C WebDX Community Group](https://www.w3.org/community/webdx/) to improve the general developer experience for people developing for the web.
