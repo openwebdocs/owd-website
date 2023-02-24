@@ -57,7 +57,7 @@ The main organizations contributing pull requests were as follows:
 
 | OWD  | Mozilla | W3C | Other |
 | ---- | ------- | --- | ----- |
-| 1210 | 605     | 258 | 6158  |
+| 1211 | 614     | 258 | 6148  |
 
 ![PRs merged to mdn/content 2022 by origin](prs-content-2022.png)
 
