@@ -46,7 +46,6 @@ While the website's infrastructure is maintained and improved by Mozilla, the co
 
 The web platform is big and constantly evolving: MDN contains over 11,000 pages, and the content needs ongoing updating and maintenance as new web platform features are introduced and best practices change.
 
-MDN's content is maintained as an open source project with active contributors including Mozilla staff, Open Web Docs staff, various individuals paid by their employer to contribute, and a volunteer community.
 
 Among these groups, Open Web Docs has been the primary maintainer of MDN content for the last two years.
 
