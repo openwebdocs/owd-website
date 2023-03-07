@@ -33,14 +33,18 @@ MDN is a website documenting front-end open web technologies, in particular Java
 
 MDN is the top destination for developers to learn about web technologies. It's not just a popular website for web developers, it is an essential tool that they consult on a daily basis in their work. It provides value to all organizations that depend on the web to any extent .
 
-- MDN is the second most cited documentation site on Stack Overflow, after learn.microsoft.com ([Source](https://meta.stackoverflow.com/questions/417189/which-sites-are-currently-linked-to-most-often-in-stack-overflow/417190#417190))
-- MDN is visited by 17 million developers every month
-- MDN's JavaScript, CSS, and HTML documentation are routinely seen as the standard language references
-- MDN is the only site with comprehensive reference documentation for the web platform APIs
+- MDN is the second most cited documentation site on Stack Overflow, after learn.microsoft.com ([Source](https://meta.stackoverflow.com/questions/417189/which-sites-are-currently-linked-to-most-often-in-stack-overflow/417190#417190)).
+- MDN is visited by 17 million developers every month.
+- MDN's JavaScript, CSS, and HTML documentation are routinely seen as the standard language references.
+- MDN is the only site with comprehensive reference documentation for the web platform APIs.
 
 ## MDN content maintenance
 
-Infrastructure and operational costs for operating and maintaining the MDN website at developer.mozilla.org are borne by Mozilla, but the largest and most valuable part of MDN is the content itself. The web platform is big and constantly evolving: MDN contains over 11,000 pages, and the content needs ongoing updating and maintenance as new web platform features are introduced and best practices change.
+The MDN Web Docs website requires important ongoing maintenance and updates of both its infrastructure and its content to continue serving the million of web developers that use it each month.
+
+While the website's infrastructure is maintained and improved by Mozilla, the content is operated as an open source project and receives contributions from OWD, Mozilla, Google, Microsoft, and other organizations, as well as thousands of external contributors each year.
+
+The web platform is big and constantly evolving: MDN contains over 11,000 pages, and the content needs ongoing updating and maintenance as new web platform features are introduced and best practices change.
 
 MDN's content is maintained as an open source project with active contributors including Mozilla staff, Open Web Docs staff, various individuals paid by their employer to contribute, and a volunteer community.
 
