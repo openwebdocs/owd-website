@@ -8,22 +8,22 @@ ShowBreadCrumbs: false
 
 ## Executive summary
 
-Open Web Docs (OWD) is an open source collective that employs technical writers to publicly document open web technologies. OWD currently employs 4 full time writers and one part time writer, all of whom have extensive experience with Web standards documentation and MDN Web Docs. The OWD team writes new documentation, updates existing documentation, and improves documentation infrastructure.
+Open Web Docs (OWD) is an open source collective that employs technical writers to publicly document open web technologies. OWD currently employs 4 full time writers and one part time writer, all of whom have extensive experience with Web standards documentation and MDN Web Docs. The OWD team writes new documentation, updates existing documentation, and improves documentation infrastructure together with other organizations such as Mozilla, Google, or Microsoft, and external contributors.
 
 Open Web Docs’ main focus has been contributions to [MDN Web Docs](https://developer.mozilla.org), the premier platform for Web platform documentation.
 
 In 2022, OWD writers were the main contributors to MDN Web Docs.
 
 - OWD was the single organization with the greatest number of PRs merged to the MDN content repository.
-- OWD provided 60% of all pull request reviews to the MDN content repository.
-- The OWD team executed a number of writing and documentation infrastructure projects, including:
-  - Modernizing the JavaScript used in thousands of code samples across MDN, ensuring all examples demonstrate modern best practices
-  - Creating and extending documentation to meet the needs identified in the [Interop 2022](https://web.dev/interop-2022/) project, including documenting CSS Colors and Cascade layers,
-  - Completely rewriting the documentation for the Performance APIs
+- OWD provided 60% of all Pull Request (PR) reviews to the MDN content repository.
+- The OWD team led a number of writing and documentation infrastructure projects, including:
+  - Modernizing the JavaScript used in thousands of code samples across MDN, ensuring all examples demonstrate modern best practices.
+  - Creating and extending documentation to meet the needs identified in the [Interop 2022](https://web.dev/interop-2022/) project, including documenting CSS Colors and Cascade layers.
+  - Completely rewriting the documentation for the Performance APIs.
   - Rewriting CSS core principles of inheritance, specificity and the cascade.
-  - Documenting all ARIA roles and attributes,
+  - Documenting all ARIA roles and attributes.
   - Making MDN more inclusive by ensuring all examples identify document language, have an appropriate character set, and are responsive, every image has alt text, and human names used in code examples better reflect the diversity of those reading MDN.
-  - Establishing [overall themes](https://github.com/openwebdocs/project/blob/main/steering-committee/themes.md) for prioritized work
+  - Establishing [overall themes](https://github.com/openwebdocs/project/blob/main/steering-committee/themes.md) for prioritized work.
 
 ## What is MDN and why does it matter?
 
@@ -51,7 +51,7 @@ Reflecting its reach and importance to developers, the main MDN content reposito
 - the fifth most commits per month (2683)
 - the seventh most committers per month (193)
 
-In 2022, 8231 pull requests (PRs) were merged to mdn/content, from 1693 contributors (excluding bots).
+In 2022, 8231 pull requests (PRs) were merged to the mdn/content repository, from 1693 contributors (excluding bots).
 
 The main organizations contributing pull requests were as follows:
 
@@ -72,7 +72,7 @@ Supporting this volunteer community is a major part of OWD's work. Sometimes thi
 
 In this way OWD acts as a force multiplier for the MDN project.
 
-One way to measure OWD's impact is to look at reviews of pull requests authored by the volunteer community.
+One way to measure OWD's impact is to look at reviews of pull requests (PRs) authored by the volunteer community.
 
 PR reviews for the mdn/content repository are performed by members of the maintainer group, which consists of OWD staff, Mozilla staff, W3C staff, and a select group of volunteer maintainers. Of the 7289 reviews of PRs from volunteer contributors that were merged to mdn/content in 2022, the review breakdown is as follows:
 
@@ -86,7 +86,7 @@ In other words, OWD performed 2/3 of all reviews of PRs from the volunteer commu
 
 ## Browser compatibility data maintenance
 
-After mdn/content, the mdn/browser-compat-data project is the biggest part of MDN. This project maintains machine-readable data on browser support for web platform features. This powers the MDN website as well as other tools like [Can I use](https://CanIUse.com), Firefox Developer Tools, and VS Code.
+The [mdn/browser-compat-data](https://github.com/mdn/browser-compat-data/) project is the second biggest part of MDN, after the content itself. This project maintains machine-readable data about browser support for web platform features. This powers the MDN website as well as other tools like [Can I use](https://CanIUse.com), Firefox Developer Tools, and VS Code.
 
 In 2022, 2291 pull requests were merged to the mdn/browser-compat data repository (excluding bots).
 
@@ -100,7 +100,7 @@ The main organizations contributing pull requests were as follows:
 
 This shows that contributions are roughly split equally between OWD, Mozilla, and everyone else.
 
-This view obscures the massive contribution of [Vinyl Da.i'gyu-Kazotetsu](https://github.com/queengooborg), who alone was responsible for slightly more than half the total contributions to the project. Vinyl is employed by both OWD and Mozilla, so we have simply split her contributions between the two organizations.
+Not visible in this view is the massive contribution of [Vinyl Da.i'gyu-Kazotetsu](https://github.com/queengooborg), who alone was responsible for more than half the total contributions to the project. Vinyl is employed by both OWD and Mozilla, so we have simply split her contributions between the two organizations in the numbers above.
 
 PR reviews for the mdn/browser-compat-data repository are performed by peers and owners of the project, who are listed in the project’s [governance document](https://github.com/mdn/browser-compat-data/blob/main/GOVERNANCE.md).
 
@@ -116,7 +116,7 @@ Again, Vinyl Da.i'gyu-Kazotetsu was responsible for more than half of all review
 
 ## MDN projects
 
-This section presents a qualitative assessment of the impact of Open Web Docs on MDN, by focusing on some of the projects led by OWD in 2022.
+This section focuses on some of the projects led by OWD in 2022.
 
 We're proud to have been able to carry out these projects and think they make MDN an even more valuable resource for web developers.
 
@@ -154,9 +154,9 @@ In 2023 we’re aiming to finish this project by updating the guide pages that l
 
 ### Interop 2022
 
-Interop is a cross-browser initiative to address important web platform interoperability features. Browser vendors all implemented the [Interop 2022](https://hacks.mozilla.org/2022/03/interop-2022/) priorities they agreed upon. The OWD team ensured all the new and updated features were documented. Projects included:
+Interop is a cross-browser initiative to address important web platform interoperability features. Browser vendors all implemented the [Interop 2022](https://hacks.mozilla.org/2022/03/interop-2022/) priorities they agreed upon. The OWD team took a leading role in ensuring that all the new and updated features were documented. Projects included:
 
-- Worked with MDN to develop new cascade layer documentation, and in the process wrote or rewrote all the !important, specificity, and cascade and inheritance documentation; the most visited CSS pages on MDN.
+- Worked with MDN staff to develop new cascade layer documentation, and in the process wrote or rewrote all the !important, specificity, and cascade and inheritance documentation; the most visited CSS pages on MDN.
 - Revamp MDN CSS color documentation to include new CSS Color spaces and CSS color functions.
 - Several Interop 2022 features were previously documented on their own property, API, and data type pages. Our team worked to ensure interop features, like scroll behavior and the new viewport units were not just listed on their individual pages, but included within examples and reference sections in other pages to alert developers to their existence and encourage their adoption.
 
