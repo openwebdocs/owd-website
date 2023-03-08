@@ -42,7 +42,7 @@ MDN is the top destination for developers to learn about web technologies. It's 
 
 The MDN Web Docs website requires important ongoing maintenance and updates of both its infrastructure and its content to continue serving the million of web developers that use it each month.
 
-While the website's infrastructure is maintained and improved by Mozilla, the content is operated as an open source project and receives contributions from OWD, Mozilla, Google, Microsoft, and other organizations, as well as thousands of external contributors each year.
+While the website's infrastructure is maintained and improved by Mozilla, the content is operated as an open source project and receives contributions from OWD, Mozilla, Google, Microsoft, W3C, and other organizations, as well as thousands of external contributors each year.
 
 The web platform is big and constantly evolving: MDN contains over 11,000 pages, and the content needs ongoing updating and maintenance as new web platform features are introduced and best practices change.
 
