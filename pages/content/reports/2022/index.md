@@ -1,14 +1,14 @@
 ---
 author: "Open Web Docs staff"
 title: "Open Web Docs Impact and Transparency Report 2022"
-date: "2023-02-22"
+date: "2023-03-08"
 ShowToc: true
 ShowBreadCrumbs: false
 ---
 
 ## Executive summary
 
-Open Web Docs (OWD) is an open source collective that employs technical writers to publicly document open web technologies. OWD currently employs 4 full time writers and one part time writer, all of whom have extensive experience with Web standards documentation and MDN Web Docs. The OWD team writes new documentation, updates existing documentation, and improves documentation infrastructure together with other organizations such as Mozilla, Google, or Microsoft, and external contributors.
+Open Web Docs (OWD) is an open source collective that employs technical writers to publicly document open web technologies. OWD currently employs 4 full time writers and one part time writer, all of whom have extensive experience with Web standards documentation and MDN Web Docs. The OWD team writes new documentation, updates existing documentation, and improves documentation infrastructure together with other organizations such as Mozilla, Google, or Microsoft, W3C, and external contributors.
 
 Open Web Docs’ main focus has been contributions to [MDN Web Docs](https://developer.mozilla.org), the premier platform for Web platform documentation.
 
