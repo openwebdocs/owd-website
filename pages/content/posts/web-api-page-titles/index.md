@@ -32,7 +32,7 @@ For the first time, MDN has different titles for static members in Web/API:
 
 ![screenshot of new title for Response.error()](response-error-new.png)
 
-This is especially important, now we are seeing static and instance members of Web/API interfaces [with the same names](https://github.com/whatwg/fetch/pull/1392).
+This is increasingly important now that we are seeing static and instance members of Web/API interfaces [with the same names](https://github.com/whatwg/fetch/pull/1392).
 
 ## Page titles and page types
 
