@@ -1,7 +1,7 @@
 ---
 author: "Will Bamberg"
 title: "The great renaming of Web/API"
-date: "2023-04-11"
+date: "2023-04-13"
 tags: ["projects"]
 ShowToc: false
 ShowBreadCrumbs: false
@@ -42,6 +42,6 @@ This work is the ["page types"](https://github.com/openwebdocs/project/issues/91
 
 With that in place we have a reliable machine-readable way to figure out the kind of thing a page documents, and this enabled us to automate the retitling of about 4000 pages in a couple of days.
 
-Page types don't just make our lives easier though: we think in the future they will enable other use cases. For example, we'll be able to check that particular types of pages include particular content: for example, that every "CSS shorthand property" pages includes a [section listing all its longhand properties](https://developer.mozilla.org/en-US/docs/Web/CSS/animation#constituent_properties). Then anyone will be able to query [mdn/content](https://github.com/mdn/content) to get a complete list of all shorthand properties and their longhands.
+Page types don't just make our lives easier, though: we think they will enable other use cases in the future. For example, we'll be able to check that particular types of pages include particular content: for example, that every "CSS shorthand property" page includes a [section listing all its longhand properties](https://developer.mozilla.org/en-US/docs/Web/CSS/animation#constituent_properties). Then anyone will be able to query [mdn/content](https://github.com/mdn/content) to get a complete list of all shorthand properties and their longhands.
 
-It will take us a while get there, but step by step we are getting towards a consistent, reliable, structured organization for MDN's reference documentation.
+It will take us a while to get there, but step by step, we are getting towards a consistent, reliable, structured organization for MDN's reference documentation.
