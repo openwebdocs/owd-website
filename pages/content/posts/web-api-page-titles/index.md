@@ -5,6 +5,7 @@ date: "2023-04-11"
 tags: ["projects"]
 ShowToc: false
 ShowBreadCrumbs: false
+excerpt: "Retitling the Web/API reference pages."
 ---
 
 Some projects get to 80% and then take ages to get to "finished", but others take years to get going and then finish in a rush. Our project to retitle pages in MDN's [Web/API](https://developer.mozilla.org/en-US/docs/Web/API) documentation was the second kind.
