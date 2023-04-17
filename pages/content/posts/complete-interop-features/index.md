@@ -19,7 +19,7 @@ These tools allow us to know the extent of the problem.
 
 ## Why are there gaps on MDN?
 
-Gaps came organically. MDN Web Docs was, for many years, the home of a diverse set of documents: writers initially put much effort into documenting Firefox technologies like XUL and XBL, and time was scarce to focus on standardized languages. While CSS, HTML, and JavaScript had their documentation sets, docs for APIs were an afterthought. They were still living under a DOM hierarchy on MDN. With the advent of the HTML5 and CSS3 initiatives (and later the EcmaScript 6 one), Mozilla Developer Network's main subject shifted from proprietary to open and interoperable technologies. The shift was progressive, culminating in rebranding the site as _MDN Web Docs_, the archival of XUL and XBL docs, and, later, the move of Firefox Dev Tools docs to another website.
+Gaps came organically. MDN Web Docs was, for many years, the home of a diverse set of documents: writers initially put much effort into documenting Firefox technologies like XUL and XBL, and time was scarce to focus on standardized languages. While CSS, HTML, and JavaScript had their documentation sets, docs for APIs were an afterthought. They were still living under a DOM hierarchy on MDN. With the advent of the HTML5 and CSS3 initiatives (and later the EcmaScript 6 one), Mozilla Developer Network's main subject shifted from proprietary to open and interoperable technologies. The shift was progressive, culminating in rebranding the site as _MDN Web Docs_, the archival of XUL and XBL docs, and, later, the move of Firefox Dev Tools docs to a dedicated [website](https://firefox-source-docs.mozilla.org/).
 
 In the early 2010s, standard bodies and browser makers rapidly specified and implemented new APIs. The focus was to document these new features: they were the focus of web developers, and there needed to be more good documentation about them! It was an easier move to sell internally: new technologies lead to more engagement; getting resources to document them was more straightforward than the old HTML table features, for example. The HTML5, CSS3, and ES6 initiatives allowed MDN to revamp these areas of documentation as there was an interest in positioning the web as a recognized interoperable platform.
 
@@ -33,27 +33,27 @@ Today's gaps mostly fall into three categories:
 - non-interoperable features: APIs supported by only one or two browser engines and missed by the browser makers;
 - single properties and methods forgotten when their API was initially documented or added later but slipped below the radar of the different processes.
 
-## Opportunities created by the INTEROP initiative
+## Opportunities created by the Interop initiative
 
-As a collective of writers dedicated to helping document the open web platform, Open Web Docs (OWD) can help in _closing some of these gaps_. Unlike writers paid by browser makers needing to justify their work, our backers, individuals or companies, gave us the more generic mission to improve the open web documentation. We focus on much-needed activities that do not necessarily bring the most engagement at first, though improving the middle-term situation significantly. We still need to focus on the most valuable activities, but anybody's internal projects do not dictate our priorities.
+As a collective of writers dedicated to helping document the open web platform, [Open Web Docs (OWD)](https://openwebdocs.org/) can help in _closing some of these gaps_. Unlike writers paid by browser makers needing to justify their work, our backers, individuals or companies, gave us the more generic mission to improve the open web documentation. We focus on much-needed activities that do not necessarily bring the most engagement at first, though improving the middle-term situation significantly. We still need to focus on the most valuable activities, but anybody's internal projects do not dictate our priorities.
 
-For several years now, browser makers have sat together at the end of each year to discuss the pain points of web developers and define a set of features that needs more love to increase their functionality or to fix bugs and incoherence so that web devs can use them reliably. They define areas to focus on as part of the INTEROP project.
+For several years now, browser makers have sat together at the end of each year to discuss the pain points of web developers and define a set of features that needs more love to increase their functionality or to fix bugs and incoherence so that web devs can use them reliably. They define areas to focus on as part of the [Interop](https://web.dev/interop-2023/) initiative.
 
 OWD, and its partners, think these projects are good opportunities to revisit the relevant area of the MDN Web Docs documentation: the idea is to have the docs in good shape for each set of features made interoperable over the year. Most of the time, this leads to minor changes to the docs: MDN writers tried to describe the interoperable behaviour, only mentioning browsers when their implementations diverged.
 
-One of the INTEROP projects this year, ..., is about making HTML Forms genuinely interoperable. It was an excellent opportunity to fill part of the MDN gaps. So we decided to do the following:
+One of the Interop focus area this year, [interop-2023-forms](https://wpt.fyi/results/?label=master&label=experimental&product=chrome&product=firefox&product=safari&aligned&view=interop&q=label%3Ainterop-2022-forms%20or%20label%3Ainterop-2023-forms), is about making HTML Forms genuinely interoperable. It was an excellent opportunity to fill part of the MDN gaps. So we decided to do the following:
 
 1. Document all interoperable APIs unrelated to HTML and SVG.
 2. Document all interoperable HTML APIs not part of the DOM (that is, everything in the HTML spec that is not an `HTML*Element` property or method).
 3. Finally, document all missing HTML*Element features related to `<form>` (For example, `HTMLSelectElement`, `HTMLInputElement`, or `HTMLButtonElement`properties and methods).
 
-The two first points let us detect any newly interoperable property or method not documented and document it. We already found some after the launch of Safari 16.4 (like `WritableStreamDefaultController.signal`). They will enable us to maintain the completeness of our API reference about interoperable features once we finish documenting the backlog even more.
+The two first points let us detect any newly interoperable property or method not documented and document it. We already found some after the launch of Safari 16.4 (like [`WritableStreamDefaultController.signal`](https://developer.mozilla.org/en-US/docs/Web/API/WritableStreamDefaultController/signal)). They will enable us to maintain the completeness of our API reference about interoperable features once we finish documenting the backlog even more.
 
 ## Current progress
 
-During the first Quarter of 2023, we focused on the first point, documenting all interoperable APIs unrelated to HTML and SVG. We added more than 100 pages to MDN, documenting missing modern features like `CSSBlockLayerRule` and `CSSStatementLayerRule`, or old features writers forgot over the years, like `XMLHttpRequestUpload`.
+During the first Quarter of 2023, we focused on the first point, documenting all interoperable APIs unrelated to HTML and SVG. We added more than 100 pages to MDN, documenting missing modern features like [`CSSLayerBlockRule`](https://developer.mozilla.org/en-US/docs/Web/API/CSSLayerBlockRule) and [`CSSLayerStatementRule`](https://developer.mozilla.org/en-US/docs/Web/API/CSSLayerStatementRule), or old features writers forgot over the years, like [`XMLHttpRequestUpload`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequestUpload).
 
-Already we can detect missed interoperable, unrelated to HTML and SVG DOMs, features that become interactive: for example, we added the `CSSFontFeaturesValuesRule` that became interoperable in Q1.
+Already we can detect missed interoperable, unrelated to HTML and SVG DOMs, features that become interactive: for example, we added the [`CSSFontFeaturesValuesRule`](https://developer.mozilla.org/en-US/docs/Web/API/CSSFontFeatureValuesRule) that became interoperable in Q1.
 
 In this Quarter, we will document HTML APIs not part of the HTML DOM, interfaces like `ErrorEvent`, `HTMLAllCollection`, or even `HTMLOptionsCollection`. In the future, writers will link numerous times to these documents. New pages will not have _red links_, links to non-written pages, improving the quality of our new docs. We also plan to improve the documentation for the _Constraint Validation API_ this Quarter.
 
