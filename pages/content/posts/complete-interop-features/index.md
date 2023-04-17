@@ -13,7 +13,7 @@ excerpt: "Filling some MDN gaps by documenting missing interoperable features."
 Unfortunately, despite being almost 20 years old, many reference pages still need to be included. We call these missing pages _gaps_ and even have tools to detect some of them:
 
 - Mozilla's [Yari](https://github.com/mdn/yari/) renderer logs missing pages as flaws when it builds a page.
-- [Dominique Hazaël-Massieux](https://www.w3.org/People/Dom/) from the [W3C](https://www.w3.org/) created a tool ([mdn-gaps](https://dontcallmedom.github.io/mdn-gaps/)) listing all specification features without reference documentation.
+- [Dominique Hazaël-Massieux](https://www.w3.org/People/Dom/) from the [W3C](https://www.w3.org/) created a tool ([mdn-gaps](https://dontcallmedom.github.io/mdn-gaps/)) listing all specification features without reference documentation. ![Extract of a screenshot listing a few random MDN gaps, as well as which browser supports them](mdn-gaps.example.png)
 
 These tools allow us to know the extent of the problem.
 
@@ -22,6 +22,8 @@ These tools allow us to know the extent of the problem.
 Gaps came organically. MDN Web Docs was, for many years, the home of a diverse set of documents: writers initially put much effort into documenting Firefox technologies like XUL and XBL, and time was scarce to focus on standardized languages. While CSS, HTML, and JavaScript had their documentation sets, docs for APIs were an afterthought. They were still living under a DOM hierarchy on MDN. With the advent of the HTML5 and CSS3 initiatives (and later the EcmaScript 6 one), Mozilla Developer Network's main subject shifted from proprietary to open and interoperable technologies. The shift was progressive, culminating in rebranding the site as _MDN Web Docs_, the archival of XUL and XBL docs, and, later, the move of Firefox Dev Tools docs to another website.
 
 In the early 2010s, standard bodies and browser makers rapidly specified and implemented new APIs. The focus was to document these new features: they were the focus of web developers, and there needed to be more good documentation about them! It was an easier move to sell internally: new technologies lead to more engagement; getting resources to document them was more straightforward than the old HTML table features, for example. The HTML5, CSS3, and ES6 initiatives allowed MDN to revamp these areas of documentation as there was an interest in positioning the web as a recognized interoperable platform.
+
+![The three logos of HTML5, CSS3, and JS](logos.png)
 
 So, the combination of the scarcity of resources and the high-speed development of the web platform led to the original gaps staying open. Some mitigating actions were taken, like listing every method and property for each interface, but there was still a large gap (more than 1000 missing pages).
 
