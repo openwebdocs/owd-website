@@ -31,7 +31,7 @@ Today's gaps mostly fall into three categories:
 
 - HTML DOM and the SVG DOM features added to the web platform when MDN was still in its infancy;
 - non-interoperable features: APIs supported by only one or two browser engines and missed by the browser makers' writers;
-- single properties and methods forgotten when their API was initially documented or added later that slipped below the radar of the different processes.
+- single properties and methods forgotten when their API was initially documented or added later (but they slipped below the radar of the different writing processes).
 
 ## Opportunities created by the Interop initiative
 
