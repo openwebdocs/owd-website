@@ -51,11 +51,11 @@ The two first points let us detect any newly interoperable property or method an
 
 ## Current progress
 
-During the first Quarter of 2023, we focused on the first point, documenting all interoperable APIs unrelated to HTML and SVG. We added more than 100 pages to MDN, documenting missing modern features like [`CSSLayerBlockRule`](https://developer.mozilla.org/en-US/docs/Web/API/CSSLayerBlockRule) and [`CSSLayerStatementRule`](https://developer.mozilla.org/en-US/docs/Web/API/CSSLayerStatementRule), or old features writers forgot over the years, like [`XMLHttpRequestUpload`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequestUpload).
+During the first Quarter of 2023, we focused on the first point, documenting all interoperable APIs unrelated to HTML and SVG (See our [tracking project](https://github.com/openwebdocs/project/issues/152)). We added more than 100 pages to MDN, documenting missing modern features like [`CSSLayerBlockRule`](https://developer.mozilla.org/en-US/docs/Web/API/CSSLayerBlockRule) and [`CSSLayerStatementRule`](https://developer.mozilla.org/en-US/docs/Web/API/CSSLayerStatementRule), or old features writers forgot over the years, like [`XMLHttpRequestUpload`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequestUpload).
 
 Already we can detect missed interoperable, unrelated to HTML and SVG DOMs, features that become interactive: for example, we added the [`CSSFontFeaturesValuesRule`](https://developer.mozilla.org/en-US/docs/Web/API/CSSFontFeatureValuesRule) that became interoperable in Q1.
 
-In this Quarter, we will document HTML APIs not part of the HTML DOM, interfaces like `ErrorEvent`, `HTMLAllCollection`, or even `HTMLOptionsCollection`. In the future, writers will link numerous times to these documents. New pages will not have _red links_, links to non-written pages, improving the quality of our new docs. We also plan to improve the documentation for the _Constraint Validation API_ this Quarter.
+In this Quarter, we will document HTML APIs not part of the HTML DOM, interfaces like `ErrorEvent`, `HTMLAllCollection`, or even `HTMLOptionsCollection`. You can follow our progress in our [tracking GitHub issue](https://github.com/openwebdocs/project/issues/153) In the future, writers will link numerous times to these documents. New pages will not have _red links_, links to non-written pages, improving the quality of our new docs. We also plan to improve the documentation for the _Constraint Validation API_ this Quarter.
 
 Then, in Q3, we plan to tackle the last point, the missing `HTML*Element` features related to forms. Overall we plan to add 350 pages this year, about 30% of the overall gaps (for interoperable features).
 
