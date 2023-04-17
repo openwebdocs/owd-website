@@ -13,7 +13,7 @@ excerpt: "Filling some MDN gaps by documenting missing interoperable features."
 Unfortunately, despite being almost 20 years old, many reference pages still need to be included. We call these missing pages _gaps_ and even have tools to detect some of them:
 
 - Mozilla's [Yari](https://github.com/mdn/yari/) renderer logs missing pages as flaws when it builds a page.
-- [Dominique Hazaël-Massieux](https://www.w3.org/People/Dom/) from the [W3C](https://www.w3.org/) created a tool ([mdn-gaps](https://dontcallmedom.github.io/mdn-gaps/)) listing all specification features without reference documentation. ![Extract of a screenshot listing a few random MDN gaps, as well as which browser supports them](mdn-gaps.example.png)
+- [Dominique Hazaël-Massieux](https://www.w3.org/People/Dom/) from the [W3C](https://www.w3.org/) created a tool ([mdn-gaps](https://dontcallmedom.github.io/mdn-gaps/)) listing all specification features without reference documentation. ![Extract of a screenshot listing a few random MDN gaps, as well as which browser supports them](mdn-gaps-example.png)
 
 These tools allow us to know the extent of the problem.
 
