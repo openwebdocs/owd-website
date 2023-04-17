@@ -47,7 +47,7 @@ One of the Interop focus area this year, [interop-2023-forms](https://wpt.fyi/re
 2. Document all interoperable HTML APIs not part of the DOM (that is, everything in the HTML spec that is not an `HTML*Element` property or method).
 3. Finally, document all missing HTML*Element features related to `<form>` (For example, `HTMLSelectElement`, `HTMLInputElement`, or `HTMLButtonElement`properties and methods).
 
-The two first points let us detect any newly interoperable property or method not documented and document it. We already found some after the launch of Safari 16.4 (like [`WritableStreamDefaultController.signal`](https://developer.mozilla.org/en-US/docs/Web/API/WritableStreamDefaultController/signal)). They will enable us to maintain the completeness of our API reference about interoperable features once we finish documenting the backlog even more.
+The two first points let us detect any newly interoperable property or method and document it if nobody has done it before. We already found some after the launch of Safari 16.4 (like [`WritableStreamDefaultController.signal`](https://developer.mozilla.org/en-US/docs/Web/API/WritableStreamDefaultController/signal)). These two initial steps will enable us to maintain the completeness of our API reference for interoperable features once we finish documenting the backlog.
 
 ## Current progress
 
