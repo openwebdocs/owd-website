@@ -8,12 +8,12 @@ ShowBreadCrumbs: false
 excerpt: "Filling some MDN gaps by documenting missing interoperable features."
 ---
 
-MDN Web Docs is an invaluable set of information about the web platform. With about 12000 pages, it is the most extensive corpus of documents that web developers can refer to create their websites.
+[MDN Web Docs](https://developer.mozilla.org/) is an invaluable set of information about the web platform. With about 12000 pages, it is the most extensive corpus of documents that web developers can refer to create their websites.
 
-Unfortunately, despite being almost 20 years old, many reference pages still need to be included. We call these _gaps_ and even have tools to detect some of them:
+Unfortunately, despite being almost 20 years old, many reference pages still need to be included. We call these missing pages _gaps_ and even have tools to detect some of them:
 
-- Mozilla's Yari renderer logs missing pages as flaws when it builds a page.
-- Dominique Hazaël Massieux from the W3C created a tool listing all specification features without reference documentation.
+- Mozilla's [Yari](https://github.com/mdn/yari/) renderer logs missing pages as flaws when it builds a page.
+- [Dominique Hazaël-Massieux](https://www.w3.org/People/Dom/) from the [W3C](https://www.w3.org/) created a tool ([mdn-gaps](https://dontcallmedom.github.io/mdn-gaps/)) listing all specification features without reference documentation.
 
 These tools allow us to know the extent of the problem.
 
