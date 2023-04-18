@@ -8,14 +8,16 @@ ShowBreadCrumbs: false
 excerpt: "Filling some MDN gaps by documenting missing interoperable features."
 ---
 
-[MDN Web Docs](https://developer.mozilla.org/) is an invaluable set of information about the web platform. With about 12000 pages, it is the most extensive corpus of documents that web developers can refer to create their websites.
+[MDN Web Docs](https://developer.mozilla.org/) is an invaluable information set about the web platform. With about 12000 pages, it is the most extensive corpus of documents that web developers can referene to create their websites.
 
-Unfortunately, despite being almost 20 years old, many reference pages still need to be included. We call these missing pages _gaps_ and even have tools to detect some of them:
+Unfortunately, despite being almost 20 years old, many reference pages still need to be included. We call these missing pages _gaps_, and even have tools to detect some of them:
 
 - Mozilla's [Yari](https://github.com/mdn/yari/) renderer logs missing pages as flaws when it builds a page.
-- [Dominique Hazaël-Massieux](https://www.w3.org/People/Dom/) from the [W3C](https://www.w3.org/) created a tool ([mdn-gaps](https://dontcallmedom.github.io/mdn-gaps/)) listing all specification features without reference documentation. ![Extract of a screenshot listing a few random MDN gaps, as well as which browser supports them](mdn-gaps-example.png)
+- [Dominique Hazaël-Massieux](https://www.w3.org/People/Dom/), of the [W3C](https://www.w3.org/), created the ([mdn-gaps](https://dontcallmedom.github.io/mdn-gaps/)) tool which lists all specification features with missing reference documentation. 
 
-These tools allow us to know the extent of the problem.
+![MDN gaps screen shot showing 5 missing fetch standard API pages and the browser support each feature](mdn-gaps-example.png)
+
+These tools enable us to identify missing content and understand the extent of the issue.
 
 ## Why are there gaps on MDN?
 
