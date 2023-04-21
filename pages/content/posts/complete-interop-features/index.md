@@ -44,7 +44,7 @@ For several years now, browser makers have sat together at the end of each year 
 
 OWD, and its partners, think these projects are good opportunities to revisit the relevant area of the MDN Web Docs documentation. The idea is to have the docs in good shape for each set of features made interoperable over the year. Most of the time, this leads to minor changes to the docs. MDN writers tried to describe the interoperable behaviour, such as only mentioning browsers when their implementations diverged.
 
-One of the Interop focus area this year, [interop-2023-forms](https://wpt.fyi/results/?label=master&label=experimental&product=chrome&product=firefox&product=safari&aligned&view=interop&q=label%3Ainterop-2022-forms%20or%20label%3Ainterop-2023-forms), is about making HTML Forms genuinely interoperable. It was an excellent opportunity to fill part of the MDN gaps. So we decided to do the following:
+One of the Interop focus area this year, [interop-2023-forms](https://wpt.fyi/results/?label=master&label=experimental&product=chrome&product=firefox&product=safari&aligned&view=interop&q=label%3Ainterop-2022-forms%20or%20label%3Ainterop-2023-forms), is about making HTML forms interoperable. It was an great opportunity to fill part of the MDN gaps. We decided to do the following:
 
 1. Document all interoperable APIs unrelated to HTML and SVG.
 2. Document all interoperable HTML APIs not part of the DOM (that is, everything in the HTML spec that is not an `HTML*Element` property or method).
