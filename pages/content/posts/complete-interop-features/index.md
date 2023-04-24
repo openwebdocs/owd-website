@@ -38,7 +38,7 @@ Today's gaps mostly fall into three categories:
 
 ## Opportunities created by the Interop initiative
 
-As a collective of writers dedicated to helping document the open web platform, [Open Web Docs (OWD)](https://openwebdocs.org/) is helping _close these gaps_. Unlike writers who are paid by browser makers needing to justify their work, OWD's backers, individuals and companies, gave us the more generic mission to improve open web documentation. We are able to focus on much-needed activities that may not bring the most engagement at first, but significantly improve in the middle- and long-term situations. We are able to focus on these valuable activities that benefit developers and the longevity of the documentation, without having anybody's internal projects dictate our priorities.
+As a collective of writers dedicated to documenting the open web platform, [Open Web Docs (OWD)](https://openwebdocs.org/) is able to _close these gaps_.  We believe that projects like this can significantly improve in the middle- and long-term health and the longevity of the documentation. We aim to provide complete documentation of the web platform.
 
 For several years now, browser makers have come together to discuss the pain points of web developers and define the set of features that need more attention to improve their cross-browser functionality and to fix inconsistencies and issues ensuring web devs can implement them reliably. They define areas to focus on as part of the [Interop](https://web.dev/interop-2023/) initiative.
 
