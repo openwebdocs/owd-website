@@ -52,7 +52,7 @@ One of the Interop focus areas this year, [interop-2023-forms](https://wpt.fyi/r
 
 The two first points let us detect any newly interoperable property or method and document it if no one else has already done so. For example, we found gaps after the launch of Safari 16.4 (like [`WritableStreamDefaultController.signal`](https://developer.mozilla.org/en-US/docs/Web/API/WritableStreamDefaultController/signal)). These two initial steps will enable us to maintain the completeness of our API reference for interoperable features (once we finish documenting the backlog).
 
-The third step will give us a complete reference for the Forms APIs. It will be synchronized with this year's Interop initiative, where all three engines will be interoperable.
+The third step will give us a complete reference for the Forms APIs. It will be synchronized with this year's Interop initiative, where all three engines will be interoperable, fully supporting the Forms APIs.
 
 ## Current progress
 
