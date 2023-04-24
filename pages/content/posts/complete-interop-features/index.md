@@ -56,7 +56,7 @@ The third step will give us a complete reference for the Forms APIs. It will be 
 
 ## Current progress
 
-During the first Quarter of 2023, we focused on the first point, documenting all interoperable APIs unrelated to HTML and SVG (See our [tracking project](https://github.com/openwebdocs/project/issues/152)). We added more than 100 pages to MDN, documenting missing modern features like [`CSSLayerBlockRule`](https://developer.mozilla.org/en-US/docs/Web/API/CSSLayerBlockRule) and [`CSSLayerStatementRule`](https://developer.mozilla.org/en-US/docs/Web/API/CSSLayerStatementRule), or old features writers forgot over the years, like [`XMLHttpRequestUpload`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequestUpload).
+During the first Quarter of 2023, we focused on the first point, documenting all interoperable APIs outside of the HTML and SVG APIs (See our [tracking project](https://github.com/openwebdocs/project/issues/152)). We added more than 100 pages to MDN, documenting missing modern features like [`CSSLayerBlockRule`](https://developer.mozilla.org/en-US/docs/Web/API/CSSLayerBlockRule) and [`CSSLayerStatementRule`](https://developer.mozilla.org/en-US/docs/Web/API/CSSLayerStatementRule), or old features writers forgot over the years, like [`XMLHttpRequestUpload`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequestUpload).
 
 Already we can detect missed interoperable, unrelated to HTML and SVG DOMs, features that become interactive: for example, we added the [`CSSFontFeaturesValuesRule`](https://developer.mozilla.org/en-US/docs/Web/API/CSSFontFeatureValuesRule) that became interoperable in Q1.
 
