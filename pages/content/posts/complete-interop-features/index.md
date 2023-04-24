@@ -42,7 +42,7 @@ As a collective of writers dedicated to documenting the open web platform, [Open
 
 For several years now, browser makers have come together to discuss the pain points of web developers and define the set of features that need more attention to improve their cross-browser functionality and to fix inconsistencies and issues ensuring web devs can implement them reliably. They define areas to focus on as part of the [Interop](https://web.dev/interop-2023/) initiative.
 
-OWD, and its partners, think these projects are good opportunities to revisit the relevant area of the MDN Web Docs documentation. The idea is to have the docs in good shape for each set of features made interoperable over the year. Most of the time, this leads to minor changes to the docs. MDN writers tried to describe the interoperable behaviour, such as only mentioning browsers when their implementations diverged.
+Within OWD's Steering Committee, we have determined that these projects are good opportunities to revisit the relevant area of the MDN Web Docs documentation. The idea is to have the docs in good shape for each set of features made interoperable over the year. Most of the time, this leads to minor changes to the docs. MDN writers tried to describe the interoperable behaviour, such as only mentioning browsers when their implementations diverged.
 
 One of the Interop focus areas this year, [interop-2023-forms](https://wpt.fyi/results/?label=master&label=experimental&product=chrome&product=firefox&product=safari&aligned&view=interop&q=label%3Ainterop-2022-forms%20or%20label%3Ainterop-2023-forms), is to make HTML forms interoperable. It is a great opportunity to fill some of MDN's gaps. We decided to do the following:
 
