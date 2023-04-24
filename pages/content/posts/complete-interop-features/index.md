@@ -66,4 +66,8 @@ Then, in Q3, we plan to tackle the last point, the missing `HTML*Element` featur
 
 ## And all the rest?
 
-About 700 more interoperable properties and methods will not be documented after this first project. Even if we do not have a plan, we have a few ideas to tackle the remaining gaps. For SVG, we would like to take a similar approach. First, we would like to document fundamental interfaces, like the types: `SVGLength`, `SVGAnimatedLength`, … In the second phase, we would like to call the community for help. There are a lot of similar docs to write, like the different kinds of SVG filters. The pages will have the same structure, although the examples will differ. We will see what will happen, and hopefully, we can report back on progress here!
+After this interop documentation project is complete, almost 700 more interoperable properties and methods will still need to be documented. We are developing plans to tackle the remaining gaps.
+
+SVG documentation could benefit from a similar interop approach. In the first phase, we would like to document fundamental interfaces, like the types: `SVGLength`, `SVGAnimatedLength`. We want to call the community for help in the second phase: there are a lot of similar docs to write, like the multitude of SVG filters. Pages with similar structures, though with different examples, are a great opportunity for community involvement. 
+
+We will see what will happen, and hopefully, we can report back on progress here!
