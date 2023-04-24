@@ -28,7 +28,7 @@ Since the early 2010s (and even prior), standard bodies and browser makers have 
 
 ![The three logos of HTML5, CSS3, and JS](logos.png)
 
-The combination of scarcity of resources and the high-speed development of the web platform led to the original gaps staying open. Some mitigating actions were taken, like listing every method and property for each interface. However,there was still a large gap (more than 1000 missing pages).
+The combination of scarcity of resources and the high-speed development of the web platform led to the original gaps staying open. Some mitigating actions were taken, like listing every method and property for each interface. However, there was still a large gap of more than 1000 missing pages.
 
 Today's gaps mostly fall into three categories:
 
