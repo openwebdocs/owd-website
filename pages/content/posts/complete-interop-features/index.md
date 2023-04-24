@@ -8,7 +8,7 @@ ShowBreadCrumbs: false
 excerpt: "Filling some MDN gaps by documenting missing interoperable features."
 ---
 
-[MDN Web Docs](https://developer.mozilla.org/) is an invaluable information set about the web platform. With about 12,000 pages, it is the most extensive corpus of documents that web developers can reference to create their websites.
+[MDN Web Docs](https://developer.mozilla.org/) is an invaluable information set about the web platform. With about 12,000 pages, it is the most extensive corpus of documents that web developers can rely on when creating websites.
 
 Unfortunately, despite being almost 20 years old, many reference pages still need to be included. We call these missing pages _gaps_, and even have tools to detect some of them:
 
