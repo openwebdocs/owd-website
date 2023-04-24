@@ -14,7 +14,7 @@ The Web/API documentation is the biggest part of MDN, comprising about 6000 page
 
 It includes pages for every method and every property of an interface. The titles of these pages were in the format `InterfaceName.methodName()`:
 
-![screenshot of old title for Document.querySelector()](document-queryselector-old.png)
+![screenshot of old title for Document's querySelector() method, which reads 'Document.querySelector()'](document-queryselector-old.png)
 
 [For a long time](https://discourse.mozilla.org/t/incorrect-titles-for-method-property-articles/31641), people have raised the issue that this is problematic, because it suggests that something like `Document.querySelector()` is valid code, which it isn't, of course.
 
@@ -26,11 +26,11 @@ Finally, last week, we retitled all property, method, constructor, and event pag
 
 The new page titles are longer than the old ones, and are more descriptive of the sort of item being documented:
 
-![screenshot of new title for Document.querySelector()](document-queryselector-new.png)
+![screenshot of new title for Document's querySelector() method, which reads 'Document: querySelector() method'](document-queryselector-new.png)
 
 For the first time, MDN has different titles for static members in Web/API:
 
-![screenshot of new title for Response.error()](response-error-new.png)
+![screenshot of new title for Response's static error() method, which reads 'Response: error() static method''](response-error-new.png)
 
 This is increasingly important now that we are seeing static and instance members of Web/API interfaces [with the same names](https://github.com/whatwg/fetch/pull/1392).
 
