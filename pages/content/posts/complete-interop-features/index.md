@@ -10,7 +10,7 @@ excerpt: "Filling some MDN gaps by documenting missing interoperable features."
 
 [MDN Web Docs](https://developer.mozilla.org/) is an invaluable information set about the web platform. With about 12,000 pages, it is the most extensive corpus of documents that web developers can rely on when creating websites.
 
-Unfortunately, despite being almost 20 years old, many reference pages still need to be included. We call these missing pages _gaps_, and even have tools to detect some of them:
+Unfortunately, despite being almost 20 years old, many reference pages still need to be added. We call these missing pages _gaps_, and even have tools to detect some of them:
 
 - Mozilla's [Yari](https://github.com/mdn/yari/) renderer logs missing pages as flaws when it builds a page.
 - [Dominique Hazaël-Massieux](https://www.w3.org/People/Dom/), of the [W3C](https://www.w3.org/), created the ([mdn-gaps](https://dontcallmedom.github.io/mdn-gaps/)) tool which lists all specification features with missing reference documentation. 
