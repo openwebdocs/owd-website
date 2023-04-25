@@ -40,7 +40,7 @@ As a collective of writers dedicated to documenting the open web platform, [Open
 
 For several years now, browser makers have come together to discuss web developer pain points, defining the features that need more attention to improve cross-browser functionality and fixing inconsistencies and issues, ensuring web devs can implement features reliably. This is known as the [Interop](https://web.dev/interop-2023/) initiative.
 
-OWD's Steering Committee has determined these projects provide excellent opportunities to revisit the relevant areas of MDN Web Docs documentation. The objective and goal is to have complete documentation for each set of features made interoperable over the year. 
+OWD's [Steering Committee](https://openwebdocs.org/team/#steering-committee) has determined these projects provide excellent opportunities to revisit the relevant areas of MDN Web Docs documentation. The objective and goal is to have complete documentation for each set of features made interoperable over the year. 
 
 Most of the time, this leads to minor changes to the documentation. MDN writers have described the interoperable behavior, such as mentioning when and how browser implementations have diverged; with interoperability, notes about divergence in browser behaviors can be removed.
 
