@@ -27,7 +27,7 @@ Since the early 2010s (and even prior), standard bodies and browser makers have 
 
 ![The three logos of HTML5, CSS3, and JS](logos.png)
 
-For the MDN writing community, the development of the web platform at larger speed led to being unable to keep up with documenting all new features while also trying to document the existing foundation of the web platform. This sometimes lead to mitigating actions, like listing methods and properties on the interface page but not creating the sub pages.
+The development of the web platform at a greater speed led to the MDN writing community being unable to keep up with documenting all new features while also trying to document the existing foundations of the web platform. This sometimes led to mitigating actions, like listing methods and properties on the interface page but not creating the sub-pages.
 
 Today's gaps mostly fall into three categories:
 
