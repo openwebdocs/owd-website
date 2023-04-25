@@ -17,7 +17,6 @@ Unfortunately, despite being almost 20 years old, many reference pages still nee
 
 ![MDN gaps screen shot showing 5 missing fetch standard API pages and the browser support each feature](mdn-gaps-example.png)
 
-
 ## Why are there gaps on MDN?
 
 Missing pages or gaps slipped in and their number grew organically. Initially, most MDN writers put great effort into documenting Firefox technologies like XUL and XBL, and time was scarce to focus on standardized languages. While CSS, HTML, and JavaScript were well documented, originally the docs for Web APIs were an afterthought. They lived under a DOM hierarchy on MDN. With the advent of HTML as a living standard and CSS module structure initiatives (and later ECMAScript 6), Mozilla Developer Network's focus shifted more from documenting proprietary content to documenting open and interoperable technologies. The shift was progressive, culminating in rebranding the site as _MDN Web Docs_, the archiving of XUL and XBL docs, and, later, the moving of [Firefox Dev Tools](https://firefox-source-docs.mozilla.org/) documentation to a dedicated website.
