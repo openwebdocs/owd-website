@@ -60,7 +60,7 @@ During the first Quarter of 2023, we focused on the first point, documenting all
 
 Already we can detect missed interoperable APIs, unrelated to HTML and SVG DOMs, features that become interoperative: for example, we added the [`CSSFontFeaturesValuesRule`](https://developer.mozilla.org/en-US/docs/Web/API/CSSFontFeatureValuesRule) that received support in all major browsers in the first quarter of 2023.
 
-In Q2, we are documenting HTML APIs that are part of the HTML DOM, interfaces like `ErrorEvent`, `HTMLAllCollection`, or even `HTMLOptionsCollection`. You can follow our progress in our [GitHub tracking issue](https://github.com/openwebdocs/project/issues/153). In the future, writers will link to these documents. New pages will not have _red links_, links to non-existent pages, improving the quality of our new documentation. The _Constraint Validation API_ documentation will also be improved this Quarter.
+In the second quarter, we are documenting HTML APIs that are part of the HTML DOM, interfaces like `ErrorEvent`, `HTMLAllCollection`, or even `HTMLOptionsCollection`. You can follow our progress in our [GitHub tracking issue](https://github.com/openwebdocs/project/issues/153). In the future, writers will link to these documents. New pages will not have _red links_, links to non-existent pages, improving the quality of our new documentation. The _Constraint Validation API_ documentation will also be improved this Quarter.
 
 Later this year, we plan to tackle the last point, the missing `HTML*Element` features related to forms. Overall we plan to add 350 pages this year, about 30% of the overall gaps (for interoperable features).
 
