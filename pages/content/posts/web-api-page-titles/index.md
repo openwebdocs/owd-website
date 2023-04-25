@@ -30,7 +30,7 @@ The new page titles are longer than the old ones, and are more descriptive of th
 
 For the first time, MDN has different titles for static members in Web/API:
 
-![screenshot of new title for Response's static error() method, which reads 'Response: error() static method''](response-error-new.png)
+![screenshot of new title for Response's static error() method, which reads 'Response: error() static method'](response-error-new.png)
 
 This is increasingly important now that we are seeing static and instance members of Web/API interfaces [with the same names](https://github.com/whatwg/fetch/pull/1392).
 
