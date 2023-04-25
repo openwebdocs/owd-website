@@ -17,7 +17,6 @@ Unfortunately, despite being almost 20 years old, many reference pages still nee
 
 ![MDN gaps screen shot showing 5 missing fetch standard API pages and the browser support each feature](mdn-gaps-example.png)
 
-These tools enable us to identify missing content and understand the extent of the issue.
 
 ## Why are there gaps on MDN?
 
