@@ -31,7 +31,7 @@ The development of the web platform at a greater speed led to the MDN writing co
 
 Today's gaps mostly fall into three categories:
 
-- HTML DOM, and the SVG DOM features added to the web platform when MDN was still in its infancy;
+- HTML DOM and SVG DOM features added to the web platform when MDN was still in its infancy;
 - non-interoperable features: APIs supported by only one or two browser engines;
 - single properties and methods that were forgotten when the interface was initially documented or added later.
 
