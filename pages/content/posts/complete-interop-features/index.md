@@ -62,7 +62,7 @@ Already we can detect missed interoperable APIs, unrelated to HTML and SVG DOMs,
 
 In Q2, we are documenting HTML APIs that are part of the HTML DOM, interfaces like `ErrorEvent`, `HTMLAllCollection`, or even `HTMLOptionsCollection`. You can follow our progress in our [GitHub tracking issue](https://github.com/openwebdocs/project/issues/153). In the future, writers will link to these documents. New pages will not have _red links_, links to non-existent pages, improving the quality of our new documentation. The _Constraint Validation API_ documentation will also be improved this Quarter.
 
-Then, in Q3, we plan to tackle the last point, the missing `HTML*Element` features related to forms. Overall we plan to add 350 pages this year, about 30% of the overall gaps (for interoperable features).
+Later this year, we plan to tackle the last point, the missing `HTML*Element` features related to forms. Overall we plan to add 350 pages this year, about 30% of the overall gaps (for interoperable features).
 
 ## And all the rest?
 
