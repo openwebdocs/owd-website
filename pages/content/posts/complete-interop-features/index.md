@@ -1,7 +1,7 @@
 ---
 author: "Jean-Yves Perrier"
 title: "Documenting missing interoperable web features"
-date: "2023-04-25"
+date: "2023-04-26"
 tags: ["projects"]
 ShowToc: false
 ShowBreadCrumbs: false
