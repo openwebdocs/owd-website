@@ -176,6 +176,10 @@ main#donate {
   margin-right: auto;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* COMPONENTS */
 nav span {
   display: flex;
