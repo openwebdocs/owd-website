@@ -6,7 +6,7 @@ description: "Making MDN more inclusive"
 tags: ["projects"]
 ShowToc: false
 ShowBreadCrumbs: false
-excerpt: ""
+excerpt: "The Open Web Docs team has been working to reduce the occurrence of microaggressions and up the number of micro-benevolences throughout MDN."
 ---
 
 Many of us are unknowingly responsible for microaggressions in our everyday interactions, including when we write content and create examples for MDN. The Open Web Docs team has been working to reduce the occurrence of microaggressions and up the number of micro-benevolences throughout MDN.
