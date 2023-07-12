@@ -10,6 +10,8 @@ excerpt: "A quick survey of the projects we completed in H1 2023"
 
 We're at the start of H2 and [planning the projects we expect to take on next](https://github.com/openwebdocs/project/issues/171). So it's a good time to look back at the projects we completed in the first half of the year. We've blogged about a couple of these projects before and hope to write more detailed posts about some of the others, but for now, here's a relatively quick rundown.
 
+As well as the projects listed below, we've continued our day-to-day work of supporting the MDN contributor community, by mentoring volunteers and reviewing PRs.
+
 ## The great renaming of Web/API
 
 This year we finally addressed a problem with MDN's Web/API docs that has vexed web developers since at least 2018: that the titles of pages for Web/API properties and methods, like the [`postMessage()`](https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorker/postMessage) method of the `ServiceWorker` interface, were written as though they were static members of those interfaces, like `ServiceWorker.postMessage()`.
