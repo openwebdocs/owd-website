@@ -24,7 +24,9 @@ For more details on this project, see our separate post on [The great renaming o
 
 ## Documenting interoperable Web/API features
 
-In January, [Dominique Hazaël-Massieux](https://www.w3.org/People/Dom/) came up with the [mdn-gaps tool](https://dontcallmedom.github.io/mdn-gaps/), which cross-checks between items in BCD, items in the specifications, and pages in MDN, to flag web platform features that are in at multiple browser engines, but don't yet have docs on MDN.
+At a meetup in January, someone mentioned that it would be great to have a tool to cross-check between BCD, the specifications, and MDN, to flag web platform features that have cross-browser support, but don't yet have docs on MDN.
+
+The next day, [Dominique Hazaël-Massieux](https://www.w3.org/People/Dom/) came up with [the mdn-gaps tool](https://dontcallmedom.github.io/mdn-gaps/), which does just that.
 
 This enabled us to start a project to document all Web/API features that are supported in at least three browser engines. We split this into phases:
 
@@ -37,13 +39,13 @@ This project also has its own standalone post: see [Documenting missing interope
 
 ## Progressive web apps revamp
 
-Also in January, [Patrick Brosset](https://patrickbrosset.com/), who's one of the Microsoft representatives on our Governing Committee, proposed [a project to update the MDN documentation for progressive web apps](https://github.com/mdn/mdn/issues/280). MDN's docs on progressive web apps were mostly written in 2017, and were never substantially updated since.
+Also in January, [Patrick Brosset](https://patrickbrosset.com/), one of the Microsoft representatives on our Governing Committee, proposed [a project to update the MDN documentation for progressive web apps](https://github.com/mdn/mdn/issues/280). MDN's docs on progressive web apps were mostly written in 2017, and were never substantially updated since.
 
 To get an idea of what kind of content to add, we used the [Divio documentation system](https://documentation.divio.com/) which describes four different types of documentation, that each perform a different function. The Divio system is - we think - one of those ideas that is so useful, that when you hear it, you wonder why you never thought of it before.
 
 We've never really used Divio on MDN, because most of our work is on reference docs only. But the progressive web apps project added mostly learning material, such as guides and tutorials, and we found the Divio system very helpful in planning our work. We added [explanations](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides), [how-to pages](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/How_to), a new [tutorial](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Tutorials/CycleTracker), and updated the existing [reference docs](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Reference) where that was needed.
 
-Patrick not only proposed the project, but helped plan it and wrote and reviewed a lot of the content. We think OWD's super power is our connections with people like Patrick, and we're very grateful for his engagement with us in this and other projects!
+Patrick not only proposed the project, but helped plan it and wrote and reviewed a lot of the content.
 
 ## Performance API docs revamp
 
@@ -67,6 +69,8 @@ This gives web developers a more accurate picture of the compatibility status of
 
 ## What's next?
 
-We're currently [planning our H2 projects](https://github.com/openwebdocs/project/issues/171). As you might see from the list above, many of our projects are those proposed by the web developer community. So if there are content projects you'd like to see us work on, we encourage you to [file a proposal](https://github.com/openwebdocs/project/issues/new?assignees=&labels=not+ready&projects=&template=owd-project.yml), and talk to us about it. If you want to work with us on it, either to help specify the work or even to help with writing, that's great too!
+We're currently [planning our H2 projects](https://github.com/openwebdocs/project/issues/171). As you might see from the list above, many of our projects are those proposed by our partners and the wider web developer community. We think OWD's super power is our connections with people like Dominique and Patrick, and we're very grateful for their engagement with us in this and other projects.
 
-Open Web Docs is a non-profit collective entirely funded by individual and corporate donors. We're very grateful to [everyone who contributes to us](https://opencollective.com/open-web-docs), thereby enabling us to continue our work. If you or your employer don't currently donate to us, but think our work is valuable, please consider donating, or asking your employer to.
+So if there are content projects you'd like to see us work on, we encourage you to [file a proposal](https://github.com/openwebdocs/project/issues/new?assignees=&labels=not+ready&projects=&template=owd-project.yml), and talk to us about it. If you want to work with us on it, either to specify the work or to help with writing, that's great too!
+
+Open Web Docs is a non-profit collective entirely funded by individual and corporate donors. We're very grateful to [everyone who sponsors us](https://opencollective.com/open-web-docs). We think the projects we completed in H1, and those we plan for the future, will help web developers to build exciting applications to serve their users better. If you think so too, please consider sponsoring us, or asking your employer to.
