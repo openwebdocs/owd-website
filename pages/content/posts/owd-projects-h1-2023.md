@@ -14,7 +14,7 @@ As well as the projects listed below, we've continued our day-to-day work of sup
 
 ## The great renaming of Web/API
 
-This year we finally addressed a problem with MDN's Web/API docs that has vexed web developers since at least 2018: that the titles of pages for Web/API properties and methods, like the [`postMessage()`](https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorker/postMessage) method of the `ServiceWorker` interface, were written as though they were static members of those interfaces, like `ServiceWorker.postMessage()`.
+This year we finally addressed a problem with MDN's Web/API docs that has vexed web developers [since at least 2018](https://discourse.mozilla.org/t/incorrect-titles-for-method-property-articles/31641): that the titles of pages for Web/API properties and methods, like the [`postMessage()`](https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorker/postMessage) method of the `ServiceWorker` interface, were written as though they were static members of those interfaces, like `ServiceWorker.postMessage()`.
 
 Discussion of an acceptable alternative reached consensus in 2022, but implementing the change consistently across all 4000 or so pages only became practical after we had assigned machine-readable [page types](https://github.com/openwebdocs/project/issues/91) to the Web/API pages. After that, we could update the titles in a couple of days.
 
@@ -24,9 +24,7 @@ For more details on this project, see our separate post on [The great renaming o
 
 ## Documenting interoperable Web/API features
 
-In January the OWD team, along with representatives from our Steering Committee and Mozilla's MDN team, met up in London. In a meeting someone mentioned that it would be great to have a tool to cross-check between items in BCD, items in the specifications, and pages in MDN to flag web platform features that are in at multiple browser engines, but don't yet have docs on MDN.
-
-The next day, apparently, [Dominique Hazaël-Massieux](https://www.w3.org/People/Dom/) came up with [the mdn-gaps tool](https://dontcallmedom.github.io/mdn-gaps/).
+In January, [Dominique Hazaël-Massieux](https://www.w3.org/People/Dom/) came up with the [mdn-gaps tool](https://dontcallmedom.github.io/mdn-gaps/), which cross-checks between items in BCD, items in the specifications, and pages in MDN, to flag web platform features that are in at multiple browser engines, but don't yet have docs on MDN.
 
 This enabled us to start a project to document all Web/API features that are supported in at least three browser engines. We split this into phases:
 
@@ -39,7 +37,7 @@ This project also has its own standalone post: see [Documenting missing interope
 
 ## Progressive web apps revamp
 
-In January, [Patrick Brosset](https://patrickbrosset.com/), who's one of the Microsoft representatives on our Governing Committee, proposed [a project to update the MDN documentation for progressive web apps](https://github.com/mdn/mdn/issues/280). MDN's docs on progressive web apps were mostly written in 2017, and were never substantially updated since.
+Also in January, [Patrick Brosset](https://patrickbrosset.com/), who's one of the Microsoft representatives on our Governing Committee, proposed [a project to update the MDN documentation for progressive web apps](https://github.com/mdn/mdn/issues/280). MDN's docs on progressive web apps were mostly written in 2017, and were never substantially updated since.
 
 To get an idea of what kind of content to add, we used the [Divio documentation system](https://documentation.divio.com/) which describes four different types of documentation, that each perform a different function. The Divio system is - we think - one of those ideas that is so useful, that when you hear it, you wonder why you never thought of it before.
 
