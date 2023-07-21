@@ -1,8 +1,8 @@
 ---
 author: "Estelle Weyl"
 title: "Micro benevolences"
-date: "2023-07-18"
-description: "Making MDN more inclusive"
+date: "2023-07-24"
+description: "Making MDN more inclusive."
 tags: ["projects"]
 ShowToc: false
 ShowBreadCrumbs: false
