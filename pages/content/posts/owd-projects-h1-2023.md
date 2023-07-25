@@ -1,7 +1,7 @@
 ---
 author: "Will Bamberg"
 title: "OWD projects in H1 2023"
-date: "2023-07-12"
+date: "2023-07-25"
 tags: ["projects"]
 ShowToc: false
 ShowBreadCrumbs: false
@@ -35,7 +35,7 @@ This enabled us to start a project to document all Web/API features that are sup
 
 In H1 we completed the first phase, adding over 100 new reference pages to MDN, including topics in such diverse and important APIs as [web components](https://github.com/mdn/content/pull/25649), [service workers](https://github.com/mdn/content/pull/24494), and [file handling](https://github.com/mdn/content/pull/25621).
 
-This project also has its own standalone post: see [Documenting missing interoperable web features](http://localhost:8080/content/posts/complete-interop-features/).
+This project also has its own standalone post: see [Documenting missing interoperable web features](http://openwebdocs.org/content/posts/complete-interop-features/).
 
 ## Progressive web apps revamp
 
@@ -49,7 +49,7 @@ Patrick not only proposed the project, but helped plan it and wrote and reviewed
 
 ## Performance API docs revamp
 
-This project was [originally proposed by Google in 2021](https://github.com/openwebdocs/project/issues/62), and saw us completely overhauling the reference documentation for the [Performance API](https://developer.mozilla.org/en-US/docs/Web/API/Performance_API).
+This project was [originally proposed by the Web Performance Working Group in 2021](https://github.com/openwebdocs/project/issues/62), and saw us completely overhauling the reference documentation for the [Performance API](https://developer.mozilla.org/en-US/docs/Web/API/Performance_API).
 
 The Performance API enables web developers to gather metrics about various aspects of a web application's performance, such as how [long it takes for event handler to run in response to a user action](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceEventTiming) or [how long it takes to download and process a resource](https://developer.mozilla.org/en-US/docs/Web/API/Performance_API/Resource_timing).
 
@@ -73,4 +73,4 @@ We're currently [planning our H2 projects](https://github.com/openwebdocs/projec
 
 So if there are content projects you'd like to see us work on, we encourage you to [file a proposal](https://github.com/openwebdocs/project/issues/new?assignees=&labels=not+ready&projects=&template=owd-project.yml), and talk to us about it. If you want to work with us on it, either to specify the work or to help with writing, that's great too!
 
-Open Web Docs is a non-profit collective entirely funded by individual and corporate donors. We're very grateful to [everyone who sponsors us](https://opencollective.com/open-web-docs). We think the projects we completed in H1, and those we plan for the future, will help web developers to build exciting applications to serve their users better. If you think so too, please consider sponsoring us, or asking your employer to.
+Open Web Docs is a non-profit collective entirely funded by individual and corporate donors. We're very grateful to [everyone who sponsors us](https://openwebdocs.org/sponsors/). We think the projects we completed in H1, and those we plan for the future, will help web developers to build exciting applications to serve their users better. If you think so too, please consider sponsoring us, or asking your employer to.
