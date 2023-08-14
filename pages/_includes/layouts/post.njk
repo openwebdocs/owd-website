@@ -3,7 +3,7 @@
 {% block content %}
   <article class="post auto xl-paragraph">
     <h1>{{ title }}</h1>
-    <p class="byline">{{ date }} - {{ author }}</p>
+    <p class="byline">{{ date }} - {{ author }} - <a href="/feed.xml">RSS feed</a></p>
     {{ content | safe }}
   </article>
 {% endblock %}
