@@ -10,7 +10,7 @@ const markdownOptions = {
   linkify: true,
 };
 const markdownRenderer = markdownIt(markdownOptions).use(
-  markdownItNamedHeadings
+  markdownItNamedHeadings,
 );
 
 module.exports = function (eleventyConfig) {

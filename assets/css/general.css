@@ -37,7 +37,9 @@ body.loaded a.btn,
 body.loaded button,
 #toggleTheme ul,
 #toggleTheme ul li {
-  transition: color 0.2s, background-color 0.2s;
+  transition:
+    color 0.2s,
+    background-color 0.2s;
 }
 
 .socials img.icon {
