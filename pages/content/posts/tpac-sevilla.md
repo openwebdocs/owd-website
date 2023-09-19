@@ -12,7 +12,7 @@ Last week I traveled to Seville, Spain to attend the [W3C TPAC 2023 conference](
 
 Every year, the W3C <dfn id="tpac"><abbr title="Technical Plenary and Advisory Committee">TPAC</abbr></dfn> conference invites W3C members and boards, W3C Working and Interest Groups, as well as Invited Experts and others to meet and discuss work on web standards and web technologies. This time, it was a hybrid event - participation was possible both in-person and remotely.
 
-It was my first in-person TPAC event. I enjoyed meeting a lot of folks that had I only interacted with online so far. It was a great feeling when people recognized me or Open Web Docs and had nice things to say.
+It was my first in-person TPAC event. I enjoyed meeting a lot of folks that I had only interacted with online so far. It was a great feeling when people recognized me or Open Web Docs and had nice things to say.
 
 I received kudos for Open Web Docs' setup as a [non-profit Open Collective](https://opencollective.com/open-web-docs). I was also told that folks enjoy reading about the projects we do on MDN Web Docs. Some TPAC attendees I spoke with even watch our [GitHub project repository](https://github.com/openwebdocs/project) to immediately hear all about our new projects (cheers, Thomas Steiner!).
 
@@ -33,14 +33,14 @@ I recently joined the [WebDX W3C community group](https://www.w3.org/community/w
 - [Interop project](https://www.w3.org/2023/09/13-interop-minutes.html), chaired by James Graham (Mozilla).
 - [Beyond Interop](https://www.w3.org/2023/09/13-beyond-interop-minutes.html), chaired by Kadir Topal (Google).
 - [WebDX research and spec development](https://www.w3.org/2023/09/13-webdx-minutes.html), chaired by François Daoust (W3C).
-- Secure the Web Forward, chaired by Daniel Appelquist (Synk). (need to find the minutes link)
+- [Secure the Web Forward](https://www.w3.org/2023/09/13-secure-the-web-minutes.html), chaired by Daniel Appelquist (Synk).
 
 Open Web Docs will be collaborating with the WebDX group a lot more going forward. Documentation is a major aspect of Developer Experience! As such, the research and work this community group is doing is very relevant to OWD's mission. As part of the goal of improving developer experience through better documentation, I met with Daniel Beck and Kadir Topal (Google) to discuss the next steps for the OWD project ["Grouping web features"](https://github.com/openwebdocs/project/issues/169). Daniel also made a [video about web features](https://www.w3.org/2023/09/TPAC/demos/web-features.html).
 
-Daniel Appelquist's "Secure the Web Forward" session was also good preparation the [Secure the Web Forward virtual workshop](https://www.w3.org/2023/03/secure-the-web-forward/agenda.html) happening September 26-28. We are looking forward to discussing web security documentation and security education with security experts. While talking to Arnaud Le Hors (IBM), I realized we should likely start our security docs project by outlining the contents for a "MDN guide to secure your website / web app". This workshop will be invaluable in reaching this project's goals. I'm very much looking forward to this workshop and I'm curious to see how the format will play out. Expect a blog post soon about it soon!
+Daniel Appelquist's "Secure the Web Forward" session was also good preparation for the [Secure the Web Forward virtual workshop](https://www.w3.org/2023/03/secure-the-web-forward/agenda.html) happening September 26-28. We are looking forward to discussing web security documentation and security education with security experts. While talking to Arnaud Le Hors (IBM), I realized we should likely start our security docs project by outlining the contents for a "MDN guide to secure your website / web app". This workshop will be invaluable in reaching this project's goals. I'm very much looking forward to this workshop and I'm curious to see how the format will play out. Expect a blog post about it soon!
 
 ## Wrap up
 
 And that's it! I really enjoyed the face-to-face conversations, even if it was just briefly near the pool with Bert Bos, Brian Kardell, Ali Spivak, Oliver Dunk, Andreu Botella, and others whom I'm (rudely, sorry!) forgetting right now. Also, a happy birthday shout-out to Diego González. Next year will have to celebrate with another great dinner at a different but equally fantastic Tapas restaurant.
 
-I hope to see you all at TPAC 2024! Next year, let's bring the whole OWD team. They currently have some serious FOMO for missing out on this year's events!
+I hope to see you all at TPAC 2024! Next year, let's bring the whole OWD team. They currently have some serious FOMO for missing out on this year's event!
