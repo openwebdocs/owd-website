@@ -16,7 +16,7 @@ It was my first in-person TPAC event. I enjoyed meeting a lot of folks that I ha
 
 I received kudos for Open Web Docs' setup as a [non-profit Open Collective](https://opencollective.com/open-web-docs). I was also told that folks enjoy reading about the projects we do on MDN Web Docs. Some TPAC attendees I spoke with even watch our [GitHub project repository](https://github.com/openwebdocs/project) to immediately hear all about our new projects (cheers, Thomas Steiner!).
 
-Attending an in-person event these days is really about the people. So, let me give a shout-out to "my" people at TPAC: I connected with a few OWD governing board members, including Rachel Andrew (Google), Daniel Appelquist (Synk), Patrick Brosset (Microsoft), Dominique Hazael-Massieux (W3C), and Robert Nyman (Google). I also met members of OWD's steering committee, including Ruth John (Mozilla), Brian Kardell (Igalia), Lola Odelola (Bocoup), Brian Smith (Mozilla), and Michael[tm] Smith (W3C).
+Attending an in-person event these days is really about the people. So, let me give a shout-out to "my" people at TPAC: I connected with a few OWD governing board members, including Rachel Andrew (Google), Daniel Appelquist (Snyk), Patrick Brosset (Microsoft), Dominique Hazael-Massieux (W3C), and Robert Nyman (Google). I also met members of OWD's steering committee, including Ruth John (Mozilla), Brian Kardell (Igalia), Lola Odelola (Bocoup), Brian Smith (Mozilla), and Michael[tm] Smith (W3C).
 
 Since our founding, we have only had a single OWD meetup ([in London, earlier this year](https://openwebdocs.org/content/posts/london-meetup/)). It was so lovely to reconnect and talk about web platform documentation once again.
 
@@ -33,7 +33,7 @@ I recently joined the [WebDX W3C community group](https://www.w3.org/community/w
 - [Interop project](https://www.w3.org/2023/09/13-interop-minutes.html), chaired by James Graham (Mozilla).
 - [Beyond Interop](https://www.w3.org/2023/09/13-beyond-interop-minutes.html), chaired by Kadir Topal (Google).
 - [WebDX research and spec development](https://www.w3.org/2023/09/13-webdx-minutes.html), chaired by François Daoust (W3C).
-- [Secure the Web Forward](https://www.w3.org/2023/09/13-secure-the-web-minutes.html), chaired by Daniel Appelquist (Synk).
+- [Secure the Web Forward](https://www.w3.org/2023/09/13-secure-the-web-minutes.html), chaired by Daniel Appelquist (Snyk).
 
 Open Web Docs will be collaborating with the WebDX group a lot more going forward. Documentation is a major aspect of Developer Experience! As such, the research and work this community group is doing is very relevant to OWD's mission. As part of the goal of improving developer experience through better documentation, I met with Daniel Beck and Kadir Topal (Google) to discuss the next steps for the OWD project ["Grouping web features"](https://github.com/openwebdocs/project/issues/169). Daniel also made a [video about web features](https://www.w3.org/2023/09/TPAC/demos/web-features.html).
 
