@@ -8,7 +8,7 @@ ShowBreadCrumbs: false
 excerpt: "Open Web Docs attended the Secure the Web Forward W3C workshop."
 ---
 
-Open Web Docs attended the W3C Workshop [Secure the Web Forward](https://www.w3.org/2023/03/secure-the-web-forward/index.html). The workshop was held virtually on September 26-28, 2023 with the goal to drive developer awareness and adoption of Web security standards & practices.
+Open Web Docs attended the W3C workshop [Secure the Web Forward](https://www.w3.org/2023/03/secure-the-web-forward/index.html). The workshop was held virtually on September 26-28, 2023 with the goal to drive developer awareness and adoption of web security standards & practices.
 
 We handed in a position paper called [Documentation for web security education](https://www.w3.org/2023/03/secure-the-web-forward/papers.html#owd) and presented our paper as part of the "Developer awareness" track on the last day of the workshop.
 
@@ -24,12 +24,16 @@ The talk was recorded:
 - [HTML slides](https://florianscholz.com/security-docs-workshop/)
 - [PDF slides](https://www.w3.org/2023/03/secure-the-web-forward/talks/slides/owd.pdf)
 
+<iframe width="560" height="315" style="display: block; margin: 0 auto" src="https://www.youtube.com/embed/aAx6-wPaOHc?si=gXVpjo54M8doV8R6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Many thanks to the [program committee](https://www.w3.org/2023/03/secure-the-web-forward/index.html#pc) and in particular to Dan Appelquist (Snyk) and François Daoust (W3C) for inviting us and for all the work on organizing this workshop!
+
 Some takeaways from the discussion that followed the presentation of our paper:
 
 - Agreement that documentation plays a major role in the adoption of best practices and in understanding threats and defense mechanisms.
 - Lots of support for a standard "Security considerations" section in reference docs, like MDN has for accessibility.
-- There is some gatekeeping going on. We should aim to empower people and make security more accessible to everyone and not act like security is some else's problem. (or the only the browser's problem, or only a problem on the server side).
-- Related: No need to be a "Security expert" to care and work on security of your code. If you worry about certain things, it's already better than doing nothing at all.
+- There is some gatekeeping going on: We should aim to empower more people and make security more accessible to everyone and not act like security is some else's problem. (or only the browser's problem, or only a problem on the server side).
+- Related: No need to be a "Security expert" to care and work on security. Everyone should be responsible and even doing basic checks is already better than doing nothing at all.
 - We need to document end user impact: the why, and the potential harm, to help developers (and their managers) understand the value of good security practices.
 - We will see regulation in this space, for example the [Cyber Resilience Act](https://en.wikipedia.org/wiki/Cyber_Resilience_Act), but there are no guidelines or best practices. Maybe we need WCAG but for security to help inform regulations.
 - Can we incorporate security advice inside IDEs and devtools?
