@@ -18,7 +18,7 @@ We’d also like to thank all the individuals who donated to us: we greatly appr
 
 If you or your organization is interested in becoming an OWD sponsor, we would love to hear from you. Please reach out to florian@openwebdocs.org
 
-We are a very low-overhead organization that converts all of this sponsoring into web documentation. Here’s a quick summary of the major projects we completed in 2023 thanks to you all:
+We are a very low-overhead organization that converts all of this sponsorship into web documentation. Here’s a quick summary of the major projects we completed in 2023 thanks to you all:
 
 * [Added reference docs for (almost) all web platform features supported by three browser engines](https://openwebdocs.org/content/posts/complete-interop-features/)
 * [Rewrote, updated, and greatly expanded the Progressive Web App docs](https://blogs.windows.com/msedgedev/2023/08/09/pwa-documentation-mdn-web-docs-open-web-docs/)
