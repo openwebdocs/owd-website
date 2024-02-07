@@ -63,7 +63,7 @@ What if we could use the Web IDL definitions to add the "secure context required
 
 We wanted to see if we would be able to map from features identified in the Web IDL to MDN pages, and how often we would encounter discrepancies between the IDL's `SecureContext` attribute and the presence or absence of the macro in the corresponding MDN pages.
 
-We wrote a tool that sorted features defined in the Web IDL - interfaces, properties, methods, or events - into two groups: those that require a secure context and those that do not. Then we did the same for MDN pages for Web/API features that contained the `secureContext_header` macro, and those that did not. We then made three lists of anomalies:
+We wrote a tool that sorted features defined in the Web IDL - interfaces, properties, methods, or events - into two groups: those that require a secure context and those that do not. Then we made two groups of Web/API pages on MDN: those that contained the `secureContext_header` macro, and those that did not. We then made three lists of anomalies:
 
 1. Items whose MDN pages contained the `secureContext_header` macro, but which were not marked `SecureContext` in the Web IDL.
 2. Items marked as `SecureContext` in the Web IDL, but whose corresponding MDN pages did not contain the `secureContext_header` macro.
@@ -109,13 +109,19 @@ However, nonstandard features are generally a problem for any broader attempt to
 
 MDN does not always directly document Web IDL structures, and this is generally a deliberate choice based on the belief that different structures serve MDN's audience better.
 
-One example of this is mixin interfaces. In Web IDL, specification authors can define members - attributes and methods - on a mixin interface, which can then be added to one or more interfaces. For example, the [`Body`](https://fetch.spec.whatwg.org/#body) mixin is included by both the [`Request`](https://developer.mozilla.org/en-US/docs/Web/API/Request) and [`Response`](https://developer.mozilla.org/en-US/docs/Web/API/Response) interfaces.
+One example of this is mixin interfaces. In Web IDL, specification authors can define members - attributes and methods - on a mixin interface, which can then be added to one or more interfaces. For example, in the [Fetch standard](https://fetch.spec.whatwg.org/), the [`Body`](https://fetch.spec.whatwg.org/#body) mixin is included by both the [`Request`](https://developer.mozilla.org/en-US/docs/Web/API/Request) and [`Response`](https://developer.mozilla.org/en-US/docs/Web/API/Response) interfaces.
+
+![Request and Response interfaces including the Body mixin](fetch-mixins.drawio.svg)
 
 Mixin interfaces aren't visible to web developers as a separate thing, though: they are a convenience for specification authors. [As the specification says](https://webidl.spec.whatwg.org/#idl-interface-mixins):
 
 > Interface mixins, much like partial interfaces, are intended for use as a specification editorial aide, allowing a coherent set of functionalities to be grouped together, and included in multiple interfaces, possibly across documents. They are not meant to be exposed through language bindings.
 
-So MDN doesn't model mixins, preferring to duplicate the mixed-in members in all the concrete interfaces that include them. We think this is a good choice for MDN, but it means we have to transform Web IDL before we can map it to MDN pages.
+So MDN doesn't model mixins, preferring to duplicate the mixed-in members in all the concrete interfaces that include them:
+
+![Request and Response interfaces duplicating the Body members](fetch-mdn.drawio.svg)
+
+We think this is a good choice for MDN, but it means we have to transform Web IDL before we can map it to MDN pages.
 
 When MDN is consistent about divergences like this, and the rules are clear, then we can perform these transformations and successfully map from Web IDL to MDN. But sometimes MDN is not consistent. For example, Web IDL includes an [`iterable`](https://webidl.spec.whatwg.org/#dfn-iterable-declaration) declaration that can be applied to any interface. This effectively means the interface will have the members required by an iterable, such as [`entries()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/entries), [`forEach()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach), [`keys()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/keys), and [`values()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/values).
 
