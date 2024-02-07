@@ -43,7 +43,7 @@ At Open Web Docs, we're interested in using and developing tools to reduce the m
 
 Many web platform features are only available in secure contexts. This usually means that the script's document was served over HTTPS (but browsers also treat URLs like `localhost` as secure contexts, to make local testing more convenient).
 
-When a feature is only available in secure contexts, MDN authors indicate this using macros in the Markdown source: the [secureContext_header](https://github.com/mdn/yari/blob/main/kumascript/macros/secureContext_header.ejs) macro adds a banner across the rendered page. So if an author includes a line like `{{secureContext_header}}`, then the rendered page will contain a box like this:
+When a feature is only available in secure contexts, MDN authors indicate this using macros in the Markdown source: the [secureContext_header](https://github.com/mdn/yari/blob/main/kumascript/macros/secureContext_header.ejs) macro adds a banner across the rendered page. So if an author incmnmnludes a line like {% raw %}`{{secureContext_header}}`{% endraw %}, then the rendered page will contain a box like this:
 
 ![Secure context banner rendered on MDN](securecontext-header.png)
 
@@ -61,7 +61,7 @@ What if we could use the Web IDL definitions to add the "secure context required
 
 ## The analysis
 
-We wanted to see if we would be able to map from features identified in the Web IDL to MDN pages, and how often we would encounter discrepancies between the IDL's `SecureContext` attribute and the presense or absence of the macro in the corresponding MDN pages.
+We wanted to see if we would be able to map from features identified in the Web IDL to MDN pages, and how often we would encounter discrepancies between the IDL's `SecureContext` attribute and the presence or absence of the macro in the corresponding MDN pages.
 
 We wrote a tool that sorted features defined in the Web IDL - interfaces, properties, methods, or events - into two groups: those that require a secure context and those that do not. Then we did the same for MDN pages for Web/API features that contained the `secureContext_header` macro, and those that did not. We then made three lists of anomalies:
 
