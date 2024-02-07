@@ -57,7 +57,7 @@ partial interface mixin WindowOrWorkerGlobalScope {
 };
 ```
 
-What if we could use the Web IDL definitions to add the "secure context required" box to pages automatically?
+The [@webref/idl](https://www.npmjs.com/package/@webref/idl) package, maintained by the W3C, makes the Web IDL definitions machine-readable. What if, with the help of this package, we could use the Web IDL definitions to add the "secure context required" box to MDN pages automatically?
 
 ## The analysis
 
