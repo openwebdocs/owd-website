@@ -43,7 +43,7 @@ At Open Web Docs, we're interested in using and developing tools to reduce the m
 
 Many web platform features are only available in secure contexts. This usually means that the script's document was served over HTTPS (but browsers also treat URLs like `localhost` as secure contexts, to make local testing more convenient).
 
-When a feature is only available in secure contexts, MDN authors indicate this using macros in the Markdown source: the [secureContext_header](https://github.com/mdn/yari/blob/main/kumascript/macros/secureContext_header.ejs) macro adds a banner across the rendered page. So if an author incmnmnludes a line like {% raw %}`{{secureContext_header}}`{% endraw %}, then the rendered page will contain a box like this:
+When a feature is only available in secure contexts, MDN authors indicate this using macros in the Markdown source: the [secureContext_header](https://github.com/mdn/yari/blob/main/kumascript/macros/secureContext_header.ejs) macro adds a banner across the rendered page. So if an author includes a line like {% raw %}`{{secureContext_header}}`{% endraw %}, then the rendered page will contain a box like this:
 
 ![Secure context banner rendered on MDN](securecontext-header.png)
 
