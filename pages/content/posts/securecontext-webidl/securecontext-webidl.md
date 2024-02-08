@@ -1,7 +1,7 @@
 ---
 author: "Will Bamberg"
 title: "Using Web IDL for better web docs"
-date: "2024-02-07"
+date: "2024-02-08"
 description: "An investigation into using Web IDL as a data source for MDN"
 tags: ["projects"]
 ShowToc: false
