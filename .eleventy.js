@@ -1,3 +1,5 @@
+const fs = require("fs");
+
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
@@ -12,6 +14,8 @@ const markdownOptions = {
 const markdownRenderer = markdownIt(markdownOptions).use(
   markdownItNamedHeadings,
 );
+
+const EleventyPluginOgImage = require("eleventy-plugin-og-image");
 
 module.exports = function (eleventyConfig) {
   // Output directory: _site
@@ -46,6 +50,19 @@ module.exports = function (eleventyConfig) {
   // });
 
   eleventyConfig.setLibrary("md", markdownRenderer);
+
+  eleventyConfig.addPlugin(EleventyPluginOgImage, {
+    satoriOptions: {
+      fonts: [
+        {
+          name: "WorkSans",
+          data: fs.readFileSync("assets/fonts/WorkSans-Bold.ttf"),
+          weight: 700,
+          style: "bold",
+        },
+      ],
+    },
+  });
 
   return {
     dir: {
