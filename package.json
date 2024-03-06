@@ -15,6 +15,7 @@
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "eleventy-plugin-og-image": "^2.1.1",
     "prettier": "^3.2.5"
   },
   "dependencies": {
