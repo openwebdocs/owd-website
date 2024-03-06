@@ -1,7 +1,7 @@
 ---
 author: "Jory Burson"
 title: "Introducing our Director of Open Web Docs - Florian Scholz!"
-date: "2024-03-05"
+date: "2024-03-06"
 tags: ["announcements"]
 ShowToc: false
 ShowBreadCrumbs: false
