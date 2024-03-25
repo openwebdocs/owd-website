@@ -99,7 +99,7 @@ We developed an automation toolchain to reduce the time gap between browser rele
 
 New browser versions are released every few weeks, with three main browser engines issuing releases. This means there are 30-40 new browser releases every year! The designed pipeline for automated updates of compatibility data is helping the mdn-browser-compat data project enormously in managing this challenge and will only become more impactful going forward.
 
-In addition to the direct work on BCD data collection, the OWD team collaborated closely with the W3C WebDX group. Our participation has been instrumental in defining the Baseline status for web platform features and we have worked to catalog web-features. By creating a common nomenclature for web platform features, we support communication between web developers, browser vendors, standardization bodies, and other ecosystem participants.
+In addition to the direct work on BCD data collection, the OWD team collaborated closely with the [W3C WebDX group](https://www.w3.org/community/webdx/). Our participation has been instrumental in defining the [Baseline status](https://github.com/web-platform-dx/web-features/blob/main/docs/baseline.md) for web platform features and we have worked to catalog [web-features](https://github.com/web-platform-dx/web-features/). By creating a common nomenclature for web platform features, we support communication between web developers, browser vendors, standardization bodies, and other ecosystem participants.
 
 ## Open Web Docs BCD Collector tool
 
@@ -131,13 +131,13 @@ This work is ongoing, with a focus on making sure Interop-related modules are up
 
 ### Fixed compatibility data going back to at least 2020
 
-In 2023, we made ground-breaking progress on the [data accuracy of the browser-compat-data project](https://github.com/openwebdocs/project/issues/85). We managed to eliminate almost all of the “null” and “true” in BCD. In a concentrated effort, we used our BCD collector tool to find version numbers for almost all BCD features going back to 2020 (and often even further into the past). The baseline project benefits enormously from all of Open Web Docs' work to provide accurate compatibility data. Out of 14,366 BCD features only 283 are unresolvable when attempting to calculate their baseline status. We'll figure out the remaining 283 data points! We are proud how useful BCD has become as a data source thanks to our ongoing maintenance work.
+In 2023, we made ground-breaking progress on the [data accuracy of the browser-compat-data project](https://github.com/openwebdocs/project/issues/85). We managed to eliminate almost all of the “null” and “true” in BCD. In a concentrated effort, we used our BCD collector tool to find version numbers for almost all BCD features going back to 2020 (and often even further into the past). The [Baseline project](https://github.com/web-platform-dx/web-features/blob/main/docs/baseline.md) benefits enormously from all of Open Web Docs' work to provide accurate compatibility data. Out of 14,366 BCD features only 283 are still unresolvable when attempting to calculate their baseline status. We'll figure out the remaining 283 data points! We are proud how useful BCD has become as a data source thanks to our ongoing maintenance work.
 
 ### Retitled Web/API reference documentation
 
 The Web/API documentation is the biggest part of MDN, comprising about 6000 pages, a little over half the total. This part of MDN is especially important, as it is the only place that offers a one-stop reference for web developers of all (or nearly all) the JavaScript APIs implemented by browsers.
 
-It’s long been an issue in the web developer community that the titles of these pages are misleading, giving an inaccurate impression of how the features are accessed by code. In 2023, we [retitled all 4000 pages in MDN’s Web/API reference documentation](https://openwebdocs.org/content/posts/web-api-page-titles/). We retitled all property, method, constructor, and event pages in Web/AP building on our work to introduce page types to mdn/content.
+It’s long been an issue in the web developer community that the titles of these pages are misleading, giving an inaccurate impression of how the features are accessed by code. In 2023, we [retitled all 4000 pages in MDN’s Web/API reference documentation](https://openwebdocs.org/content/posts/web-api-page-titles/). We retitled all property, method, constructor, and event pages in Web/API building on our work to introduce page types to mdn/content.
 
 ### Reference documentation for interoperable features
 
@@ -148,7 +148,7 @@ We made sure that:
 - All interoperable APIs unrelated to HTML and SVG are documented.
 - All interoperable HTML APIs, not part of the DOM (that is, everything in the HTML spec that is not an `HTML*Element` property or method), are documented.
 
-The [mdn-gaps](https://dontcallmedom.github.io/mdn-gaps/) tool created by Dominique Hazaël-Massieu has been very helpful for this project and future work will be to document the missing properties of HTML*Element interfaces and to ensure the documentation quality of all interoperable web platform features.
+The [mdn-gaps](https://dontcallmedom.github.io/mdn-gaps/) tool created by Dominique Hazaël-Massieux has been very helpful for this project and future work will be to document the missing properties of HTML*Element interfaces and to ensure the documentation quality of all interoperable web platform features.
 
 ### Convert all XMLHttpRequest examples to fetch()
 
