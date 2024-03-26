@@ -172,7 +172,7 @@ Payroll is Open Web Docs’ only meaningful expense, and in 2023 we adjusted the
 
 For 2024, $500,000 has been committed by platinum sponsors Google and Microsoft, $40,000 has been committed by Gold sponsor Igalia and Silver sponsor Canva. About $10,000 is anticipated to come from individual open collective sponsors for a total of $550,000. Additionally, the Sovereign Tech Fund’s Contribute Back Challenge will continue in 2024 and we will see an additional investment into browser compatibility data tooling worth 150,000€ as part of round 2 of the challenge.
 
-Open Web Docs is actively looking for additional sponsors in 2024 in order to continue our project work at full capacity. Becoming a supporting member of Open Web Docs offers benefits in addition to supporting core web platform documentation and engineering. Email [florian@openwebdocs.org](florian@openwebdocs.org) for more information.
+Open Web Docs is actively looking for additional sponsors in 2024 in order to continue our project work at full capacity. Becoming a supporting member of Open Web Docs offers benefits in addition to supporting core web platform documentation and engineering. Email [florian@openwebdocs.org](mailto:florian@openwebdocs.org) for more information.
 
 ## **Gratitude for our Individual Supporters in 2023**
 
@@ -245,4 +245,4 @@ Sorted by amount contributed.
 
 We’re inviting all of our partners and backers for another year of supporting web platform documentation for the benefit of web developers & designers worldwide. We aim to continue with our [mission](https://github.com/openwebdocs/project/blob/main/charter.md) and foster collaborations with existing initiatives to improve the general developer experience for people developing for the web. We consider web platform docs critical digital infrastructure, and we work cooperatively to ensure its long-term health.
 
-We are funded by corporate and individual donations. If your organization or project is interested in advancing open web platform documentation, we would love to hear from you! Please reach out to [florian@openwebdocs.org](florian@openwebdocs.org).
+We are funded by corporate and individual donations. If your organization or project is interested in advancing open web platform documentation, we would love to hear from you! Please reach out to [florian@openwebdocs.org](mailto:florian@openwebdocs.org).
