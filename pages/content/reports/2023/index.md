@@ -26,6 +26,17 @@ In 2023, Open Web Docs:
 
 Previous Open Web Docs Impact and Transparency Reports: [2022](https://openwebdocs.org/content/reports/2022/), [2021](https://openwebdocs.org/content/reports/2021/).
 
+<div class="callout">
+<p>Open Web Docs is a non-profit, strongly community-focused open source collective that uses its donations to employ a group of technical writers who are dedicated to writing and improving documentation for the web platform.</p>
+
+Donate today:
+- <a href="https://github.com/sponsors/openwebdocs">GitHub Sponsors</a>
+- <a href="https://opencollective.com/open-web-docs">Open Collective</a>
+
+Also, tell your company to support us with a membership!
+A supporting [member organization](https://openwebdocs.org/membership) of Open Web Docs offers benefits in addition to supporting core web platform documentation and engineering. Reach out to [florian@openwebdocs.org](mailto:florian@openwebdocs.org) for more information.
+</div>
+
 ## MDN content maintenance
 
 In 2023, OWD staff continued to work on improving and maintaining the [mdn/content](https://github.com/orgs/mdn/) repository and its related tooling.
