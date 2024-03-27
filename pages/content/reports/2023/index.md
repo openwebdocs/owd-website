@@ -34,7 +34,7 @@ Donate today:
 - <a href="https://opencollective.com/open-web-docs">Open Collective</a>
 
 Also, tell your company to support us with a membership!
-A supporting [member organization](https://openwebdocs.org/membership) of Open Web Docs offers benefits in addition to supporting core web platform documentation and engineering. Reach out to [florian@openwebdocs.org](mailto:florian@openwebdocs.org) for more information.
+As a [member organization](https://openwebdocs.org/membership) you are entitled to further benefits in addition to supporting core web platform documentation and engineering. Reach out to [florian@openwebdocs.org](mailto:florian@openwebdocs.org) for more information.
 </div>
 
 ## MDN content maintenance
