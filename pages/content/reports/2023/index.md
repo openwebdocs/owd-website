@@ -8,7 +8,7 @@ ShowBreadCrumbs: false
 
 ## Executive summary
 
-Open Web Docs is taking a look at how our efforts have helped to ensure the long-term health of web platform documentation on critical resources like MDN Web Docs, independently of any single vendor or organization. Founded in January 2021, the year 2023 marks Open Wed Docs’ third year of operation!
+Open Web Docs is taking a look at how our efforts have helped to ensure the long-term health of web platform documentation on critical resources like MDN Web Docs, independently of any single vendor or organization. Founded in January 2021, the year 2023 marks Open Web Docs’ third year of operation!
 
 Open Web Docs (OWD) is an open source collective that employs technical writers to publicly document open web technologies. OWD currently employs four full time writers and one part time writer, all of whom have extensive experience with Web standards documentation and MDN Web Docs. The OWD team writes new documentation, updates existing documentation, and improves documentation infrastructure together with other organizations such as Mozilla, Google, Microsoft, W3C, other external contributors and volunteers.
 
