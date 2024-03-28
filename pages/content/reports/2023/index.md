@@ -1,7 +1,7 @@
 ---
 author: "Florian Scholz"
 title: "Open Web Docs Impact and Transparency Report 2023"
-date: "2024-03-27"
+date: "2024-03-28"
 ShowToc: true
 ShowBreadCrumbs: false
 ---
