@@ -51,4 +51,4 @@ There are now three CSS containment guides on MDN:
 
 Because of OWD, our technical writers are able to review and update existing content and dedicate the time to write in depth guides when documentation is found to be lacking, as was the case with container style queries with custom properties. We found a void and had the support to fill it!
 
-If you use MDN and find these resources helpful, please [become an Open Web Docs sponsor](https://opencollective.com/open-web-docs#category-CONTRIBUTE). Contributions are what make OWD and our documentation efforts possible.
+If you use MDN and find these resources helpful, please [sponsor OWD on GitHub](https://github.com/sponsors/openwebdocs) or become [Open Web Docs sponsor on Open Collective](https://opencollective.com/open-web-docs#category-CONTRIBUTE). Contributions are what make OWD and our documentation efforts possible.
