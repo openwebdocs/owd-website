@@ -27,13 +27,11 @@ The larger component of this project included updating the existing containment 
 
 There are now three CSS containment guides on MDN:
 
-- : [CSS container queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_queries)
+* [CSS container queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_queries): 
+We updated this introductory `@container` queries guide, which discusses size queries, naming queries, and container query length units, which are well supported. We left in the fallback for now, but look forward to removing it!
 
-    -: We updated this introductory `@container` queries guide, which discusses size queries, naming queries, and container query length units, which are well supported. We left in the fallback for now, but look forward to removing it!
-
-- : [Using CSS containment](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Using_CSS_containment)
-
-    - : We fully updated this guide which describes the basic aims of CSS containment and how to leverage `contain` and `content-visibility` properties for a better user experience. The guide explains size, layout, style, and paint containment.
+* [Using CSS containment](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Using_CSS_containment):
+We fully updated this guide which describes the basic aims of CSS containment and how to leverage `contain` and `content-visibility` properties for a better user experience. The guide explains size, layout, style, and paint containment.
 
     We also moved this guide to follow the current CSS guide structure of module-relevant guides being housed under the associated CSS module landing page.
 
