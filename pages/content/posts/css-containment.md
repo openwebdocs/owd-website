@@ -21,7 +21,7 @@ Containment improves rendering performance by isolating sections of content for 
 
 We created a new [CSS containment module](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Containment) landing page and guides. The module landing page includes a reference with links to all the properties, at-rules and descriptors, CSS functions, events, interfaces defined in the CSS containment specification, and guides. All these references were reviewed and updated as necessary.
 
-The larger component of this project included updating the existing containment guides and creating new ones.  We also created a new guide.
+The larger component of this project included updating the existing containment guides and creating new ones.
 
 ### CSS containment guides
 
