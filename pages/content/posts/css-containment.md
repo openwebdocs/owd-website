@@ -29,7 +29,7 @@ There are now three CSS containment guides on MDN:
 
 * [CSS container queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_queries)
 
-  We updated this introductory `@container` queries guide, which discusses size queries, naming queries, and container query length units, which are well supported. We left in the fallback for now, but look forward to removing it!
+  We updated this introductory `@container` queries guide, which discusses size queries, naming queries, and container query length units, which are well supported. We left in the fallbacks for non-supporting browsers for now, and look forward to removing it soon when it's fully supported!
 
 * [Using CSS containment](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Using_CSS_containment)
 
