@@ -19,7 +19,7 @@ The first sub-project completed was [CSS containment](https://github.com/openweb
 
 Containment improves rendering performance by isolating sections of content for delayed layout and rendering. Container queries, also defined in the CSS containment specification, enable targeting styles based on a container's size or style features.
 
-We created a new [CSS containment module](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Containment) landing page. The module landing page includes a reference with links to all the properties, at-rules and descriptors, CSS functions, events, interfaces defined in the CSS containment specification, and guides. All of these references were reviewed and updated as necessary.
+We created a new [CSS containment module](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Containment) landing page and guides. The module landing page includes a reference with links to all the properties, at-rules and descriptors, CSS functions, events, interfaces defined in the CSS containment specification, and guides. All these references were reviewed and updated as necessary.
 
 The larger component of this project included updating the existing containment guides and creating new ones.  We also created a new guide.
 
