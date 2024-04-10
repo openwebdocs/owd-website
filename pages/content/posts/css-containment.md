@@ -1,7 +1,7 @@
 ---
 author: "Estelle Weyl"
 title: "CSS containment"
-date: "2024-04-09"
+date: "2024-04-10"
 description: "Improving CSS containment documentation"
 tags: ["projects"]
 ShowToc: false
