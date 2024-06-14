@@ -230,8 +230,7 @@ nav,
 }
 
 .footer-sponsors-list .nav-list {
-  margin-bottom: 0;
-  padding-bottom: var(--nested-spacing);
+  text-align: center;
 }
 
 .sec-container {
@@ -310,6 +309,7 @@ footer {
 
 .sponsors-link {
   color: var(--foreground);
+  text-decoration: none;
 }
 .sponsors-link:hover {
   color: var(--link);
