@@ -270,6 +270,10 @@ nav,
   padding-top: 1em;
 }
 
+[data-theme="light"] .home-bg footer {
+  border-top-color: #0002;
+}
+
 #logo {
   width: 30vw;
 }
