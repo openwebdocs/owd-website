@@ -10,7 +10,7 @@ excerpt: "At TPAC Anaheim, we talked with security experts about security docume
 
 In September, Open Web Docs attended [TPAC](https://www.w3.org/2024/09/TPAC/), the main annual meeting for the W3C. It's the first time we've been together for almost 2 years, and it was great to reconnect with each other and with many of our collaborators. We chaired a session about the activities of the [Security Web Application Guidelines Community Group (SWAG CG)](https://www.w3.org/community/swag/), and in this post we'd like to summarise some of the discussions that came out of this.
 
-The SWAG CG was formed in June 2024 and has been meeting weekly since then. Its mission is:
+The SWAG CG was formed by [Dan Appelquist](https://mastodon.social/@torgo) in June 2024 and has been meeting weekly since then. Its mission is:
 
 > To increase the overall security of web application development, thereby making the web a more secure platform for web users. It will accomplish this by writing security best practices for web developers and providing a platform for stakeholder collaboration.
 
