@@ -8,7 +8,7 @@ ShowBreadCrumbs: false
 excerpt: "At TPAC Anaheim, we talked with security experts about security documentation needs."
 ---
 
-In September, Open Web Docs attended [TPAC](https://www.w3.org/2024/09/TPAC/), the main annual meeting for the W3C. It's the first time we've been together for almost 2 years, and it was great to reconnect with each other and with many of our collaborators. We chaired a session about the activities of the [Security Web Application Guidelines Community Group (SWAG CG)](https://www.w3.org/community/swag/), and in this post we'd like to summarise some of the discussions that came out of this.
+In September, Open Web Docs attended [TPAC](https://www.w3.org/2024/09/TPAC/), the main annual meeting for the W3C. It's the first time we've been together for almost 2 years, and it was great to reconnect with each other and with many of our collaborators. We proposed and chaired a [breakout session](https://github.com/w3c/tpac2024-breakouts/issues/96) about the activities of the [Security Web Application Guidelines Community Group (SWAG CG)](https://www.w3.org/community/swag/), and in this post we'd like to summarise some of the discussions that came out of this.
 
 The SWAG CG was formed by [Dan Appelquist](https://mastodon.social/@torgo) in June 2024 and has been meeting weekly since then. Its mission is:
 
