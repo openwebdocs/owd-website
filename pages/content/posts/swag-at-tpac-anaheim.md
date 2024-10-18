@@ -24,7 +24,7 @@ At TPAC [we presented four topics in security documentation](https://wbamberg.gi
 
 - **Frameworks and libraries**: security documentation should help developers make good choices about which third-party software to use, either by recommending specific libraries or by [writing guidelines that developers can use to make their own choices](https://github.com/w3c-cg/swag/issues/1).
 
-- **Content security policy (CSP) adoption**: can more consistent and approachable documentation help more developers implement an effective [content security policy](/en-US/docs/Web/HTTP/CSP) for their sites? While [OWASP recommends a strict CSP](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html#csp-types-granularallowlist-based-or-strict) which uses nonces and hashes rather than an allowlist, MDN's documentation does not mention allowlists. We should aim for consistency here so we can give a clear message to developers.
+- **Content security policy (CSP) adoption**: can more consistent and approachable documentation help more developers implement an effective [content security policy](/en-US/docs/Web/HTTP/CSP) for their sites? While [OWASP recommends a strict CSP](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html#csp-types-granularallowlist-based-or-strict) which uses nonces and hashes rather than an allowlist, MDN's documentation does not mention strict CSP. We should aim for consistency here so we can give a clear message to developers.
 
 The [conversation that followed](https://www.w3.org/2024/09/25-mdn-security-minutes.html) took in a number of interesting ideas in connection with these topics, and we've highlighted a few of them below:
 
