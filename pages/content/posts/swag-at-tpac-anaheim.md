@@ -1,7 +1,7 @@
 ---
 author: "Will Bamberg"
 title: "Security documentation at TPAC 2024"
-date: "2024-10-18"
+date: "2024-10-22"
 tags: ["announcements"]
 ShowToc: false
 ShowBreadCrumbs: false
