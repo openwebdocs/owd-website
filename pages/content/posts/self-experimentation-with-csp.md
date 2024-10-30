@@ -40,11 +40,13 @@ Our CSP guide update made some steps towards this, but there's more work to do h
 
 ## Auto-CSP
 
-The Netlify feature also connects with an idea that was mentioned in the [TPAC session on security docs](https://openwebdocs.org/content/posts/swag-at-tpac-anaheim/) and which recently [landed in Angular](https://github.com/angular/angular-cli/pull/28663): tool support to deploy a CSP automatically based on a configuration setting. We'd like to include this in our CSP documentation and again, not just its existence but the specific web app architectures for which it is appropriate.
+The Netlify feature also connects with an idea that was mentioned in the [TPAC session on security docs](https://openwebdocs.org/content/posts/swag-at-tpac-anaheim/) and which recently [landed in Angular](https://github.com/angular/angular-cli/pull/28663): tool support to deploy a CSP automatically based on a configuration setting. We'd like to include this in our CSP documentation and again, we'd like to talk about not just its existence but the specific web app architectures for which it is appropriate.
 
-For example, Netlify's dynamic CSP automatically inserts nonces into all `<script>` tags in the document. This is counter to the guidance for strict CSP, which recommends that you should use a proper templating system to insert nonces, or you will add nonces to script tags that were injected server-side.
+For example, the typical usage of nonces in a strict CSP is for the server to use a template to insert them in the script tags that it intends to include in the documents it serves. The server's explicit intention is important here: it means that even if an attacker tricks the server into inadvertently including a malicious script (for example, in a [reflected XSS attack](https://portswigger.net/web-security/cross-site-scripting/reflected)), then the injected script won't contain the nonce, and it won't execute.
 
-So this kind of CSP is appropriate for a web app that's based on client-side rendering, as it protects against client-side script injection.
+By definition, though, auto-CSP doesn't understand the server's intention. Netlify's dynamic CSP runs in the CDN, and automatically injects the nonce into every `<script>` tag it finds in the document that the server provided. If this contains scripts that the server inadvertently included, they will be given the nonce, and will be allowed to execute.
+
+What Netlify's CSP does is protect against client-side script injection, where the front-end code inadvertently inserts a malicous script by calling an unsafe DOM API like [`document.write()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/write). So this kind of CSP is appropriate for a web app that's based on client-side rendering.
 
 ## So... does OWD have a CSP yet?
 
