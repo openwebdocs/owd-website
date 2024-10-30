@@ -40,7 +40,7 @@ Our CSP guide update made some steps towards this, but there's more work to do h
 
 ## Auto-CSP
 
-The Netlify feature also connects with an idea that was mentioned in our [TPAC breakout session](https://openwebdocs.org/content/posts/swag-at-tpac-anaheim/) and which recently [landed in Angular](https://github.com/angular/angular-cli/pull/28663): tool support to deploy a CSP automatically based on a configuration setting. We'd like to include this in our CSP documentation and again, not just its existence but the specific web app architectures for which it is appropriate.
+The Netlify feature also connects with an idea that was mentioned in the [TPAC session on security docs](https://openwebdocs.org/content/posts/swag-at-tpac-anaheim/) and which recently [landed in Angular](https://github.com/angular/angular-cli/pull/28663): tool support to deploy a CSP automatically based on a configuration setting. We'd like to include this in our CSP documentation and again, not just its existence but the specific web app architectures for which it is appropriate.
 
 For example, Netlify's dynamic CSP automatically inserts nonces into all `<script>` tags in the document. This is counter to the guidance for strict CSP, which recommends that you should use a proper templating system to insert nonces, or you will add nonces to script tags that were injected server-side.
 
