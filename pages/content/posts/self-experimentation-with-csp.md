@@ -8,7 +8,7 @@ ShowBreadCrumbs: false
 excerpt: "What we learned when we tried to deploy a CSP for openwebdocs.org."
 ---
 
-This week we landed a big update to the MDN guide page about Content Security Policy (CSP), a web security feature that has a reputation for being complicated and difficult to deploy. This started with a discussion in the [Security Web Applications Community Group](https://www.w3.org/community/swag/) (SWAG CG) about [how we can help CSP gain more adoption among web developers](https://github.com/w3c-cg/swag/issues/3).
+This week we landed a big update to the [MDN guide page about Content Security Policy (CSP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP), a web security feature that has a reputation for being complicated and difficult to deploy. This started with a discussion in the [Security Web Applications Community Group](https://www.w3.org/community/swag/) (SWAG CG) about [how we can help CSP gain more adoption among web developers](https://github.com/w3c-cg/swag/issues/3).
 
 [Florian](https://front-end.social/@floscholz) asked whether our site, <https://openwebdocs.org>, has a CSP, and embarrassingly, it didn't. We thought perhaps that by trying to add one, we might get some insight into the difficulties web developers face when trying to deploy their own.
 
