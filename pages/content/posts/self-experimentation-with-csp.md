@@ -54,7 +54,7 @@ The server's explicit intention is important here: it means that even if an atta
 
 By definition, though, auto-CSP doesn't understand the server's intention. Netlify's dynamic CSP runs in the CDN, and automatically injects the nonce into every `<script>` tag it finds in the document that the server provided. If this contains scripts that the server inadvertently included, they will be given the nonce, and will be allowed to execute.
 
-What Netlify's CSP does is protect against client-side script injection, where the front-end code inadvertently inserts a malicous script by calling an unsafe DOM API like [`document.write()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/write). So this kind of CSP is appropriate for a web app that uses client-side rendering.
+What Netlify's CSP does is protect against client-side script injection, where the front-end code inadvertently inserts a malicious script by calling an unsafe DOM API like [`document.write()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/write). So this kind of CSP is appropriate for a web app that uses client-side rendering.
 
 ## So... does OWD have a CSP yet?
 
