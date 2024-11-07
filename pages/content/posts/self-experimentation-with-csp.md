@@ -1,7 +1,7 @@
 ---
 author: "Will Bamberg"
 title: "Self-experimentation with CSP"
-date: "2024-10-29"
+date: "2024-11-07"
 tags: ["announcements"]
 ShowToc: false
 ShowBreadCrumbs: false
