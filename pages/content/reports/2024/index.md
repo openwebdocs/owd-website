@@ -10,7 +10,7 @@ ShowBreadCrumbs: false
 
 Open Web Docs is taking a look at how our efforts have helped to ensure the long-term health of web platform documentation on critical resources like MDN Web Docs, independently of any single vendor or organization. Founded in January 2021, the year 2024 marked Open Web Docs’ fourth year of operation!
 
-Open Web Docs (OWD) is an open source collective that employs technical writers to publicly document open web technologies. OWD currently employs two full time writers, one compat data engineering contractor, and OWD's director to run the program. Everyone at OWD has extensive experience with Web standards documentation, MDN Web Docs, and browser compatibility data. The OWD team writes new documentation, updates existing documentation, and improves documentation infrastructure together with other organizations such as Mozilla, Google, Microsoft, W3C, other external contributors and volunteers.
+Open Web Docs (OWD) is an open source collective that employs technical writers to publicly document open web technologies. OWD currently employs two full time writers, one compat data engineering contractor, and OWD's director to run the program. Everyone at OWD has extensive experience with Web standards documentation, MDN Web Docs, and browser compatibility data. The OWD team writes new documentation, updates existing documentation, and improves documentation infrastructure together with other organizations such as Mozilla, Google, Microsoft, W3C, Igalia, and other external contributors and volunteers.
 
 In 2024, Open Web Docs:
 
@@ -86,7 +86,7 @@ Here's the summary of reviewed PRs:
 
 ## Sovereign Tech Fund
 
-Open Web Docs is very proud to have received a second round investment from the Sovereign Tech Fund at the beginning of 2024. The [Sovereign Tech Fund (STF)](https://sovereigntechfund.de/en) supports the development, improvement, and maintenance of open digital infrastructure in the public interest. The [Sovereign Tech Fund’s Contribute Back Challenges](https://sovereigntechfund.de/en/challenges/) selected Open Web Docs as a partner to implement improved tooling and maintenance of the [mdn/browser-compat-data](https://github.com/mdn/browser-compat-data) and further development of the [openwebdocs/mdn-bcd-collector](https://github.com/openwebdocs/mdn-bcd-collector) tool.
+Open Web Docs is very proud to have received a second round investment from the Sovereign Tech Fund at the beginning of 2024. The [Sovereign Tech Fund (STF)](https://www.sovereign.tech/programs/fund) supports the development, improvement, and maintenance of open digital infrastructure in the public interest. The [Sovereign Tech Fund’s Contribute Back Challenges](https://www.sovereign.tech/programs/challenges) selected Open Web Docs as a partner to implement improved tooling and maintenance of the [mdn/browser-compat-data](https://github.com/mdn/browser-compat-data) and further development of the [openwebdocs/mdn-bcd-collector](https://github.com/openwebdocs/mdn-bcd-collector) tool.
 
 As part of this program, that continued from the first round in 2023, we completed key milestones:
 
@@ -103,7 +103,13 @@ Some of the major projects Open Web Docs completed in 2024 were:
 
 ### Collecting browser compatibility data whenever browsers release a new beta version
 
-TBD Florian
+This project has initially been funded by the Sovereign Tech Fund with the goal to provide web developers with the latest information about available web platform features whenever a new browser version is released and continues thanks to OWD's main sponsors Google and Microsoft. In 2024, we observed 11 releases from Chrome, 12 from Firefox, and 7 from Safari. We systematically collected compatibility data 30 times in 2024.
+
+For Chrome 122-132, Firefox 123-134, and Safari 17.4-18.3 we were able to update browser compat data within the beta cycles of the browser releases, so that web developers were provided with updated information at the time these browsers released the stable version.
+
+2024 was the first year we systematically collected web platform compatibility data and we want to continue this effort and make it as efficient as possible for the years and browser releases to come. The maintenance of the mdn-browser-compat-data project has highly benefited from this and the data is much more reliable allowing data consumers, especially the web-features and baseline projects, to be most up-to-date and accurate.
+
+The project is led by Florian Scholz and representatives of browser projects have been reviewing data. Thank you: Philip Jägenstedt (Chromium/Google), Rachel Andrew (Chromium/Google), Chris Mills (Chromium/Google), Patrick Brosset (Chromium/Microsoft), Jon Davis (WebKit/Apple), Jen Simmons (WebKit/Apple), Ruth John (Gecko/Mozilla), Brian Smith (Gecko/Mozilla), Hamish Willee (Gecko/Mozilla), Claas Augner (Gecko/Mozilla).
 
 ### Documentation for interoperable and widely available features
 
@@ -117,40 +123,78 @@ TBD @wbamberg
 
 ### W3C WebDX web-features mapping of BCD keys into baseline features
 
-TBD Florian
+This work has been team work with a group of people contracted by Google.
+
+TBD more content Florian
 
 ### Replacing all "true" and "null" versions with real version numbers in BCD
 
-TBD Florian and Vinyl
+In mdn/browser-compat-data, we used to set the version number to "true" whenever we know that a web platform feature is supported in a browser but we don't know which was the first version that introduced support. Also, when a features' support was entirely unknown, we used to set the version number to "null". This meant that the compatibility data was quite incomplete and not always useful to data consumers. Especially the calculation of baseline was not possible with incomplete data.
+
+Thanks to a 2024 project led by Queen Vinyl Da.i'gyu-Kazotetsu and Florian Scholz, BCD no longer has "true" and "null" values. All data in BCD now comes with a real version number or at least a [ranged version number](https://github.com/mdn/browser-compat-data/blob/main/schemas/compat-data-schema.md#ranged-versions-).
 
 ### WebView compatibility data
 
-TBD Florian
-See also https://caniwebview.com/news/2024-12-06-WebView-Community-Group-Recap/
+In 2024, Open Web Docs joined the W3C WebView Community Group. Together with the group participants, we started investigating compatibility for WebViews. Historically, BCD only contained Chrome Android WebView data but in 2024 we added WebView on iOS data and helped launching https://caniwebview.com/. This collaboration was led by Florian Scholz and you can find more information in the [WebView CG 2024 recap](https://caniwebview.com/news/2024-12-06-WebView-Community-Group-Recap/). Shoutout to Niklas Merz and Ben Wiser for being the driving forces here!
 
 ## 2024 Budget
-
-TBD Florian and Jory
 
 OWD is very grateful to its Platinum Members Google and Microsoft, its Gold Member Igalia, and its Silver Member Canva for their membership in 2024. Since its inception in January 2021, Open Web Docs has raised $3.4m from nearly 200 individual and organizational supporters.
 
 Additionally, the Sovereign Tech Fund invested 150,000€ in Open Web Docs in 2024 as part of the STF Contribute Back Challenge (round 2).
 
+Open Web Docs also contracted with Google in 2024, for a total of $90,000, to work on the W3C web-features project to map BCD keys into baseline features.
+
 Payroll is Open Web Docs’ only meaningful expense. We pay competitive salaries in our staff's local currency, and receive health care and other regionally compliant benefits. In 2024, OWD spent a total of $XXXXX on payroll, inclusive of contractors, taxes, wire fees, exchange fees and payroll services. Minor operating expenses ($XXk) and transaction fees on collective revenue ($XXk) account for the balance of OWD expenses. We post all transactions on our [Open Collective](https://opencollective.com/open-web-docs) page.
 
 ## 2025 Financial Forecast
 
-TBD Florian and Jory
+For 2025, the following sponsorships have been committed:
 
-For 2025, $500,000 has been committed by platinum sponsors Google and Microsoft, $40,000 has been committed by Gold sponsor Igalia. About $10,000 is anticipated to come from individual open collective sponsors for a total of $550,000.
+- $250,000 has been committed by Platinum sponsor Google
+- $250,000 has been committed by Platinum sponsor Microsoft
+- $25,000 has been committed by Gold sponsor Bloomberg
+- $20,000 has been committed by Gold sponsor Igalia.
+
+About $10,000 is anticipated to come from individual Open Collective and GitHub Sponsors for a total of $555,000.
 
 Open Web Docs is actively looking for additional sponsors in 2025 in order to continue our project work at full capacity. Becoming a supporting member of Open Web Docs offers benefits in addition to supporting core web platform documentation and engineering. Email [florian@openwebdocs.org](mailto:florian@openwebdocs.org) for more information.
+
+## Thank you to Mozilla and Smashing Magazine
+
+In December 2024, advertisements to promote Open Web Docs on the MDN Web Docs and Smashing Magazine sites and in the Smashing Magazine newsletters.
+
+We would like to thank Hermina Condei, Sonal Sood, Anuja Rajput from the Mozilla MDN team and Mariona Jones and Vitaly Friedman from Smashing Magazine for helping to spread the word about Open Web Docs. The ad spaces are offered to us for free and they promoted our GitHub Sponsors program. Extended thank you also to Patrick Brosset for connecting us and working copy texts and creative designs which turned out great:
+
+![Ad banner on Smashing Magazine](owd_ad_smashing.png) ![Ad banner on MDN Web Docs](owd_ad_mozilla.png)
 
 ## **Gratitude for our Individual Supporters in 2024**
 
 Thank you to each and everyone who supports us with recurring or one-time donations! Your sponsorship means the world to us!
 
-TBD Florian: Updated lists from OC and GitHub sponsors
+### Individual supporters
+
+Huge thanks to all the individuals who support us with a recurring monthly donation of $10 or more!
+
+<object type="image/svg+xml" data="https://opencollective.com/open-web-docs/tiers/monthly-supporter.svg?avatarHeight=80&width=480"></object>
+
+### Individual backers
+
+Also thanks to the many backers who support us with a recurring donation of $5 or more every month!
+
+<object type="image/svg+xml" data="https://opencollective.com/open-web-docs/tiers/backer.svg?avatarHeight=80&width=480"></object>
+
+### GitHub Sponsors
+
+And of course, thank you to all of Open Web Docs' [GitHub Sponsors](https://github.com/sponsors/openwebdocs)!
+
+  <iframe
+    src="https://github.com/sponsors/openwebdocs/card"
+    title="Sponsor openwebdocs"
+    height="225"
+    width="500"
+    style="border: 0"
+  ></iframe>
 
 ## Looking forward to 2025
 
