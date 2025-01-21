@@ -32,11 +32,13 @@ Previous Open Web Docs Impact and Transparency Reports: [2023](https://openwebdo
 <p>Open Web Docs is a non-profit, strongly community-focused open source collective that uses its donations to employ a group of technical writers who are dedicated to writing and improving documentation for the web platform.</p>
 
 Donate today:
+
 - <a href="https://github.com/sponsors/openwebdocs">GitHub Sponsors</a>
 - <a href="https://opencollective.com/open-web-docs">Open Collective</a>
 
 Also, tell your company to support us with a membership!
 As a [member organization](https://openwebdocs.org/membership) you are entitled to further benefits in addition to supporting core web platform documentation and engineering. Reach out to [florian@openwebdocs.org](mailto:florian@openwebdocs.org) for more information.
+
 </div>
 
 ## OWD maintainership by the numbers
@@ -58,11 +60,11 @@ Git Pulse rankings help to put our work in perspective in the overall open sourc
 
 Like in previous years, Open Web Docs was the primary contributor to the mdn/content and the mdn/browser-compat-data repositories. We also substantially helped with the new web-features project. Here's the summary of merged PRs authored (excluding bots):
 
-| Project | Total authored PRs | OWD authored PRs |
-|---|---|---|
-| mdn/content | 3907 | 551 (14.1%) |
-| mdn/browser-compat-data | 2034 | 1066 (52.4%) |
-| webdx/web-features | 1150 | 170 (14.8%) |
+| Project                 | Total authored PRs | OWD authored PRs |
+| ----------------------- | ------------------ | ---------------- |
+| mdn/content             | 3907               | 551 (14.1%)      |
+| mdn/browser-compat-data | 2034               | 1066 (52.4%)     |
+| webdx/web-features      | 1150               | 170 (14.8%)      |
 
 ### Pull requests reviewed
 
@@ -78,11 +80,11 @@ Special shout outs to volunteer reviewer [Josh-Cena](https://github.com/Josh-Cen
 
 Here's the summary of reviewed PRs:
 
-| Project | Total reviewed PRs | OWD reviewed PRs |
-|---|---|---|
-| mdn/content | 4595 | 1254 (27.3%) |
-| mdn/browser-compat-data | 2209 | 1154 (52.3%) |
-| webdx/web-features | 1961 | 135 (6.9%) |
+| Project                 | Total reviewed PRs | OWD reviewed PRs |
+| ----------------------- | ------------------ | ---------------- |
+| mdn/content             | 4595               | 1254 (27.3%)     |
+| mdn/browser-compat-data | 2209               | 1154 (52.3%)     |
+| webdx/web-features      | 1961               | 135 (6.9%)       |
 
 ## Sovereign Tech Fund
 
@@ -91,7 +93,7 @@ Open Web Docs is very proud to have received a second round investment from the 
 As part of this program, that continued from the first round in 2023, we completed key milestones:
 
 - Open Web Docs (OWD) automated browser compatibility data updates using OWD’s [mdn-bcd-collector](https://github.com/openwebdocs/mdn-bcd-collector) project. Now, browser compatibility information is available to web developers for new browser releases faster than ever.
-- OWD automatically detects added and removed browser features for 90.15% of the entire web platform when a new browser is released. The data is recorded in the open-source [BCD](https://github.com/mdn/browser-compat-data) project, which is used by tools commonly used by web developers, such as  [CanIUse, MDN Web Docs, and used by](https://caniuse.com/) [Baseline](https://developer.mozilla.org/en-US/docs/Glossary/Baseline/Compatibility) and [web-features](https://github.com/web-platform-dx/web-features).
+- OWD automatically detects added and removed browser features for 90.15% of the entire web platform when a new browser is released. The data is recorded in the open-source [BCD](https://github.com/mdn/browser-compat-data) project, which is used by tools commonly used by web developers, such as [CanIUse, MDN Web Docs, and used by](https://caniuse.com/) [Baseline](https://developer.mozilla.org/en-US/docs/Glossary/Baseline/Compatibility) and [web-features](https://github.com/web-platform-dx/web-features).
 - OWD runs tests on mobile browsers and WebViews to have accurate compatibility data for these platforms and to point out differences between mobile and desktop browsers.
 - We also made our tooling more generally available, so that new tools, such as [runtime-compat-data](https://runtime-compat.unjs.io/) can display compatibility across different JavaScript runtimes. We hope that our work on this data will contribute to better understanding of compatibility issues, to more interoperability, and better standardization on the web platform.
 
@@ -119,7 +121,11 @@ Mention our new backlog dashboard https://openwebdocs.github.io/web-docs-backlog
 
 ### Web Security docs for MDN
 
-TBD @wbamberg
+One of our major projects in 2024 has been to plan and execute improvements to web security documentation on MDN. The W3C's [Secure the Web Forward ](https://www.w3.org/2023/03/secure-the-web-forward/report.html) workshop concluded that documentation plays a major role in promoting security best practices and in helping web application developers understand security threats and mitigations. In June 2024 the [Security Web Application Guidelines Community Group (SWAG CG)](https://www.w3.org/community/swag/) was created to develop security guidelines for web application developers. The OWD team has regularly participated in the SWAG CG to identify areas where we need better web security documentation and to get guidance form experts about current best practices.
+
+One result of this was an overhaul of the Content Security Policy documentation on MDN. This included a rewrite of the [CSP guide](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) to align guidance with [OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html) and [web.dev](https://web.dev/articles/strict-csp), to document some of the other protections offered by a CSP in addition to resource loading controls, and to explain better how a CSP can help protect against XSS attacks. We also [rewrote and reorganized the reference documentation for fetch directive syntax](https://github.com/orgs/mdn/discussions/756) to fix many errors and make the syntax easier to understand.
+
+We've also started writing guide pages about attacks and their mitigations. The first of these was a [guide about cross-side scripting (XSS)](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/XSS) explaining what it is and how to protect against it in both client- and server-side code, using web platform features such as CSP and [trusted types](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/XSS#trusted_types). We've also written a guide about [clickjacking](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/Clickjacking). The next part of this work will be a guide to [cross-site leaks](https://xsleaks.dev/), including mitigations such as [Cross-Origin-Resource-Policy (CORP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Resource-Policy) and [Cross-Origin-Opener-Policy (COOP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Opener-Policy)
 
 ### W3C WebDX web-features mapping of BCD keys into baseline features
 
