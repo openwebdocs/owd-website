@@ -127,6 +127,18 @@ One result of this was an overhaul of the Content Security Policy documentation 
 
 We've also started writing guide pages about attacks and their mitigations. The first of these was a [guide about cross-side scripting (XSS)](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/XSS) explaining what it is and how to protect against it in both client- and server-side code, using web platform features such as CSP and [trusted types](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/XSS#trusted_types). We've also written a guide about [clickjacking](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/Clickjacking). The next part of this work will be a guide to [cross-site leaks](https://xsleaks.dev/), including mitigations such as [Cross-Origin-Resource-Policy (CORP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Resource-Policy) and [Cross-Origin-Opener-Policy (COOP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Opener-Policy)
 
+### Updated Fetch documentation
+
+Fetch is one of the most important Web APIs. The [Fetch guide](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) is the third most popular page on MDN, and the most popular page that isn't a landing page like <https://developer.mozilla.org/en-US/docs/Web/JavaScript>. But the docs hadn't had a systematic update since Fetch was first documented on MDN back in the mists of time, and they were showing their age. In 2024 [we rewrote the Fetch guide](https://github.com/mdn/content/pull/34278) and much of the associated reference docs, in the process adding explanations of several aspects of its behavior, completing the documentation of error codes that can be thrown by response-reading methods, and closing almost all the issues people had filed against these docs.
+
+The impetus to this was [an issue](https://github.com/mdn/content/issues/13208) that some of the exceptions raised by [`response.json()`](https://developer.mozilla.org/en-US/docs/Web/API/Response/json) were not documented on MDN. It turned out that these exceptions were related to the fact that a response body is a stream: but because we didn't explain streaming responses anywhere, there was nowhere to point an explanation to.
+
+Adding an explanation to the existing Fetch guide was also tricky, because the existing guide was so disorganized: people had incrementally added bits to it over the years without considering how they could fit together. So we reorganized the guide, adding not just a section about [streaming responses](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#streaming_the_response_body) but also sections on other important aspects of Fetch like [making cross-origin requests](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#making_cross-origin_requests) and [including credentials](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#including_credentials).
+
+After that was in place, we could [update the `Response` reference to document exceptions properly](https://github.com/mdn/content/pull/34576), and close the original issue along with a whole slew of others.
+
+Many thanks to [Joshua Chen](https://github.com/Josh-Cena) and [Mike Smith](https://github.com/sideshowbarker) for their careful and expert reviews as we navigated this tricky bit of work!
+
 ### W3C WebDX web-features mapping of BCD keys into baseline features
 
 This work has been team work with a group of people contracted by Google.
