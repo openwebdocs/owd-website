@@ -16,7 +16,7 @@ In 2024, Open Web Docs:
 
 - Was again the organization that contributed the greatest number of pull requests (PRs) merged to the [mdn/content](https://github.com/mdn/content) (14.1%) and [mdn/browser-compat-data](https://github.com/mdn/browser-compat-data) (52.4%) repositories.
 - Provided 27% of all pull request reviews to the mdn/content repository and 52% of reviews to mdn/browser-compat-data.
-- Started to become a maintainer of the [web-platform-dx/web-features](https://github.com/web-platform-dx/web-features) repo and contributed 14.8% of merged pull requests.
+- Became a maintainer of the [web-platform-dx/web-features](https://github.com/web-platform-dx/web-features) repo and contributed 14.8% of merged pull requests.
 - Completed major technical writing and documentation engineering projects which were determined and guided by OWD’s [Steering Committee](https://github.com/openwebdocs/project/blob/main/steering-committee/membership-expectations.md). This included among other things:
   - [Collecting browser compatibility data for every browser release, including all beta releases](#collecting-browser-compatibility-data-whenever-browsers-release-a-new-beta-version)
   - [Documenting all interoperable and widely available browser features](#documentation-for-interoperable-and-widely-available-features)
