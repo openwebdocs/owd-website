@@ -229,4 +229,5 @@ We’re inviting all of our partners and backers for another year of supporting 
 
 We are funded by corporate and individual donations. If your organization or project is interested in advancing open web platform documentation, we would love to hear from you! Please reach out to [florian@openwebdocs.org](mailto:florian@openwebdocs.org).
 
-TBD: TPAC team photo here?
+![OWD team in 2024](owd_team_2024.png)
+_Open Web Docs Team in California for W3C TPAC, September 2024._
