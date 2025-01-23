@@ -8,9 +8,9 @@ ShowBreadCrumbs: false
 
 ## Executive summary
 
-Open Web Docs is taking a look at how our efforts have helped to ensure the long-term health of web platform documentation on critical resources like MDN Web Docs, independently of any single vendor or organization. Founded in January 2021, the year 2024 marked Open Web Docs’ fourth year of operation!
+Open Web Docs' work in 2024 helped ensure the long-term health of web platform documentation on critical resources like MDN Web Docs, independently of any single vendor or organization. Founded in January 2021, 2024 marked Open Web Docs’ fourth year of operation!
 
-Open Web Docs (OWD) is an [Open Source Collective](https://opencollective.com/open-web-docs) that employs technical writers to publicly document open web technologies. OWD currently employs two full time writers, one compat data engineering contractor, and OWD's director to run the program. Everyone at OWD has extensive experience with Web standards documentation, MDN Web Docs, and browser compatibility data. The OWD team writes new documentation, updates existing documentation, and improves documentation infrastructure together with other organizations such as Mozilla, Google, Microsoft, W3C, Igalia, and other external contributors and volunteers.
+Open Web Docs (OWD) is an [Open Source Collective](https://opencollective.com/open-web-docs) that employs engineers to publicly document open web technologies. OWD currently employs two full time technical writers, one compat data engineering contractor, and OWD's director to run the program. Everyone at OWD has extensive experience with Web standards documentation, MDN Web Docs, and browser compatibility data. The OWD team writes new documentation, updates existing documentation, and improves documentation infrastructure together with other organizations such as Mozilla, Google, Microsoft, W3C, Igalia, and other external contributors and volunteers.
 
 In 2024, Open Web Docs:
 
@@ -18,19 +18,20 @@ In 2024, Open Web Docs:
 - Provided 27% of all pull request reviews to the mdn/content repository and 52% of reviews to mdn/browser-compat-data.
 - Started to become a maintainer of the [web-platform-dx/web-features](https://github.com/web-platform-dx/web-features) repo and contributed 14.8% of merged pull requests.
 - Completed major technical writing and documentation engineering projects which were determined and guided by OWD’s [Steering Committee](https://github.com/openwebdocs/project/blob/main/steering-committee/membership-expectations.md). This included among other things:
-  - [Collecting browser compatibility data whenever browsers release a new beta version](#collecting-browser-compatibility-data-whenever-browsers-release-a-new-beta-version)
-  - [Documentation for interoperable and widely available features](#documentation-for-interoperable-and-widely-available-features)
-  - [W3C WebDX web-features mapping of BCD keys into baseline features](#w3c-webdx-web-features-mapping-of-bcd-keys-into-baseline-features)
-  - [Replacing all "true" and "null" versions with real version numbers in BCD](#replacing-all-true-and-null-versions-with-real-version-numbers-in-bcd)
+  - [Collecting browser compatibility data for every browser release, including all beta releases](#collecting-browser-compatibility-data-whenever-browsers-release-a-new-beta-version)
+  - [Documenting all interoperable and widely available browser features](#documentation-for-interoperable-and-widely-available-features)
+  - [W3C WebDX web-features mapping of BCD keys into Baseline features](#w3c-webdx-web-features-mapping-of-bcd-keys-into-baseline-features)
+  - [Updating all BCD data to include browser support version numbers for all features](#replacing-all-true-and-null-versions-with-real-version-numbers-in-bcd)
   - [Web Security docs for MDN](#web-security-docs-for-mdn)
   - [Updated Fetch documentation](#updated-fetch-documentation)
   - [WebView compatibility data](#webview-compatibility-data)
-- Secured a second round of [investment from the Sovereign Tech Fund](https://openwebdocs.org/content/posts/sovereign-tech-fund/) to implement improved tooling and maintenance of the [mdn/browser-compat-data](https://github.com/mdn/browser-compat-data) project and development of the [openwebdocs/mdn-bcd-collector](https://github.com/openwebdocs/mdn-bcd-collector) tool.
+- The improved tooling and maintenance of the [mdn/browser-compat-data](https://github.com/mdn/browser-compat-data) project and development of the [openwebdocs/mdn-bcd-collector](https://github.com/openwebdocs/mdn-bcd-collector) tool was made possible by support from the [Sovereign Tech Fund](https://openwebdocs.org/content/posts/sovereign-tech-fund/).
 
 Previous Open Web Docs Impact and Transparency Reports: [2023](https://openwebdocs.org/content/reports/2023/), [2022](https://openwebdocs.org/content/reports/2022/), [2021](https://openwebdocs.org/content/reports/2021/).
 
 <div class="callout">
-<p>Open Web Docs is a non-profit, strongly community-focused open source collective that uses its donations to employ a group of technical writers who are dedicated to writing and improving documentation for the web platform.</p>
+
+Open Web Docs is a non-profit, strongly community-focused open source collective that uses its donations to employ a group of technical writers who are dedicated to writing and improving documentation for the web platform.
 
 Donate today:
 
@@ -44,28 +45,28 @@ As a [member organization](https://openwebdocs.org/membership) you are entitled 
 
 ## OWD maintainership by the numbers
 
-In 2024, Open Web Docs continued to work on improving and maintaining the following four essential projects for the web platform documentation ecosystem:
+In 2024, Open Web Docs continued to maintain and improve the following four essential web platform documentation ecosystem projects:
 
 - [mdn/content](https://github.com/mdn/content)
 - [mdn/browser-compat-data](https://github.com/mdn/browser-compat-data)
 - [openwebdocs/mdn-bcd-collector](https://github.com/openwebdocs/mdn-bcd-collector)
 - [web-platform-dx/web-features](https://github.com/web-platform-dx/web-features)
 
-Documentation about open web standards needs ongoing updating and maintenance as new web platform features are introduced and best practices change. We believe all of the above projects are essential information sources that web developers consult and trust on a daily basis. OWD believes that by contributing to these repositories, we have the biggest impact on open web platform documentation and we reach the majority of web developers worldwide.
+Open web standards documentation needs ongoing updating and maintenance as new web platform features are introduced and best practices change. At OWD, we believe the above projects are essential sources of information web developers consult and trust and that by contributing to these repositories, we can reach the majority of web developers worldwide with comprehensive, accurate and informative documentation about the open web platform.
 
-At the 2024 annual W3C TPAC conference, and for W3C's 30th anniversary, [François Daoust](https://github.com/tidoust) spoke about the [Web and the art of specification maintenance](https://www.youtube.com/watch?v=gkg2WBVfeho). OWD is proud to play a key role in the maintenance of the web's infrastructure and enhancing the overall resilience of the system.
+For W3C's 30th anniversary, [François Daoust](https://github.com/tidoust) spoke about the [Web and the art of specification maintenance](https://www.youtube.com/watch?v=gkg2WBVfeho) at the 2024 annual W3C TPAC conference. OWD is proud to play a key role in the maintenance of the web's infrastructure and enhancing the overall resilience of the system.
 
-Git Pulse rankings help to put our work in perspective in the overall open source ecosystem. In 2024, the mdn/content repository is again in the top 10 of all of the repositories hosted on GitHub, see [git-pulse.github.io](https://git-pulse.github.io/snapshots/).
+[Git Pulse rankings](https://git-pulse.github.io/snapshots/) help to put our work in perspective in the overall open source ecosystem. In 2024, the mdn/content repository is again in the top 10 of all of the repositories hosted on GitHub!
 
 ### Pull requests authored
 
-Like in previous years, Open Web Docs was the primary contributor to the mdn/content and the mdn/browser-compat-data repositories. We also substantially helped with the new web-features project. Here's the summary of merged PRs authored (excluding bots):
+Since our launch in 2021, Open Web Docs has been the primary contributor to the mdn/content and the mdn/browser-compat-data repositories. In 2024, we also joined and substantially helped with W3C WebDX Community Group's web-features project. Here's the summary of merged PRs authored (excluding bots):
 
 | Project                 | Total authored PRs | OWD authored PRs |
 | ----------------------- | ------------------ | ---------------- |
 | mdn/content             | 3907               | 551 (14.1%)      |
 | mdn/browser-compat-data | 2034               | 1066 (52.4%)     |
-| webdx/web-features      | 1150               | 170 (14.8%)      |
+| web-platform-dx/web-features     | 1150               | 170 (14.8%)      |
 
 ### Pull requests reviewed
 
@@ -75,9 +76,9 @@ As in previous years, there's a very long tail of contributors and a thriving co
 - 166 contributors had 2-9 PRs merged.
 - 44 contributors had 10 or more PRs merged.
 
-Supporting this long tail of volunteers is a large part of OWD's work. PR reviews for the mdn/content repository are performed by members of the maintainer group, which consists of OWD staff, Mozilla, Google and Microsoft staff, W3C staff, and a select group of volunteer maintainers.
+Supporting this long tail of volunteers is a large part of OWD's work. PR reviews for the mdn/content repository are performed by members of the maintainer group, which consists of OWD, Mozilla, Google, Microsoft, and W3C staff, and a select group of volunteer maintainers.
 
-Special shout outs to volunteer reviewer [Josh-Cena](https://github.com/Josh-Cena), who alone took on 18.3% of reviews in 2024 for mdn/content, and to [Daniel D. Beck](https://github.com/ddbeck) who reviewed more than half (56.4%) of all web-features pull requests in 2024. A pleasure to work with both of you and your impact in 2024 on these two projects is very noteworthy! Thank you!
+We want to give special shout outs to volunteer reviewer [Joshua Chen](https://github.com/Josh-Cena), who alone took on 18.3% of reviews in 2024 for mdn/content, and to [Daniel D. Beck](https://github.com/ddbeck) who reviewed more than half (56.4%) of all web-features pull requests in 2024. It is a pleasure to work with both of you and your impact in 2024 on these two projects is very noteworthy! Thank you!
 
 Here's the summary of reviewed PRs:
 
@@ -85,34 +86,34 @@ Here's the summary of reviewed PRs:
 | ----------------------- | ------------------ | ---------------- |
 | mdn/content             | 4595               | 1254 (27.3%)     |
 | mdn/browser-compat-data | 2209               | 1154 (52.3%)     |
-| webdx/web-features      | 1961               | 135 (6.9%)       |
+| web-platform-dx/web-features      | 1961               | 135 (6.9%)       |
 
 ## Sovereign Tech Fund
 
-Open Web Docs is very proud to have received a second round investment from the Sovereign Tech Fund at the beginning of 2024. The [Sovereign Tech Fund (STF)](https://www.sovereign.tech/programs/fund) supports the development, improvement, and maintenance of open digital infrastructure in the public interest. The [Sovereign Tech Fund’s Contribute Back Challenges](https://www.sovereign.tech/programs/challenges) selected Open Web Docs as a partner to implement improved tooling and maintenance of the [mdn/browser-compat-data](https://github.com/mdn/browser-compat-data) and further development of the [openwebdocs/mdn-bcd-collector](https://github.com/openwebdocs/mdn-bcd-collector) tool.
+Open Web Docs is very proud to have received a second round of investment from the [Sovereign Tech Fund (STF)](https://www.sovereign.tech/programs/fund) at the beginning of 2024. STF supports the development, improvement, and maintenance of open digital infrastructure in the public interest. [STF’s Contribute Back Challenges](https://www.sovereign.tech/programs/challenges) selected Open Web Docs as a partner to implement improved tooling and the maintenance of the [mdn/browser-compat-data](https://github.com/mdn/browser-compat-data) and further development of the [openwebdocs/mdn-bcd-collector](https://github.com/openwebdocs/mdn-bcd-collector) tool.
 
-As part of this program, that continued from the first round in 2023, we completed key milestones:
+As part of this program, we continued the work started during from the first round, in 2023, by completing these key milestones:
 
-- Open Web Docs (OWD) automated browser compatibility data updates using OWD’s [mdn-bcd-collector](https://github.com/openwebdocs/mdn-bcd-collector) project. Now, browser compatibility information is available to web developers for new browser releases faster than ever.
-- OWD automatically detects added and removed browser features for 90.15% of the entire web platform when a new browser is released. The data is recorded in the open-source [BCD](https://github.com/mdn/browser-compat-data) project, which is used by tools commonly used by web developers, such as [CanIUse, MDN Web Docs, and used by](https://caniuse.com/) [Baseline](https://developer.mozilla.org/en-US/docs/Glossary/Baseline/Compatibility) and [web-features](https://github.com/web-platform-dx/web-features).
-- OWD runs tests on mobile browsers and WebViews to have accurate compatibility data for these platforms and to point out differences between mobile and desktop browsers.
-- We also made our tooling more generally available, so that new tools, such as [runtime-compat-data](https://runtime-compat.unjs.io/) can display compatibility across different JavaScript runtimes. We hope that our work on this data will contribute to better understanding of compatibility issues, to more interoperability, and better standardization on the web platform.
+- Open Web Docs (OWD) automatically update browser compatibility data using OWD’s [mdn-bcd-collector](https://github.com/openwebdocs/mdn-bcd-collector). Thanks to Open Web Docs and the MDN-BCD-Collector project, browser compatibility information is available to web developers for new browser releases faster than ever.
+- Our collector automatically detects the addition and removal of 90.15% of all browser features for the entire web platform when a new browser is released. Data collected by OWD's MDN-BCD-Collector is recorded in the open-source [BCD](https://github.com/mdn/browser-compat-data) project, which is used by several popular web developers tools, such as [CanIUse](https://caniuse.com/), [MDN Web Docs](https://developer.mozilla.org), [Baseline](https://github.com/web-platform-dx/web-features/blob/main/docs/baseline.md) and [web-features](https://github.com/web-platform-dx/web-features).
+- OWD runs tests on mobile browsers and WebViews providing accurate compatibility data for these platforms and highlighting differences between mobile and desktop browsers.
+- We also made our tooling more generally available, so that new tools, such as [runtime-compat-data](https://runtime-compat.unjs.io/) can display compatibility across different JavaScript runtimes. We are proud that our work on this data contributes to better understanding of compatibility issues, to more interoperability, and better standardization on the web platform.
 
-## **OWD project work**
+## OWD project work
 
-The Open Web Docs [Steering Committee](https://github.com/openwebdocs/project/blob/main/steering-committee/membership-expectations.md) meets on a weekly basis to determine project work for OWD's technical writing staff. The Steering Committee is guided by the [OWD prioritization criteria](https://github.com/openwebdocs/project/blob/main/steering-committee/prioritization-criteria.md) and OWD’s [charter](https://github.com/openwebdocs/project/blob/main/charter.md). We prioritize based on the needs of the global community of web developers and designers. The [project proposal submission](https://github.com/openwebdocs/project/issues/new/choose) process is open to everyone, with proposals reviewed by the Steering Committee.
+The Open Web Docs [Steering Committee](https://github.com/openwebdocs/project/blob/main/steering-committee/membership-expectations.md) meets on a weekly basis to determine project work for OWD's technical writing staff. The Steering Committee is guided by the [OWD prioritization criteria](https://github.com/openwebdocs/project/blob/main/steering-committee/prioritization-criteria.md) and [OWD’s charter](https://github.com/openwebdocs/project/blob/main/charter.md). OWD efforts are prioritized based on the needs of the global community of web developers and designers. The [OWD project proposal](https://github.com/openwebdocs/project/issues/new/choose) process is open to everyone, with proposals reviewed by the Steering Committee.
 
-Some of the major projects Open Web Docs completed in 2024 were:
+A few of the major projects Open Web Docs completed in 2024 are:
 
 ### Collecting browser compatibility data whenever browsers release a new beta version
 
-This project has initially been funded by the [Sovereign Tech Fund](#sovereign-tech-fund) with the goal to provide web developers with the latest information about available web platform features whenever a new browser version is released and continues thanks to OWD's main sponsors Google and Microsoft. In 2024, we observed 11 releases from Chrome, 12 from Firefox, and 7 from Safari. We systematically collected compatibility data 30 times in 2024.
+The BCD automation project has initially been funded by the [Sovereign Tech Fund](#sovereign-tech-fund) with the goal to provide web developers with the latest information about available web platform features whenever a new browser version is released and continues thanks to OWD's main sponsors Google and Microsoft. In 2024, we observed 11 releases from Chrome (applying to Edge too), 12 from Firefox, and 7 from Safari. We systematically collected compatibility data 30 times in 2024.
 
-For Chrome 122-132, Firefox 123-134, and Safari 17.4-18.3 we were able to update browser compat data within the beta cycles of the browser releases, so that web developers were provided with updated information at the time these browsers released the stable version.
+For Chrome 122-132, Firefox 123-134, and Safari 17.4-18.3, we were able to update browser compatibility data within the beta cycles of each browser release. This enabled us to provide web developers with updated information as every stable browser version was released.
 
-2024 was the first year we systematically collected web platform compatibility data and we want to continue this effort and make it as efficient as possible for the years and browser releases to come. The maintenance of the mdn-browser-compat-data project has highly benefited from this and the data is much more reliable allowing data consumers, especially the web-features and baseline projects, to be most up-to-date and accurate.
+2024 was the first year we systematically collected web platform compatibility data. We want to continue this effort and make it as timely and efficient as possible for every browser release for all the years to come. The maintenance of the mdn-browser-compat-data project benefits greatly from these efforts, and the data is accurate, reliable, and complete, which allows the consumers of the data, especially MDN, web-features, and the Baseline projects, to be up-to-date and accurate.
 
-The project is led by [Florian Scholz](https://github.com/Elchi3) and representatives of browser projects have been reviewing data. Thank you: [Philip Jägenstedt](https://github.com/foolip) (Chromium/Google), [Rachel Andrew](https://github.com/rachelandrew) (Chromium/Google), [Chris Mills](https://github.com/chrisdavidmills) (Chromium/Google), [Patrick Brosset](https://github.com/captainbrosset/) (Chromium/Microsoft), [Jon Davis](https://github.com/jdatapple) (WebKit/Apple), [Jen Simmons](https://github.com/jensimmons) (WebKit/Apple), [Ruth John](https://github.com/Rumyra) (Gecko/Mozilla), [Brian Smith](https://github.com/bsmth) (Gecko/Mozilla), [Hamish Willee](https://github.com/hamishwillee) (Gecko/Mozilla), [Claas Augner](https://github.com/caugner) (Gecko/Mozilla).
+The BCD Automation project is led by [Florian Scholz](https://github.com/Elchi3) and representatives of browser projects have been reviewing data. Thank you: [Philip Jägenstedt](https://github.com/foolip) (Chromium/Google), [Rachel Andrew](https://github.com/rachelandrew) (Chromium/Google), [Chris Mills](https://github.com/chrisdavidmills) (Chromium/Google), [Patrick Brosset](https://github.com/captainbrosset/) (Chromium/Microsoft), [Jon Davis](https://github.com/jdatapple) (WebKit/Apple), [Jen Simmons](https://github.com/jensimmons) (WebKit/Apple), [Ruth John](https://github.com/Rumyra) (Gecko/Mozilla), [Brian Smith](https://github.com/bsmth) (Gecko/Mozilla), [Hamish Willee](https://github.com/hamishwillee) (Gecko/Mozilla), [Claas Augner](https://github.com/caugner) (Gecko/Mozilla).
 
 ### Documentation for interoperable and widely available features
 
@@ -122,19 +123,20 @@ Mention our new backlog dashboard https://openwebdocs.github.io/web-docs-backlog
 
 ### W3C WebDX web-features mapping of BCD keys into baseline features
 
-As of writing this report, there are about 15,000 browser-compat-data keys that describe features of the web platform. In 2024, the W3C WebDX web-features project went on a mission to map all of these keys into [web-features](https://github.com/web-platform-dx/web-features) to build a shared catalog of features of the web platform.
+The mission of the W3C WebDX web-features project is to map all browser-compat-data (BCD) keys to [web-features](https://github.com/web-platform-dx/web-features). The goal is to build a shared catalog of features of the web platform. As of this writing, there are approximately 15,000 BCD keys that describe features of the web platform. In 2024, OWD, with the help of the W3C WebDX Community Group and Google sponsorship, successfully mapped these keys.
 
-By creating a common nomenclature for web platform features, web-features intends to support communication between web developers, browser vendors, standardization bodies, and other ecosystem participants. From Array to Cascade Layers to Offscreen Canvas, web-features identifies, defines, and categorizes capabilities of the web platform that web developers care about.
+By creating a common nomenclature for web platform features, the web-features project supports improved communication between web developers, browser vendors, standardization bodies, and other ecosystem participants. From Array to Cascade Layers to Offscreen Canvas, the web-features project identifies, defines, and categorizes the capabilities of the web platform that web developers care about.
 
-This work has been fantastic team work with a group of people contracted by Google, including Open Web Docs, [James Stuckey Weber](https://github.com/jamesnw/) from [Oddbird](https://www.oddbird.net/), [Dietrich Ayala](https://github.com/autonome), [Daniel D. Beck](https://github.com/ddbeck), and [Kadir Topal](https://github.com/atopal). It was great fun and memories from the [BCD migration from wiki tables to JSON data](https://hacks.mozilla.org/2018/02/mdn-browser-compatibility-data/) came back as we were [tracking our progress](https://github.com/web-platform-dx/web-features/issues/788) over the last few months.
 
-We also provided synchronization of browser-compat-data keys between the mdn/browser-compat-data and web-platform-dx/web-features repositories and made sure that the two projects sync up nicely and complement each other effectively.
+OWD provided synchronization of browser-compat-data keys between the mdn/browser-compat-data and web-platform-dx/web-features repositories, ensuring the two projects sync up nicely and complement each other effectively.
+
+This project was a fantastic collaboration between the group of people contracted by Google, including Open Web Docs, [James Stuckey Weber](https://github.com/jamesnw/) from [Oddbird](https://www.oddbird.net/), [Dietrich Ayala](https://github.com/autonome), [Daniel D. Beck](https://github.com/ddbeck), and [Kadir Topal](https://github.com/atopal). Memories from the [BCD migration from wiki tables to JSON data](https://hacks.mozilla.org/2018/02/mdn-browser-compatibility-data/) came back as we were [tracking our progress](https://github.com/web-platform-dx/web-features/issues/788) over the last few months. It was great fun!
 
 ### Replacing all "true" and "null" versions with real version numbers in BCD
 
-In [mdn/browser-compat-data](https://github.com/mdn/browser-compat-data), we used to set the version number to "true" whenever we know that a web platform feature is supported in a browser but we don't know which was the first version that introduced support. Also, when a features' support was entirely unknown, we used to set the version number to "null". This meant that the compatibility data was quite incomplete and not always useful to data consumers. Especially the calculation of baseline was not possible with incomplete data.
+Previously, the [mdn/browser-compat-data](https://github.com/mdn/browser-compat-data) project used to have incomplete browser version numbers. Features that were supported but for which we didn't know the first browser version that introduced support was, had a version number set to "true". And features for which support was entirely unknown had a version number set to "null". This meant that the compatibility data was incomplete and not always useful to consumers. In particular, the calculation of the Baseline status was not possible with incomplete data.
 
-Thanks to a 2024 project led by [Queen Vinyl Da.i'gyu-Kazotetsu](https://github.com/queengooborg) and [Florian Scholz](https://github.com/Elchi3), BCD no longer has "true" and "null" values. All data in BCD now comes with a real version number or at least a [ranged version number](https://github.com/mdn/browser-compat-data/blob/main/schemas/compat-data-schema.md#ranged-versions-).
+Thanks to a 2024 project led by [Queen Vinyl Da.i'gyu-Kazotetsu](https://github.com/queengooborg) and [Florian Scholz](https://github.com/Elchi3), BCD no longer has "true" and "null" values. All data in BCD now comes with, at the very least, a [ranged version number](https://github.com/mdn/browser-compat-data/blob/main/schemas/compat-data-schema.md#ranged-versions-), or a real version number.
 
 ### Web Security docs for MDN
 
@@ -142,7 +144,7 @@ One of our major projects in 2024 has been to plan and execute improvements to w
 
 One result of this was an overhaul of the Content Security Policy documentation on MDN. This included a rewrite of the [CSP guide](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) to align guidance with [OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html) and [web.dev](https://web.dev/articles/strict-csp), to document some of the other protections offered by a CSP in addition to resource loading controls, and to explain better how a CSP can help protect against XSS attacks. We also [rewrote and reorganized the reference documentation for fetch directive syntax](https://github.com/orgs/mdn/discussions/756) to fix many errors and make the syntax easier to understand.
 
-We've also started writing guide pages about attacks and their mitigations. The first of these was a [guide about cross-side scripting (XSS)](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/XSS) explaining what it is and how to protect against it in both client- and server-side code, using web platform features such as CSP and [trusted types](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/XSS#trusted_types). We've also written a guide about [clickjacking](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/Clickjacking). The next part of this work will be a guide to [cross-site leaks](https://xsleaks.dev/), including mitigations such as [Cross-Origin-Resource-Policy (CORP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Resource-Policy) and [Cross-Origin-Opener-Policy (COOP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Opener-Policy).
+We've also started writing guide pages about attacks and their mitigations. The first of these was a [guide about cross-side scripting (XSS)](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/XSS) explaining what it is and how to protect against it in both client- and server-side code, using web platform features such as CSP and [trusted types](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/XSS#trusted_types). We've also written a guide about [clickjacking](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/Clickjacking). The next part of this work will be a guide to [cross-site leaks](https://xsleaks.dev/), including mitigations such as [Cross-Origin-Resource-Policy (CORP)](https://developer.mozilla.org/docs/Web/HTTP/Headers/Cross-Origin-Resource-Policy) and [Cross-Origin-Opener-Policy (COOP)](https://developer.mozilla.org/docs/Web/HTTP/Headers/Cross-Origin-Opener-Policy).
 
 This project is led by [Will Bamberg](https://github.com/wbamberg). We would like to thank [Daniel Appelquist](https://github.com/torgo) for chairing the SWAG CG and [Aaron Shim](https://github.com/aaronshim) and [Artur Janc](https://github.com/arturjanc) from the Google Security team who sponsored us with $20,000 to support this effort and who participate regularly in SWAG calls to give advice and reviews.
 
