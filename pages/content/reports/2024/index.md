@@ -118,7 +118,7 @@ The BCD Automation project is led by [Florian Scholz](https://github.com/Elchi3)
 
 ### Identify and document missing widely available features
 
-With the belief that web platform documentation is critical digital infrastructure and a goal of ensure its long-term health, OWD wanted to ensure that all web features are fully documented. When a feature is not documented on MDN, any links to that feature are deactivated and made red. There are red links on MDN. The goal of the missing widely available features was two-fold: identify the missing features, then document them.
+With the belief that web platform documentation is critical digital infrastructure and a goal of ensure its long-term health, OWD wanted to ensure that all web features were fully documented. When a feature is not documented on MDN, any links to that feature are deactivated and rendered in red. There were several red links on MDN. The goal of the missing widely available features was two-fold: to identify the missing features and then document them.
 
 Thanks to the web-features project and browser compat, the team at OWD forked the [WebDX Web Features Explorer](https://github.com/web-platform-dx/web-features-explorer) and created a [backlog dashboard](https://openwebdocs.github.io/web-docs-backlog/) of web features with missing documentation, with the ability to categorize each feature by Baseline status. The most important features to document are features supported in all browsers, which includes _Baseline newly available_ and _Baseline widely available_ and. A feature is defined as "newly" available when all the Baseline browsers start supporting it. It becomes "widely" available once it has been supported in all Baseline browsers for at least 30 months (2.5 years).
 
