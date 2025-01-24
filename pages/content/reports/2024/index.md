@@ -19,7 +19,7 @@ In 2024, Open Web Docs:
 - Became a maintainer of the [web-platform-dx/web-features](https://github.com/web-platform-dx/web-features) repo and contributed 14.8% of merged pull requests.
 - Completed major technical writing and documentation engineering projects which were determined and guided by OWD’s [Steering Committee](https://github.com/openwebdocs/project/blob/main/steering-committee/membership-expectations.md). This included among other things:
   - [Collecting browser compatibility data for every browser release, including all beta releases](#collecting-browser-compatibility-data-whenever-browsers-release-a-new-beta-version)
-  - [Documenting all interoperable and widely available browser features](#documenting-all-interoperable-and-widely-available-browser-features)
+  - [Identify and document missing widely available features](#identify-and-document-missing-widely-available-features)
   - [W3C WebDX web-features mapping of BCD keys into Baseline features](#w3c-webdx-web-features-mapping-of-bcd-keys-into-baseline-features)
   - [Updated compat data to include browser support version numbers for all features](#updated-compat-data-to-include-browser-support-version-numbers-for-all-features)
   - [Improving Web Security docs for MDN with the W3C SWAG CG](#improving-web-security-docs-for-mdn-with-the-w3c-swag-cg)
@@ -95,7 +95,7 @@ Open Web Docs is very proud to have received a second round of investment from t
 
 As part of this program, we expanded on the work accomplished during the initial first round, in 2023, by completing these key milestones:
 
-- Extend the OWD’s [mdn-bcd-collector](https://github.com/openwebdocs/mdn-bcd-collector) to automatically update browser compatibility data. Thanks to Open Web Docs' MDN-BCD-Collector project, browser compatibility information is available to web developers for new browser releases faster than ever: data gets collected every time a new beta version of a browser gets published, with data being made available well before a stable browser version gets released.
+- Extend OWD’s [mdn-bcd-collector](https://github.com/openwebdocs/mdn-bcd-collector) to automatically update browser compatibility data. Thanks to Open Web Docs' MDN-BCD-Collector project, browser compatibility information is available to web developers for new browser releases faster than ever: data gets collected every time a new beta version of a browser gets published, with data being made available well before a stable browser version gets released.
 - Our collector automatically detects the addition and removal of 90.15% of all browser features for the entire web platform when a new browser is released. Data collected by OWD's MDN BCD Collector is recorded in the open-source [BCD](https://github.com/mdn/browser-compat-data) project, which is used by several popular web developers tools, such as [CanIUse](https://caniuse.com/), [MDN Web Docs](https://developer.mozilla.org), [Baseline](https://github.com/web-platform-dx/web-features/blob/main/docs/baseline.md) and [web-features](https://github.com/web-platform-dx/web-features).
 - OWD runs tests on mobile browsers and WebViews providing accurate compatibility data for these platforms and highlighting differences between mobile and desktop browsers.
 - Open Web Docs (OWD) also made our tooling more generally available, so that new tools, such as [runtime-compat-data](https://runtime-compat.unjs.io/) can display compatibility across different JavaScript runtimes. We are proud that our work on this data contributes to better understanding of compatibility issues, to more interoperability, and better standardization on the web platform.
@@ -108,7 +108,7 @@ A few of the major projects Open Web Docs completed in 2024 are:
 
 ### Collecting browser compatibility data whenever browsers release a new beta version
 
-The BCD Automation Project's mission is to provide web developers with the latest information about available web platform features whenever a new browser version is released. The project was initially funded by the [Sovereign Tech Fund](#sovereign-tech-fund) and continues thanks to the support of OWD's main sponsors Google and Microsoft. In 2024, we systematically collected compatibility data 30 times; we observed 11 releases from Chrome (applying to Edge too), 12 from Firefox, and 7 from Safari.
+This BCD automation project's mission is to provide web developers with the latest information about available web platform features whenever a new browser version is released. The project was initially funded by the [Sovereign Tech Fund](#sovereign-tech-fund) and continues thanks to the support of OWD's main sponsors Google and Microsoft. In 2024, we systematically collected compatibility data 30 times; we observed 11 releases from Chrome (applying to Edge too), 12 from Firefox, and 7 from Safari.
 
 For Chrome 122-132, Firefox 123-134, and Safari 17.4-18.3, we were able to update browser compatibility data within the beta cycles of each browser release. This enabled us to provide web developers with updated information as every stable browser version was released.
 
@@ -124,7 +124,7 @@ Thanks to the web-features project and browser compat, the team at OWD forked th
 
 Through the dashboard, we identified 600 Baseline widely available web features that have BCD data but are not documented on MDN. The OWD team and volunteers documented 591 of these. The remaining nine missing widely available features are WebAssembly features. OWD first addressed the 133 [missing form-related API docs](https://github.com/openwebdocs/project/issues/213). We then documented the remaining 458 missing features, including [missing DOMMatrix, DOMShapes, Error Events, and SVG interface features](https://github.com/openwebdocs/project/issues/214). A total of 591 additional pages were added to MDN, documenting all the missing non-webAssembly Baseline widely available features. At the time of this writing, there are still a few PRs left to merge, but the pages are written!
 
-OWD would like to thank the WebDX Community Group, specifically [Patrick Brosset](https://github.com/captainbrosset/), for the web-platform-dx/web-features-explorer, [Florian Scholz](https://github.com/Elchi3) for creating the Backlog Dashboard,  [Yash Raj Bharti](https://github.com/yashrajbharti) for tackling the missing SVG API properties and methods, [Estelle Weyl](https://github.com/estelle) for documenting the other missing features, and all the MDN Maintainers for reviewing the PRs. 
+OWD would like to thank the WebDX Community Group, specifically [Patrick Brosset](https://github.com/captainbrosset/), for the web-platform-dx/web-features-explorer, [Florian Scholz](https://github.com/Elchi3) for creating the Backlog Dashboard,  [Yash Raj Bharti](https://github.com/yashrajbharti) for tackling the missing SVG API properties and methods, [Estelle Weyl](https://github.com/estelle) for documenting the other missing features, and all the MDN Maintainers for reviewing the PRs.
 
 ### W3C WebDX web-features mapping of BCD keys into baseline features
 
