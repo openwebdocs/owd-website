@@ -55,7 +55,7 @@ Open web standards documentation needs ongoing updating and maintenance as new w
 
 For W3C's 30th anniversary, [François Daoust](https://github.com/tidoust) spoke about the [Web and the art of specification maintenance](https://www.youtube.com/watch?v=gkg2WBVfeho) at the 2024 annual W3C TPAC conference. OWD is proud to play a key role in the maintenance of the web's infrastructure and enhancing the overall resilience of the system.
 
-[Git Pulse rankings](https://git-pulse.github.io/snapshots/) help to put our work in perspective in the overall open source ecosystem. In 2024, the mdn/content repository is again in the top 10 of all of the repositories hosted on GitHub!
+[Git Pulse rankings](https://git-pulse.github.io/snapshots/) help put our work in perspective in the overall open-source ecosystem. In 2024, the mdn/content repository is again in the top 10 of all of the repositories hosted on GitHub!
 
 The [web-platform-dx/web-features](https://github.com/web-platform-dx/web-features) repository is a new in the list of projects that Open Web Docs supports. It is used by MDN Web Docs and caniuse.com as well as the Baseline project, among other things. It uses browser-compat-data and we believe it is an important project to help web developers discover the capabilities of the web platform. You can explore its data on the [Web platform features explorer](https://web-platform-dx.github.io/web-features-explorer/) site and watch [Building the web developer's catalog of web platform features](https://www.w3.org/2023/09/TPAC/demos/web-features.html) by Daniel D. Beck to learn more about it.
 
@@ -79,7 +79,7 @@ As in previous years, there's a very long tail of contributors and a thriving co
 
 Supporting this long tail of volunteers is a large part of OWD's work. PR reviews for the mdn/content repository are performed by members of the maintainer group, which consists of OWD, Mozilla, Google, Microsoft, and W3C staff, and a select group of volunteer maintainers.
 
-We want to give special shout outs to volunteer reviewer [Joshua Chen](https://github.com/Josh-Cena), who alone took on 18.3% of reviews in 2024 for mdn/content, and to [Daniel D. Beck](https://github.com/ddbeck) who reviewed more than half (56.4%) of all web-features pull requests in 2024. It is a pleasure to work with both of you and your impact in 2024 on these two projects is very noteworthy! Thank you!
+We want to give special shout outs to volunteer reviewer [Joshua Chen](https://github.com/Josh-Cena), who alone took on 18.3% of reviews in 2024 for mdn/content, and to [Daniel D. Beck](https://github.com/ddbeck) who reviewed more than half (56.4%) of all web-platform-dx/web-features pull requests in 2024. It is a pleasure to work with both of you, and your impact in 2024 on these two projects is very noteworthy! Thank you!
 
 Here's the summary of reviewed PRs:
 
@@ -91,18 +91,18 @@ Here's the summary of reviewed PRs:
 
 ## Sovereign Tech Fund
 
-Open Web Docs is very proud to have received a second round of investment from the [Sovereign Tech Fund (STF)](https://www.sovereign.tech/programs/fund) at the beginning of 2024. STF supports the development, improvement, and maintenance of open digital infrastructure in the public interest. [STF’s Contribute Back Challenges](https://www.sovereign.tech/programs/challenges) selected Open Web Docs as a partner to implement improved tooling and the maintenance of the [mdn/browser-compat-data](https://github.com/mdn/browser-compat-data) and further development of the [openwebdocs/mdn-bcd-collector](https://github.com/openwebdocs/mdn-bcd-collector) tool.
+Open Web Docs is very proud to have received a second round of investment from the [Sovereign Tech Fund (STF)](https://www.sovereign.tech/programs/fund) at the beginning of 2024. STF supports the development, improvement, and maintenance of open digital infrastructure in the public interest. [STF’s Contribute Back Challenges](https://www.sovereign.tech/programs/challenges) selected Open Web Docs as a partner to implement improved tooling and the maintenance of [mdn/browser-compat-data](https://github.com/mdn/browser-compat-data) and further development of the [openwebdocs/mdn-bcd-collector](https://github.com/openwebdocs/mdn-bcd-collector) tool.
 
 As part of this program, we continued the work started during from the first round, in 2023, by completing these key milestones:
 
 - Open Web Docs (OWD) automatically update browser compatibility data using OWD’s [mdn-bcd-collector](https://github.com/openwebdocs/mdn-bcd-collector). Thanks to Open Web Docs and the MDN BCD Collector project, browser compatibility information is available to web developers for new browser releases faster than ever: data gets collected when a new beta versions of browsers are published and data is made available well before the stable browser versions get released.
 - Our collector automatically detects the addition and removal of 90.15% of all browser features for the entire web platform when a new browser is released. Data collected by OWD's MDN BCD Collector is recorded in the open-source [BCD](https://github.com/mdn/browser-compat-data) project, which is used by several popular web developers tools, such as [CanIUse](https://caniuse.com/), [MDN Web Docs](https://developer.mozilla.org), [Baseline](https://github.com/web-platform-dx/web-features/blob/main/docs/baseline.md) and [web-features](https://github.com/web-platform-dx/web-features).
 - OWD runs tests on mobile browsers and WebViews providing accurate compatibility data for these platforms and highlighting differences between mobile and desktop browsers.
-- We also made our tooling more generally available, so that new tools, such as [runtime-compat-data](https://runtime-compat.unjs.io/) can display compatibility across different JavaScript runtimes. We are proud that our work on this data contributes to better understanding of compatibility issues, to more interoperability, and better standardization on the web platform.
+- Open Web Docs (OWD) also made our tooling more generally available, so that new tools, such as [runtime-compat-data](https://runtime-compat.unjs.io/) can display compatibility across different JavaScript runtimes. We are proud that our work on this data contributes to better understanding of compatibility issues, to more interoperability, and better standardization on the web platform.
 
 ## OWD project work
 
-The Open Web Docs [Steering Committee](https://github.com/openwebdocs/project/blob/main/steering-committee/membership-expectations.md) meets on a weekly basis to determine project work for OWD's technical writing staff. The Steering Committee is guided by the [OWD prioritization criteria](https://github.com/openwebdocs/project/blob/main/steering-committee/prioritization-criteria.md) and [OWD’s charter](https://github.com/openwebdocs/project/blob/main/charter.md). OWD efforts are prioritized based on the needs of the global community of web developers and designers. The [OWD project proposal](https://github.com/openwebdocs/project/issues/new/choose) process is open to everyone, with proposals reviewed by the Steering Committee.
+The Open Web Docs [Steering Committee](https://github.com/openwebdocs/project/blob/main/steering-committee/membership-expectations.md) meets weekly to determine project work for OWD's technical writing staff. The Steering Committee is guided by the [OWD prioritization criteria](https://github.com/openwebdocs/project/blob/main/steering-committee/prioritization-criteria.md) and [OWD’s charter](https://github.com/openwebdocs/project/blob/main/charter.md). OWD efforts are prioritized based on the needs of the global community of web developers and designers. The [OWD project proposal](https://github.com/openwebdocs/project/issues/new/choose) process is open to everyone, with proposals reviewed by the Steering Committee.
 
 A few of the major projects Open Web Docs completed in 2024 are:
 
