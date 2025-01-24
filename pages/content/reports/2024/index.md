@@ -116,11 +116,15 @@ For Chrome 122-132, Firefox 123-134, and Safari 17.4-18.3, we were able to updat
 
 The BCD Automation project is led by [Florian Scholz](https://github.com/Elchi3) and representatives of browser projects have been reviewing data. Thank you: [Philip Jägenstedt](https://github.com/foolip) (Chromium/Google), [Rachel Andrew](https://github.com/rachelandrew) (Chromium/Google), [Chris Mills](https://github.com/chrisdavidmills) (Chromium/Google), [Patrick Brosset](https://github.com/captainbrosset/) (Chromium/Microsoft), [Jon Davis](https://github.com/jdatapple) (WebKit/Apple), [Jen Simmons](https://github.com/jensimmons) (WebKit/Apple), [Ruth John](https://github.com/Rumyra) (Gecko/Mozilla), [Brian Smith](https://github.com/bsmth) (Gecko/Mozilla), [Hamish Willee](https://github.com/hamishwillee) (Gecko/Mozilla), [Claas Augner](https://github.com/caugner) (Gecko/Mozilla).
 
-### Documenting all interoperable and widely available browser features
+### Identify and document missing widely available features
 
-TBD @estelle
+With the belief that web platform documentation is critical digital infrastructure and a goal of ensure its long-term health, OWD wanted to ensure that all web features are fully documented. When a feature is not documented on MDN, any links to that feature are deactivated and made red. There are red links on MDN. The goal of the missing widely available features was two-fold: identify the missing features, then document them.
 
-Mention our new backlog dashboard https://openwebdocs.github.io/web-docs-backlog/
+Thanks to the web-features project and browser compat, the team at OWD forked the [WebDX Web Features Explorer](https://github.com/web-platform-dx/web-features-explorer) and created a [backlog dashboard](https://openwebdocs.github.io/web-docs-backlog/) of web features with missing documentation, with the ability to categorize each feature by Baseline status. The most important features to document are features supported in all browsers, which includes _Baseline newly available_ and _Baseline widely available_ and. A feature is defined as "newly" available when all the Baseline browsers start supporting it. It becomes "widely" available once it has been supported in all Baseline browsers for at least 30 months (2.5 years).
+
+Through the dashboard, we identified 600 Baseline widely available web features not documented on MDN. The OWD team and volunteers documented 591 of these. The remaining nine missing widely available features are WebAssembly features. OWD first addressed the 133 [missing form-related API docs](https://github.com/openwebdocs/project/issues/213). We then documented the remaining 458 missing featueres, including [missing DOMMatrix, DOMShapes, Error Events, and SVG interface features](https://github.com/openwebdocs/project/issues/214).
+
+OWD would like to thank the WebDX Community Group, specifically [Patrick Brosset](https://github.com/captainbrosset/), for the web-platform-dx/web-features-explorer, [Florian Scholz](https://github.com/Elchi3) for creating the Backlog Dashboard,  [Yash Raj Bharti](https://github.com/yashrajbharti) for tackling the missing SVG API properties and methods, [Estelle Weyl](https://github.com/estelle) for documenting the other missing features, and all the MDN Maintainers for reviewing the PRs. 
 
 ### W3C WebDX web-features mapping of BCD keys into baseline features
 
