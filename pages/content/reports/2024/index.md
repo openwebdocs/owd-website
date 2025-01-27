@@ -128,7 +128,7 @@ OWD would like to thank the WebDX Community Group, specifically [Patrick Brosset
 
 ### W3C WebDX web-features mapping of BCD keys into baseline features
 
-The mission of the W3C WebDX web-features project is to map all browser-compat-data (BCD) keys to [web-features](https://github.com/web-platform-dx/web-features). The goal is to build a shared catalog of features of the web platform. As of this writing, there are approximately 15,000 BCD keys that describe features of the web platform. In 2024, OWD, with the help of the W3C WebDX Community Group and Google sponsorship, successfully mapped these keys.
+The mission of the W3C WebDX web-features project is to map all browser-compat-data (BCD) keys to [web-features](https://github.com/web-platform-dx/web-features). The goal is to build a shared catalog of web platform features. As of this writing, there are approximately 15,000 BCD keys that describe features of the web platform. In 2024, with the help of the W3C WebDX Community Group and Google sponsorship, OWD successfully mapped these keys.
 
 By creating a common nomenclature for web platform features, the web-features project supports improved communication between web developers, browser vendors, standardization bodies, and other ecosystem participants. From Array to Cascade Layers to Offscreen Canvas, the web-features project identifies, defines, and categorizes the capabilities of the web platform that web developers care about.
 
@@ -138,23 +138,23 @@ This project was a fantastic collaboration between the group of people contracte
 
 ### Updated compat data to include browser support version numbers for all features
 
-Previously, the [mdn/browser-compat-data](https://github.com/mdn/browser-compat-data) project used to have incomplete browser version numbers. Features that were supported but for which we didn't know the first browser version that introduced support was, had a version number set to "true". And features for which support was entirely unknown had a version number set to "null". This meant that the compatibility data was incomplete and not always useful to consumers. In particular, the calculation of the Baseline status was not possible with incomplete data.
+Previously, the [mdn/browser-compat-data](https://github.com/mdn/browser-compat-data) project used to have incomplete browser version numbers. Features that were supported but for which we didn't know the first browser version that introduced support was, had a version number set to "true". And features for which support was entirely unknown had a version number set to "null". This meant that the compatibility data was incomplete and not always useful to consumers. Most notably, the calculation of the Baseline status was not possible with incomplete data.
 
 Thanks to a 2024 project led by [Queen Vinyl Da.i'gyu-Kazotetsu](https://github.com/queengooborg) and [Florian Scholz](https://github.com/Elchi3), BCD no longer has "true" and "null" values. All data in BCD now comes with, at the very least, a [ranged version number](https://github.com/mdn/browser-compat-data/blob/main/schemas/compat-data-schema.md#ranged-versions-), or a real version number.
 
 ### Improving Web Security docs for MDN with the W3C SWAG CG
 
-One of our major projects in 2024 has been to plan and execute improvements to web security documentation on MDN. The W3C's [Secure the Web Forward](https://www.w3.org/2023/03/secure-the-web-forward/report.html) workshop concluded that documentation plays a major role in promoting security best practices and in helping web application developers understand security threats and mitigations. In June 2024 the [Security Web Application Guidelines Community Group (SWAG CG)](https://www.w3.org/community/swag/) was created to develop security guidelines for web application developers. The OWD team has regularly participated in the SWAG CG to identify areas where we need better web security documentation and to get guidance from experts about current best practices.
+One of OWD's major projects in 2024 was to plan and execute improvements to web security documentation on MDN. The W3C's [Secure the Web Forward](https://www.w3.org/2023/03/secure-the-web-forward/report.html) workshop determined that documentation plays a major role in promoting security best practices and in helping web application developers understand security threats and mitigations. In June 2024, the [Security Web Application Guidelines Community Group (SWAG CG)](https://www.w3.org/community/swag/) was created to develop security guidelines for web application developers. The OWD team actively participated in the SWAG CG, identifying areas where better web security documentation was needed, and getting guidance from experts about current best practices.
 
-One result of this was an overhaul of the Content Security Policy documentation on MDN. This included a rewrite of the [CSP guide](https://developer.mozilla.org/docs/Web/HTTP/CSP) to align guidance with [OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html) and [web.dev](https://web.dev/articles/strict-csp), to document some of the other protections offered by a CSP in addition to resource loading controls, and to explain better how a CSP can help protect against XSS attacks. We also [rewrote and reorganized the reference documentation for fetch directive syntax](https://github.com/orgs/mdn/discussions/756) to fix many errors and make the syntax easier to understand.
+One result of this was OWD's overhaul of the Content Security Policy documentation on MDN. This included a rewrite of the [CSP guide](https://developer.mozilla.org/docs/Web/HTTP/CSP) to align with [OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html) and [web.dev](https://web.dev/articles/strict-csp)  guidance, to document some of the other protections offered by a CSP in addition to resource loading controls, and to better explain how a CSP can help protect against XSS attacks. OWD also [rewrote and reorganized the reference documentation for fetch directive syntax](https://github.com/orgs/mdn/discussions/756) to fix many errors and make the syntax easier to understand.
 
-We've also started writing guide pages about attacks and their mitigations. The first of these was a [guide about cross-side scripting (XSS)](https://developer.mozilla.org/docs/Web/Security/Attacks/XSS) explaining what it is and how to protect against it in both client- and server-side code, using web platform features such as CSP and [trusted types](https://developer.mozilla.org/docs/Web/Security/Attacks/XSS#trusted_types). We've also written a guide about [clickjacking](https://developer.mozilla.org/docs/Web/Security/Attacks/Clickjacking). The next part of this work will be a guide to [cross-site leaks](https://xsleaks.dev/), including mitigations such as [Cross-Origin-Resource-Policy (CORP)](https://developer.mozilla.org/docs/Web/HTTP/Headers/Cross-Origin-Resource-Policy) and [Cross-Origin-Opener-Policy (COOP)](https://developer.mozilla.org/docs/Web/HTTP/Headers/Cross-Origin-Opener-Policy).
+OWD also developed guides about attacks and their mitigations. The first of these was a [cross-side scripting (XSS) guide](https://developer.mozilla.org/docs/Web/Security/Attacks/XSS) explaining what XSS is and how to protect against it in both client- and server-side code, using web platform features such as CSP and [trusted types](https://developer.mozilla.org/docs/Web/Security/Attacks/XSS#trusted_types). OWD also developed a guide on [clickjacking](https://developer.mozilla.org/docs/Web/Security/Attacks/Clickjacking). The web security documentation project is ongoing. The next part of this work will be a guide to [cross-site leaks](https://xsleaks.dev/), including mitigations such as [Cross-Origin-Resource-Policy (CORP)](https://developer.mozilla.org/docs/Web/HTTP/Headers/Cross-Origin-Resource-Policy) and [Cross-Origin-Opener-Policy (COOP)](https://developer.mozilla.org/docs/Web/HTTP/Headers/Cross-Origin-Opener-Policy).
 
 This project is led by [Will Bamberg](https://github.com/wbamberg). We would like to thank [Daniel Appelquist](https://github.com/torgo) for chairing the SWAG CG and [Aaron Shim](https://github.com/aaronshim) and [Artur Janc](https://github.com/arturjanc) from the Google Security team who sponsored us with $20,000 to support this effort and who participate regularly in SWAG calls to give advice and reviews.
 
 ### Updated Fetch documentation
 
-Fetch is one of the most important Web APIs. The [Fetch guide](https://developer.mozilla.org/docs/Web/API/Fetch_API/Using_Fetch) is the third most popular page on MDN, and the most popular page that isn't a landing page like <https://developer.mozilla.org/docs/Web/JavaScript>. But the docs hadn't had a systematic update since Fetch was first documented on MDN back in the mists of time, and they were showing their age. In 2024 [we rewrote the Fetch guide](https://github.com/mdn/content/pull/34278) and much of the associated reference docs, in the process adding explanations of several aspects of its behavior, completing the documentation of error codes that can be thrown by response-reading methods, and closing almost all the issues people had filed against these docs.
+Fetch is one of the most important Web APIs. The [Fetch guide](https://developer.mozilla.org/docs/Web/API/Fetch_API/Using_Fetch) is the third most popular page on MDN, and the most popular page that isn't a landing page like <https://developer.mozilla.org/docs/Web/JavaScript>. But the docs hadn't had a systematic update since Fetch was first documented on MDN, and they were showing their age. In 2024, OWD [rewrote the Fetch guide](https://github.com/mdn/content/pull/34278) and the associated reference docs. As part of the updates, OWD added explanations of several aspects of Fetch behavior, completed the documentation of error codes thrown by response-reading methods, and closed almost all the issues filed against these docs.
 
 The impetus to this was [an issue](https://github.com/mdn/content/issues/13208) that some of the exceptions raised by [`response.json()`](https://developer.mozilla.org/docs/Web/API/Response/json) were not documented on MDN. It turned out that these exceptions were related to the fact that a response body is a stream: but because we didn't explain streaming responses anywhere, there was nowhere the reference docs could point to.
 
@@ -166,7 +166,7 @@ Many thanks to [Joshua Chen](https://github.com/Josh-Cena) and [Mike Smith](http
 
 ### WebView compatibility data
 
-In 2024, Open Web Docs joined the [W3C WebView Community Group](https://github.com/WebView-CG). Together with the group participants, we started investigating compatibility for WebViews. Historically, BCD only contained Chrome Android WebView data but in 2024 we added WebView on iOS data and helped launching https://caniwebview.com/. This collaboration was led by Florian Scholz and you can find more information in the [WebView CG 2024 recap](https://caniwebview.com/news/2024-12-06-WebView-Community-Group-Recap/). Shoutout to [Niklas Merz](https://github.com/NiklasMerz) and [Ben Wiser](https://github.com/RupertBenWiser) for being the driving forces here!
+In 2024, Open Web Docs joined the [W3C WebView Community Group](https://github.com/WebView-CG). Together with the group participants, we started investigating compatibility for WebViews. Historically, BCD only contained Chrome Android WebView data, but in 2024, we added WebView on iOS data and helped launch <https://caniwebview.com>. This collaboration was led by Florian Scholz. You can find more information in the [WebView CG 2024 recap](https://caniwebview.com/news/2024-12-06-WebView-Community-Group-Recap/). Shoutout to [Niklas Merz](https://github.com/NiklasMerz) and [Ben Wiser](https://github.com/RupertBenWiser) for being the driving forces here!
 
 ## 2024 Budget
 
@@ -189,13 +189,13 @@ For 2025, the following sponsorships have been committed:
 - $25,000 has been committed by Gold sponsor Bloomberg
 - $20,000 has been committed by Gold sponsor Igalia.
 
-About $10,000 is anticipated to come from individual Open Collective and GitHub Sponsors for a total of $555,000.
+About $10,000 is anticipated to come from individual donors through Open Collective and GitHub Sponsors for a total of $555,000.
 
 Open Web Docs is actively looking for additional sponsors in 2025 in order to continue our project work at full capacity. Becoming a supporting member of Open Web Docs offers benefits in addition to supporting core web platform documentation and engineering. Email [florian@openwebdocs.org](mailto:florian@openwebdocs.org) for more information.
 
 ## Thank you to Mozilla and Smashing Magazine
 
-In December 2024, we put advertisements to promote Open Web Docs on MDN Web Docs, Smashing Magazine and in the Smashing Magazine newsletters.
+In December 2024, advertisements promoting Open Web Docs appeared on MDN Web Docs, Smashing Magazine, and in Smashing Magazine newsletters. These ad placements were donated by Mozilla and Smashing Magazine.
 
 We would like to thank [Hermina Condei](https://github.com/HerminaC), [Sonal Sood](https://github.com/s-sood), [Anuja Rajput](https://github.com/AnujaRajput727) from the Mozilla MDN team and [Mariona Jones](https://marionajones.net) and [Vitaly Friedman](https://github.com/vitalyfriedman) from Smashing Magazine for helping to spread the word about Open Web Docs. The ad spaces are offered to us for free and they promoted our [GitHub Sponsors](https://github.com/sponsors/openwebdocs) program. Extended thank you also to [Patrick Brosset](https://github.com/captainbrosset) for connecting us and working on copy texts and creative designs which turned out great:
 
@@ -207,7 +207,7 @@ Thank you to each and everyone who supports us with recurring or one-time donati
 
 ### Individual supporters
 
-Huge thanks to all the individuals who support us with a recurring monthly donation of $10 or more!
+Huge thanks to all the individuals who support us with a recurring monthly donation of $10 or more via [Open Collective](https://opencollective.com/open-web-docs#category-CONTRIBUTE)!
 
 <object type="image/svg+xml" data="https://opencollective.com/open-web-docs/tiers/monthly-supporter.svg?avatarHeight=80&width=480"></object>
 
@@ -235,5 +235,5 @@ We’re inviting all of our partners and backers for another year of supporting 
 
 We are funded by corporate and individual donations. If your organization or project is interested in advancing open web platform documentation, we would love to hear from you! Please reach out to [florian@openwebdocs.org](mailto:florian@openwebdocs.org).
 
-![OWD team in 2024](owd_team_2024.png)
+![The OWD team: Florian Scholz, Queen Vinyl Da.i'gyu-Kazotetsu, William Bamberg, and Estelle Weyl](owd_team_2024.png)
 _Open Web Docs Team in California for W3C TPAC, September 2024._
