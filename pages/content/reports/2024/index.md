@@ -140,7 +140,7 @@ This project was a fantastic collaboration between the group of people contracte
 
 Previously, the [mdn/browser-compat-data](https://github.com/mdn/browser-compat-data) project used to have incomplete browser version numbers. Features that were supported but for which we didn't know the first browser version that introduced support was, had a version number set to "true". And features for which support was entirely unknown had a version number set to "null". This meant that the compatibility data was incomplete and not always useful to consumers. Most notably, the calculation of the Baseline status was not possible with incomplete data.
 
-Thanks to a 2024 project led by [Queen Vinyl Da.i'gyu-Kazotetsu](https://github.com/queengooborg) and [Florian Scholz](https://github.com/Elchi3), BCD no longer has "true" and "null" values. All data in BCD now comes with, at the very least, a [ranged version number](https://github.com/mdn/browser-compat-data/blob/main/schemas/compat-data-schema.md#ranged-versions-), or a real version number.
+Thanks to [work](https://github.com/openwebdocs/project/issues/206) led by [Queen Vinyl Da.i'gyu-Kazotetsu](https://github.com/queengooborg) and [Florian Scholz](https://github.com/Elchi3), BCD no longer has "true" and "null" values. All data in BCD now comes with, at the very least, a [ranged version number](https://github.com/mdn/browser-compat-data/blob/main/schemas/compat-data-schema.md#ranged-versions-), or a real version number. This also means that compatibility tables on MDN Web Docs will no longer show just "Yes" in the cells.
 
 ### Improving Web Security docs for MDN with the W3C SWAG CG
 
