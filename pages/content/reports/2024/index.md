@@ -168,30 +168,21 @@ Many thanks to [Joshua Chen](https://github.com/Josh-Cena) and [Mike Smith](http
 
 In 2024, Open Web Docs joined the [W3C WebView Community Group](https://github.com/WebView-CG). Together with the group participants, we started investigating compatibility for WebViews. Historically, BCD only contained Chrome Android WebView data, but in 2024, we added WebView on iOS data and helped launch <https://caniwebview.com>. This collaboration was led by Florian Scholz. You can find more information in the [WebView CG 2024 recap](https://caniwebview.com/news/2024-12-06-WebView-Community-Group-Recap/). Shoutout to [Niklas Merz](https://github.com/NiklasMerz) and [Ben Wiser](https://github.com/RupertBenWiser) for being the driving forces here!
 
-## 2024 Budget
+## Project Economics: Finding a Sustainable Future for Web Platform Documentation
 
-OWD is very grateful to its Platinum Members Google and Microsoft, its Gold Member Igalia, and its Silver Member Canva for their membership in 2024. Since its inception in January 2021, Open Web Docs has raised $3.4m from nearly 200 individual and organizational supporters.
+Open Web Doc's budget is openly shared with the community on the Open Collective Platform. While this makes our transactions viewable, it does not readily convey the challenges we face when it comes to long-term project sustainability. Memberships, Grants, one-time Sponsorships, and recurring donations are forecasted against known expenses; sustainability requires balancing this revenue and risk. 2024 was a challenging year for open source sustainability across the tech industry, and OWD was not an exception: the OWD Governing Committee made the difficult decision to part with a cherished full-time teammember. This allowed the project to rebalance risk and ensure OWD could make it into the next funding cycle. 
 
-Additionally, the Sovereign Tech Fund invested 150,000€ in Open Web Docs in 2024 as part of the STF Contribute Back Challenge (round 2).
-
-Open Web Docs also contracted with Google in 2024, for a total of $90,000, to work on the W3C web-features project to map BCD keys into baseline features.
+To further reduce risk, OWD is working to diversify its funding sources. Membership revenue accounts for the greatest source of financial support. In 2024 OWD was very grateful to have the continued support of Platinum Members Google and Microsoft, Gold Member Igalia, and Silver Member Canva. Additionally, the Sovereign Tech Fund invested 150,000€ in Open Web Docs as part of the STF Contribute Back Challenge (round 2). Open Web Docs also contracted with Google in 2024, for a total of $90,000, to work on the W3C web-features project to map BCD keys into baseline features. The projects we delivered with these funds help people contribute more easily to the web platform, and in this way we think about the maximizing impact of grant funds and funded projects. 
 
 We are also very thankful to Aaron Shim and Artur Janc from the Google Security team who sponsored our Web Security docs project with $20,000.
 
-Payroll is Open Web Docs’ only meaningful expense. We pay competitive salaries in our staff's local currency, and receive health care and other regionally compliant benefits. In 2024, OWD spent a total of $XXXXX on payroll, inclusive of contractors, taxes, wire fees, exchange fees and payroll services. Minor operating expenses ($XXk) and transaction fees on collective revenue ($XXk) account for the balance of OWD expenses. We post all transactions on our [Open Collective](https://opencollective.com/open-web-docs) page.
+Payroll is Open Web Docs’ only meaningful expense. We pay competitive salaries in our staff's local currency, and receive health care, retirement, and other regionally compliant benefits. In 2024, OWD spent a total of $754,341 on payroll expenses, inclusive of contractors, taxes, wire fees, exchange fees and payroll services. Minor operating expenses ($5.6k) and transaction fees on collective revenue ($23k) account for the balance of OWD expenses. We post all transactions on our [Open Collective](https://opencollective.com/open-web-docs) page.
 
-## 2025 Financial Forecast
+### 2025 Financial Forecast
 
-For 2025, the following sponsorships have been committed:
+We have forecasted a total of $545,000 in committments from our Platinum and Gold Members, and an anticipated $10k in community donations from Open Collective and GitHub Sponsors. While our forecasted expenses are down from 2024 to $670k, OWD is forecasting a budget deficit. 
 
-- $250,000 has been committed by Platinum sponsor Google
-- $250,000 has been committed by Platinum sponsor Microsoft
-- $25,000 has been committed by Gold sponsor Bloomberg
-- $20,000 has been committed by Gold sponsor Igalia.
-
-About $10,000 is anticipated to come from individual donors through Open Collective and GitHub Sponsors for a total of $555,000.
-
-Open Web Docs is actively looking for additional sponsors in 2025 in order to continue our project work at full capacity. Becoming a supporting member of Open Web Docs offers benefits in addition to supporting core web platform documentation and engineering. Email [florian@openwebdocs.org](mailto:florian@openwebdocs.org) for more information.
+We're working to close this gap with additional grant applications, special project funding, and new Member support. Becoming a supporting member of Open Web Docs offers benefits in addition to supporting core web platform documentation and engineering. **If your organization would be interested in helping us close this short deficit by becoming a Member or making a one-time donation, please email [florian@openwebdocs.org](mailto:florian@openwebdocs.org).**  
 
 ## Thank you to Mozilla and Smashing Magazine
 
