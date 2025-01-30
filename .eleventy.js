@@ -1,5 +1,6 @@
 import fs from "fs";
 
+import { IdAttributePlugin } from "@11ty/eleventy";
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 
@@ -38,6 +39,7 @@ export default async function (eleventyConfig) {
     "svg",
   ]);
 
+  eleventyConfig.addPlugin(IdAttributePlugin);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
 
   eleventyConfig.addPlugin(feedPlugin, {
