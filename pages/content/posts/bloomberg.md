@@ -25,7 +25,7 @@ Open Web Docs is excited to welcome Bloomberg as a Gold level sponsor joining th
   </picture>
 </a>
 
-Bloomberg Engineering has a track record of backing open standards and open source, and Open Web Docs is proud to join the list of technology community organizations that Bloomberg invests in. Learn more about Bloomberg’s commitment to Open Web Docs in their Tech At Bloomberg blog post, shared below.
+Bloomberg Engineering has a track record of backing open standards and open source, and Open Web Docs is proud to join the list of technology community organizations that Bloomberg invests in. Learn more about Bloomberg’s commitment to Open Web Docs in their [Tech At Bloomberg blog post](https://www.bloomberg.com/company/stories/bloomberg-backs-open-web-docs), shared below.
 
 ### Bloomberg Backs Open Web Docs to Support High-Quality Web Platform Documentation for All
 
