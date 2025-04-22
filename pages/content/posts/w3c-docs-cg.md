@@ -1,7 +1,7 @@
 ---
 author: "Florian Scholz"
 title: "Launching the W3C Docs Community Group"
-date: "2025-04-17"
+date: "2025-04-22"
 tags: ["announcements"]
 ShowToc: false
 ShowBreadCrumbs: false
@@ -25,6 +25,6 @@ By offering an active community that brings all of these perspectives together, 
 
 By existing within the W3C Community Groups program, the Docs CG will greatly benefit from being part of a wider community which will allow us to coordinate efforts in collaboration with other (horizontal) W3C groups, such as [WebDX](https://www.w3.org/community/webdx/), [Security](https://www.w3.org/mission/security/), [Privacy](https://www.w3.org/mission/privacy/), [Accessibility](https://www.w3.org/mission/accessibility/), [Internationalization](https://www.w3.org/mission/internationalization/), [Sustainability](https://www.w3.org/community/sustyweb/), and others.
 
-The W3C Docs CG will be chaired by Lola Odelola ([lolaslab.co](https://lolaslab.co)) and Florian Scholz (Open Web Docs). We'd love to welcome you to our [Slack channel](https://w3ccommunity.slack.com/archives/C08KNG3GFEF) ([invite](https://www.w3.org/slack-w3ccommunity-invite)) and to our upcoming [Docs CG calls](https://www.w3.org/groups/cg/docs-cg/calendar/).
+The W3C Docs CG will be chaired by Lola Odelola ([lolaslab.co](https://lolaslab.co)) and Florian Scholz (Open Web Docs). We'd love to welcome you to the W3C Community Slack ([invite](https://www.w3.org/slack-w3ccommunity-invite)) in the [`#docs-cg`](https://w3ccommunity.slack.com/archives/C08KNG3GFEF) channel and to our upcoming [Docs CG calls](https://www.w3.org/groups/cg/docs-cg/calendar/).
 
 To learn more, see the Docs CG [charter](https://github.com/w3c-cg/webdocs/blob/main/charter.md) and the [Docs CG GitHub repository](https://github.com/w3c-cg/webdocs).
