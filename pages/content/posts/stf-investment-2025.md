@@ -10,7 +10,7 @@ excerpt: "The Sovereign Tech Fund (STF) commissioned Open Web Docs to expand dev
 
 We’re proud to share that we're commissioned by the [Sovereign Tech Fund](https://www.sovereign.tech/programs/fund) to work on expanding developer documentation with security and privacy guidance. Over the coming year, Open Web Docs will be working on creating and updating Security and Privacy documentation for web developers on [MDN content](https://github.com/mdn/content).
 
-Security and privacy documentation are true to Open Web Docs' [core values](https://github.com/openwebdocs/project/blob/main/charter.md) and we believe the maintenance of these docs is critical digital infrastructure that benefits everyone.
+Security and privacy documentation are key parts of Open Web Docs' [core values](https://github.com/openwebdocs/project/blob/main/charter.md) and we believe the maintenance of these docs is critical digital infrastructure that benefits everyone.
 
 In 2023, we handed in a position paper at the [Secure the Web Forward](/content/posts/secure-the-web-forward/) workshop where we presented initial research showing the need for better Security documentation.
 
@@ -32,7 +32,7 @@ We will be developing a guide that provides recommendations for the specific thr
 
 ### W3C SWAG CG and Web Security Guidelines
 
-We will continue to engage in the W3C SWAG CG on a weekly basis and at TPAC 2025, as well as leading SWAG community discussions about the CG's security guidelines and determine most appropriate canonical home for the W3C SWAG Web Security Guidelines document.
+We will continue to engage in the [W3C SWAG Community Group](https://github.com/w3c-cg/swag/) on a weekly basis and at TPAC 2025, as well as leading SWAG community discussions about the CG's security guidelines and determine most appropriate canonical home for the W3C SWAG Web Security Guidelines document.
 
 ### Authentication on the Web
 
