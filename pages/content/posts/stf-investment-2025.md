@@ -32,7 +32,7 @@ We will be developing a guide that provides recommendations for the specific thr
 
 ### W3C SWAG CG and Web Security Guidelines
 
-We will continue to engage in the [W3C SWAG Community Group](https://github.com/w3c-cg/swag/) on a weekly basis and at TPAC 2025, as well as leading SWAG community discussions about the CG's security guidelines and determine most appropriate canonical home for the W3C SWAG Web Security Guidelines document.
+We will continue to engage with the [SWAG CG](https://github.com/w3c-cg/swag/) on a weekly basis and at TPAC 2025. We will also continue leading the CG's security guidelines community discussions and determine the most appropriate canonical home for the W3C SWAG Web Security Guidelines document.
 
 ### Authentication on the Web
 
