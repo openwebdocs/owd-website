@@ -8,7 +8,7 @@ ShowBreadCrumbs: false
 excerpt: "The Sovereign Tech Fund (STF) commissioned Open Web Docs to expand developer documentation with security and privacy guidance."
 ---
 
-We're proud to share that we're commissioned by the [Sovereign Tech Fund](https://www.sovereign.tech/programs/fund) to work on expanding developer documentation with security and privacy guidance. Over the coming year, Open Web Docs will be working on creating and updating Security and Privacy documentation for web developers on [MDN content](https://github.com/mdn/content).
+We're proud to share that we're commissioned by the [Sovereign Tech Fund](https://www.sovereign.tech/tech/open-web-docs-2025) to work on expanding developer documentation with security and privacy guidance. Over the coming year, Open Web Docs will be working on creating and updating Security and Privacy documentation for web developers on [MDN content](https://github.com/mdn/content).
 
 Security and privacy documentation are key parts of Open Web Docs' [core values](https://github.com/openwebdocs/project/blob/main/charter.md) and we believe the maintenance of these docs is critical digital infrastructure that benefits everyone.
 
@@ -32,7 +32,7 @@ We will be developing a guide that provides recommendations for the specific thr
 
 ### W3C SWAG CG and Web Security Guidelines
 
-We will continue to engage with the [SWAG CG](https://github.com/w3c-cg/swag/) on a weekly basis and at TPAC 2025. We will also continue leading the CG's security guidelines community discussions and determine the most appropriate canonical home for the W3C SWAG Web Security Guidelines document.
+We will continue to be active in the [SWAG CG](https://github.com/w3c-cg/swag/) on a weekly basis and at TPAC 2025. We will also continue leading the CG's security guidelines community discussions and determine the most appropriate canonical home for the [W3C SWAG Web Security Guidelines document](https://github.com/w3c-cg/swag/blob/main/docs/security_guidelines.md).
 
 ### Authentication on the Web
 
@@ -56,7 +56,7 @@ We're planning to improve MDN's documentation on privacy, by increasing document
 
 To make sure the guidance and documentation we're creating is useful, we need to understand our audience as best as possible. To achieve this, we plan to:
 
-* Develop and run a survey aimed at learning about web developers' security awareness (following up on the 2023 survey from the Secure the Web Forward workshop).
+* Develop and run a survey aimed at learning about web developers' security awareness (following up on the 2023 survey from the [Secure the Web Forward workshop](https://www.w3.org/2023/03/secure-the-web-forward/)).
 * Conduct user interviews to get qualitative feedback on the helpfulness of security and privacy documentation written in this effort.
 * Analyze survey results and user interviews and create a report.
 
