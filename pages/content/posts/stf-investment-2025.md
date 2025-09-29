@@ -1,7 +1,7 @@
 ---
 author: "Florian Scholz"
 title: "Sovereign Tech Fund invests in Web Security and Privacy docs"
-date: "2025-10-02"
+date: "2025-09-30"
 tags: ["announcements"]
 ShowToc: false
 ShowBreadCrumbs: false
@@ -14,7 +14,7 @@ Security and privacy documentation are key parts of Open Web Docs' [core values]
 
 In 2023, we handed in a position paper at the [Secure the Web Forward](/content/posts/secure-the-web-forward/) workshop where we presented initial research showing the need for better Security documentation.
 
-In 2024, we joined the newly created [W3C Security Web Application Guidelines Community Group](https://www.w3.org/community/swag/) (SWAG CG) to discuss "Security Web Application Guidelines" and since had fruitful conversations on a weekly basis, as well as at [W3C TPAC 2024](/content/posts/swag-at-tpac-anaheim/).
+In 2024, we joined the newly created [W3C Security Web Application Guidelines Community Group](https://www.w3.org/community/swag/) (SWAG CG) and since had fruitful conversations on a weekly basis, as well as at [W3C TPAC 2024](/content/posts/swag-at-tpac-anaheim/).
 
 In early 2025, we presented a content outline and project pitch to the [Sovereign Tech Agency](https://www.sovereign.tech) and we're now proud to share that we've been awarded an investment from the Sovereign Tech Fund to work on this topic over the coming year.
 
