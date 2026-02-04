@@ -98,6 +98,14 @@ The BCD automation project is led by [Florian Scholz](https://github.com/Elchi3)
 
 A special shout out to [Claas Augner](https://github.com/caugner) (Gecko/Mozilla) who has been taking on a leading role in reviewing PRs and advancing the BCD project in 2025.
 
+### Document missing features
+
+Some MDN new feature documentation is provided by browser vendors, generally right as they add new featues to their browser. However, not all features get documented. And, if they’re not documented right away, there is noone championing the feature and encouraging their documentation. At OWD, we champion all browser features, and want to ensure that all features are properly documented and findable by the developer community. This is why we work to ensure every open web feature is fully documented on MDN.
+
+To this end, in 2024, OWD created a tool to identify missing reference pages. Based on the [Web Platform Features Explorer](https://web-platform-dx.github.io/web-features-explorer/) developed by Patrick Brosset, Florian Shulz created [web platform documentation backlog](https://openwebdocs.github.io/web-docs-backlog/), a site that displays missing reference documentation for web platform features. 
+
+Open Web Docs used this tool to identify and then document all the missing newly available and widely available features, including documenting over 650 missing API reference page, ensuring that MDN is truly a complete reference.
+
 ### Web Security documentation
 
 In 2024 we started a long-term project to improve and extend web security documentation on MDN. We've received funding from the [Sovereign Tech Fund](https://www.sovereign.tech/tech/open-web-docs-2025) to continue this work in 2025 and into 2026.
