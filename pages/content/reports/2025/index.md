@@ -18,6 +18,7 @@ In 2025, Open Web Docs:
 - Provided 14.25% of all pull request reviews to the mdn/content repository and 27.29% of reviews to mdn/browser-compat-data.
 - Completed major technical writing and documentation engineering projects. This included among other things:
   - [Collecting browser compatibility data for every browser release, including all beta releases](#collecting-browser-compatibility-data-whenever-browsers-release-a-new-beta-version)
+  - [Documenting missing feature](#document-missing-features)
   - [Web Security documentation](#web-security-documentation)
   - CSS docs
 
