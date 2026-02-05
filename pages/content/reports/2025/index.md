@@ -20,6 +20,7 @@ In 2025, Open Web Docs:
   - [Collecting browser compatibility data for every browser release, including all beta releases](#collecting-browser-compatibility-data-whenever-browsers-release-a-new-beta-version)
   - [Documenting missing features](#document-missing-features)
   - [Web Security documentation](#web-security-documentation)
+  - [CSS module project](#css-module-project]
   - [Accessibility Compat Data](#accessibility-compat-data)
 - Launched the [W3C Documentation Community Group](#w3c-documentation-cg)
 
