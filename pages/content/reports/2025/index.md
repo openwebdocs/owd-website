@@ -16,11 +16,12 @@ In 2025, Open Web Docs:
 
 - Was again the organization that contributed the greatest number of pull requests (PRs) merged to the [mdn/content](https://github.com/mdn/content) (10.0%) and [mdn/browser-compat-data](https://github.com/mdn/browser-compat-data) (27.2%) repositories.
 - Provided 14.25% of all pull request reviews to the `mdn/content` repository and 27.29% of reviews to the `mdn/browser-compat-data` repository.
-- Completed major technical writing and documentation engineering projects. This included among other things:
+- Worked on major technical writing and documentation engineering projects. This included among other things:
   - [Collecting browser compatibility data for every browser release, including all beta releases](#collecting-browser-compatibility-data-whenever-browsers-release-a-new-beta-version)
-  - [Documenting missing feature](#document-missing-features)
+  - [Documenting missing features](#document-missing-features)
   - [Web Security documentation](#web-security-documentation)
   - [Accessibility Compat Data](#accessibility-compat-data)
+- Launched the [W3C Documentation Community Group](#w3c-documentation-cg)
 
 Previous Open Web Docs Impact and Transparency Reports:
 [2024](https://openwebdocs.org/content/reports/2024/), [2023](https://openwebdocs.org/content/reports/2023/), [2022](https://openwebdocs.org/content/reports/2022/), [2021](https://openwebdocs.org/content/reports/2021/).
@@ -82,17 +83,25 @@ Here's the summary of reviewed PRs:
 
 ## OWD project work
 
-The work of Open Web Docs is guided by the [OWD prioritization criteria](https://github.com/openwebdocs/project/blob/main/steering-committee/prioritization-criteria.md) and [OWD’s charter](https://github.com/openwebdocs/project/blob/main/charter.md). OWD efforts are prioritized based on the needs of the global community of web developers and designers and best practices. The [OWD project proposal](https://github.com/openwebdocs/project/issues/new/choose) process is open to everyone, with proposals reviewed by the OWD staff team and Governing Committee.
+The work of Open Web Docs is guided by the [OWD prioritization criteria](https://github.com/openwebdocs/project/blob/main/steering-committee/prioritization-criteria.md) and [OWD’s charter](https://github.com/openwebdocs/project/blob/main/charter.md). OWD efforts are prioritized based on the needs of the global community of web developers and designers and best practices. The [OWD project proposal](https://github.com/openwebdocs/project/issues/new/choose) process is open to everyone, with proposals reviewed by the OWD staff team and Governing Committee. We are also participating in the [W3C SWAG CG](https://www.w3.org/community/swag/) and since April 2025 we chair the [W3C Documentation CG](https://www.w3.org/community/docs-cg/) to plan our execute writing projects.
 
-Major projects Open Web Docs took on in 2025 are:
+### W3C Documentation CG
+
+In addition to the fruitful work we've been doing in the [W3C SWAG CG](https://www.w3.org/community/swag/), to help web developers with guidance on web security, we launched a community group for overall web platform documentation at the W3C in April 2025.
+
+The [W3C Documentation CG](https://www.w3.org/community/docs-cg/) is an open community with the mission to ensure web developers and designers worldwide have the best information available so they can build things on the web platform.
+
+If you haven't joined yet, we would encourage you to do so! You can join on the [group's homepage](https://www.w3.org/community/docs-cg/join) and take a look at the [GitHub repository](https://github.com/w3c-cg/webdocs).
+
+See also our [blog post about launching the W3C Documentation CG](https://openwebdocs.org/content/posts/w3c-docs-cg/).
 
 ### Collecting browser compatibility data whenever browsers release a new beta version
+
+In 2025, OWD was able to systematically collected web platform compatibility data for the second year in a row. We want to continue this effort and make it as timely and efficient as possible for every browser release for all the years to come. The maintenance of the `mdn-browser-compat-data` project benefits greatly from these efforts; the data is accurate, reliable, and complete, which allows the consumers of the data, especially MDN, CanIUse, web-features, and the Baseline projects, to be up-to-date and accurate.
 
 The browser compatibility data (BCD) automation project's mission is to provide web developers with the latest information about available web platform features whenever a new browser version is released. The project was initially funded by the Sovereign Tech Fund and continued thanks to the support of OWD's main sponsors in 2025: Google and Microsoft. In 2025, we systematically collected compatibility data 28 times; we observed 12 releases from Chrome (applying to Edge too), 13 from Firefox, and 3 from Safari.
 
 For Chrome 133-144, Firefox 135-147, and Safari 18.4, 26 and 26.2, OWD was able to update browser compatibility data within the beta cycles of each browser release. This enabled us to provide web developers with updated information at the time the stable browser version was released.
-
-In 2025, OWD was able to systematically collected web platform compatibility data for the second year in a row. We want to continue this effort and make it as timely and efficient as possible for every browser release for all the years to come. The maintenance of the `mdn-browser-compat-data` project benefits greatly from these efforts; the data is accurate, reliable, and complete, which allows the consumers of the data, especially MDN, CanIUse, web-features, and the Baseline projects, to be up-to-date and accurate.
 
 The BCD automation project is led by [Florian Scholz](https://github.com/Elchi3) and representatives of browser projects have been reviewing data. Thank you: [Rachel Andrew](https://github.com/rachelandrew) (Chromium/Google), [Chris Mills](https://github.com/chrisdavidmills) (Chromium/Google), [Patrick Brosset](https://github.com/captainbrosset/) (Chromium/Microsoft), [Jon Davis](https://github.com/jdatapple) (WebKit/Apple), [Jen Simmons](https://github.com/jensimmons) (WebKit/Apple), [Ruth John](https://github.com/Rumyra) (Gecko/Mozilla), [Brian Smith](https://github.com/bsmth) (Gecko/Mozilla), [Hamish Willee](https://github.com/hamishwillee) (Gecko/Mozilla).
 
@@ -122,7 +131,9 @@ Our guiding principles for this web security documentation project is to write r
 
 We've written guides on the attacks most likely to be faced by web developers today, including [cross-site leaks](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/XS-Leaks), [cross-site request forgery](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/CSRF), [prototype pollution](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/Prototype_pollution), and [supply chain attacks](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/Supply_chain_attacks). We've included modern defenses such as [trusted types](https://developer.mozilla.org/en-US/docs/Web/API/Trusted_Types_API) and [fetch metadata](https://developer.mozilla.org/en-US/docs/Glossary/Fetch_metadata_request_header) alongside more traditional methods. We've included clear guidance about which defenses are essential and which can add defense in depth.
 
-TBD include testimonials from Aaron and/or link to https://bughunters.google.com/blog/effortless-web-security-secure-by-design-in-the-wild
+Aaron Shim, Software Engineer at Google Security, [says](https://bughunters.google.com/blog/effortless-web-security-secure-by-design-in-the-wild) about our work:
+
+> Given the feedback from the external developer community that many of these security features on the Web might have lower adoption rates due to their relative complexity, this community group has delivered – thanks to the support of the excellent content team from OpenWebDocs – much improved documentation on XSS, CSP, Trusted Types, cross-site leaks, and prototype pollution, to name a few.
 
 #### Authentication
 
