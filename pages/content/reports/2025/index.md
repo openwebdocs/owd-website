@@ -116,6 +116,8 @@ To this end, in 2024, OWD created a tool to identify missing reference pages. Ba
 
 Open Web Docs used this tool to identify and then document all the missing newly available and widely available features, including documenting over 650 missing API reference page, ensuring that MDN is truly a complete reference.
 
+The OWD missing features project was led by [Estelle Weyl](https://github.com/estelle) and was successfully completed with contributions from community voluteer [Yash Raj Bharti](https://github.com/yashrajbharti) and reviews from the MDN community.
+
 ### Web Security documentation
 
 In 2024, OWD started a long-term project to improve and extend web security documentation on MDN. OWD was awarded funding from the [Sovereign Tech Fund](https://www.sovereign.tech/tech/open-web-docs-2025) to continue this work in 2025 and into 2026.
