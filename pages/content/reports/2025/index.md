@@ -20,7 +20,7 @@ In 2025, Open Web Docs:
   - [Collecting browser compatibility data for every browser release, including all beta releases](#collecting-browser-compatibility-data-whenever-browsers-release-a-new-beta-version)
   - [Documenting missing feature](#document-missing-features)
   - [Web Security documentation](#web-security-documentation)
-  - CSS docs
+  - [Accessibility Compat Data](#accessibility-compat-data)
 
 Previous Open Web Docs Impact and Transparency Reports:
 [2024](https://openwebdocs.org/content/reports/2024/), [2023](https://openwebdocs.org/content/reports/2023/), [2022](https://openwebdocs.org/content/reports/2022/), [2021](https://openwebdocs.org/content/reports/2021/).
@@ -124,7 +124,7 @@ We've written guides on the attacks most likely to be faced by web developers to
 
 TBD include testimonials from Aaron and/or link to https://bughunters.google.com/blog/effortless-web-security-secure-by-design-in-the-wild
 
-### Authentication
+#### Authentication
 
 In September 2025, we pivoted to  the next stage of the web security project: Authentication.  Authentication is probably the most common target for attacks, so it's a core component of the web security project. We have been focused on writing documentation for web developers who need to authenticate users on their sites.
 
@@ -132,13 +132,19 @@ The main part of this work is a series of articles on the four main authenticati
 
 Each guide explains the authentication method and how it works, walking through the main flows involved, highlighting potential vulnerabilities and outlining recommended practices.
 
-### CSS documentation
+### Accessibility Compat Data
 
-TBD Estelle
+In 2025 we supported the [Accessibility Compat Data](https://github.com/lolaslab/accessibility-compat-data) project run by [Lola Odelola](https://lolaslab.co).
+
+As creators of the Browser Compat Data (BCD) project as well as active participants in the W3C WebDX CG and contributors to the Baseline and web-features projects, we see the need to research compatibility data for accessibility feature support in browsers and in Assistive Technologies (AT). We're supporting this effort with our expertise and we contributed a $5,000 USD grant for the research phase of this project which Lola kicked off in 2025.
 
 ## Project Economics: Finding a Sustainable Future for Web Platform Documentation
 
-Open Web Doc's budget is openly shared with the community on the [Open Collective Platform](https://opencollective.com/open-web-docs#category-BUDGET). While this makes our transactions viewable, it does not readily convey the challenges we face when it comes to long-term project sustainability. Memberships, grants, one-time sponsorships, and recurring donations are forecasted against known expenses; sustainability requires balancing this revenue and risk. Last year was again a challenging year for open source sustainability across the tech industry, and OWD was not an exception: the OWD Governing Committee made the difficult decision to part with a cherished part-time team member. This allowed the project to rebalance risk and ensure OWD could make it into the next funding cycle.
+Open Web Doc's budget is openly shared with the community on the [Open Collective Platform](https://opencollective.com/open-web-docs#category-BUDGET). While this makes our transactions viewable, it does not readily convey the challenges we face when it comes to long-term project sustainability. Memberships, grants, one-time sponsorships, and recurring donations are forecasted against known expenses; sustainability requires balancing this revenue and risk.
+
+In March 2025, Jory Burson and Florian Scholz gave a talk at the FOSS Backstage conference in Berlin: [Project Economics: A case study with Open Web Docs](https://program.foss-backstage.de/fossback25/talk/RDZVGW/). We presented some insights to how we “sell” open documentation (which isn’t on software dependency lists) and talked about our fundraising strategies.
+
+However, the reality is that last year was again a challenging year for open source sustainability across the tech industry, and OWD was not an exception: the OWD Governing Committee made the difficult decision to part with a cherished part-time team member. This allowed the project to rebalance risk and ensure OWD could make it into the next funding cycle.
 
 To further reduce risk, OWD is working to diversify its funding sources. Membership revenue accounts for the greatest source of financial support. In 2025, OWD was very grateful to have the support of Platinum Members Google and Microsoft, Gold Member Igalia, and Silver Member Bloomberg. Additionally, the Sovereign Tech Fund committed a total of 220,000€ to Open Web Docs to help web developers to secure their sites by documenting Web Security and Privacy topics. This investment started in 2025 and continues in 2026. For the fiscal year 2025, OWD was able to raise about $662,000 USD in total.
 
@@ -148,7 +154,7 @@ Payroll is Open Web Docs’ only meaningful expense. We pay competitive salaries
 
 We have forecasted a total of $450,000 USD in fundraising which consists of commitments from our Platinum and Gold Members Microsoft and Igalia, an investment from the Sovereign Tech Agency. Like in 2025, we anticipate about $10,000 USD in community donations from Open Collective and GitHub Sponsors. Throughout 2025, in all but one week an individual donated to Open Web Docs! Thank you so much! While these smaller donations won't pay our salaries, they allow us to afford in-person meetings, such as the annual W3C TPAC conference.
 
-While our forecasted expenses for 2026 are once again down from 2025 to about $600,000 USD, OWD is forecasting a budget deficit for 2026. We're working on closing this $140,000 USD gap with additional grant applications, special project funding, and new member support. Becoming a supporting member of Open Web Docs offers benefits in addition to supporting core web platform documentation and engineering. **If your organization would be interested in helping us close this short deficit by becoming a [Member](https://openwebdocs.org/membership/) or making a one-time [donation](https://opencollective.com/open-web-docs/donate?interval=oneTime&amount=500&name=&legalName=&email=), please email [florian@openwebdocs.org](mailto:florian@openwebdocs.org).**
+Our forecasted expenses for 2026 are once again down from 2025 to about $600,000 USD. That said, OWD is forecasting a budget deficit for 2026. We're working on closing this $140,000 USD gap with additional grant applications, special project funding, and new member support. Becoming a supporting member of Open Web Docs offers benefits in addition to supporting core web platform documentation and engineering. **If your organization would be interested in helping us close this short deficit by becoming a [Member](https://openwebdocs.org/membership/) or making a one-time [donation](https://opencollective.com/open-web-docs/donate?interval=oneTime&amount=500&name=&legalName=&email=), please email [florian@openwebdocs.org](mailto:florian@openwebdocs.org).**
 
 ## Gratitude for our Individual Supporters in 2025
 
