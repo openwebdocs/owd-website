@@ -143,6 +143,30 @@ The main part of this work is a series of articles on the four main authenticati
 
 Each guide explains the authentication method and how it works, walking through the main flows involved, highlighting potential vulnerabilities and outlining recommended practices.
 
+### CSS module project
+
+CSS modules
+As critical digital infrastructure, OWD completed a 2+ year CSS project reviewing, updating, rewriting, and in many cases, creating, the entire CSS reference section of MDN content. In order to ensure specifications and browser implementation of CSS are up to date, well documented, accurate, and findable, OWD completed the [CSS module project](​​https://github.com/openwebdocs/project/issues/147). The goal of the project was to ensure that every feature defined in every CSS specification existed in MDN’s CSS reference, with implemented features being well documented, findable, and well explained.
+
+Prior to the project onset, there was no consistent way to learn about individual CSS specification and the features defined in each. While there were several reference pages named `CSS_spec_name`, not all CSS specifications had module page on MDN, many of these pages were guides to a few properties, and none were a complete reference to the specification with links to reference pages for all the features the covered specification introduced. The CSS module pages only listed features to include in a stylesheet: none included any of the many events and interfaced introduced in CSS specifications.
+
+It was a huge endeavor, but now, there are 65 CSS module reference guides reflecting the CSS specifications with at least one browser supported feature. Every CSS module page now includes all the properties, at-rules, functions, data types, events, interfaces, and glossary terms and definitions introduced in the specification. Every CSS module page begins with a one to five paragraph overview of the module, naming the module and explaining what features the module, why the features are useful, along with how the module’s features interact with features from other specifications, if relevant. In many cases, we included an example highlighting the features introduced in the specification as a quick overview.
+
+The objectives of the project were to ensure every implemented feature was accurately explained with current, understandable information. The project included a full review and rewrite of every existing CSS module page and a review, and rewrite if needed, of all linked pages, and the creation of missing CSS module pages, data types, glossary entries, and guides.
+
+Every module page includes a reference section. This section includes a link to every property, at-rule, descriptor, selector, pseudo-class, pseudo-element, and function introduced in the specification. In the updating process, we reviewed all the existing linked pages, and created many data-type reference pages and glossary definitions. 
+
+The reference section also includes events and interfaces defined in the specification. This was a major change to MDN documentation. Prior to this project, there was no consistent way to include events and APIs defined in CSS specification within the CSS reference documentation.
+
+Any unimplemented features included in the specification are now mentioned at the end of the  relevant section within the module reference section. In this way, we can inform readers searching for an unimplemented feature that, while the feature is defined, it is not yet implemented and therefore not documented; save people seeking more information on unimplemented features  a lot of time.  
+
+Every module page, except the Ruby layout module, includes a “guides” section. As part of this project, we reviewed all the existing guides, relocated all the guides into their module’s directory, and created a plethora of new guides and a new color tool.
+
+Every CSS module overview reference page also includes “related concepts” and “see also” sections. Related concepts include properties, data types, glossary terms, etc. related to the module defined in other specifications. The “see also” includes links to any other reference pages and other content that is relevant but doesn't fit in the other sections.
+
+This project was made possible by the generous contributions of OWD member organizations and sponsors.
+
+
 ### Accessibility Compat Data
 
 In 2025 we supported the [Accessibility Compat Data](https://github.com/lolaslab/accessibility-compat-data) project run by [Lola Odelola](https://lolaslab.co).
