@@ -167,7 +167,9 @@ Every module page, except the Ruby layout module, includes a “guides” sectio
 
 Every CSS module overview reference page also includes “related concepts” and “see also” sections. Related concepts include properties, data types, glossary terms, etc. related to the module defined in other specifications. The “see also” includes links to any other reference pages and other content that is relevant but doesn't fit in the other sections.
 
+The OWD CSS module project was led by [Estelle Weyl](https://github.com/estelle).
 This project was made possible by the generous contributions of OWD member organizations and sponsors.
+A special shout out to [Chris Mills](https://github.com/chrisdavidmills) who reviewed most of the PRs.
 
 
 ### Accessibility Compat Data
