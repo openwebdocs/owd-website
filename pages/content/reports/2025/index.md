@@ -24,6 +24,11 @@ In 2025, Open Web Docs:
   - [Accessibility Compat Data](#accessibility-compat-data)
 - Launched the [W3C Documentation Community Group](#w3c-documentation-cg)
 
+For 2026, Open Web Docs is forecasting a budget deficit.
+
+- See our [project economics](#project-economics-finding-a-sustainable-future-for-web-platform-documentation) details
+- as well as our [2026 financial forecast](#2026-financial-forecast).
+
 Previous Open Web Docs Impact and Transparency Reports:
 [2024](https://openwebdocs.org/content/reports/2024/), [2023](https://openwebdocs.org/content/reports/2023/), [2022](https://openwebdocs.org/content/reports/2022/), [2021](https://openwebdocs.org/content/reports/2021/).
 
