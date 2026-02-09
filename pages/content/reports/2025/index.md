@@ -1,7 +1,7 @@
 ---
 author: "Florian Scholz"
 title: "Open Web Docs Impact and Transparency Report 2025"
-date: "2026-02-09"
+date: "2026-02-10"
 ShowToc: true
 ShowBreadCrumbs: false
 ---
@@ -55,9 +55,9 @@ In 2025, Open Web Docs continued to maintain and improve the following four esse
 - [openwebdocs/mdn-bcd-collector](https://github.com/openwebdocs/mdn-bcd-collector)
 - [web-platform-dx/web-features](https://github.com/web-platform-dx/web-features)
 
-Open web standards documentation needs ongoing updating and maintenance as new web platform features are introduced and best practices change. At OWD, we believe the above projects are essential sources of information web developers consult and trust and that by contributing to these repositories, we can reach the majority of web developers worldwide with comprehensive, accurate and informative documentation about the open web platform.
+Open web standards documentation needs ongoing updating and maintenance as new web platform features are introduced, browser support for features improves, and best practices change. At OWD, we believe the above projects are essential sources of information that web developers consult and trust and that by contributing to these repositories, we can reach the majority of web developers worldwide with comprehensive, accurate, and informative documentation about the open web platform.
 
-[Git Pulse rankings](https://git-pulse.github.io/snapshots/) help put OWD's work in perspective as compared to the overall open-source ecosystem. In 2025, the `mdn/content` repository was again in the top 10 of all of the repositories hosted on GitHub!
+In 2025, the `mdn/content` repository once again landed in GitHub’s overall top ten, per [Git Pulse rankings](https://git-pulse.github.io/snapshots/). This is another indicator demonstrating that MDN, the web’s most widely used documentation, is not just a reference—it’s one of the most active, community-driven projects in open source.
 
 ### Pull requests authored
 
@@ -72,13 +72,13 @@ For the second year in a row, contributor [Joshua Chen](https://github.com/Josh-
 
 ### Pull requests reviewed
 
-As in previous years, there's a very long tail of contributors and a thriving community actively involved with our work. For this reason,  we group all `mdn/content` contributors into three categories: one-timers, casual contributors (2-9 PRs) and core contributors (10+ PRs). In 2025, there were 723 contributors to to `mdn/content`, including:
+There's a very long tail of contributors and thriving community actively involved with our work. Every year, hundreds of developers contribute to `mdn/content`—some fixing a single typo, others returning regularly to refine and expand the docs—so we group `mdn/content` contributors into one‑timers, casual contributors (2–9 PRs), and core contributors (10+ PRs). In 2025, that included 723 contributors, including:
 
-- 558 one-time contributors with 1 PR merged.
-- 132 casual contributors with 2-9 PRs merged.
-- 33 core contributors with 10 or more PRs merged.
+- 558 one-time contributors
+- 132 casual contributors
+- 33 core contributors
 
-Supporting this long tail of volunteers is a large part of OWD's work. PR reviews for the `mdn/content` repository are performed by members of the maintainer group, which consists of OWD, Mozilla, Google, Microsoft, and W3C staff and contractors, and a select group of volunteer maintainers.
+Supporting this long tail of volunteers is a large part of OWD's work. PR reviews for the `mdn/content` and ` mdn/browser-compat-data` repositories are performed by members of the maintainer group, which comprises OWD, Mozilla, Google, Microsoft, and W3C staff and contractors, as well as a select group of volunteer maintainers.
 
 Here's the summary of reviewed PRs:
 
@@ -171,9 +171,9 @@ A special shout out to [Chris Mills](https://github.com/chrisdavidmills) who rev
 
 ### Accessibility Compat Data
 
-In 2025 we supported the [Accessibility Compat Data](https://github.com/lolaslab/accessibility-compat-data) project run by [Lola Odelola](https://lolaslab.co).
+In 2025, we supported the [Accessibility Compat Data](https://github.com/lolaslab/accessibility-compat-data) project run by [Lola Odelola](https://lolaslab.co).
 
-As creators of the Browser Compat Data (BCD) project as well as active participants in the W3C WebDX CG and contributors to the Baseline and web-features projects, we see the need to research compatibility data for accessibility feature support in browsers and in Assistive Technologies (AT). We're supporting this effort with our expertise and we contributed a $5,000 USD grant for the research phase of this project which Lola kicked off in 2025.
+As creators of the Browser Compat Data (BCD) project as well as active participants in the W3C WebDX CG and contributors to the Baseline and web-features projects, we see the need to research compatibility data for accessibility feature support in browsers and in Assistive Technologies (AT). In addition to supporting this effort with our time and expertise, OWD provided ACD a $5,000 USD grant for the research phase of this project which Lola kicked off in 2025.
 
 For more information on what Lola has been achieving with ACD, see her post: [ACD End Of Year Report and Roadmap](https://lolaslab.co/blog/2025/acd-2025-report/).
 
