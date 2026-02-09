@@ -99,7 +99,7 @@ In addition to the fruitful work we've been doing with W3C community groups to h
 
 The [W3C Documentation CG](https://www.w3.org/community/docs-cg/) is an open community with the mission to ensure web developers and designers worldwide have the best information available so they can build things on the web platform.
 
-If you haven't joined yet, we would encourage you to do so! You can join on the [group's homepage](https://www.w3.org/community/docs-cg/join) and take a look at the [GitHub repository](https://github.com/w3c-cg/webdocs).
+If you haven't joined yet, we would encourage you to do so via the [DocsCG's homepage](https://www.w3.org/community/docs-cg/join) and take a look at the [DocsCG GitHub repository](https://github.com/w3c-cg/webdocs).
 
 See also our [blog post about launching the W3C Documentation CG](https://openwebdocs.org/content/posts/w3c-docs-cg/).
 
