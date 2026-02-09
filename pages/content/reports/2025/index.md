@@ -99,7 +99,7 @@ In addition to the fruitful work we've been doing with W3C community groups to h
 
 The [W3C Documentation CG](https://www.w3.org/community/docs-cg/) is an open community with the mission to ensure web developers and designers worldwide have the best information available so they can build things on the web platform.
 
-If you haven't joined yet, we would encourage you to do so via the [DocsCG's homepage](https://www.w3.org/community/docs-cg/join) and take a look at the [DocsCG GitHub repository](https://github.com/w3c-cg/webdocs).
+If you haven't joined yet, we would encourage you to do so via the [Docs CG's homepage](https://www.w3.org/community/docs-cg/join) and take a look at the [Docs CG GitHub repository](https://github.com/w3c-cg/webdocs).
 
 See also our [blog post about launching the W3C Documentation CG](https://openwebdocs.org/content/posts/w3c-docs-cg/).
 
@@ -123,11 +123,11 @@ To this end, in 2024, OWD created a tool to identify missing reference pages. Ba
 
 Open Web Docs used this tool to identify and then document all the missing newly available and widely available features, including documenting over 650 missing API reference page, ensuring that MDN is truly a complete reference.
 
-The OWD missing features project was led by [Estelle Weyl](https://github.com/estelle) and was successfully completed with contributions from community volunteer [Yash Raj Bharti](https://github.com/yashrajbharti) and reviews from the MDN community. OWD wants to continue this effort in 2026, and ensure that all new baseline features are fully documented this year and for all the years to come. 
+The OWD missing features project was led by [Estelle Weyl](https://github.com/estelle) and was successfully completed with contributions from community volunteer [Yash Raj Bharti](https://github.com/yashrajbharti) and reviews from the MDN community. OWD wants to continue this effort in 2026, and ensure that all new baseline features are fully documented this year and for all the years to come.
 
 ### Web Security documentation
 
-In 2024, OWD started a long-term project to improve and extend web security documentation on MDN. OWD was awarded funding from the [Sovereign Tech Fund](https://www.sovereign.tech/tech/open-web-docs-2025) to continue this work in 2025 and into 2026.
+In 2024, OWD started a long-term project to improve and extend web security documentation on MDN. OWD was awarded am investment from the [Sovereign Tech Fund](https://www.sovereign.tech/tech/open-web-docs-2025) to continue this work in 2025 and into 2026.
 
 #### Web security attacks
 
@@ -155,7 +155,7 @@ Each guide explains the authentication method and how it works, walking through 
 
 ### CSS module project
 
-In 2025, Open Web Docs completed a 2+ year CSS project involving reviewing, updating, rewriting, and in many cases, creating CSS documentation for the entire CSS reference section of MDN content. In order to ensure CSS specifications and their browser implementations are up to date, well documented, accurate, and findable, we worked through all of the [CSS modules](​​https://github.com/openwebdocs/project/issues/147).
+In 2025, Open Web Docs completed a 2+ year CSS project involving reviewing, updating, rewriting, and in many cases, creating CSS documentation for the entire CSS reference section of MDN content. In order to ensure CSS specifications and their browser implementations are up to date, well documented, accurate, and findable, we worked through all of the [CSS modules](https://github.com/openwebdocs/project/issues/147).
 
 Prior to the project onset, there was no consistent way to learn about individual CSS specification and the features defined in each. While there were several reference pages named `CSS_spec_name`, not all CSS specifications had module page on MDN, many of these pages were guides to a few properties, and none were a complete reference to the specification with links to reference pages for all the features the covered specification introduced. In addition, the CSS module pages only listed features one might include within a stylesheet; none included any of the many events and interfaces introduced in the various CSS specifications.
 
@@ -184,7 +184,7 @@ Open Web Doc's budget is openly shared with the community on the [Open Collectiv
 
 The reality is that last year was another challenging year for open source sustainability across the tech industry, and OWD was not an exception: the OWD Governing Committee made the difficult decision to part with a cherished part-time team member. This allowed the project to rebalance risk and ensure OWD could make it into the next funding cycle.
 
-To further reduce risk, OWD is working to diversify its funding sources. Membership revenue accounts for the greatest source of financial support. In 2025, OWD was very grateful to have the support of Platinum Members Google and Microsoft, Gold Member Igalia, and Silver Member Bloomberg. Additionally, the Sovereign Tech Fund committed a total of 220,000€ to Open Web Docs to help web developers secure their sites by documenting Web Security and Privacy topics. This investment started in 2025 and continues in 2026. 
+To further reduce risk, OWD is working to diversify its funding sources. Membership revenue accounts for the greatest source of financial support. In 2025, OWD was very grateful to have the support of Platinum Members Google and Microsoft, Gold Member Igalia, and Silver Member Bloomberg. Additionally, the Sovereign Tech Fund committed a total of 220,000€ to Open Web Docs to help web developers secure their sites by documenting Web Security and Privacy topics. This investment started in 2025 and continues in 2026.
 
 In March 2025, Jory Burson and Florian Scholz gave a talk at the FOSS Backstage conference in Berlin: [Project Economics: A case study with Open Web Docs](https://program.foss-backstage.de/fossback25/talk/RDZVGW/). We presented some insights into how we “sell” open documentation (which isn’t on software dependency lists) and talked about OWD fundraising strategies.
 
