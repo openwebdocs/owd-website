@@ -127,7 +127,7 @@ The OWD missing features project was led by [Estelle Weyl](https://github.com/es
 
 ### Web Security documentation
 
-In 2024, OWD started a long-term project to improve and extend web security documentation on MDN. OWD was awarded am investment from the [Sovereign Tech Fund](https://www.sovereign.tech/tech/open-web-docs-2025) to continue this work in 2025 and into 2026.
+In 2024, OWD started a long-term project to improve and extend web security documentation on MDN. OWD was awarded an investment from the [Sovereign Tech Fund](https://www.sovereign.tech/tech/open-web-docs-2025) to continue this work in 2025 and into 2026.
 
 #### Web security attacks
 
