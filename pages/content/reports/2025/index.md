@@ -105,7 +105,7 @@ See also our [blog post about launching the W3C Documentation CG](https://openwe
 
 ### Collecting browser compatibility data whenever browsers release a new beta version
 
-In 2025, OWD was able to systematically collected web platform compatibility data for the second year in a row. We want to continue this effort and make it as timely and efficient as possible for every browser release for all the years to come. The maintenance of the `mdn-browser-compat-data` project benefits greatly from these efforts; the data is accurate, reliable, and complete, which allows the consumers of the data, especially MDN, CanIUse, web-features, and the Baseline projects, to be up-to-date and accurate.
+For the second year in a row, OWD was able to systematically collect web platform compatibility data. We would like to continue this effort, making it as timely and efficient as possible for every future browser release. The maintenance of the `mdn-browser-compat-data` project benefits greatly from OWD's efforts; the BCD web compatibility data is accurate, reliable, and complete, allowing consumers of the data, especially MDN, CanIUse, web-features, and the Baseline projects, to be up-to-date and accurate.
 
 In 2025, we systematically collected compatibility data 28 times; we observed 12 releases from Chrome (applying to Edge too), 13 from Firefox, and 3 from Safari. For Chrome 133-144, Firefox 135-147, and Safari 18.4, 26 and 26.2, OWD was able to update browser compatibility data within the beta cycles of each browser release. This enabled us to provide web developers with updated information at the time the stable browser version was released.
 
