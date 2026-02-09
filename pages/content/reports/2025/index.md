@@ -89,9 +89,9 @@ Here's the summary of reviewed PRs:
 
 ## OWD project work
 
-The work of Open Web Docs is guided by the [OWD prioritization criteria](https://github.com/openwebdocs/project/blob/main/steering-committee/prioritization-criteria.md) and [OWD’s charter](https://github.com/openwebdocs/project/blob/main/charter.md). OWD efforts are prioritized based on the needs of the global community of web developers and designers and best practices. The [OWD project proposal](https://github.com/openwebdocs/project/issues/new/choose) process is open to everyone, with proposals reviewed by the OWD staff team and Governing Committee.
+The work of Open Web Docs is guided by the [OWD prioritization criteria](https://github.com/openwebdocs/project/blob/main/steering-committee/prioritization-criteria.md) and the [OWD’s charter](https://github.com/openwebdocs/project/blob/main/charter.md). OWD projects are prioritized based on the needs of the global community of web developers and designers and best practices. Anyone can propose work through the open [OWD project proposal](https://github.com/openwebdocs/project/issues/new/choose) process, with proposals reviewed by the OWD staff team and the Governing Committee.
 
-We also participate in the [W3C SWAG CG](https://www.w3.org/community/swag/) as well as the [W3C WebDX CG](https://www.w3.org/community/webdx/). Since April 2025 we chair the [W3C Documentation CG](https://www.w3.org/community/docs-cg/) to plan and execute writing projects.
+Our collaboration extends beyond MDN as well. We participate in the [W3C SWAG CG](https://www.w3.org/community/swag/) (focused on increasing the overall security of web application development) and the [W3C WebDX CG](https://www.w3.org/community/webdx/) (focused on improving the web platform developer experience), and since April 2025, we've chaired the [W3C Documentation CG](https://www.w3.org/community/docs-cg/), helping plan and execute writing projects that strengthen web platform documentation.
 
 ### W3C Documentation CG
 
