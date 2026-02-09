@@ -107,23 +107,23 @@ See also our [blog post about launching the W3C Documentation CG](https://openwe
 
 For the second year in a row, OWD was able to systematically collect web platform compatibility data. We would like to continue this effort, making it as timely and efficient as possible for every future browser release. The maintenance of the `mdn-browser-compat-data` project benefits greatly from OWD's efforts; the BCD web compatibility data is accurate, reliable, and complete, allowing consumers of the data, especially MDN, CanIUse, web-features, and the Baseline projects, to be up-to-date and accurate.
 
-In 2025, we systematically collected compatibility data 28 times; we observed 12 releases from Chrome (applying to Edge too), 13 from Firefox, and 3 from Safari. For Chrome 133-144, Firefox 135-147, and Safari 18.4, 26 and 26.2, OWD was able to update browser compatibility data within the beta cycles of each browser release. This enabled us to provide web developers with updated information at the time the stable browser version was released.
+In 2025, we systematically collected compatibility data 28 browser releases; we provided web developers with updated information for 12 Chrome and Edge releases, 13 Firefox releases, and 3 new Safari versions. For Chrome 133-144, Firefox 135-147, and Safari 18.4, 26 and 26.2, OWD was able to update browser compatibility data within the beta cycles of each browser release, providing updated information at the time the stable browser version was released.
 
 Patrick Brosset, Microsoft Edge, says:
 
 > The compatibility data collection that Open Web Docs provides for BCD is very beneficial for the web-features and Baseline project. Up-to-date data shows up in time on MDN compat tables and on caniuse.com. It also helps the release notes process for Microsoft Edge.
 
-Also, we want to give a special shout out to [Claas Augner](https://github.com/caugner) who has been taking on a leading role in reviewing PRs and advancing the BCD project in 2025.
+OWD would like to give a special shout-out to [Claas Augner](https://github.com/caugner), who has taken a leading role in reviewing PRs and advancing the BCD project in 2025.
 
 ### Documenting missing features
 
-New feature documentation is often provided by browser vendors, generally right as they add new features to their browser. However, not all features always get documented. And, if they’re not documented right away, there is no one championing the feature and encouraging their documentation. At OWD, we champion all browser features, and want to ensure that all features are properly documented and findable by the developer community. This is why we work to ensure every open web feature is fully documented on MDN.
+New feature documentation is often provided by browser vendors when the new feature is added to their browser. However, not all features get documented. If a feature is not documented when first released, often there is no one to champion the feature and encourage its documentation. At OWD, we champion all browser features! We want to ensure that all features are properly documented and findable by the developer community. This is why we work to fully document every open web feature on MDN.
 
 To this end, in 2024, OWD created a tool to identify missing reference pages. Based on the [Web Platform Features Explorer](https://web-platform-dx.github.io/web-features-explorer/) developed by Patrick Brosset, Florian Scholz created [web platform documentation backlog](https://openwebdocs.github.io/web-docs-backlog/), a site that displays missing reference documentation for web platform features.
 
 Open Web Docs used this tool to identify and then document all the missing newly available and widely available features, including documenting over 650 missing API reference page, ensuring that MDN is truly a complete reference.
 
-The OWD missing features project was led by [Estelle Weyl](https://github.com/estelle) and was successfully completed with contributions from community volunteer [Yash Raj Bharti](https://github.com/yashrajbharti) and reviews from the MDN community.
+The OWD missing features project was led by [Estelle Weyl](https://github.com/estelle) and was successfully completed with contributions from community volunteer [Yash Raj Bharti](https://github.com/yashrajbharti) and reviews from the MDN community. OWD wants to continue this effort in 2026, and ensure that all new baseline features are fully documented this year and for all the years to come. 
 
 ### Web Security documentation
 
@@ -137,9 +137,9 @@ Initially, the main focus of our web security documentation project was continui
 - The impact of these attacks
 - Recommended practices to defend against them
 
-Our guiding principles for this web security documentation project is to write relevant guides that are _accessible_, _practical_, and _up to date_.
+Our guiding principles for the web security documentation project are to write relevant guides that are _accessible_, _practical_, and _up to date_.
 
-We've written guides on the attacks most likely to be faced by web developers today, including [cross-site leaks](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/XS-Leaks), [cross-site request forgery](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/CSRF), [prototype pollution](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/Prototype_pollution), and [supply chain attacks](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/Supply_chain_attacks). We've included modern defenses such as [trusted types](https://developer.mozilla.org/en-US/docs/Web/API/Trusted_Types_API) and [fetch metadata](https://developer.mozilla.org/en-US/docs/Glossary/Fetch_metadata_request_header) alongside more traditional methods. We've included clear guidance about which defenses are essential and which can add defense in depth.
+We've written guides on the attacks most likely to be faced by web developers today, including [cross-site leaks](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/XS-Leaks), [cross-site request forgery](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/CSRF), [prototype pollution](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/Prototype_pollution), and [supply chain attacks](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/Supply_chain_attacks). We've included modern defenses such as [trusted types](https://developer.mozilla.org/en-US/docs/Web/API/Trusted_Types_API) and [fetch metadata](https://developer.mozilla.org/en-US/docs/Glossary/Fetch_metadata_request_header) alongside more traditional methods. We included clear guidance on which defenses are essential and which can offer additional defense in depth.
 
 Aaron Shim, Software Engineer at Google Security, [says](https://bughunters.google.com/blog/effortless-web-security-secure-by-design-in-the-wild) about our work:
 
@@ -147,7 +147,7 @@ Aaron Shim, Software Engineer at Google Security, [says](https://bughunters.goog
 
 #### Authentication
 
-In September 2025, we worked on the next stage of the web security project: Authentication.  Authentication is probably the most common target for attacks, so it's a core component of the web security project. We have been focused on writing documentation for web developers who need to authenticate users on their sites.
+In September 2025, we worked on the next stage of the web security project: Authentication. Authentication is the most common attack target, so it's a core component of the web security project. We are focused on writing documentation for web developers who need to authenticate users on their sites.
 
 The main part of this work is a series of articles on the four main authentication methods available to web developers. In 2025, we published guides to three of these: [passwords](https://developer.mozilla.org/en-US/docs/Web/Security/Authentication/Passwords), [one-time codes](https://developer.mozilla.org/en-US/docs/Web/Security/Authentication/OTP), [federated identity](https://developer.mozilla.org/en-US/docs/Web/Security/Authentication/Federated_identity), and submitted the fourth guide on [passkeys](https://developer.mozilla.org/en-US/docs/Web/Security/Authentication/Passkeys), which was [merged in January](https://github.com/mdn/content/pull/42338).
 
@@ -155,13 +155,13 @@ Each guide explains the authentication method and how it works, walking through 
 
 ### CSS module project
 
-In 2025, Open Web Docs completed a 2+ year CSS project involving reviewing, updating, rewriting, and in many cases, creating, the entire CSS reference section of MDN content. In order to ensure specifications and browser implementation of CSS are up to date, well documented, accurate, and findable, we worked through all of the [CSS modules](​​https://github.com/openwebdocs/project/issues/147).
+In 2025, Open Web Docs completed a 2+ year CSS project involving reviewing, updating, rewriting, and in many cases, creating CSS documentation for the entire CSS reference section of MDN content. In order to ensure CSS specifications and their browser implementations are up to date, well documented, accurate, and findable, we worked through all of the [CSS modules](​​https://github.com/openwebdocs/project/issues/147).
 
-Prior to the project onset, there was no consistent way to learn about individual CSS specification and the features defined in each. While there were several reference pages named `CSS_spec_name`, not all CSS specifications had module page on MDN, many of these pages were guides to a few properties, and none were a complete reference to the specification with links to reference pages for all the features the covered specification introduced. The CSS module pages only listed features to include in a stylesheet: none included any of the many events and interfaced introduced in CSS specifications.
+Prior to the project onset, there was no consistent way to learn about individual CSS specification and the features defined in each. While there were several reference pages named `CSS_spec_name`, not all CSS specifications had module page on MDN, many of these pages were guides to a few properties, and none were a complete reference to the specification with links to reference pages for all the features the covered specification introduced. In addition, the CSS module pages only listed features one might include within a stylesheet; none included any of the many events and interfaces introduced in the various CSS specifications.
 
-It was a huge endeavor, but now, there are 65 CSS module reference guides reflecting the CSS specifications with at least one browser supported feature. Every CSS module page now includes all the properties, at-rules, functions, data types, events, interfaces, and glossary terms and definitions introduced in the specification. Every CSS module page begins with a one to five paragraph overview of the module, naming the module and explaining what features the module, why the features are useful, along with how the module’s features interact with features from other specifications, if relevant. In many cases, we included an example highlighting the features introduced in the specification as a quick overview.
+It was a huge endeavor, but now there are 65 CSS module reference guides on MDN, reflecting every CSS specification with at least one browser-supported feature. Every CSS module page now includes all the properties, at-rules, functions, data types, events, interfaces, and glossary terms and definitions introduced in the specification. Every module reference page begins with a brief overview of the module, naming the module and explaining what features the module introduces, including why the features are useful and how the module’s features interact with features from other specifications, if relevant. In many cases, we included an interactive example demonstrating the features introduced by the specification.
 
-Every module page, except the Ruby layout module, includes a “guides” section. As part of this project, we reviewed all the existing guides, relocated all the guides into their module’s directory, and created a plethora of new guides and a new color tool.
+Every module page, except the Ruby layout module, includes a “guides” section. As part of this project, we reviewed all the existing guides, relocated all the guides into their module’s directory, and created a plethora of new guides as well as a new color tool.
 
 Every CSS module overview reference page also includes “related concepts” and “see also” sections. Related concepts include properties, data types, glossary terms, etc. related to the module defined in other specifications. The “See also” section includes links to any other reference pages and other content that is relevant but doesn't fit in the other sections.
 
