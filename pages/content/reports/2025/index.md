@@ -95,7 +95,7 @@ Our collaboration extends beyond MDN as well. We participate in the [W3C SWAG CG
 
 ### W3C Documentation CG
 
-In addition to the fruitful work we've been doing in the [W3C SWAG CG](https://www.w3.org/community/swag/), to help web developers with guidance on web security, we launched a community group for overall web platform documentation at the W3C in April 2025.
+In addition to the fruitful work we've been doing with W3C community groups to help web developers with guidance on web security and improving web platform developer experience, in April 2025, OWD launched a new W3C community group focused on web platform documentation.
 
 The [W3C Documentation CG](https://www.w3.org/community/docs-cg/) is an open community with the mission to ensure web developers and designers worldwide have the best information available so they can build things on the web platform.
 
