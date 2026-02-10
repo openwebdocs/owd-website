@@ -10,7 +10,7 @@ ShowBreadCrumbs: false
 
 Open Web Docs' work in 2025 helped ensure the long-term health of web platform documentation on critical resources like MDN Web Docs, independently of any single vendor or organization. Founded in January 2021, 2025 marked Open Web Docs' fifth year of operation!
 
-Open Web Docs (OWD) is an [Open Source Collective](https://opencollective.com/open-web-docs) that employs engineers to publicly document open web technologies. The team at OWD has extensive experience with Web standards documentation, MDN Web Docs, and browser compatibility data. We write new documentation, update existing documentation, and improve documentation infrastructure. Open Web Docs works together with other organizations such as Mozilla, Google, Microsoft, W3C, Igalia, as well as the [Sovereign Tech Agency](https://openwebdocs.org/content/posts/stf-investment-2025/), and other external contributors and volunteers.
+Open Web Docs (OWD) is an [Open Source Collective](https://opencollective.com/open-web-docs) that employs engineers to publicly document open web technologies. The team at OWD has extensive experience with Web standards documentation, MDN Web Docs, and browser compatibility data. We write new documentation, update existing documentation, and improve documentation infrastructure. Open Web Docs works together with other organizations such as Mozilla, Google, Microsoft, W3C, Igalia, and the [Sovereign Tech Agency](https://openwebdocs.org/content/posts/stf-investment-2025/), as well as other external contributors and volunteers.
 
 In 2025, Open Web Docs:
 
@@ -61,7 +61,7 @@ In 2025, the `mdn/content` repository once again landed in GitHub’s overall to
 
 ### Pull requests authored
 
-Since our launch in 2021, Open Web Docs has been the primary organizational contributor to the `mdn/content` and the `mdn/browser-compat-data` repositories. Here's the summary of merged PRs authored (excluding bots):
+Since our launch in 2021, Open Web Docs has been the primary organizational contributor to the `mdn/content` and the `mdn/browser-compat-data` repositories. Here's the summary of merged PRs we authored in 2025 (excluding bots):
 
 | Project                 | Total authored PRs | OWD authored PRs |
 | ----------------------- | ------------------ | ---------------- |
@@ -80,7 +80,7 @@ There's a very long tail of contributors and thriving community actively involve
 
 Supporting this long tail of volunteers is a large part of OWD's work. PR reviews for the `mdn/content` and ` mdn/browser-compat-data` repositories are performed by members of the maintainer group, which comprises OWD, Mozilla, Google, Microsoft, and W3C staff and contractors, as well as a select group of volunteer maintainers.
 
-Here's the summary of reviewed PRs:
+Here's the summary of reviewed PRs in 2025:
 
 | Project                 | Total reviewed PRs | OWD reviewed PRs |
 | ----------------------- | ------------------ | ---------------- |
@@ -89,9 +89,9 @@ Here's the summary of reviewed PRs:
 
 ## OWD project work
 
-The work of Open Web Docs is guided by the [OWD prioritization criteria](https://github.com/openwebdocs/project/blob/main/steering-committee/prioritization-criteria.md) and the [OWD’s charter](https://github.com/openwebdocs/project/blob/main/charter.md). OWD projects are prioritized based on the needs of the global community of web developers and designers and best practices. Anyone can propose work through the open [OWD project proposal](https://github.com/openwebdocs/project/issues/new/choose) process, with proposals reviewed by the OWD staff team and the Governing Committee.
+The work of Open Web Docs is guided by the [OWD prioritization criteria](https://github.com/openwebdocs/project/blob/main/steering-committee/prioritization-criteria.md) and the [OWD charter](https://github.com/openwebdocs/project/blob/main/charter.md). OWD projects are prioritized based on the needs of the global community of web developers and designers, and on current best practices. Anyone can propose work through the open [OWD project proposal](https://github.com/openwebdocs/project/issues/new/choose) process, with proposals reviewed by the OWD staff team and the Governing Committee.
 
-Our collaboration extends beyond MDN as well. We participate in the [W3C SWAG CG](https://www.w3.org/community/swag/) (focused on increasing the overall security of web application development) and the [W3C WebDX CG](https://www.w3.org/community/webdx/) (focused on improving the web platform developer experience), and since April 2025, we've chaired the [W3C Documentation CG](https://www.w3.org/community/docs-cg/), helping plan and execute writing projects that strengthen web platform documentation.
+Our collaboration extends beyond MDN as well. We participate in the [W3C SWAG CG](https://www.w3.org/community/swag/) (focused on increasing the overall security of web application development) and the [W3C WebDX CG](https://www.w3.org/community/webdx/) (focused on improving the web platform developer experience). Since April 2025, we've chaired the [W3C Documentation CG](https://www.w3.org/community/docs-cg/), helping plan and execute writing projects that strengthen web platform documentation.
 
 ### W3C Documentation CG
 
@@ -107,21 +107,21 @@ See also our [blog post about launching the W3C Documentation CG](https://openwe
 
 For the second year in a row, OWD was able to systematically collect web platform compatibility data. We would like to continue this effort, making it as timely and efficient as possible for every future browser release. The maintenance of the `mdn-browser-compat-data` project benefits greatly from OWD's efforts; the BCD web compatibility data is accurate, reliable, and complete, allowing consumers of the data, especially MDN, CanIUse, web-features, and the Baseline projects, to be up-to-date and accurate.
 
-In 2025, we systematically collected compatibility data 28 browser releases; we provided web developers with updated information for 12 Chrome and Edge releases, 13 Firefox releases, and 3 new Safari versions. For Chrome 133-144, Firefox 135-147, and Safari 18.4, 26 and 26.2, OWD was able to update browser compatibility data within the beta cycles of each browser release, providing updated information at the time the stable browser version was released.
+In 2025, we systematically collected compatibility data and  provided web developers with updated information across 28 browser releases: 12 Chrome and Edge releases, 13 Firefox releases, and 3 Safari releases. For Chrome 133-144, Firefox 135-147, and Safari 18.4, 26 and 26.2, OWD was able to update browser compatibility data within the beta cycles of each browser release, ensuring updated information at the time the stable browser version was released.
 
 Patrick Brosset, Microsoft Edge, says:
 
-> The compatibility data collection that Open Web Docs provides for BCD is very beneficial for the web-features and Baseline project. Up-to-date data shows up in time on MDN compat tables and on caniuse.com. It also helps the release notes process for Microsoft Edge.
+> The compatibility data collection that Open Web Docs provides for BCD is very beneficial for the web-features and Baseline projects. Up-to-date data shows up in time on MDN compat tables and on caniuse.com. It also helps the release notes process for Microsoft Edge.
 
 OWD would like to give a special shout-out to [Claas Augner](https://github.com/caugner), who has taken a leading role in reviewing PRs and advancing the BCD project in 2025.
 
 ### Documenting missing features
 
-New feature documentation is often provided by browser vendors when the new feature is added to their browser. However, not all features get documented. If a feature is not documented when first released, often there is no one to champion the feature and encourage its documentation. At OWD, we champion all browser features! We want to ensure that all features are properly documented and findable by the developer community. This is why we work to fully document every open web feature on MDN.
+New feature documentation is often provided by browser vendors when a new feature is added to their browser. However, not all features get documented. If a feature is not documented when first released, often there is no one to champion the feature and encourage its documentation. At OWD, we champion all browser features! We want to ensure that all features are properly documented and findable by the developer community. This is why we work to fully document every open web feature on MDN.
 
 To this end, in 2024, OWD created a tool to identify missing reference pages. Based on the [Web Platform Features Explorer](https://web-platform-dx.github.io/web-features-explorer/) developed by Patrick Brosset, Florian Scholz created [web platform documentation backlog](https://openwebdocs.github.io/web-docs-backlog/), a site that displays missing reference documentation for web platform features.
 
-Open Web Docs used this tool to identify and then document all the missing newly available and widely available features, including documenting over 650 missing API reference page, ensuring that MDN is truly a complete reference.
+Open Web Docs used this tool to identify and then document all the missing newly available and widely available features, including documenting over 650 missing API reference pages, ensuring that MDN is truly a complete reference.
 
 The OWD missing features project was led by [Estelle Weyl](https://github.com/estelle) and was successfully completed with contributions from community volunteer [Yash Raj Bharti](https://github.com/yashrajbharti) and reviews from the MDN community. OWD wants to continue this effort in 2026, and ensure that all new baseline features are fully documented this year and for all the years to come.
 
@@ -149,25 +149,25 @@ Aaron Shim, Software Engineer at Google Security, [says](https://bughunters.goog
 
 In September 2025, we worked on the next stage of the web security project: Authentication. Authentication is the most common attack target, so it's a core component of the web security project. We are focused on writing documentation for web developers who need to authenticate users on their sites.
 
-The main part of this work is a series of articles on the four main authentication methods available to web developers. In 2025, we published guides to three of these: [passwords](https://developer.mozilla.org/en-US/docs/Web/Security/Authentication/Passwords), [one-time codes](https://developer.mozilla.org/en-US/docs/Web/Security/Authentication/OTP), [federated identity](https://developer.mozilla.org/en-US/docs/Web/Security/Authentication/Federated_identity), and submitted the fourth guide on [passkeys](https://developer.mozilla.org/en-US/docs/Web/Security/Authentication/Passkeys), which was [merged in January](https://github.com/mdn/content/pull/42338).
+The main part of this work is a series of articles on the four main authentication methods available to web developers. In 2025, we published guides to three of these: [passwords](https://developer.mozilla.org/en-US/docs/Web/Security/Authentication/Passwords), [one-time codes](https://developer.mozilla.org/en-US/docs/Web/Security/Authentication/OTP), and [federated identity](https://developer.mozilla.org/en-US/docs/Web/Security/Authentication/Federated_identity); in addition, we submitted a guide on [passkeys](https://developer.mozilla.org/en-US/docs/Web/Security/Authentication/Passkeys), which was [merged in January 2026](https://github.com/mdn/content/pull/42338).
 
-Each guide explains the authentication method and how it works, walking through the main flows involved, highlighting potential vulnerabilities and outlining recommended practices.
+Each guide explains the authentication method and how it works, walking through the main flows involved, highlighting potential vulnerabilities, and outlining recommended practices.
 
 ### CSS module project
 
 In 2025, Open Web Docs completed a 2+ year CSS project involving reviewing, updating, rewriting, and in many cases, creating CSS documentation for the entire CSS reference section of MDN content. In order to ensure CSS specifications and their browser implementations are up to date, well documented, accurate, and findable, we worked through all of the [CSS modules](https://github.com/openwebdocs/project/issues/147).
 
-Prior to the project onset, there was no consistent way to learn about individual CSS specification and the features defined in each. While there were several reference pages named `CSS_spec_name`, not all CSS specifications had module page on MDN, many of these pages were guides to a few properties, and none were a complete reference to the specification with links to reference pages for all the features the covered specification introduced. In addition, the CSS module pages only listed features one might include within a stylesheet; none included any of the many events and interfaces introduced in the various CSS specifications.
+Prior to the project onset, there was no consistent way to learn about individual CSS specification and the features defined in each. While there were several reference pages named `CSS_spec_name`, not all CSS specifications had module page on MDN, many of these pages were guides to a few properties, and none were a complete reference to the specification with links to reference pages for all the features the covered specification introduced. In addition, the CSS module pages only listed features one might include within a stylesheet; none included any of the many events and DOM interfaces introduced in the various CSS specifications.
 
 It was a huge endeavor, but now there are 65 CSS module reference guides on MDN, reflecting every CSS specification with at least one browser-supported feature. Every CSS module page now includes all the properties, at-rules, functions, data types, events, interfaces, and glossary terms and definitions introduced in the specification. Every module reference page begins with a brief overview of the module, naming the module and explaining what features the module introduces, including why the features are useful and how the module’s features interact with features from other specifications, if relevant. In many cases, we included an interactive example demonstrating the features introduced by the specification.
 
-Every module page, except the Ruby layout module, includes a “guides” section. As part of this project, we reviewed all the existing guides, relocated all the guides into their module’s directory, and created a plethora of new guides as well as a new color tool.
+Every module page, except the Ruby layout module, includes a “guides” section. As part of this project, we reviewed all the existing guides, relocated each guide into their module’s directory, and created a plethora of new guides as well as a new color tool.
 
-Every CSS module overview reference page also includes “related concepts” and “see also” sections. Related concepts include properties, data types, glossary terms, etc. related to the module defined in other specifications. The “See also” section includes links to any other reference pages and other content that is relevant but doesn't fit in the other sections.
+Every CSS module overview reference page also includes “related concepts” and “see also” sections. Related concepts include properties, data types, glossary terms, etc. related to the module that are defined in other specifications. The “See also” section includes links to any other reference pages and other content that is relevant but doesn't fit on the module page.
 
 The OWD CSS module project was led by [Estelle Weyl](https://github.com/estelle).
 This project was made possible by the generous contributions of OWD member organizations and sponsors.
-A special shout out to [Chris Mills](https://github.com/chrisdavidmills) who reviewed most of the PRs.
+A special shout out to [Chris Mills](https://github.com/chrisdavidmills), who reviewed most of the PRs.
 
 ### Accessibility Compat Data
 
@@ -186,14 +186,14 @@ The reality is that last year was another challenging year for open source susta
 
 To further reduce risk, OWD is working to diversify its funding sources. Membership revenue accounts for the greatest source of financial support. In 2025, OWD was very grateful to have the support of Platinum Members Google and Microsoft, Gold Member Igalia, and Silver Member Bloomberg. Additionally, the Sovereign Tech Fund committed a total of 220,000€ to Open Web Docs to help web developers secure their sites by documenting Web Security and Privacy topics. This investment started in 2025 and continues in 2026.
 
-In March 2025, Jory Burson and Florian Scholz gave a talk at the FOSS Backstage conference in Berlin: [Project Economics: A case study with Open Web Docs](https://program.foss-backstage.de/fossback25/talk/RDZVGW/). We presented some insights into how we “sell” open documentation (which isn’t on software dependency lists) and talked about OWD fundraising strategies.
+In March 2025, Jory Burson and Florian Scholz gave a talk at the FOSS Backstage conference in Berlin titled “[Project Economics: A case study with Open Web Docs](https://program.foss-backstage.de/fossback25/talk/RDZVGW/)”. We presented some insights into how we “sell” open documentation (which isn’t on software dependency lists) and talked about OWD fundraising strategies.
 
 For fiscal year 2025, OWD raised about $662,000 USD in total.
-Payroll is Open Web Docs’ only meaningful expense. We pay competitive salaries in our staff's local currency, and receive health care, retirement, and other regionally compliant benefits. In 2025, we reduced our expenses by about $90,000 USD and spent a total of $664,000 USD on payroll, inclusive of contractors, taxes, wire fees, exchange fees, and payroll services. We post all transactions on our [Open Collective](https://opencollective.com/open-web-docs) page.
+Payroll is Open Web Docs’ only meaningful expense. We pay competitive salaries in our staff's local currency, and provide health care, retirement, and other regionally compliant benefits. In 2025, we reduced our expenses by about $90,000 USD and spent a total of $664,000 USD on payroll, inclusive of contractors, taxes, wire fees, exchange fees, and payroll services. We post all transactions on our [Open Collective](https://opencollective.com/open-web-docs) page.
 
 ### 2026 Financial Forecast
 
-For 2026, we have forecasted a total of $450,000 USD in fundraising, including commitments from Microsoft, our Platinum Member, Igalia, our Gold Member, and an investment from the Sovereign Tech Agency. We anticipate about $10,000 USD in community donations from Open Collective and GitHub Sponsors, as raised in 2025. Throughout 2025, an individual donated to Open Web Docs in all but one week! Thank you so much! While these smaller donations don't cover our salaries, they allow us to attend one in-person meeting annually, at the annual W3C TPAC conference.
+For 2026, we have forecasted a total of $450,000 USD in fundraising, including commitments from Microsoft, our Platinum Member; Igalia, our Gold Member; and an investment from the Sovereign Tech Agency. We anticipate about $10,000 USD in community donations from Open Collective and GitHub Sponsors, as raised in 2025. Throughout 2025, an individual donated to Open Web Docs in all but one week! Thank you so much! While these smaller donations don't cover our salaries, they allow us to attend one in-person meeting annually, at the annual W3C TPAC conference.
 
 Our expenses for 2026 are forecast to be less than our 2025 expenses, at approximately $600,000. This is a forecasted budget deficit of $140,000 for 2026. We're working on closing this gap with additional grant applications, special project funding, and new member support.
 
@@ -201,7 +201,7 @@ Becoming a supporting member of Open Web Docs offers benefits in addition to sup
 
 ## Gratitude for our Individual Supporters in 2025
 
-Thank you to each and everyone who supports us with recurring or one-time donations! Your sponsorship means the world to us!
+Thank you to each and every person who supports us with recurring or one-time donations! Your sponsorship means the world to us!
 
 ### Individual supporters
 
@@ -229,7 +229,7 @@ And, of course, thank you to all of Open Web Docs' [GitHub Sponsors](https://git
 
 ## Looking forward to 2026
 
-We're inviting all of our partners and backers to another year of supporting web platform documentation for the benefit of web developers, designers, and users around the world. We aim to continue with our [mission](https://github.com/openwebdocs/project/blob/main/charter.md) and foster collaborations with existing initiatives to improve the general developer experience for people developing for the web, and, in-turn, a better experience for those accessing the web. We consider web platform docs critical digital infrastructure, and we work cooperatively to ensure its long-term health.
+We're inviting all of our partners and backers to another year of supporting web platform documentation for the benefit of web developers, designers, and users around the world. We aim to continue with our [mission](https://github.com/openwebdocs/project/blob/main/charter.md) and foster collaborations with existing initiatives to improve the general developer experience for people developing for the web—and, in turn, a better experience for those accessing the web. We consider web platform docs critical digital infrastructure, and we work cooperatively to ensure its long-term health.
 
 We are funded by corporate and individual donations. If your organization or project is interested in advancing open web platform documentation, we would love to hear from you! Please reach out to [florian@openwebdocs.org](mailto:florian@openwebdocs.org).
 
