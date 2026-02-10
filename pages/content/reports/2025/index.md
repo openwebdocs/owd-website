@@ -116,7 +116,7 @@ Patrick Brosset, Microsoft Edge, says:
 > The compatibility data collection that Open Web Docs provides for BCD is very beneficial for the web-features and Baseline projects. Up-to-date data shows up in time on MDN compat tables and on caniuse.com. It also helps the release notes process for Microsoft Edge.
 
 The OWD compatibility data collection project is led by [Florian Scholz](https://github.com/Elchi3).
-We would like to give a special shout-out to [Claas Augner](https://github.com/caugner), who has taken a leading role in reviewing PRs and advancing the BCD project in 2025.
+We would like to give a special shout-out to [Claas Augner](https://github.com/caugner), who has taken a leading role in reviewing PRs and advancing the BCD project in 2025, as well as to [Queen Vinyl Da.i'gyu-Kazotetsu](https://github.com/queengooborg) her work on BCD in 2025.
 
 ### Documenting missing features
 
@@ -195,7 +195,7 @@ In March 2025, Jory Burson and Florian Scholz gave a talk at the FOSS Backstage 
 For fiscal year 2025, OWD raised about $662,000 USD in total.
 Payroll is Open Web Docs’ only meaningful expense. We pay competitive salaries in our staff's local currency, and provide health care, retirement, and other regionally compliant benefits. In 2025, we reduced our expenses by about $90,000 USD and spent a total of $664,000 USD on payroll, inclusive of contractors, taxes, wire fees, exchange fees, and payroll services. We post all transactions on our [Open Collective](https://opencollective.com/open-web-docs) page.
 
-Estelle, Florian and Will would like to thank Jory Burson and Daniel Appelquist for their continued voluntary support as advisors to us individually and for their participation in the Open Web Docs Governing Committee. Jory's and Dan's passion to help run the Open Web Docs collective is truly outstanding and we are very grateful to have you here.
+Estelle, Florian and Will would like to thank Jory Burson and Daniel Appelquist for their continued voluntary support as advisors to us individually and for their participation in the Open Web Docs Governing Committee. Jory's and Dan's passion to help run the Open Web Docs collective is truly outstanding and we are very grateful to have you!
 
 ### 2026 Financial Forecast
 
