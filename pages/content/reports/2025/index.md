@@ -103,6 +103,8 @@ If you haven't joined yet, we would encourage you to do so via the [Docs CG's ho
 
 See also our [blog post about launching the W3C Documentation CG](https://openwebdocs.org/content/posts/w3c-docs-cg/).
 
+The W3C Documentation CG is chaired by [Lola Odelola](https://lolaslab.co) and [Florian Scholz](https://github.com/Elchi3).
+
 ### Collecting browser compatibility data whenever browsers release a new beta version
 
 For the second year in a row, OWD was able to systematically collect web platform compatibility data. We would like to continue this effort, making it as timely and efficient as possible for every future browser release. The maintenance of the `mdn-browser-compat-data` project benefits greatly from OWD's efforts; the BCD web compatibility data is accurate, reliable, and complete, allowing consumers of the data, especially MDN, CanIUse, web-features, and the Baseline projects, to be up-to-date and accurate.
@@ -113,7 +115,8 @@ Patrick Brosset, Microsoft Edge, says:
 
 > The compatibility data collection that Open Web Docs provides for BCD is very beneficial for the web-features and Baseline projects. Up-to-date data shows up in time on MDN compat tables and on caniuse.com. It also helps the release notes process for Microsoft Edge.
 
-OWD would like to give a special shout-out to [Claas Augner](https://github.com/caugner), who has taken a leading role in reviewing PRs and advancing the BCD project in 2025.
+The OWD compatibility data collection project is led by [Florian Scholz](https://github.com/Elchi3).
+We would like to give a special shout-out to [Claas Augner](https://github.com/caugner), who has taken a leading role in reviewing PRs and advancing the BCD project in 2025.
 
 ### Documenting missing features
 
@@ -153,6 +156,8 @@ The main part of this work is a series of articles on the four main authenticati
 
 Each guide explains the authentication method and how it works, walking through the main flows involved, highlighting potential vulnerabilities, and outlining recommended practices.
 
+The web security and privacy documentation project is led by [Will Bamberg](https://github.com/wbamberg) and [Florian Scholz](https://github.com/Elchi3).
+
 ### CSS module project
 
 In 2025, Open Web Docs completed a 2+ year CSS project involving reviewing, updating, rewriting, and in many cases, creating CSS documentation for the entire CSS reference section of MDN content. In order to ensure CSS specifications and their browser implementations are up to date, well documented, accurate, and findable, we worked through all of the [CSS modules](https://github.com/openwebdocs/project/issues/147).
@@ -181,7 +186,6 @@ For more information on what Lola has been achieving with ACD, see her post: [AC
 
 Open Web Doc's budget is openly shared with the community on the [Open Collective Platform](https://opencollective.com/open-web-docs#category-BUDGET). While this makes our transactions viewable, it does not readily convey the challenges we face when it comes to long-term project sustainability. Memberships, grants, one-time sponsorships, and recurring donations are forecasted against known expenses; sustainability requires balancing this revenue and risk.
 
-
 The reality is that last year was another challenging year for open source sustainability across the tech industry, and OWD was not an exception: the OWD Governing Committee made the difficult decision to part with a cherished part-time team member. This allowed the project to rebalance risk and ensure OWD could make it into the next funding cycle.
 
 To further reduce risk, OWD is working to diversify its funding sources. Membership revenue accounts for the greatest source of financial support. In 2025, OWD was very grateful to have the support of Platinum Members Google and Microsoft, Gold Member Igalia, and Silver Member Bloomberg. Additionally, the Sovereign Tech Fund committed a total of 220,000€ to Open Web Docs to help web developers secure their sites by documenting Web Security and Privacy topics. This investment started in 2025 and continues in 2026.
@@ -190,6 +194,8 @@ In March 2025, Jory Burson and Florian Scholz gave a talk at the FOSS Backstage 
 
 For fiscal year 2025, OWD raised about $662,000 USD in total.
 Payroll is Open Web Docs’ only meaningful expense. We pay competitive salaries in our staff's local currency, and provide health care, retirement, and other regionally compliant benefits. In 2025, we reduced our expenses by about $90,000 USD and spent a total of $664,000 USD on payroll, inclusive of contractors, taxes, wire fees, exchange fees, and payroll services. We post all transactions on our [Open Collective](https://opencollective.com/open-web-docs) page.
+
+Estelle, Florian and Will would like to thank Jory Burson and Daniel Appelquist for their continued voluntary support as advisors to us individually and for their participation in the Open Web Docs Governing Committee. Jory's and Dan's passion to help run the Open Web Docs collective is truly outstanding and we are very grateful to have you here.
 
 ### 2026 Financial Forecast
 
