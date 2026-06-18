@@ -49,7 +49,12 @@ For more details, see the [SWAG CG report](https://github.com/w3c-cg/swag/blob/m
 
 ## What's next
 
-tbd
+The remaining part of the Sovereign Tech Agency funding is dedicated to updating and extending the docs on web privacy. This will be less extensive than the security docs, but we are hoping to cover:
+
+- An explanation of what privacy on the web means, and why it matters.
+- Guidelines for how a website should request and handle user data.
+- Discussion of tracking, especially around cookies. We will cover the ways browsers restrict third-party and tracking cookies, and the use of partitioned cookies to enable legitimate uses for third-party cookies, without enabling tracking.
+- Descriptions of regulatory requirements around privacy, including the [GDPR](https://gdpr.eu/) and the [California CCPA](https://www.oag.ca.gov/privacy/ccpa).
 
 ## Thanks!
 
