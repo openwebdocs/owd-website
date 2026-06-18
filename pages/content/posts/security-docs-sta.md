@@ -53,7 +53,7 @@ tbd
 
 ## Thanks!
 
-Thanks first and foremost to the Sovereign Tech Agency for funding this project: having a reliable source of funding is essential to secure the resources needed for a sustained project like this.
+Thanks first and foremost to the Sovereign Tech Agency for funding this project. Having a reliable source of funding is essential to secure the resources needed for a sustained project like this.
 
 Thanks also to:
 
