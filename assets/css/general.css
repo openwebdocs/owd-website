@@ -244,6 +244,12 @@ nav,
   gap: var(--gap-spacing);
 }
 
+.grid-container-compact {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(var(--mid-paragraph), 1fr));
+  gap: 0 var(--gap-spacing);
+}
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
