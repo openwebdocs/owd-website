@@ -8,7 +8,7 @@ ShowBreadCrumbs: false
 excerpt: "All about our project to document web security on MDN"
 ---
 
-Back in September 2025, we [announced](/content/posts/stf-investment-2025/) that the [Sovereign Tech Agency](https://www.sovereign.tech/) had provided funding to enable Open Web Docs to create developer documentation on web security and privacy. This month we've completed the biggest section of the project: to update the web security documentation on MDN. In this post we'll have a look at what we've added, and what's coming up next.
+Back in September 2025, we [announced](/content/posts/stf-investment-2025/) an investment in Open Web Docs by the [Sovereign Tech Agency](https://www.sovereign.tech/) to create developer documentation on web security and privacy. This month we've completed the biggest section of the commissioned work: to update the web security documentation on MDN. In this post we'll have a look at what we've added, and what's coming up next.
 
 The docs we've written for MDN consist of four main pillars: [Attacks](#attacks), [Defenses](#defenses), [Threat modeling](#threat-modeling), and [Authentication](#authentication).
 
@@ -98,7 +98,7 @@ We've also added a guide to session management:
 
 ## What's next
 
-The remainder of this project is dedicated to updating and extending the docs on web privacy. This will be less extensive than the security docs, but we are hoping to cover:
+The remainder of the work commissioned by the Sovereign Tech Agency is focused on updating and extending the docs on web privacy. This will be less extensive than the security docs, but we are hoping to cover:
 
 - An explanation of what privacy on the web means, and why it matters.
 - Guidelines for how a website should request and handle user data.
@@ -107,7 +107,7 @@ The remainder of this project is dedicated to updating and extending the docs on
 
 ## Thanks!
 
-Thanks first and foremost to the Sovereign Tech Agency for funding this project. Having a reliable source of funding is essential to secure the resources needed for a sustained project like this.
+Thanks first and foremost to the Sovereign Tech Agency for commissioning this work. Having a reliable source of funding is essential to secure the resources needed for a sustained project like this.
 
 Thanks also to:
 
