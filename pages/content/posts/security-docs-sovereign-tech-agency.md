@@ -1,11 +1,11 @@
 ---
 author: "Will Bamberg"
 title: "Web Security docs on MDN"
-date: "2026-06-22"
+date: "2026-06-23"
 tags: ["projects"]
 ShowToc: false
 ShowBreadCrumbs: false
-excerpt: "All about our project to document web security on MDN"
+excerpt: "All about our project to document web security on MDN."
 ---
 
 Back in September 2025, we [announced](/content/posts/stf-investment-2025/) an investment in Open Web Docs by the [Sovereign Tech Agency](https://www.sovereign.tech/) to create developer documentation on web security and privacy. This month we've completed the biggest section of the commissioned work: to update the web security documentation on MDN. In this post we'll have a look at what we've added, and what's coming up next.
