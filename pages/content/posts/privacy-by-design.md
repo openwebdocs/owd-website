@@ -9,50 +9,50 @@ ShowBreadCrumbs: false
 excerpt: "Privacy by design in web development means building privacy protections into a website or web application from the very beginning, rather than adding them later. It’s a proactive, architectural approach: privacy becomes a core design requirement, just like performance or security."
 ---
 
-Privacy by design in web development means building privacy protections into a website or web application from the very beginning, rather than adding them later. It’s a proactive, architectural approach: privacy becomes a core design requirement, just like performance or security.
+Privacy by design in web development means building privacy protections into a website or web application from the very beginning, rather than adding them later. It’s a proactive, architectural approach: privacy becomes a core design requirement, just like [performance](https://developer.mozilla.org/en-US/docs/Web/Performance) or [security](https://developer.mozilla.org/en-US/docs/Web/Security).
 
 Designing with privacy in mind means designing systems so that the collection, use, and exposure of personal data are minimized by default, and users retain meaningful control over their information. 
 
-Required by laws like GDPR and CCPA, privacy by design reduces breach risk, builds user trust, and avoids costly redesigns later
+Required by laws like [GDPR](https://developer.mozilla.org/en-US/docs/Web/Privacy/GDPR) and [CCPA](https://developer.mozilla.org/en-US/docs/Web/Privacy/CCPA), privacy by design reduces breach risk, builds user trust, and avoids costly redesigns later
 When developing, it is important to be proactive instead of reactive. Anticipating and then mitigating privacy issues during the planning, UX design, and architecture phases, prevent issues from arising and needing to be fixed after launch.
 
 ## Principles
 
 - Be proactive, not reactive
-	- : Build privacy into your website or application from the very start.
+  - : Build privacy into your website or application from the very start.
 
 - Privacy as the default setting
-	- : Your website should collect only the minimum data needed, and all optional tracking (analytics, cookies, personalization) should be opt‑in.
+  - : Your website or application should only collect the minimum data needed. All optional tracking (analytics, cookies, personalization) should be [opt‑in]().
 
 - Privacy embedded into design
-	- : Privacy isn’t a feature toggle; it’s part of the system’s structure—data flows, APIs, storage, and UI all reflect privacy constraints.
+  - : Privacy is not a feature to be toggled on and off. Privacy is part of your system’s structure. Data flows, APIs, storage, and UI should all reflect privacy constraints.
 
 - Full functionality without trade‑offs
-	- : You aim for solutions that provide both usability and privacy—e.g., using anonymized analytics instead of removing analytics entirely.
+  - : Aim for solutions that provide both usability and privacy, for example, instead of removing analytics entirely consider whether it is possible to fully anonymize data collection.
 
 - End‑to‑end security
-	- : Data must be protected throughout its lifecycle, including encrypting in transit via HTTPS, encrypted when stored, and being securely deleted when removed.
+  - : Data must be [protected](https://developer.mozilla.org/en-US/docs/Web/Security/Defenses/Secure_Contexts) throughout its lifecycle. Use [HTTPS]() to encrypt data during transit. Store user data in encrypted format. Securely delete data, mangle the encrypted data before removal to ensure data is not retrievable.
 
 - Visibility and transparency
-	- : Your privacy policies should be readable and your consent flows transparent. Users should clearly understand what data you collect, why you collect it, how long you keep it, and who you share it with.
+  - : [Privacy policies]() should be readable and understandable. [Consent flows]() should be transparent. Users should clearly understand what data you collect, why you collect it, how long you keep it, and who you share it with.
 
-- Respect for user privacy
-	- : Give users meaningful control. Privacy settings should be easy-to-find, user exportable, and deletable. Consent withdrawal should be easy to find and clear.
+- Respect user privacy
+  - : Give users meaningful control. Privacy settings should be easy-to-find, user exportable, and deletable. Consent withdrawal should be easy to find and clear.
 
 
 ## Practical steps for developers
 
 - Data minimization
-	- : Only request essential fields in forms (e.g., email only, not full address).
+  - : Only request essential information from users, including only the fields required in your site forms.  For example, all you need for a newsletter is a user's email address. Don't request their name, much less their title, gender, or age.
 
-- Access control & audit trails
-	- : Restrict who can access user data and log all access events.
+- Access control &amp; audit trails
+  - : Restrict who can access user data. Log all access events.
 
 - Anonymize & mask
-	- : Mask sensitive data in logs or analytics.
+  - : Mask sensitive data in logs and analytics.
 
 - Privacy‑friendly defaults
-	- : Disable tracking scripts until consent is given.
+  - : Disable tracking scripts until consent is proactively given.
 
 - Secure development lifecycle
-	- : Include privacy checks in code reviews, CI pipelines, and threat modeling.
+  - : Include privacy checks in code reviews, CI pipelines, and [threat modeling](https://developer.mozilla.org/en-US/docs/Web/Security/Threat_modeling).
