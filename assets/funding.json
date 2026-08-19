@@ -1,0 +1,105 @@
+{
+  "version": "v1.0.0",
+  "entity": {
+    "type": "organisation",
+    "role": "owner",
+    "name": "Open Web Docs",
+    "email": "florian@openwebdocs.org",
+    "phone": "",
+    "description": "Open Web Docs is a community of web developers, standards makers, and technology companies that considers web platform documentation to be critical digital infrastructure, and we work cooperatively to ensure its long-term health.",
+    "webpageUrl": {
+      "url": "https://openwebdocs.org"
+    }
+  },
+  "projects": [
+    {
+      "guid": "bcd-collector",
+      "name": "BCD Collector",
+      "description": "Data collection service for MDN's browser-compat-data",
+      "webpageUrl": {
+        "url": "https://openwebdocs.org"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/openwebdocs/mdn-bcd-collector",
+        "wellKnown": "https://github.com/openwebdocs/mdn-bcd-collector/blob/main/.well-known/funding-manifest-urls"
+      },
+      "licenses": [
+        "apache-2.0"
+      ],
+      "tags": [
+        "compat-data",
+        "data",
+        "web-platform",
+        "web-development"
+      ]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "owd-osc",
+        "type": "payment-provider",
+        "address": "https://opencollective.com/open-web-docs",
+        "description": ""
+      },
+      {
+        "guid": "owd-github",
+        "type": "payment-provider",
+        "address": "https://github.com/sponsors/openwebdocs",
+        "description": ""
+      }
+    ],
+    "plans": [
+      {
+        "guid": "owd-platinum",
+        "status": "active",
+        "name": "Platinum Yearly Sponsor",
+        "description": "",
+        "amount": 250000,
+        "currency": "USD",
+        "frequency": "yearly",
+        "channels": [
+          "owd-osc"
+        ]
+      },
+      {
+        "guid": "owd-gold",
+        "status": "active",
+        "name": "Gold Yearly Sponsor",
+        "description": "",
+        "amount": 25000,
+        "currency": "USD",
+        "frequency": "yearly",
+        "channels": [
+          "owd-osc"
+        ]
+      },
+      {
+        "guid": "owd-silver",
+        "status": "active",
+        "name": "Silver Yearly Sponsor",
+        "description": "",
+        "amount": 5000,
+        "currency": "USD",
+        "frequency": "yearly",
+        "channels": [
+          "owd-osc"
+        ]
+      },
+      {
+        "guid": "owd-monthly",
+        "status": "active",
+        "name": "Monthly supporter",
+        "description": "",
+        "amount": 10,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": [
+          "owd-osc",
+          "owd-github"
+        ]
+      }
+    ],
+    "history": []
+  }
+}
