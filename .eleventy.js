@@ -26,6 +26,7 @@ export default async function (eleventyConfig) {
     "assets/js": "js",
     "assets/favicon": "favicon",
     "assets/manifest.json": "manifest.json",
+    "assets/funding.json": "funding.json",
   });
 
   eleventyConfig.setTemplateFormats([
